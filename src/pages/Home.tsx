@@ -129,7 +129,7 @@ export default function Home() {
             <p className="text-sm font-semibold text-stone-800 mb-1.5">{titel}</p>
             <p className="text-sm text-stone-500 leading-relaxed flex-1">{beschreibung}</p>
             <div className="mt-4 flex justify-end">
-              <ArrowRight size={15} className="text-stone-300 group-hover:text-terracotta-500 transition-colors duration-150" />
+              <ArrowRight size={15} className="text-zinc-400 group-hover:text-terracotta-500 transition-colors duration-150" />
             </div>
           </Link>
         ))}
