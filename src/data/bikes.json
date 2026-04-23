@@ -1,0 +1,2229 @@
+[
+  {
+    "id": "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+    "hersteller": "Cube",
+    "modell": "Stereo Hybrid ONE44 HPC SLX 800",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "https://www.cube.eu/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 4999,
+    "preis_eur": 4499,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 77.5,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 150,
+      "hinten_mm": 140,
+      "gabel_modell": "Fox 36 Float Rhythm",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano SLX 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "Newmen Performance 30",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Continental Kryptotal 2.4",
+      "reifen_hinten": "Continental Kryptotal 2.4",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 24.0,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "m-way.ch",
+        "bikester.ch"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "bikester.ch",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "Cube / bikester.ch",
+        "bewertung_kurz": "Kauftipp Preis-Leistung",
+        "stärken": [
+          "Bosch CX Gen5 im Budget",
+          "Carbon-Rahmen",
+          "800 Wh wechselbar",
+          "Solide Fox-Gabel"
+        ],
+        "schwaechen": [
+          "SLX-Bremsen statt XT",
+          "Mechanische Schaltung statt Di2"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2026-02"
+      }
+    ],
+    "passend_fuer_martina_score": 10,
+    "passend_fuer_martina_begruendung": "Optimaler Treffer für Martina: Carbon-All-Mountain mit Bosch CX Gen5, 800 Wh, Fox-Fahrwerk — und CHF 4'999 voll im Budget. XT-Schaltung solide. Klarer Preis-Leistungs-Kauftipp.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Canyon Neuron:ON AL 9",
+      "Focus JAM² 6.8"
+    ]
+  },
+  {
+    "id": "amflow-pl-carbon-2026-budget-king",
+    "hersteller": "AMFLOW",
+    "modell": "PL Carbon",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain | Trail",
+    "hersteller_url": "NOT_SPECIFIED",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": null,
+    "preis_eur": 6449,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": "NOT_SPECIFIED",
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Performance GRIP",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "DJI",
+      "modell": "Avinox M1",
+      "drehmoment_nm": 105,
+      "leistung_spitze_w": 1000,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": false,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "SRAM GX Eagle",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "MAGURA MT5",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "AMFLOW HMA-30 Alu",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai EXO",
+      "reifen_hinten": "Maxxis Dissector EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "Aluminium Lenker"
+    },
+    "gewicht_kg": 21.5,
+    "laufradgroesse": "29",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "NOT_SPECIFIED"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "NOT_SPECIFIED",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "E-MOUNTAINBIKE Magazin",
+        "bewertung_kurz": "Uphill-Spezialist",
+        "stärken": [
+          "Bärenstarker Motor",
+          "Top Preis-Leistung",
+          "Schnellladefunktion"
+        ],
+        "schwaechen": [
+          "Geringeres Sicherheitsgefühl bergab",
+          "Einfache Dämpfungskartusche"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-04"
+      }
+    ],
+    "passend_fuer_martina_score": 10,
+    "passend_fuer_martina_begruendung": "Das beste Preis-Leistungs-Verhältnis für ein modernes E-MTB mit Full-Power Motor und geringem Gewicht (21.5 kg). Perfekt für lange Touren dank 800-Wh-Akku und extrem kompaktem Schnellladegerät.",
+    "warnungen": [
+      "Lackschaden durch Bremsleitung am Steuerrohr möglich",
+      "Fest verbauter Akku"
+    ],
+    "alternativ_zu": [
+      "Orbea WILD H20",
+      "Canyon Spectral:ON CF 7"
+    ]
+  },
+  {
+    "id": "canyon-spectral-on-cf-8-2026",
+    "hersteller": "Canyon",
+    "modell": "Spectral:ON CF 8",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain/Enduro",
+    "hersteller_url": "https://www.canyon.com/de-ch/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 5299,
+    "preis_eur": 4999,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 64.0,
+      "sitzwinkel_effektiv_grad": 77.0,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 155,
+      "gabel_modell": "Fox 36 Float Performance",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Shimano",
+      "modell": "EP801",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano XT 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "DT Swiss HX 1700",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai EXO+",
+      "reifen_hinten": "Maxxis Dissector EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 23.5,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "Canyon Direktversand"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "canyon.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "emtb-news.de",
+        "bewertung_kurz": "Rückkehr nach Rückruf",
+        "stärken": [
+          "Sehr ausgewogenes Fahrwerk",
+          "Shimano EP801 bewährt",
+          "Carbon-Vollrahmen",
+          "Mullet-Setup verspielt"
+        ],
+        "schwaechen": [
+          "Shimano-Motor kann bei Abfahrt klappern",
+          "Nur Canyon-Direktversand"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2026-01"
+      }
+    ],
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Canyon-Comeback nach Akku-Rückruf mit überarbeitetem 800-Wh-Akku. Shimano EP801 ausgereift. 160/155 mm bieten Martina Reserven für alles — Alpen bis Bikepark.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Santa Cruz Vala",
+      "Focus JAM² 6.9"
+    ]
+  },
+  {
+    "id": "canyon-neuron-on-al-9-2026",
+    "hersteller": "Canyon",
+    "modell": "Neuron:ON AL 9",
+    "modelljahr": 2026,
+    "kategorie": "Trail/All-Mountain",
+    "hersteller_url": "https://www.canyon.com/de-ch/",
+    "produktseite_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/neuron-on/",
+    "preis_chf": 5499,
+    "preis_eur": 5499,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Aluminium",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 65.0,
+      "sitzwinkel_effektiv_grad": 77.5,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 150,
+      "hinten_mm": 140,
+      "gabel_modell": "RockShox Lyrik",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "RockShox Super Deluxe",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "SRAM GX AXS Transmission",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "SRAM Code Bronze",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "DT Swiss HX 1700",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Schwalbe Hans Dampf 2.4",
+      "reifen_hinten": "Schwalbe Hans Dampf 2.4",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 24.9,
+    "laufradgroesse": "29",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "Canyon Direktversand"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "canyon.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "bike-magazin.de",
+        "bewertung_kurz": "All-Mountain-Allrounder",
+        "stärken": [
+          "Bosch CX Gen5",
+          "SRAM AXS elektronisch",
+          "800 Wh wechselbar",
+          "Top Direktversand-Preis"
+        ],
+        "schwaechen": [
+          "Alu-Rahmen (Gewicht ~25 kg)",
+          "Keine CH-Probefahrt möglich"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-04"
+      }
+    ],
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Canyon-Direktversand-Klassiker, jetzt mit Bosch CX Gen5 und elektronischer SRAM AXS Transmission. Alu-Rahmen etwas schwerer, aber dafür sehr robust und Preis fair. Für Martina ideal als Allrounder.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Cube Stereo Hybrid ONE44 HPC SLX 800",
+      "Focus JAM² 6.8"
+    ]
+  },
+  {
+    "id": "focus-jam2-69-2026",
+    "hersteller": "Focus",
+    "modell": "JAM² 6.9",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "https://www.focus-bikes.com/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 5999,
+    "preis_eur": 5599,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Aluminium",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 77.0,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Float Performance",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano XT 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "DT Swiss H 1900",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai EXO+",
+      "reifen_hinten": "Maxxis Minion DHR II EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 23.9,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "m-way.ch",
+        "Focus-Händler CH"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "focus-bikes.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "emtb-news.de",
+        "bewertung_kurz": "Kauftipp agiles All-Mountain",
+        "stärken": [
+          "Ballergenen (bergab schnell)",
+          "Bosch CX Gen5",
+          "Service-Netz CH",
+          "Solide XT-Austattung"
+        ],
+        "schwaechen": [
+          "Alu-Rahmen (Gewicht)",
+          "Aggressive Geometrie erfordert Eingewöhnung"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-11"
+      }
+    ],
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Kauftipp von emtb-news.de. Bosch CX Gen5, sehr agiles Handling, Bosch-Service-Netz in CH top. Alu-Rahmen hält Preis fair. Für Martina solider Daily Driver mit Bikepark-Reserven.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Cube Stereo Hybrid ONE44",
+      "Canyon Spectral:ON"
+    ]
+  },
+  {
+    "id": "cube-stereo-hybrid-one44-hpc-at-800-2026",
+    "hersteller": "Cube",
+    "modell": "Stereo Hybrid ONE44 HPC AT 800",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "https://www.cube.eu/",
+    "produktseite_url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-at-800-my2025-2026-carbon-n-gold-diamant-s/",
+    "preis_chf": 6999,
+    "preis_eur": 6499,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 77.5,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 150,
+      "hinten_mm": 140,
+      "gabel_modell": "Fox 36 Float Factory",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Factory",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT Di2 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano XT 4-Kolben ABS Pro",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "Newmen Beskar 30",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Schwalbe Albert 2.5",
+      "reifen_hinten": "Schwalbe Albert 2.5",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 23.8,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "m-way.ch",
+        "bikester.ch"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "bikester.ch",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "Cube/bikester.ch",
+        "bewertung_kurz": "All-Mountain-Topmodell",
+        "stärken": [
+          "Bosch CX Gen5 mit ABS Pro",
+          "Hochwertiges Fahrwerk",
+          "XT Di2 elektronisch",
+          "800 Wh wechselbar"
+        ],
+        "schwaechen": [
+          "Preis am oberen Limit des Budgets"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2026-03"
+      }
+    ],
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Top-Ausstattung für Martina: Bosch CX Gen5 (neueste Generation), 800-Wh-Akku, ABS Pro für extra Sicherheit, elektronische XT Di2. Carbon hält Gewicht moderat. Budget leicht überzogen, aber gerechtfertigt.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Canyon Spectral:ON CF 9",
+      "Focus JAM² 6.9"
+    ]
+  },
+  {
+    "id": "amflow-pl-carbon-pro-2026",
+    "hersteller": "AMFLOW",
+    "modell": "PL Carbon Pro",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain | Trail",
+    "hersteller_url": "NOT_SPECIFIED",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": null,
+    "preis_eur": 9999,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": "NOT_SPECIFIED",
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Factory GRIP X2",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Factory",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "DJI",
+      "modell": "Avinox M1",
+      "drehmoment_nm": 105,
+      "leistung_spitze_w": 1000,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": false,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "SRAM X0 Eagle Transmission",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "MAGURA MT7 Pro",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai EXO",
+      "reifen_hinten": "Maxxis Dissector EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 20.7,
+    "laufradgroesse": "29",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "NOT_SPECIFIED"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "NOT_SPECIFIED",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "E-MOUNTAINBIKE Magazin",
+        "bewertung_kurz": "Bester Kletterer",
+        "stärken": [
+          "Unschlagbare Uphill-Performance",
+          "Integration",
+          "Geringes Gewicht"
+        ],
+        "schwaechen": [
+          "Niedrige Front reduziert Sicherheit",
+          "Reifen limitieren bergab"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-04"
+      }
+    ],
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Extrem leicht für volle Power. Wer Uphill-Speed und technisches Klettern liebt, findet hier die Benchmark (Bestzeit in der Climb-Challenge). Martina profitiert vom rucksacktauglichen Schnelllader.",
+    "warnungen": [
+      "Reifenpanne bei ruppigem Gelände durch schwache Karkasse möglich"
+    ],
+    "alternativ_zu": [
+      "Specialized S-Works Turbo Levo 4",
+      "UNNO Mith Pro"
+    ]
+  },
+  {
+    "id": "santa-cruz-vala-x0-axs-rsv-2026",
+    "hersteller": "Santa Cruz",
+    "modell": "Vala X0 AXS RSV",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "NOT_SPECIFIED",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": null,
+    "preis_eur": 11499,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": "NOT_SPECIFIED",
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Factory",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Factory",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 600,
+      "wechselbar": false,
+      "range_extender_optional": true
+    },
+    "ausstattung": {
+      "schaltung": "SRAM X0 Eagle Transmission",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "SRAM Maven",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "Reserve Carbon",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "NOT_SPECIFIED",
+      "reifen_hinten": "NOT_SPECIFIED",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 21.5,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "NOT_SPECIFIED"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "NOT_SPECIFIED",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "E-MOUNTAINBIKE Magazin",
+        "bewertung_kurz": "Fahr-Performance Tipp",
+        "stärken": [
+          "Intuitives Handling",
+          "Zuverlässigkeit",
+          "Top-Integration Bosch CX"
+        ],
+        "schwaechen": [
+          "Kein Display (nur System Controller)",
+          "Hoher Preis"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-04"
+      }
+    ],
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Sehr hochwertiges Handling und mit 21.5 kg leicht genug für verspieltes Fahren. Die Kombination aus neuem Bosch CX und Santa Cruz DNA bietet Martina maximale Sicherheit.",
+    "warnungen": [
+      "Fummelige Ladeport-Abdeckung",
+      "Kein entnehmbarer Akku"
+    ],
+    "alternativ_zu": [
+      "Specialized S-Works Turbo Levo 4",
+      "Transition Regulator CX"
+    ]
+  },
+  {
+    "id": "unno-mith-pro-2026-editors-choice",
+    "hersteller": "UNNO",
+    "modell": "Mith Pro",
+    "modelljahr": 2026,
+    "kategorie": "Enduro | All-Mountain",
+    "hersteller_url": "NOT_SPECIFIED",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": null,
+    "preis_eur": 11995,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": "NOT_SPECIFIED",
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 170,
+      "hinten_mm": 160,
+      "gabel_modell": "NOT_SPECIFIED",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "NOT_SPECIFIED",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "DJI",
+      "modell": "Avinox M1",
+      "drehmoment_nm": 105,
+      "leistung_spitze_w": 1000,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": false,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "SRAM XX Eagle Transmission",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "NOT_SPECIFIED",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "DT Swiss",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "NOT_SPECIFIED",
+      "reifen_hinten": "NOT_SPECIFIED",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "Integrated Carbon"
+    },
+    "gewicht_kg": 21.5,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "NOT_SPECIFIED"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "NOT_SPECIFIED",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "E-MOUNTAINBIKE Magazin",
+        "bewertung_kurz": "Editor's Choice",
+        "stärken": [
+          "Exzellentes Design",
+          "Kompromisslose Downhill-Performance",
+          "Sehr gute Gewichtsbalance"
+        ],
+        "schwaechen": [
+          "Nur durchschnittliche Performance in technischem Uphill",
+          "Preis"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-04"
+      }
+    ],
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Das futuristischste Bike im Feld. Hält trotz 800er Akku das Gewicht unter 22 kg. Für Martina geeignet, wenn Design und exklusive Abfahrts-Performance vor Preis gehen.",
+    "warnungen": [
+      "Aggressive Geometrie erfordert versierten Piloten"
+    ],
+    "alternativ_zu": [
+      "Specialized S-Works Turbo Levo 4",
+      "Santa Cruz Vala"
+    ]
+  },
+  {
+    "id": "radon-render-90-2026",
+    "hersteller": "Radon",
+    "modell": "Render 9.0",
+    "modelljahr": 2026,
+    "kategorie": "Enduro",
+    "hersteller_url": "https://www.radon-bikes.de/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 4499,
+    "preis_eur": 4199,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Aluminium",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 63.5,
+      "sitzwinkel_effektiv_grad": 77.5,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 170,
+      "hinten_mm": 160,
+      "gabel_modell": "RockShox Zeb Select+",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "RockShox Super Deluxe Select+",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "SRAM Code R",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "DT Swiss H 1900",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai MaxxGrip",
+      "reifen_hinten": "Maxxis Minion DHR II MaxxTerra",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 24.2,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "bike-discount.de",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "bike-discount.de / Radon",
+        "bewertung_kurz": "P/L-Sieger Enduro",
+        "stärken": [
+          "Extrem gutes P/L bei Enduro",
+          "Bosch CX Gen5",
+          "Starkes Fahrwerk",
+          "800 Wh"
+        ],
+        "schwaechen": [
+          "Nur Online-Kauf (DE)",
+          "Support/Service in CH schwieriger",
+          "170 mm Enduro-Geometrie"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2026-01"
+      }
+    ],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Preis-Leistungs-Sieger bei Enduro. 170/160 mm mit Bosch CX Gen5 für unter 5k. Nur via DE-Direktversand (bike-discount.de). Für Martina attraktiv, wenn Bikepark wichtig wird.",
+    "warnungen": [
+      "Reines Enduro — bergauf weniger agil. Für Einsteigerinnen nur sinnvoll bei regelmässiger Bikepark-Nutzung."
+    ],
+    "alternativ_zu": [
+      "Cube Stereo Hybrid ONE77",
+      "YT Capra"
+    ]
+  },
+  {
+    "id": "haibike-hybe-cf-9-2026",
+    "hersteller": "Haibike",
+    "modell": "Hybe CF 9",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "https://www.haibike.com/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 5490,
+    "preis_eur": 5199,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 77.5,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 150,
+      "hinten_mm": 150,
+      "gabel_modell": "RockShox Lyrik Select+",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "RockShox Super Deluxe Select+",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "SRAM GX Eagle AXS",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "SRAM Code R",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "DT Swiss H 1900",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai EXO+",
+      "reifen_hinten": "Maxxis Dissector EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 23.5,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "m-way.ch"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "haibike.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "emtb-news.de",
+        "bewertung_kurz": "Upgrade-Launch 2026",
+        "stärken": [
+          "Bosch CX-R (stärker als CX)",
+          "Carbon-Rahmen",
+          "SRAM AXS drahtlos"
+        ],
+        "schwaechen": [
+          "CX-R aggressiver (Eingewöhnung)",
+          "Haibike-Design nicht jedermanns Geschmack"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2026-02"
+      }
+    ],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Upgrade mit Bosch CX-R Motor (Race-Ableger). Carbon-Rahmen, SRAM AXS Funkschaltung. Motor etwas aggressiver in Beschleunigung — für Martina reizvoll, wenn sie gerne kräftig pedaliert.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Cube Stereo Hybrid ONE44",
+      "Focus JAM² 6.9"
+    ]
+  },
+  {
+    "id": "rose-root-miller-3-2026",
+    "hersteller": "Rose",
+    "modell": "Root Miller 3",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "https://www.rosebikes.ch/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 5790,
+    "preis_eur": 5499,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 64.0,
+      "sitzwinkel_effektiv_grad": 77.0,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Float Performance",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Shimano",
+      "modell": "EP801",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 756,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano XT 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "DT Swiss HX 1700",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai EXO+",
+      "reifen_hinten": "Maxxis Dissector EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 23.0,
+    "laufradgroesse": "29",
+    "verfuegbarkeit_ch": {
+      "haendler": [],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "rosebikes.ch",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "emtb-news.de",
+        "bewertung_kurz": "Light All-Mountain",
+        "stärken": [
+          "Carbon unter 23 kg",
+          "Shimano EP801",
+          "CH-Direktversand verfügbar"
+        ],
+        "schwaechen": [
+          "Shimano-Motor kann klappern",
+          "Nur Online-Konfiguration"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-10"
+      }
+    ],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Rose aus DE, bietet auch CH-Direktversand. Carbon, Shimano EP801, sehr leichtes Gewicht unter 23 kg. Gute Ausstattung. Für Martina, wenn sie Shimano-Motor natürlicher findet als Bosch.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Canyon Spectral:ON",
+      "Canyon Neuron:ON"
+    ]
+  },
+  {
+    "id": "orbea-wild-h10-2026",
+    "hersteller": "Orbea",
+    "modell": "Wild H10",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "https://www.orbea.com/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 5999,
+    "preis_eur": 5599,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Aluminium",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 77.0,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Float Performance",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano XT 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "Race Face AR Offset",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai EXO+",
+      "reifen_hinten": "Maxxis Dissector EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 24.5,
+    "laufradgroesse": "29",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "Orbea-Händler CH"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "orbea.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "bikekompass.de",
+        "bewertung_kurz": "Individualisierbar",
+        "stärken": [
+          "MyO-Individualisierung",
+          "Ausgewogenes Fahrwerk",
+          "Bosch CX Gen5"
+        ],
+        "schwaechen": [
+          "Alu-Rahmen (höheres Gewicht)",
+          "Lieferzeit durch MyO"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-12"
+      }
+    ],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Orbea Wild als Alu-Variante mit Bosch CX Gen5. Sehr individualisierbar via MyO-Programm (Farben/Specs bei Bestellung). Für Martina, wenn Konfigurations-Flexibilität reizt.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Cube Stereo Hybrid ONE44",
+      "Canyon Spectral:ON"
+    ]
+  },
+  {
+    "id": "yt-decoy-sn-mx-core-3-2026",
+    "hersteller": "YT",
+    "modell": "DECOY SN MX CORE 3",
+    "modelljahr": 2026,
+    "kategorie": "Enduro | All-Mountain",
+    "hersteller_url": "https://www.yt-industries.com",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": null,
+    "preis_eur": 5799,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon (Hauptrahmen)",
+      "groessen_verfuegbar": "NOT_SPECIFIED",
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 170,
+      "hinten_mm": 160,
+      "gabel_modell": "RockShox Pike Select+",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "RockShox Deluxe Select+",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Fazua",
+      "modell": "Ride 60",
+      "drehmoment_nm": 60,
+      "leistung_spitze_w": 450,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 430,
+      "wechselbar": false,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano SLX / XT Mix",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano SLX 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "Crankbrothers",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "NOT_SPECIFIED",
+      "reifen_hinten": "NOT_SPECIFIED",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 21.2,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "YT Direktversand"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "YT-Industries.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "emtb-news.de",
+        "bewertung_kurz": "Testsieger (Light-Vergleich)",
+        "stärken": [
+          "Preis-Leistung",
+          "Abfahrts-Performance",
+          "Gewicht"
+        ],
+        "schwaechen": [
+          "Hohe Eigenleistung im technischen Uphill nötig",
+          "Klobige Motor-Remote"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-04"
+      }
+    ],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Viel Speed für's Geld. Martina bekommt hier ein leichtes Enduro, das bergab keine Kompromisse macht. Der Fazua Motor bietet eine gute Mitte zwischen TQ und Full-Power.",
+    "warnungen": [
+      "Geringe Reichweite bei voller Unterstützung"
+    ],
+    "alternativ_zu": [
+      "Canyon Spectral:ONfly",
+      "Orbea Rise"
+    ]
+  },
+  {
+    "id": "merida-eone-sixty-775-2026",
+    "hersteller": "Merida",
+    "modell": "eOne-Sixty 775",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain/Enduro",
+    "hersteller_url": "https://www.merida-bikes.com/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 6290,
+    "preis_eur": 5999,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Aluminium",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 77.0,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Float Performance",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Shimano",
+      "modell": "EP801",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano XT 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "DT Swiss H 1900",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai EXO+",
+      "reifen_hinten": "Maxxis Dissector EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 23.8,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "Merida-Händler CH"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "merida-bikes.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "emtb-news.de",
+        "bewertung_kurz": "Solider Allrounder",
+        "stärken": [
+          "Solide Ausstattung",
+          "Shimano EP801",
+          "800 Wh"
+        ],
+        "schwaechen": [
+          "Alu-Rahmen",
+          "Design konservativ"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-11"
+      }
+    ],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Merida mit Shimano EP801 und 800 Wh. Solide Ausstattung, ausgewogenes Fahrwerk. Für Martina eine solide Alternative, falls Cube/Canyon nicht gefallen.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Cube Stereo Hybrid ONE44",
+      "Rose Root Miller"
+    ]
+  },
+  {
+    "id": "scott-patron-st-920-2026",
+    "hersteller": "Scott",
+    "modell": "Patron ST 920",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain/Enduro",
+    "hersteller_url": "https://www.scott-sports.com/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 6490,
+    "preis_eur": 5999,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Aluminium",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 63.5,
+      "sitzwinkel_effektiv_grad": 77.5,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 170,
+      "hinten_mm": 160,
+      "gabel_modell": "Fox 36 Float Performance",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "SRAM GX Eagle Transmission",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "SRAM Code R",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "Syncros Revelstoke 2.0",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai EXO+",
+      "reifen_hinten": "Maxxis Dissector EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 24.3,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "Scott-Händler CH"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "scott-sports.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "emtb-news.de",
+        "bewertung_kurz": "Schweizer Wahl",
+        "stärken": [
+          "Bosch CX Gen5",
+          "Schweizer Marke",
+          "SRAM GX Transmission"
+        ],
+        "schwaechen": [
+          "170 mm bergauf träger",
+          "Alu-Rahmen (Gewicht)"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-09"
+      }
+    ],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Scott Patron mit Bosch CX Gen5 und 170 mm. Schweizer Marke mit gutem Händler-Netz. Für Martina interessant wegen Proximity zum Service.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Cube Stereo Hybrid ONE77",
+      "Focus SAM² 6.9"
+    ]
+  },
+  {
+    "id": "trek-rail-plus-9-7-2026",
+    "hersteller": "Trek",
+    "modell": "Rail+ 9.7",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "https://www.trekbikes.com/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 6999,
+    "preis_eur": 6499,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "RockShox Lyrik Select+",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "RockShox Super Deluxe Select+",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "SRAM Code R",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "Bontrager Line Pro 30",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Bontrager SE5 Team",
+      "reifen_hinten": "Bontrager SE5 Team",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 24.0,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "Trek-Händler CH"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "trekbikes.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "emtb-news.de",
+        "bewertung_kurz": "Premium-All-Mountain",
+        "stärken": [
+          "Bosch CX Gen5",
+          "Carbon-Rahmen",
+          "Sehr gutes Service-Netz",
+          "Knock Block 2"
+        ],
+        "schwaechen": [
+          "Preis am Limit",
+          "Bontrager-Teile teilweise proprietär"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-10"
+      }
+    ],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Trek Rail+ mit Bosch CX Gen5. Carbon-Rahmen, Knock Block entfernt (mehr Lenkwinkel-Freiheit). Bosch-Service-Netz super. Für Martina solide Wahl mit premiumiger Händler-Erfahrung.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Cube Stereo Hybrid ONE44 HPC AT",
+      "Canyon Spectral:ON CF 8"
+    ]
+  },
+  {
+    "id": "cannondale-moterra-sl-2026",
+    "hersteller": "Cannondale",
+    "modell": "Moterra SL",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "NOT_SPECIFIED",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": null,
+    "preis_eur": 8999,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": "NOT_SPECIFIED",
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Factory",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Factory",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Shimano",
+      "modell": "EP801",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 601,
+      "wechselbar": false,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "SRAM XO Eagle Transmission",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Magura MT7",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "DT Swiss",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "NOT_SPECIFIED",
+      "reifen_hinten": "NOT_SPECIFIED",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 20.5,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "NOT_SPECIFIED"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "NOT_SPECIFIED",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "E-MOUNTAINBIKE Magazin",
+        "bewertung_kurz": "Agiler Allrounder",
+        "stärken": [
+          "Sehr geringes Gewicht (20.5 kg)",
+          "Modernes Design",
+          "Leichtfüßiges Handling"
+        ],
+        "schwaechen": [
+          "Straffes Fahrwerk (eher für Könner)",
+          "Kein entnehmbarer Akku"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-04"
+      }
+    ],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Hervorragende Gewichts-Leistungs-Balance. Martina profitiert vom geringen Gewicht beim Handling, muss aber mit dem straffen Hinterbau umgehen können.",
+    "warnungen": [
+      "Shimano Motor kann bergab klappern"
+    ],
+    "alternativ_zu": [
+      "Orbea Rise",
+      "Specialized Turbo Levo SL"
+    ]
+  },
+  {
+    "id": "transition-regulator-cx-xt-2026",
+    "hersteller": "Transition",
+    "modell": "Regulator CX XT",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain | Trail",
+    "hersteller_url": "NOT_SPECIFIED",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": null,
+    "preis_eur": 9990,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": "NOT_SPECIFIED",
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Factory",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Factory",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 600,
+      "wechselbar": false,
+      "range_extender_optional": true
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano XT",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "NOT_SPECIFIED",
+      "reifen_vorne": "NOT_SPECIFIED",
+      "reifen_hinten": "NOT_SPECIFIED",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 22.0,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "NOT_SPECIFIED"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "NOT_SPECIFIED",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "BIKE",
+        "bewertung_kurz": "Lebendig & Schnell",
+        "stärken": [
+          "Geringes Gewicht für Bosch CX",
+          "Verspieltes Handling",
+          "Starke Trail-DNA"
+        ],
+        "schwaechen": [
+          "Fest verbauter Akku",
+          "Geringere Reichweite (600 Wh)"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2026-03"
+      }
+    ],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Ideal für Martina, wenn sie volle Bosch-Power in einem kompakten, leichten Paket (22 kg) will. Das Mullet-Setup macht es sehr wendig in technischen Sektionen.",
+    "warnungen": [
+      "Eingeschränkte Tourentauglichkeit durch 600-Wh-Akku ohne Range Extender"
+    ],
+    "alternativ_zu": [
+      "Santa Cruz Vala",
+      "Cannondale Moterra SL"
+    ]
+  },
+  {
+    "id": "cube-stereo-hybrid-one77-hpc-slx-800-2026",
+    "hersteller": "Cube",
+    "modell": "Stereo Hybrid ONE77 HPC SLX 800",
+    "modelljahr": 2026,
+    "kategorie": "Enduro",
+    "hersteller_url": "https://www.cube.eu/",
+    "produktseite_url": "https://www.bikester.ch/collections/cube-stereo-hybrid",
+    "preis_chf": 4999,
+    "preis_eur": 4699,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 63.5,
+      "sitzwinkel_effektiv_grad": 77.0,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 170,
+      "hinten_mm": 170,
+      "gabel_modell": "Fox 38 Float Performance",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano SLX 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano SLX 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "Newmen Performance 30",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Schwalbe Magic Mary 2.4",
+      "reifen_hinten": "Schwalbe Big Betty 2.4",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 25.2,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "m-way.ch",
+        "bikester.ch"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "bikester.ch",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "bikester.ch / Cube",
+        "bewertung_kurz": "Enduro Preis-Leistungs-Tipp",
+        "stärken": [
+          "Sehr viel Federweg für Preis",
+          "Bosch CX Gen5",
+          "Carbon-Rahmen unter 5k",
+          "800 Wh wechselbar"
+        ],
+        "schwaechen": [
+          "170 mm bergauf träger",
+          "Gewicht über 25 kg",
+          "SLX-Ausstattung nicht Top-Level"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2026-02"
+      }
+    ],
+    "passend_fuer_martina_score": 7,
+    "passend_fuer_martina_begruendung": "Enduro-Variante mit 170/170 mm. Für Martinas gelegentliche Bikepark-Besuche top. Bergauf aber zäher als ein All-Mountain. Sehr faires Preis-Leistungs-Verhältnis für Carbon-Enduro mit Bosch CX Gen5.",
+    "warnungen": [
+      "Mit 170 mm hinten eher Enduro-lastig — bergauf weniger agil, für Einsteigerinnen auf flachem Terrain unhandlich. Nur wählen, wenn Bikepark-Nutzung regelmässig."
+    ],
+    "alternativ_zu": [
+      "Focus SAM² 6.9",
+      "Canyon Torque:ON"
+    ]
+  },
+  {
+    "id": "giant-trance-x-e-plus-2-2026",
+    "hersteller": "Giant",
+    "modell": "Trance X E+ 2",
+    "modelljahr": 2026,
+    "kategorie": "Trail/All-Mountain",
+    "hersteller_url": "https://www.giant-bicycles.com/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 5690,
+    "preis_eur": 5299,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Aluminium",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 140,
+      "gabel_modell": "Fox 36 Float Rhythm",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Yamaha",
+      "modell": "SyncDrive Pro2",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 800,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano XT 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "Giant TRX 1",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai EXO+",
+      "reifen_hinten": "Maxxis Minion DHR II EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 23.5,
+    "laufradgroesse": "29",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "Giant-Händler CH"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "giant-bicycles.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "emtb-news.de",
+        "bewertung_kurz": "Yamaha-Alternative",
+        "stärken": [
+          "Gute Ausstattung",
+          "800-Wh-Akku",
+          "Verspielte Geometrie"
+        ],
+        "schwaechen": [
+          "Yamaha-Motor statt Bosch/Shimano (ausserhalb Martinas Präferenz)"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-09"
+      }
+    ],
+    "passend_fuer_martina_score": 7,
+    "passend_fuer_martina_begruendung": "Giant mit Yamaha-Motor (SyncDrive Pro2). Sehr gute Schaltung. Für Martina nur, wenn Giant-Händler in der Nähe ist. Yamaha-Service-Netz in CH moderat.",
+    "warnungen": [
+      "Motor-Präferenz: Martina bevorzugt Bosch, Shimano oder DJI Avinox. Yamaha ist eine Alternative, aber Service-Netz in CH nicht so dicht."
+    ],
+    "alternativ_zu": [
+      "Cube Stereo Hybrid ONE44 SLX",
+      "Canyon Neuron:ON AL 9"
+    ]
+  },
+  {
+    "id": "canyon-spectral-onfly-cf-8-2026",
+    "hersteller": "Canyon",
+    "modell": "Spectral:ONfly CF 8",
+    "modelljahr": 2026,
+    "kategorie": "Trail | All-Mountain",
+    "hersteller_url": "https://www.canyon.com",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": null,
+    "preis_eur": 5599,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "RockShox Lyrik",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "RockShox Deluxe Select+",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "TQ",
+      "modell": "HPR50",
+      "drehmoment_nm": 50,
+      "leistung_spitze_w": 300,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 360,
+      "wechselbar": false,
+      "range_extender_optional": true
+    },
+    "ausstattung": {
+      "schaltung": "Shimano DEORE M6100",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "SRAM CODE R",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Minion DHR II EXO",
+      "reifen_hinten": "Maxxis Minion DHR II EXO+",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 18.9,
+    "laufradgroesse": "29",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "Canyon Direktversand"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": [
+        "https://www.canyon.com/de-ch/"
+      ]
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "Canyon.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "E-MOUNTAINBIKE Magazin",
+        "bewertung_kurz": "Light-E-MTB Kauftipp",
+        "stärken": [
+          "Extrem leicht (18.9 kg)",
+          "Verspieltes Handling",
+          "Natürliches Fahrgefühl"
+        ],
+        "schwaechen": [
+          "Schwacher Support in technischen Climbs",
+          "Fahrwerk verhärtet im Ruppigen eher"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-04"
+      }
+    ],
+    "passend_fuer_martina_score": 7,
+    "passend_fuer_martina_begruendung": "Wenn Martina ein Bike sucht, das sich wie ein Bio-MTB anfühlt, ist das ihr Favorit. Für Bikepark und steile technische Climbs fehlt jedoch der Motor-Punch und Akku-Kapazität.",
+    "warnungen": [
+      "Motorleistung stark reduziert im Vergleich zu Full-Power Bikes"
+    ],
+    "alternativ_zu": [
+      "Specialized Turbo Levo SL",
+      "YT DECOY SN"
+    ]
+  },
+  {
+    "id": "specialized-turbo-levo-comp-alloy-2026",
+    "hersteller": "Specialized",
+    "modell": "Turbo Levo Comp Alloy",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "https://www.specialized.com/",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": 6990,
+    "preis_eur": 6500,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Aluminium",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Rhythm",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Specialized",
+      "modell": "2.2 Custom Rx Trail",
+      "drehmoment_nm": 90,
+      "leistung_spitze_w": 565,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 840,
+      "wechselbar": true,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "SRAM GX Eagle Transmission",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "SRAM Code R",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "Specialized Alloy",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Specialized Butcher GRID",
+      "reifen_hinten": "Specialized Eliminator GRID",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 24.5,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "Specialized-Händler CH"
+      ],
+      "probefahrt_moeglich": "NOT_SPECIFIED",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "specialized.com",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [
+      {
+        "publikation": "emtb-news.de",
+        "bewertung_kurz": "Referenz-Klasse",
+        "stärken": [
+          "Sehr gutes Service-Netz",
+          "Mission Control App detailliert",
+          "Grosser 840-Wh-Akku"
+        ],
+        "schwaechen": [
+          "Eigener Motor (keine 3rd-Party-Teile)",
+          "Gewicht > 24 kg"
+        ],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-05"
+      }
+    ],
+    "passend_fuer_martina_score": 7,
+    "passend_fuer_martina_begruendung": "Specialized-Klassiker in Alu-Version. Eigener Motor — aber Service-Netz in CH sehr gut. Budget am oberen Limit. Für Martina interessant, wenn sie auf Specialized-Feeling steht.",
+    "warnungen": [],
+    "alternativ_zu": [
+      "Cube Stereo Hybrid ONE44 HPC AT",
+      "Focus JAM² 6.9"
+    ]
+  }
+]
