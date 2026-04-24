@@ -8,7 +8,7 @@ import Compare from './pages/Compare'
 import Wissen from './pages/Wissen'
 import TrailVsEnduro from './pages/TrailVsEnduro'
 import WissenMotoren from './pages/WissenMotoren'
-import Neuheiten from './pages/Neuheiten'
+import WissenNeuheiten from './pages/WissenNeuheiten'
 
 export default function App() {
   return (
@@ -23,7 +23,7 @@ export default function App() {
             <Route path="wissen" element={<Wissen />} />
             <Route path="wissen/trail-vs-enduro" element={<TrailVsEnduro />} />
             <Route path="wissen/motoren" element={<WissenMotoren />} />
-            <Route path="neuheiten" element={<Neuheiten />} />
+            <Route path="wissen/neuheiten-2026" element={<WissenNeuheiten />} />
           </Route>
         </Routes>
       </CompareProvider>

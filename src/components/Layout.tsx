@@ -1,16 +1,24 @@
-import { Outlet, NavLink } from 'react-router-dom'
-import { Bike } from 'lucide-react'
+import { Outlet, NavLink, useLocation } from 'react-router-dom'
+import { Bike, ChevronDown } from 'lucide-react'
 import FloatingCompareBar from '@/components/FloatingCompareBar'
 
-const navItems = [
+const WISSEN_ITEMS = [
+  { to: '/wissen', label: 'Übersicht', end: true },
+  { to: '/wissen/trail-vs-enduro', label: 'Trail vs. Enduro' },
+  { to: '/wissen/motoren', label: 'Motoren' },
+  { to: '/wissen/neuheiten-2026', label: 'Neuheiten 2026' },
+]
+
+const TOP_LINKS = [
   { to: '/', label: 'Start', end: true },
   { to: '/bikes', label: 'Alle Bikes' },
   { to: '/vergleich', label: 'Vergleich' },
-  { to: '/wissen', label: 'Wissen' },
-  { to: '/neuheiten', label: 'Neuheiten' },
 ]
 
 export default function Layout() {
+  const location = useLocation()
+  const wissenActive = location.pathname.startsWith('/wissen')
+
   return (
     <div className="min-h-screen flex flex-col">
       <header className="bg-white border-b border-stone-200 sticky top-0 z-50">
@@ -19,8 +27,9 @@ export default function Layout() {
             <Bike size={22} strokeWidth={1.75} />
             <span className="font-semibold tracking-tight text-stone-800">Bikes für Martina</span>
           </NavLink>
+
           <nav className="flex items-center gap-1">
-            {navItems.map(({ to, label, end }) => (
+            {TOP_LINKS.map(({ to, label, end }) => (
               <NavLink
                 key={to}
                 to={to}
@@ -36,6 +45,43 @@ export default function Layout() {
                 {label}
               </NavLink>
             ))}
+
+            {/* Wissen Dropdown */}
+            <div className="relative group">
+              <NavLink
+                to="/wissen"
+                className={`inline-flex items-center gap-1 px-3.5 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                  wissenActive
+                    ? 'bg-terracotta-50 text-terracotta-700'
+                    : 'text-stone-500 hover:text-stone-800 hover:bg-stone-100'
+                }`}
+              >
+                Wissen
+                <ChevronDown size={13} className="opacity-60 group-hover:rotate-180 transition-transform duration-150" />
+              </NavLink>
+
+              {/* Invisible bridge to prevent gap between button and panel */}
+              <div className="absolute top-full left-0 w-full h-1.5" />
+
+              <div className="absolute top-[calc(100%+6px)] left-0 w-44 bg-white border border-stone-200 rounded-xl shadow-md overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150">
+                {WISSEN_ITEMS.map(({ to, label, end }) => (
+                  <NavLink
+                    key={to}
+                    to={to}
+                    end={end}
+                    className={({ isActive }) =>
+                      `block px-4 py-2.5 text-sm transition-colors ${
+                        isActive
+                          ? 'bg-terracotta-50 text-terracotta-700 font-medium'
+                          : 'text-stone-600 hover:bg-stone-50 hover:text-stone-900'
+                      }`
+                    }
+                  >
+                    {label}
+                  </NavLink>
+                ))}
+              </div>
+            </div>
           </nav>
         </div>
       </header>
