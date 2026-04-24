@@ -34,9 +34,19 @@ export default function BikeCard({ bike }: Props) {
       state={{ fromSearch: location.search }}
       className="group flex flex-col bg-white border border-stone-200 rounded-xl overflow-hidden hover:border-terracotta-500 hover:scale-[1.01] transition-all duration-150"
     >
-      {/* Bild-Platzhalter */}
-      <div className="relative aspect-[4/3] bg-terracotta-50 flex items-center justify-center">
-        <Bike size={40} className="text-terracotta-200" strokeWidth={1.25} />
+      {/* Bild */}
+      <div className="relative aspect-[4/3] bg-terracotta-50 flex items-center justify-center overflow-hidden">
+        {bike.bild_pfad ? (
+          <img
+            src={bike.bild_pfad}
+            alt={`${bike.hersteller} ${bike.modell}`}
+            className="w-full h-full object-cover"
+            loading="lazy"
+            onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
+          />
+        ) : (
+          <Bike size={40} className="text-terracotta-200" strokeWidth={1.25} />
+        )}
 
         {/* Score-Badge oben rechts */}
         <span className="absolute top-3 right-3 bg-terracotta-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full">

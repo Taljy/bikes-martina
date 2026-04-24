@@ -1,5 +1,6 @@
 export interface Bike {
   id: string
+  bild_pfad?: string
   hersteller: string
   modell: string
   modelljahr: number

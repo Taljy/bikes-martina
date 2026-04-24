@@ -235,8 +235,18 @@ function BikeHeaderCard({ bike, onRemove }: { bike: BikeType; onRemove: () => vo
 
   return (
     <div className="bg-white border border-stone-200 rounded-xl overflow-hidden flex flex-col">
-      <div className="relative aspect-[4/3] bg-terracotta-50 flex items-center justify-center">
-        <Bike size={32} className="text-terracotta-200" strokeWidth={1.25} />
+      <div className="relative aspect-[4/3] bg-terracotta-50 flex items-center justify-center overflow-hidden">
+        {bike.bild_pfad ? (
+          <img
+            src={bike.bild_pfad}
+            alt={`${bike.hersteller} ${bike.modell}`}
+            className="w-full h-full object-cover"
+            loading="lazy"
+            onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
+          />
+        ) : (
+          <Bike size={32} className="text-terracotta-200" strokeWidth={1.25} />
+        )}
         <span className="absolute top-2 right-2 bg-terracotta-500 text-white text-[10px] font-semibold px-2 py-0.5 rounded-full">
           {bike.passend_fuer_martina_score}/10
         </span>

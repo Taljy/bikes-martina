@@ -1,6 +1,7 @@
 [
   {
     "id": "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+    "bild_pfad": "/images/bikes/cube-stereo-hybrid-one44-hpc-slx-800-2026.jpg",
     "hersteller": "Cube",
     "modell": "Stereo Hybrid ONE44 HPC SLX 800",
     "modelljahr": 2026,
@@ -57,7 +58,7 @@
       "reifen_url": "NOT_SPECIFIED",
       "cockpit": "NOT_SPECIFIED"
     },
-    "gewicht_kg": 24.0,
+    "gewicht_kg": 24,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
@@ -100,6 +101,7 @@
   },
   {
     "id": "amflow-pl-carbon-2026-budget-king",
+    "bild_pfad": "/images/bikes/amflow-pl-carbon-2026-budget-king.jpg",
     "hersteller": "AMFLOW",
     "modell": "PL Carbon",
     "modelljahr": 2026,
@@ -195,6 +197,7 @@
   },
   {
     "id": "canyon-spectral-on-cf-8-2026",
+    "bild_pfad": "/images/bikes/canyon-spectral-on-cf-8-2026.jpg",
     "hersteller": "Canyon",
     "modell": "Spectral:ON CF 8",
     "modelljahr": 2026,
@@ -214,8 +217,8 @@
       ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": 64.0,
-      "sitzwinkel_effektiv_grad": 77.0,
+      "lenkwinkel_grad": 64,
+      "sitzwinkel_effektiv_grad": 77,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
@@ -293,6 +296,7 @@
   },
   {
     "id": "canyon-neuron-on-al-9-2026",
+    "bild_pfad": "/images/bikes/canyon-neuron-on-al-9-2026.jpg",
     "hersteller": "Canyon",
     "modell": "Neuron:ON AL 9",
     "modelljahr": 2026,
@@ -312,7 +316,7 @@
       ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": 65.0,
+      "lenkwinkel_grad": 65,
       "sitzwinkel_effektiv_grad": 77.5,
       "radstand_mm": null,
       "kettenstrebe_mm": null
@@ -391,6 +395,7 @@
   },
   {
     "id": "focus-jam2-69-2026",
+    "bild_pfad": "/images/bikes/focus-jam2-69-2026.jpg",
     "hersteller": "Focus",
     "modell": "JAM² 6.9",
     "modelljahr": 2026,
@@ -411,7 +416,7 @@
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
-      "sitzwinkel_effektiv_grad": 77.0,
+      "sitzwinkel_effektiv_grad": 77,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
@@ -490,6 +495,7 @@
   },
   {
     "id": "cube-stereo-hybrid-one44-hpc-at-800-2026",
+    "bild_pfad": "/images/bikes/cube-stereo-hybrid-one44-hpc-at-800-2026.jpg",
     "hersteller": "Cube",
     "modell": "Stereo Hybrid ONE44 HPC AT 800",
     "modelljahr": 2026,
@@ -588,6 +594,7 @@
   },
   {
     "id": "amflow-pl-carbon-pro-2026",
+    "bild_pfad": "/images/bikes/amflow-pl-carbon-pro-2026.jpg",
     "hersteller": "AMFLOW",
     "modell": "PL Carbon Pro",
     "modelljahr": 2026,
@@ -681,6 +688,7 @@
   },
   {
     "id": "santa-cruz-vala-x0-axs-rsv-2026",
+    "bild_pfad": "/images/bikes/santa-cruz-vala-x0-axs-rsv-2026.jpg",
     "hersteller": "Santa Cruz",
     "modell": "Vala X0 AXS RSV",
     "modelljahr": 2026,
@@ -776,6 +784,7 @@
   },
   {
     "id": "unno-mith-pro-2026-editors-choice",
+    "bild_pfad": "/images/bikes/unno-mith-pro-2026-editors-choice.jpg",
     "hersteller": "UNNO",
     "modell": "Mith Pro",
     "modelljahr": 2026,
@@ -870,6 +879,7 @@
   },
   {
     "id": "radon-render-90-2026",
+    "bild_pfad": "/images/bikes/radon-render-90-2026.jpg",
     "hersteller": "Radon",
     "modell": "Render 9.0",
     "modelljahr": 2026,
@@ -969,6 +979,7 @@
   },
   {
     "id": "haibike-hybe-cf-9-2026",
+    "bild_pfad": "/images/bikes/haibike-hybe-cf-9-2026.jpg",
     "hersteller": "Haibike",
     "modell": "Hybe CF 9",
     "modelljahr": 2026,
@@ -1066,6 +1077,7 @@
   },
   {
     "id": "rose-root-miller-3-2026",
+    "bild_pfad": "/images/bikes/rose-root-miller-3-2026.jpg",
     "hersteller": "Rose",
     "modell": "Root Miller 3",
     "modelljahr": 2026,
@@ -1085,8 +1097,8 @@
       ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": 64.0,
-      "sitzwinkel_effektiv_grad": 77.0,
+      "lenkwinkel_grad": 64,
+      "sitzwinkel_effektiv_grad": 77,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
@@ -1122,7 +1134,7 @@
       "reifen_url": "NOT_SPECIFIED",
       "cockpit": "NOT_SPECIFIED"
     },
-    "gewicht_kg": 23.0,
+    "gewicht_kg": 23,
     "laufradgroesse": "29",
     "verfuegbarkeit_ch": {
       "haendler": [],
@@ -1161,6 +1173,7 @@
   },
   {
     "id": "orbea-wild-h10-2026",
+    "bild_pfad": "/images/bikes/orbea-wild-h10-2026.jpg",
     "hersteller": "Orbea",
     "modell": "Wild H10",
     "modelljahr": 2026,
@@ -1181,7 +1194,7 @@
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
-      "sitzwinkel_effektiv_grad": 77.0,
+      "sitzwinkel_effektiv_grad": 77,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
@@ -1258,6 +1271,7 @@
   },
   {
     "id": "yt-decoy-sn-mx-core-3-2026",
+    "bild_pfad": "/images/bikes/yt-decoy-sn-mx-core-3-2026.jpg",
     "hersteller": "YT",
     "modell": "DECOY SN MX CORE 3",
     "modelljahr": 2026,
@@ -1352,6 +1366,7 @@
   },
   {
     "id": "merida-eone-sixty-775-2026",
+    "bild_pfad": "/images/bikes/merida-eone-sixty-775-2026.jpg",
     "hersteller": "Merida",
     "modell": "eOne-Sixty 775",
     "modelljahr": 2026,
@@ -1372,7 +1387,7 @@
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
-      "sitzwinkel_effektiv_grad": 77.0,
+      "sitzwinkel_effektiv_grad": 77,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
@@ -1449,6 +1464,7 @@
   },
   {
     "id": "scott-patron-st-920-2026",
+    "bild_pfad": "/images/bikes/scott-patron-st-920-2026.jpg",
     "hersteller": "Scott",
     "modell": "Patron ST 920",
     "modelljahr": 2026,
@@ -1546,6 +1562,7 @@
   },
   {
     "id": "trek-rail-plus-9-7-2026",
+    "bild_pfad": "/images/bikes/trek-rail-plus-9-7-2026.jpg",
     "hersteller": "Trek",
     "modell": "Rail+ 9.7",
     "modelljahr": 2026,
@@ -1602,7 +1619,7 @@
       "reifen_url": "NOT_SPECIFIED",
       "cockpit": "NOT_SPECIFIED"
     },
-    "gewicht_kg": 24.0,
+    "gewicht_kg": 24,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
@@ -1644,6 +1661,7 @@
   },
   {
     "id": "cannondale-moterra-sl-2026",
+    "bild_pfad": "/images/bikes/cannondale-moterra-sl-2026.jpg",
     "hersteller": "Cannondale",
     "modell": "Moterra SL",
     "modelljahr": 2026,
@@ -1738,6 +1756,7 @@
   },
   {
     "id": "transition-regulator-cx-xt-2026",
+    "bild_pfad": "/images/bikes/transition-regulator-cx-xt-2026.jpg",
     "hersteller": "Transition",
     "modell": "Regulator CX XT",
     "modelljahr": 2026,
@@ -1788,7 +1807,7 @@
       "reifen_url": "NOT_SPECIFIED",
       "cockpit": "NOT_SPECIFIED"
     },
-    "gewicht_kg": 22.0,
+    "gewicht_kg": 22,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
@@ -1831,6 +1850,7 @@
   },
   {
     "id": "cube-stereo-hybrid-one77-hpc-slx-800-2026",
+    "bild_pfad": "/images/bikes/cube-stereo-hybrid-one77-hpc-slx-800-2026.jpg",
     "hersteller": "Cube",
     "modell": "Stereo Hybrid ONE77 HPC SLX 800",
     "modelljahr": 2026,
@@ -1851,7 +1871,7 @@
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 63.5,
-      "sitzwinkel_effektiv_grad": 77.0,
+      "sitzwinkel_effektiv_grad": 77,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
@@ -1933,6 +1953,7 @@
   },
   {
     "id": "giant-trance-x-e-plus-2-2026",
+    "bild_pfad": "/images/bikes/giant-trance-x-e-plus-2-2026.jpg",
     "hersteller": "Giant",
     "modell": "Trance X E+ 2",
     "modelljahr": 2026,
@@ -2031,6 +2052,7 @@
   },
   {
     "id": "canyon-spectral-onfly-cf-8-2026",
+    "bild_pfad": "/images/bikes/canyon-spectral-onfly-cf-8-2026.jpg",
     "hersteller": "Canyon",
     "modell": "Spectral:ONfly CF 8",
     "modelljahr": 2026,
@@ -2131,6 +2153,7 @@
   },
   {
     "id": "specialized-turbo-levo-comp-alloy-2026",
+    "bild_pfad": "/images/bikes/specialized-turbo-levo-comp-alloy-2026.jpg",
     "hersteller": "Specialized",
     "modell": "Turbo Levo Comp Alloy",
     "modelljahr": 2026,

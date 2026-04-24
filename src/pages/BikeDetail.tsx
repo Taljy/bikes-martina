@@ -148,8 +148,18 @@ export default function BikeDetail() {
       {/* ── Sektion 1: Hero ── */}
       <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
         <div className="flex flex-col sm:flex-row">
-          <div className="relative sm:w-72 shrink-0 aspect-[4/3] sm:aspect-auto bg-terracotta-50 flex items-center justify-center">
-            <Bike size={52} className="text-terracotta-200" strokeWidth={1.25} />
+          <div className="relative sm:w-72 shrink-0 aspect-[4/3] sm:aspect-auto bg-terracotta-50 flex items-center justify-center overflow-hidden">
+            {bike.bild_pfad ? (
+              <img
+                src={bike.bild_pfad}
+                alt={`${bike.hersteller} ${bike.modell}`}
+                className="w-full h-full object-cover"
+                loading="eager"
+                onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
+              />
+            ) : (
+              <Bike size={52} className="text-terracotta-200" strokeWidth={1.25} />
+            )}
             <span className="absolute top-3 right-3 bg-terracotta-500 text-white text-xs font-semibold px-2.5 py-1 rounded-full">
               {bike.passend_fuer_martina_score}/10
             </span>
