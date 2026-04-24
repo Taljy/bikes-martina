@@ -6,6 +6,8 @@ import BikeList from './pages/BikeList'
 import BikeDetail from './pages/BikeDetail'
 import Compare from './pages/Compare'
 import Wissen from './pages/Wissen'
+import TrailVsEnduro from './pages/TrailVsEnduro'
+import WissenMotoren from './pages/WissenMotoren'
 import Neuheiten from './pages/Neuheiten'
 
 export default function App() {
@@ -19,6 +21,8 @@ export default function App() {
             <Route path="bikes/:id" element={<BikeDetail />} />
             <Route path="vergleich" element={<Compare />} />
             <Route path="wissen" element={<Wissen />} />
+            <Route path="wissen/trail-vs-enduro" element={<TrailVsEnduro />} />
+            <Route path="wissen/motoren" element={<WissenMotoren />} />
             <Route path="neuheiten" element={<Neuheiten />} />
           </Route>
         </Routes>
