@@ -1,7 +1,8 @@
 import { Link, useLocation } from 'react-router-dom'
-import { Bike } from 'lucide-react'
+import { Bike, Plus, Check } from 'lucide-react'
 import type { Bike as BikeType } from '@/types/bike'
 import { formatChf, formatEur, motorKurzname } from '@/lib/format'
+import { useCompare } from '@/context/CompareContext'
 
 interface Props {
   bike: BikeType
@@ -9,6 +10,8 @@ interface Props {
 
 export default function BikeCard({ bike }: Props) {
   const location = useLocation()
+  const { toggle, isIn } = useCompare()
+  const inCompare = isIn(bike.id)
   const preis = bike.preis_chf
     ? formatChf(bike.preis_chf)
     : bike.preis_eur
@@ -34,9 +37,24 @@ export default function BikeCard({ bike }: Props) {
       {/* Bild-Platzhalter */}
       <div className="relative aspect-[4/3] bg-terracotta-50 flex items-center justify-center">
         <Bike size={40} className="text-terracotta-200" strokeWidth={1.25} />
+
+        {/* Score-Badge oben rechts */}
         <span className="absolute top-3 right-3 bg-terracotta-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full">
           {bike.passend_fuer_martina_score}/10
         </span>
+
+        {/* Vergleich-Toggle oben links */}
+        <button
+          onClick={e => { e.preventDefault(); e.stopPropagation(); toggle(bike.id) }}
+          title={inCompare ? 'Aus Vergleich entfernen' : 'Zum Vergleich hinzufügen'}
+          className={`absolute top-3 left-3 w-6 h-6 rounded-full flex items-center justify-center transition-colors ${
+            inCompare
+              ? 'bg-terracotta-500 text-white'
+              : 'bg-white/80 text-stone-500 hover:bg-white hover:text-terracotta-600'
+          }`}
+        >
+          {inCompare ? <Check size={12} strokeWidth={2.5} /> : <Plus size={12} strokeWidth={2.5} />}
+        </button>
       </div>
 
       {/* Inhalt */}

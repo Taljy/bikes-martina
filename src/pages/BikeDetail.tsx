@@ -1,10 +1,11 @@
 import { useParams, Link, useLocation } from 'react-router-dom'
-import { ArrowLeft, ExternalLink, AlertTriangle, CheckCircle2, AlertCircle } from 'lucide-react'
+import { ArrowLeft, ExternalLink, AlertTriangle, CheckCircle2, AlertCircle, Plus, Check } from 'lucide-react'
 import { Bike } from 'lucide-react'
 import bikesData from '@/data/bikes.json'
 import type { Bike as BikeType } from '@/types/bike'
 import { formatChf, formatEur } from '@/lib/format'
 import SpecCard from '@/components/SpecCard'
+import { useCompare } from '@/context/CompareContext'
 
 const ALL_BIKES = bikesData as BikeType[]
 
@@ -86,10 +87,12 @@ function GroupLabel({ children }: { children: React.ReactNode }) {
 export default function BikeDetail() {
   const { id } = useParams<{ id: string }>()
   const location = useLocation()
+  const { toggle, isIn } = useCompare()
 
   const bike = ALL_BIKES.find(b => b.id === id)
   const backSearch = location.state?.fromSearch ?? ''
   const backHref = `/bikes${backSearch}`
+  const inCompare = bike ? isIn(bike.id) : false
 
   if (!bike) {
     return (
@@ -119,14 +122,28 @@ export default function BikeDetail() {
   return (
     <div className="max-w-3xl mx-auto space-y-6">
 
-      {/* Breadcrumb */}
-      <Link
-        to={backHref}
-        className="inline-flex items-center gap-1.5 text-sm text-stone-400 hover:text-terracotta-600 transition-colors"
-      >
-        <ArrowLeft size={14} />
-        Zurück zur Liste
-      </Link>
+      {/* Breadcrumb + Compare-Toggle */}
+      <div className="flex items-center justify-between gap-4">
+        <Link
+          to={backHref}
+          className="inline-flex items-center gap-1.5 text-sm text-stone-400 hover:text-terracotta-600 transition-colors"
+        >
+          <ArrowLeft size={14} />
+          Zurück zur Liste
+        </Link>
+
+        <button
+          onClick={() => toggle(bike.id)}
+          className={`inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-lg border transition-colors ${
+            inCompare
+              ? 'border-terracotta-500 bg-terracotta-50 text-terracotta-700'
+              : 'border-stone-200 text-stone-500 hover:border-terracotta-400 hover:text-terracotta-600'
+          }`}
+        >
+          {inCompare ? <Check size={13} strokeWidth={2.5} /> : <Plus size={13} />}
+          {inCompare ? 'Im Vergleich' : 'In Vergleich'}
+        </button>
+      </div>
 
       {/* ── Sektion 1: Hero ── */}
       <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">

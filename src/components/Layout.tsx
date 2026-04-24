@@ -1,5 +1,6 @@
 import { Outlet, NavLink } from 'react-router-dom'
 import { Bike } from 'lucide-react'
+import FloatingCompareBar from '@/components/FloatingCompareBar'
 
 const navItems = [
   { to: '/', label: 'Start', end: true },
@@ -42,6 +43,8 @@ export default function Layout() {
       <main className="flex-1 max-w-6xl mx-auto w-full px-6 py-10">
         <Outlet />
       </main>
+
+      <FloatingCompareBar />
 
       <footer className="border-t border-stone-200 bg-white mt-auto">
         <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between text-sm text-stone-400">

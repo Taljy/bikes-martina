@@ -1,5 +1,5 @@
-import { useMemo } from 'react'
-import { useSearchParams, Link } from 'react-router-dom'
+import { useMemo, useEffect } from 'react'
+import { useSearchParams, Link, useNavigate } from 'react-router-dom'
 import { X, Plus, Bike, ExternalLink } from 'lucide-react'
 import {
   RadarChart,
@@ -13,6 +13,7 @@ import {
 import bikesData from '@/data/bikes.json'
 import type { Bike as BikeType } from '@/types/bike'
 import { formatChf, formatEur, motorKurzname } from '@/lib/format'
+import { useCompare } from '@/context/CompareContext'
 
 const ALL_BIKES = bikesData as BikeType[]
 
@@ -297,11 +298,18 @@ function EmptySlotCard({ onAdd, allIds, usedIds }: {
 
 export default function Compare() {
   const [searchParams, setSearchParams] = useSearchParams()
+  const { syncIds, clear } = useCompare()
+  const navigate = useNavigate()
 
   const ids = useMemo(
     () => searchParams.get('ids')?.split(',').filter(Boolean) ?? [],
     [searchParams]
   )
+
+  // URL-Params → Context synchronisieren (beim Laden der Seite)
+  useEffect(() => {
+    if (ids.length > 0) syncIds(ids)
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const bikes = useMemo(
     () => ids.map(id => ALL_BIKES.find(b => b.id === id)).filter(Boolean) as BikeType[],
@@ -318,6 +326,11 @@ export default function Compare() {
     setSearchParams(next.length ? { ids: next.join(',') } : {}, { replace: true })
   }
 
+  function clearAll() {
+    clear()
+    navigate('/vergleich', { replace: true })
+  }
+
   const leerSlots = Math.max(0, Math.min(MAX_BIKES - bikes.length, bikes.length === 0 ? 2 : MAX_BIKES - bikes.length))
   const allGruppen = gruppen(SPEC_ROWS)
 
@@ -325,9 +338,19 @@ export default function Compare() {
     <div className="space-y-8">
 
       {/* Kopfzeile */}
-      <div>
-        <h1 className="text-2xl font-semibold text-stone-900 tracking-tight">Vergleich</h1>
-        <p className="text-stone-400 text-sm mt-1">Bis zu 3 Bikes nebeneinander — URL ist teilbar.</p>
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-2xl font-semibold text-stone-900 tracking-tight">Vergleich</h1>
+          <p className="text-stone-400 text-sm mt-1">Bis zu 3 Bikes nebeneinander — URL ist teilbar.</p>
+        </div>
+        {bikes.length > 0 && (
+          <button
+            onClick={clearAll}
+            className="text-xs text-stone-400 hover:text-stone-700 transition-colors border border-stone-200 hover:border-stone-300 px-3 py-1.5 rounded-lg"
+          >
+            Vergleich leeren
+          </button>
+        )}
       </div>
 
       {/* Bike-Selector-Grid */}
