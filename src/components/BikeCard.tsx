@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { Bike } from 'lucide-react'
 import type { Bike as BikeType } from '@/types/bike'
 import { formatChf, formatEur, motorKurzname } from '@/lib/format'
@@ -8,6 +8,7 @@ interface Props {
 }
 
 export default function BikeCard({ bike }: Props) {
+  const location = useLocation()
   const preis = bike.preis_chf
     ? formatChf(bike.preis_chf)
     : bike.preis_eur
@@ -27,6 +28,7 @@ export default function BikeCard({ bike }: Props) {
   return (
     <Link
       to={`/bikes/${bike.id}`}
+      state={{ fromSearch: location.search }}
       className="group flex flex-col bg-white border border-stone-200 rounded-xl overflow-hidden hover:border-terracotta-500 hover:scale-[1.01] transition-all duration-150"
     >
       {/* Bild-Platzhalter */}
