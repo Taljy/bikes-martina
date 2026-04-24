@@ -148,12 +148,12 @@ export default function BikeDetail() {
       {/* ── Sektion 1: Hero ── */}
       <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
         <div className="flex flex-col sm:flex-row">
-          <div className="relative sm:w-72 shrink-0 aspect-[4/3] sm:aspect-auto bg-terracotta-50 flex items-center justify-center overflow-hidden">
+          <div className="relative sm:w-72 shrink-0 aspect-[4/3] sm:aspect-auto bg-white flex items-center justify-center overflow-hidden">
             {bike.bild_pfad ? (
               <img
                 src={bike.bild_pfad}
                 alt={`${bike.hersteller} ${bike.modell}`}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover mix-blend-multiply"
                 loading="eager"
                 onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
               />

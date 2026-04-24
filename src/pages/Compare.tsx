@@ -235,12 +235,12 @@ function BikeHeaderCard({ bike, onRemove }: { bike: BikeType; onRemove: () => vo
 
   return (
     <div className="bg-white border border-stone-200 rounded-xl overflow-hidden flex flex-col">
-      <div className="relative aspect-[4/3] bg-terracotta-50 flex items-center justify-center overflow-hidden">
+      <div className="relative aspect-[4/3] bg-white flex items-center justify-center overflow-hidden">
         {bike.bild_pfad ? (
           <img
             src={bike.bild_pfad}
             alt={`${bike.hersteller} ${bike.modell}`}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover mix-blend-multiply"
             loading="lazy"
             onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
           />
