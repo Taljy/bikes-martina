@@ -150,7 +150,7 @@ export default function FilterSidebar({ filters, onChange, filtered, total }: Pr
           max={13000}
           step={100}
           value={[filters.preisMin, filters.preisMax]}
-          onValueChange={([min, max]) => set({ preisMin: min, preisMax: max })}
+          onValueChange={(vals) => { const v = vals as number[]; set({ preisMin: v[0], preisMax: v[1] }) }}
           className="[&_[role=slider]]:border-terracotta-500 [&_[role=slider]]:bg-white [&>.bg-primary]:bg-terracotta-500"
         />
         <p className="text-[10px] text-stone-300 mt-2">
@@ -196,7 +196,7 @@ export default function FilterSidebar({ filters, onChange, filtered, total }: Pr
           max={180}
           step={10}
           value={[filters.federwegMin, filters.federwegMax]}
-          onValueChange={([min, max]) => set({ federwegMin: min, federwegMax: max })}
+          onValueChange={(vals) => { const v = vals as number[]; set({ federwegMin: v[0], federwegMax: v[1] }) }}
           className="[&_[role=slider]]:border-terracotta-500 [&_[role=slider]]:bg-white"
         />
       </div>
@@ -226,7 +226,7 @@ export default function FilterSidebar({ filters, onChange, filtered, total }: Pr
           max={28}
           step={0.5}
           value={[filters.gewichtMax]}
-          onValueChange={([val]) => set({ gewichtMax: val })}
+          onValueChange={(vals) => { const v = vals as number[]; set({ gewichtMax: v[0] }) }}
           className="[&_[role=slider]]:border-terracotta-500 [&_[role=slider]]:bg-white"
         />
       </div>

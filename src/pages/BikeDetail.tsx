@@ -370,7 +370,7 @@ export default function BikeDetail() {
               <ul className="space-y-2">
                 {bike.verfuegbarkeit_ch.haendler.map((haendler, i) => {
                   const url = bike.verfuegbarkeit_ch.urls[i] ?? null
-                  const hatProbefahrt = bike.verfuegbarkeit_ch.probefahrt_moeglich === true
+                  const hatProbefahrt = !!bike.verfuegbarkeit_ch.probefahrt_moeglich
                   return (
                     <li key={i} className="flex items-center gap-2 flex-wrap">
                       {url ? (

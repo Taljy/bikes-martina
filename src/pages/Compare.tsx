@@ -8,7 +8,6 @@ import {
   PolarAngleAxis,
   PolarRadiusAxis,
   ResponsiveContainer,
-  Legend,
 } from 'recharts'
 import bikesData from '@/data/bikes.json'
 import type { Bike as BikeType } from '@/types/bike'
@@ -268,9 +267,8 @@ function BikeHeaderCard({ bike, onRemove }: { bike: BikeType; onRemove: () => vo
 
 // ── Leere Slot-Card ───────────────────────────────────────
 
-function EmptySlotCard({ onAdd, allIds, usedIds }: {
+function EmptySlotCard({ onAdd, usedIds }: {
   onAdd: (id: string) => void
-  allIds: string[]
   usedIds: string[]
 }) {
   const available = ALL_BIKES.filter(b => !usedIds.includes(b.id))
@@ -363,7 +361,6 @@ export default function Compare() {
         {bikes.length < MAX_BIKES && Array.from({ length: leerSlots }).map((_, i) => (
           <EmptySlotCard
             key={`empty-${i}`}
-            allIds={ALL_BIKES.map(b => b.id)}
             usedIds={ids}
             onAdd={addBike}
           />
@@ -487,7 +484,7 @@ export default function Compare() {
                   </div>
 
                   <div className="space-y-3">
-                    {topBikes.map((bike, i) => (
+                    {topBikes.map((bike) => (
                       <div key={bike.id} className="flex items-center gap-3 flex-wrap">
                         <span
                           className="w-2.5 h-2.5 rounded-full shrink-0"
