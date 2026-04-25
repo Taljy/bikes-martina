@@ -26,7 +26,7 @@ export default function Layout() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <NavLink to="/" className="flex items-center gap-2.5 text-terracotta-600 hover:text-terracotta-700">
             <MTBIcon className="h-8 w-8" />
-            <span className="font-semibold tracking-tight text-stone-800">Es giht es neus EMTB</span>
+            <span className="font-semibold tracking-tight text-stone-800">E-MTB-Check</span>
           </NavLink>
 
           <nav className="flex items-center gap-1">
@@ -95,7 +95,7 @@ export default function Layout() {
 
       <footer className="border-t border-stone-200 bg-white mt-auto">
         <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between text-sm text-stone-400">
-          <span>Es giht es neus EMTB — Studio Da Rugna, Baden AG</span>
+          <span>E-MTB-Check — Studio Da Rugna, Baden AG</span>
           <div className="flex items-center gap-4">
             <span>2026</span>
             <NavLink to="/impressum" className="hover:text-terracotta-500 transition-colors">

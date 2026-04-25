@@ -80,13 +80,13 @@ export default function Home() {
       {/* Hero */}
       <div className="pt-4">
         <p className="text-xs font-medium tracking-widest text-terracotta-500 uppercase mb-3">
-          E-MTB Entscheid 2026
+          E-MTB-CHECK 2026
         </p>
         <h1 className="text-4xl font-semibold tracking-tight text-stone-900 mb-4 leading-tight">
-          S'perfekte E-MTB<br />für Martina.
+          Welches E-MTB taugt würkli?
         </h1>
         <p className="text-lg text-stone-500 max-w-xl leading-relaxed">
-          {BIKE_COUNT} aktuelli E-MTBs, sorgfältig usegsuecht — mit alle Details, Testresultate und Hersteller-Links.
+          {BIKE_COUNT} Bikes. Kei Marketing-Bullshit. Daten verifiziert. Schwächä klar gnannt.
         </p>
       </div>
 
