@@ -1,6 +1,7 @@
 import { Outlet, NavLink, useLocation } from 'react-router-dom'
-import { Bike, ChevronDown } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
 import FloatingCompareBar from '@/components/FloatingCompareBar'
+import MTBIcon from '@/components/MTBIcon'
 
 const WISSEN_ITEMS = [
   { to: '/wissen', label: 'Übersicht', end: true },
@@ -24,8 +25,8 @@ export default function Layout() {
       <header className="bg-white border-b border-stone-200 sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <NavLink to="/" className="flex items-center gap-2.5 text-terracotta-600 hover:text-terracotta-700">
-            <Bike size={22} strokeWidth={1.75} />
-            <span className="font-semibold tracking-tight text-stone-800">Bikes für Martina</span>
+            <MTBIcon className="h-8 w-8" />
+            <span className="font-semibold tracking-tight text-stone-800">Es giht es neus EMTB</span>
           </NavLink>
 
           <nav className="flex items-center gap-1">
@@ -94,7 +95,7 @@ export default function Layout() {
 
       <footer className="border-t border-stone-200 bg-white mt-auto">
         <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between text-sm text-stone-400">
-          <span>Bikes für Martina — Studio Da Rugna, Baden AG</span>
+          <span>Es giht es neus EMTB — Studio Da Rugna, Baden AG</span>
           <div className="flex items-center gap-4">
             <span>2026</span>
             <NavLink to="/impressum" className="hover:text-terracotta-500 transition-colors">

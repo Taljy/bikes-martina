@@ -44,21 +44,27 @@ const profil = [
 const tiles = [
   {
     icon: Bike,
-    titel: 'Alle Bikes',
-    beschreibung: '23 E-Mountainbikes vergleichen, filtern nach Budget, Motor und Federweg.',
+    titel: 'Alli Bikes',
+    beschreibung: '23 E-MTBs vergliche — filtere nach Budget, Motor und Federweg.',
     route: '/bikes',
   },
   {
     icon: Mountain,
-    titel: 'Trail vs. Enduro verstehen',
-    beschreibung: 'Welche Kategorie passt zu welchem Einsatz? Mit Vergleichstabelle und Entscheidungsfragen.',
+    titel: 'Trail oder Enduro?',
+    beschreibung: 'Welchi Kategorie passt zu dir? Mit Verglychstabelle und Entscheidfrage.',
     route: '/wissen/trail-vs-enduro',
   },
   {
     icon: Sparkles,
-    titel: 'Was ist 2026 neu?',
-    beschreibung: 'Die wichtigsten Launches und Neuheiten der aktuellen Saison auf einer Zeitachse.',
+    titel: "Was git's Neus 2026?",
+    beschreibung: "D'wichtigste Launches und Neuheite vo de aktuelle Saison uf ere Zitachse.",
     route: '/wissen/neuheiten-2026',
+  },
+  {
+    icon: Zap,
+    titel: "D'Motore im Verglich",
+    beschreibung: 'Bosch, Shimano oder DJI? Alli Systeme direkt vergliche.',
+    route: '/wissen/motoren',
   },
 ]
 
@@ -71,14 +77,13 @@ export default function Home() {
       {/* Hero */}
       <div className="pt-4">
         <p className="text-xs font-medium tracking-widest text-terracotta-500 uppercase mb-3">
-          E-Mountainbike Entscheidungshilfe 2026
+          E-MTB Entscheid 2026
         </p>
         <h1 className="text-4xl font-semibold tracking-tight text-stone-900 mb-4 leading-tight">
-          Welches E-MTB passt<br />zu Martina?
+          S'perfekte E-MTB<br />für Martina.
         </h1>
         <p className="text-lg text-stone-500 max-w-xl leading-relaxed">
-          23 kuratierte E-Mountainbikes — vergleichbar im Detail,
-          mit Links zu allen Herstellern und Tests.
+          23 aktuelli E-MTBs, sorgfältig usegsuecht — mit alle Details, Testresultate und Hersteller-Links.
         </p>
       </div>
 
@@ -122,7 +127,7 @@ export default function Home() {
       </div>
 
       {/* Einstiegs-Tiles */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {tiles.map(({ icon: Icon, titel, beschreibung, route }) => (
           <Link
             key={route}
