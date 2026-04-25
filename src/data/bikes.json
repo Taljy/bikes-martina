@@ -2248,5 +2248,81 @@
       "Cube Stereo Hybrid ONE44 HPC AT",
       "Focus JAM² 6.9"
     ]
+  },
+  {
+    "id": "flyer-goroc-x-670-2022",
+    "bild_pfad": "/images/bikes/flyer-gorocx.jpg",
+    "hersteller": "FLYER",
+    "modell": "Goroc X 6.70",
+    "modelljahr": 2022,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "https://www.flyer.ch",
+    "produktseite_url": "NOT_SPECIFIED",
+    "preis_chf": null,
+    "preis_eur": null,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Aluminium",
+      "groessen_verfuegbar": [],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
+      "radstand_mm": null,
+      "kettenstrebe_mm": null
+    },
+    "federweg": {
+      "vorne_mm": 140,
+      "hinten_mm": 130,
+      "gabel_modell": "RockShox",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "RockShox",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance CX",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 630,
+      "wechselbar": false,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "Shimano Deore",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "29\"",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "NOT_SPECIFIED",
+      "reifen_hinten": "NOT_SPECIFIED",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "NOT_SPECIFIED"
+    },
+    "gewicht_kg": 24.5,
+    "laufradgroesse": "29\"",
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "FLYER-Händler Schweiz"
+      ],
+      "probefahrt_moeglich": "Nein",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "NOT_SPECIFIED",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [],
+    "passend_fuer_martina_score": 5,
+    "passend_fuer_martina_begruendung": "Martinas aktuells Bike — gueti Basis, aber schwerer Motor und ältere Geometrie im Vergliich zu de neue Modell. Dient als Referenz für de Entscheid.",
+    "warnungen": [],
+    "alternativ_zu": [],
+    "referenzbike": true,
+    "badge": "Mis Bike"
   }
 ]

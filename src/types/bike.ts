@@ -76,4 +76,6 @@ export interface Bike {
   passend_fuer_martina_begruendung: string
   warnungen: string[]
   alternativ_zu: string[]
+  referenzbike?: boolean
+  badge?: string
 }

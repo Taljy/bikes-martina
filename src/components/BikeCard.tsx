@@ -48,13 +48,20 @@ export default function BikeCard({ bike }: Props) {
           <Bike size={40} className="text-terracotta-200" strokeWidth={1.25} />
         )}
 
+        {/* «Mis Bike»-Badge oben links über Vergleich-Toggle — nur für Referenzbike */}
+        {bike.referenzbike && bike.badge && (
+          <span className="absolute top-3 left-3 bg-blue-100 text-blue-700 text-xs font-semibold px-2 py-0.5 rounded-full z-10">
+            {bike.badge}
+          </span>
+        )}
+
         {/* Score-Badge oben rechts */}
         <span className="absolute top-3 right-3 bg-terracotta-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full">
           {bike.passend_fuer_martina_score}/10
         </span>
 
-        {/* Vergleich-Toggle oben links */}
-        <button
+        {/* Vergleich-Toggle oben links — bei Referenzbike ausgeblendet */}
+        {!bike.referenzbike && <button
           onClick={e => { e.preventDefault(); e.stopPropagation(); toggle(bike.id) }}
           title={inCompare ? 'Aus Vergleich entfernen' : 'Zum Vergleich hinzufügen'}
           className={`absolute top-3 left-3 w-6 h-6 rounded-full flex items-center justify-center transition-colors ${
@@ -64,7 +71,7 @@ export default function BikeCard({ bike }: Props) {
           }`}
         >
           {inCompare ? <Check size={12} strokeWidth={2.5} /> : <Plus size={12} strokeWidth={2.5} />}
-        </button>
+        </button>}
       </div>
 
       {/* Inhalt */}
