@@ -19,7 +19,12 @@
     },
     "rahmen": {
       "material": "Carbon (HPC C:62 Hauptrahmen, Alu 6061 T6 Hinterbau)",
-      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "groesse_L_reach_mm": 477,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
@@ -62,9 +67,14 @@
     "gewicht_kg": 24.3,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
-      "haendler": ["m-way.ch", "Cube-Händler in der Schweiz"],
+      "haendler": [
+        "m-way.ch",
+        "Cube-Händler in der Schweiz"
+      ],
       "probefahrt_moeglich": "Ja",
-      "urls": ["https://m-way.ch/cube-stereo-hybrid-one44-hpc-slx-slabgrey/"]
+      "urls": [
+        "https://m-way.ch/cube-stereo-hybrid-one44-hpc-slx-slabgrey/"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "m-way.ch",
@@ -154,7 +164,12 @@
     },
     "rahmen": {
       "material": "Carbon (Rahmengewicht 2.27 kg)",
-      "groessen_verfuegbar": ["M", "L", "XL", "XXL"],
+      "groessen_verfuegbar": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "groesse_L_reach_mm": 470,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
@@ -205,7 +220,9 @@
         "swisscycle.ch"
       ],
       "probefahrt_moeglich": "Ja",
-      "urls": ["https://www.bikeperfection.ch/produkt/amflow-pl-carbon-3/"]
+      "urls": [
+        "https://www.bikeperfection.ch/produkt/amflow-pl-carbon-3/"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "bikeperfection.ch",
@@ -302,7 +319,13 @@
     },
     "rahmen": {
       "material": "Vollcarbon (Frame 3180 g, Cat. 4e zertifiziert)",
-      "groessen_verfuegbar": ["XS", "S", "M", "L", "XL"],
+      "groessen_verfuegbar": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "groesse_L_reach_mm": 485,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 65.5,
@@ -345,9 +368,13 @@
     "gewicht_kg": 23.0,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
-      "haendler": ["canyon.com (Direct-to-Consumer)"],
+      "haendler": [
+        "canyon.com (Direct-to-Consumer)"
+      ],
       "probefahrt_moeglich": "Ja",
-      "urls": ["https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html"]
+      "urls": [
+        "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "canyon.com",
@@ -374,7 +401,11 @@
       {
         "publikation": "BikePerfect Review",
         "bewertung_kurz": "Sorted, lively e-trail bomber. Spec ist grosser Wert für den Preis, grosse Akku-Optionen sorgen für viel Reichweite. Gut ausbalancierte Geometrie zwischen planted und playful.",
-        "stärken": ["Ausgewogene Geometrie", "Viel Reichweite", "Lively Handling"],
+        "stärken": [
+          "Ausgewogene Geometrie",
+          "Viel Reichweite",
+          "Lively Handling"
+        ],
         "schwaechen": [],
         "test_url": "NOT_SPECIFIED",
         "datum": "2026-02"
@@ -449,7 +480,12 @@
     },
     "rahmen": {
       "material": "Aluminium",
-      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "groesse_L_reach_mm": 480,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
@@ -492,9 +528,13 @@
     "gewicht_kg": 24.9,
     "laufradgroesse": "29\"",
     "verfuegbarkeit_ch": {
-      "haendler": ["canyon.com (Direct-to-Consumer)"],
+      "haendler": [
+        "canyon.com (Direct-to-Consumer)"
+      ],
       "probefahrt_moeglich": "Ja",
-      "urls": ["https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/neuron-on/al/neuron-on-al-9/4059.html"]
+      "urls": [
+        "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/neuron-on/al/neuron-on-al-9/4059.html"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "canyon.com",
@@ -505,16 +545,31 @@
       {
         "publikation": "BIKE Magazin Test (September 2025)",
         "bewertung_kurz": "Komfortorientierter Allrounder, der Alltagseinsätze und Trail-Touren souverän meistert. Moderne Ausstattung, passables Gewicht, komfortable Sitzposition. Aber: bietet im extremen Gelände nicht die dicksten Reserven.",
-        "stärken": ["Komfort auf langen Touren", "Bosch Gen5", "SRAM AXS elektronisch", "800 Wh entnehmbar"],
-        "schwaechen": ["Kein Bikepark-Material", "Alu-Gewicht ~25 kg"],
+        "stärken": [
+          "Komfort auf langen Touren",
+          "Bosch Gen5",
+          "SRAM AXS elektronisch",
+          "800 Wh entnehmbar"
+        ],
+        "schwaechen": [
+          "Kein Bikepark-Material",
+          "Alu-Gewicht ~25 kg"
+        ],
         "test_url": "NOT_SPECIFIED",
         "datum": "2025-09"
       },
       {
         "publikation": "EMTB-News Test (März 2025)",
         "bewertung_kurz": "Guter Kletterer, gleitet glatt und einfach über Hindernisse. Gewicht lädt nicht zum Spielen ein, aber macht Spass schnell über die Trails zu düsen. Auf Tour überzeugt die komfortable Sitzposition.",
-        "stärken": ["Bergaufstärke", "Komfortsitzposition", "Smooth over obstacles"],
-        "schwaechen": ["Gewicht limitiert Spielfreude", "Canyon DTC Service"],
+        "stärken": [
+          "Bergaufstärke",
+          "Komfortsitzposition",
+          "Smooth over obstacles"
+        ],
+        "schwaechen": [
+          "Gewicht limitiert Spielfreude",
+          "Canyon DTC Service"
+        ],
         "test_url": "NOT_SPECIFIED",
         "datum": "2025-03"
       }
@@ -591,7 +646,12 @@
     },
     "rahmen": {
       "material": "Aluminium",
-      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
@@ -639,7 +699,9 @@
         "weitere Focus-Partner in der Schweiz"
       ],
       "probefahrt_moeglich": "Ja",
-      "urls": ["https://primusbikecenter.ch/boutique/marque/focus/focus-jam2-6-9-2026/"]
+      "urls": [
+        "https://primusbikecenter.ch/boutique/marque/focus/focus-jam2-6-9-2026/"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "focus-bikes.com",
@@ -665,7 +727,11 @@
       {
         "publikation": "ebike-crew.de Test (April 2026)",
         "bewertung_kurz": "Bosch CX Gen5 deutlich sensibler und leiser als Vorgänger, kein Klappern mehr bergab. Fox 36 Performance Elite und TRP DH-R EVO Pro Bremsen mit enormer Bremspower.",
-        "stärken": ["Motor-Qualität Gen5", "Bremsen-Performance", "Fox 36 Elite"],
+        "stärken": [
+          "Motor-Qualität Gen5",
+          "Bremsen-Performance",
+          "Fox 36 Elite"
+        ],
         "schwaechen": [],
         "test_url": "NOT_SPECIFIED",
         "datum": "2026-04"
@@ -673,8 +739,13 @@
       {
         "publikation": "Flow Mountain Bike Review (April 2026)",
         "bewertung_kurz": "An outstanding ride, albeit with some polarising quirks. Updates haben Suspension, Handling und Look verbessert — but it's still not perfect.",
-        "stärken": ["Ride quality", "Suspension updates"],
-        "schwaechen": ["Einige polarisierende Eigenheiten"],
+        "stärken": [
+          "Ride quality",
+          "Suspension updates"
+        ],
+        "schwaechen": [
+          "Einige polarisierende Eigenheiten"
+        ],
         "test_url": "NOT_SPECIFIED",
         "datum": "2026-04"
       }
@@ -752,7 +823,12 @@
     },
     "rahmen": {
       "material": "Carbon (HPC C:62 Hauptrahmen, Alu 6061 T6 Hinterbau)",
-      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "groesse_L_reach_mm": 477,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
@@ -801,7 +877,9 @@
         "Cube-Händler in der Schweiz"
       ],
       "probefahrt_moeglich": "Ja",
-      "urls": ["https://m-way.ch/cube-stereo-hybrid-one44-hpc-at-800-my2025-2026-carbon-n-gold-diamant-s/"]
+      "urls": [
+        "https://m-way.ch/cube-stereo-hybrid-one44-hpc-at-800-my2025-2026-carbon-n-gold-diamant-s/"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "m-way.ch",
@@ -883,36 +961,41 @@
     "hersteller": "AMFLOW",
     "modell": "PL Carbon Pro",
     "modelljahr": 2026,
-    "kategorie": "All-Mountain | Trail",
-    "hersteller_url": "NOT_SPECIFIED",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": null,
-    "preis_eur": 9999,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "kategorie": "All-Mountain | Enduro",
+    "hersteller_url": "https://www.amflowbikes.com",
+    "produktseite_url": "https://www.amflowbikes.com/de/product/amflow-pl-carbon-pro",
+    "preis_chf": 9999,
+    "preis_eur": null,
+    "preis_quelle_url": "https://www.swisscycle.ch/detail-amflow-carbon-pro-black-800wh-e-bikes-mountainbike-e-bike/keller-hausen/15384",
     "rahmen": {
-      "material": "Carbon",
-      "groessen_verfuegbar": "NOT_SPECIFIED",
+      "material": "Carbon (Frame 2,27 kg)",
+      "groessen_verfuegbar": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": null,
-      "sitzwinkel_effektiv_grad": null,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 77.0,
       "radstand_mm": null,
-      "kettenstrebe_mm": null
+      "kettenstrebe_mm": 445
     },
     "federweg": {
       "vorne_mm": 160,
       "hinten_mm": 150,
-      "gabel_modell": "Fox 36 Factory GRIP X2",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_modell": "Fox 36 Factory Kashima GRIP X2 Damper 160 mm",
+      "gabel_url": "https://www.ridefox.com",
       "daempfer_modell": "Fox Float X Factory",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "DJI",
       "modell": "Avinox M1",
       "drehmoment_nm": 105,
       "leistung_spitze_w": 1000,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.amflowbikes.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -920,56 +1003,121 @@
       "range_extender_optional": false
     },
     "ausstattung": {
-      "schaltung": "SRAM X0 Eagle Transmission",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "MAGURA MT7 Pro",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "NOT_SPECIFIED",
-      "reifen_vorne": "Maxxis Assegai EXO",
-      "reifen_hinten": "Maxxis Dissector EXO+",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "SRAM X0 Eagle Transmission 12-fach (elektronisch)",
+      "schaltung_url": "https://www.sram.com",
+      "bremsen": "Magura MT7 Pro 4-Kolben 203 mm",
+      "bremsen_url": "https://www.magura.com",
+      "laufraeder": "29\" (Mullet 29\"/27.5\" via Flip Chip)",
+      "reifen_vorne": "Maxxis Assegai MaxxTerra 29×2.5\" 3C EXO E-25 TLR",
+      "reifen_hinten": "Maxxis Dissector MaxxTerra 29×2.4\" 3C EXO+ E-25 TLR",
+      "reifen_url": "https://www.maxxis.com",
+      "cockpit": "AMFLOW Enduro Carbon Lenker 800 mm + Fox Transfer Sattelstütze"
     },
     "gewicht_kg": 20.7,
     "laufradgroesse": "29",
     "verfuegbarkeit_ch": {
       "haendler": [
-        "NOT_SPECIFIED"
+        "swisscycle.ch (Dreamparts)",
+        "dreamparts.ch",
+        "velocorner.ch",
+        "infinity-bikeshop.ch (Wynigen)",
+        "lorisvelos.ch",
+        "bikeperfection.ch (Toggenburg)"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Keiner im Aargau — nächster bikeperfection.ch in Toggenburg oder Bern",
+      "urls": [
+        "https://www.swisscycle.ch/detail-amflow-carbon-pro-black-800wh-e-bikes-mountainbike-e-bike/keller-hausen/15384"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "NOT_SPECIFIED",
+      "shop": "amflowbikes.com",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.amflowbikes.com/de/product/amflow-pl-carbon-pro"
     },
     "test_ergebnisse": [
       {
-        "publikation": "E-MOUNTAINBIKE Magazin",
-        "bewertung_kurz": "Bester Kletterer",
+        "publikation": "E-MOUNTAINBIKE Magazin Vergleichstest 2025 (30 Bikes)",
+        "bewertung_kurz": "Absolute Waffe — bester Kletterer im Testfeld",
         "stärken": [
-          "Unschlagbare Uphill-Performance",
-          "Integration",
-          "Geringes Gewicht"
+          "105 Nm / 1000 W Spitzenleistung",
+          "20,66 kg Gesamtgewicht — eines der leichtesten Full-Power-E-MTBs",
+          "Fox Factory mit Kashima + GRIP X2"
         ],
         "schwaechen": [
-          "Niedrige Front reduziert Sicherheit",
-          "Reifen limitieren bergab"
+          "Niedrige Front reduziert Sicherheit bergab",
+          "Reifen limitieren bergab-Performance"
         ],
-        "test_url": "NOT_SPECIFIED",
+        "test_url": "https://emtb-mtb.com",
         "datum": "2025-04"
       }
     ],
-    "passend_fuer_martina_score": 9,
-    "passend_fuer_martina_begruendung": "Extrem leicht für volle Power. Wer Uphill-Speed und technisches Klettern liebt, findet hier die Benchmark (Bestzeit in der Climb-Challenge). Martina profitiert vom rucksacktauglichen Schnelllader.",
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Technisch absolute Spitze: Fox Factory Kashima, SRAM X0 elektronisch, Magura MT7 Pro. Aber CHF 9'999 UVP ist CHF 6'500 mehr als das normale PL Carbon (CHF 3'490 Sale) — für identische Plattform, gleichen Motor, gleichen Akku. Score 8 statt 9 wegen massivem Preis-Leistungs-Problem. Aktionspreise vom Jan/Feb 2026 sind seit März abgelaufen.",
     "warnungen": [
-      "Reifenpanne bei ruppigem Gelände durch schwache Karkasse möglich"
+      "Keine Grösse S — kleinste Grösse M (162–178 cm), L (170–185 cm)",
+      "Magura MT7 Pro Vorderrad-Bremsleitung reibt am Steuerrohr (Lack-Schaden laut Magazin-Test)",
+      "Marke seit 2024 am Markt — Reparierbarkeit und Ersatzteilversorgung in 5+ Jahren ungewiss",
+      "Aktionspreise Jan/Feb 2026 (CHF 4'990 bei bikeperfection, CHF 8'599 bei hostettler) alle seit 2. März 2026 abgelaufen"
     ],
     "alternativ_zu": [
-      "Specialized S-Works Turbo Levo 4",
-      "UNNO Mith Pro"
-    ]
+      "amflow-pl-carbon-2026"
+    ],
+    "badge": null,
+    "referenzbike": false,
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "hinweis": "Aktuell bei mehreren CH-Händlern zu UVP CHF 9'999 verfügbar (swisscycle.ch). Vorbestellung CHF 9'299 für Mai 2026 (velocorner.ch). Aktionspreise Jan/Feb 2026 (CHF 4'990 / CHF 8'599) sind alle seit 2. März 2026 abgelaufen.",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://www.swisscycle.ch/detail-amflow-carbon-pro-black-800wh-e-bikes-mountainbike-e-bike/keller-hausen/15384"
+    },
+    "preise": {
+      "uvp_chf": 9999,
+      "sale_chf": null,
+      "sale_haendler": null,
+      "sale_url": null
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 6,
+      "bergauf_touren": 9,
+      "bikepark_reserve": 9,
+      "gewicht_handling": 9,
+      "preis_leistung": 4,
+      "service_haendlernetz_ch": 5,
+      "risiko_datenunsicherheit": 6
+    },
+    "bewertung_detail": {
+      "pro": [
+        "DJI Avinox M1 Motor — 105 Nm kontinuierlich, 120 Nm Boost, 1000 W Spitze — branchenführende Leistungsdichte",
+        "Auto-Modus passt Unterstützung in Echtzeit an Gelände an — keine manuelle Modus-Schaltung nötig",
+        "800 Wh Akku mit 157 km Reichweite und GaN-Schnellladung (0–75% in 96 Min)",
+        "Fox 36 Factory Kashima + GRIP X2 Damper — absolutes Top-Niveau (2026 Update: 20% mehr Torsionssteifigkeit)",
+        "Fox Float X Factory Dämpfer — Top-Niveau",
+        "SRAM X0 Eagle Transmission elektronisch — Premium-Schaltung",
+        "Magura MT7 Pro 4-Kolben mit 203 mm — Top-Bremspower",
+        "20,7 kg in Grösse L (Magazin-Test) — ca. 3 kg unter Durchschnitt für Full-Power-E-MTB",
+        "Mullet-fähig via Flip Chip (29\" oder 27.5\" hinten ohne Geometrie-Anpassung)",
+        "2-Zoll OLED Touchscreen + 2 Wireless Controller — Premium-Bedienung",
+        "GPS-Tracking, Alarmsystem mit Push-Notification, Phone Key Auto-Unlock",
+        "TÜV SÜD + TÜV Rheinland zertifiziert",
+        "Magazin emtb-mtb.com 2025: 'absolute Waffe', einer der Top-Performer im 30-Bike-Vergleich",
+        "AMFLOW Enduro Carbon Lenker (vs. Alloy beim PL Carbon)"
+      ],
+      "contra": [
+        "UVP CHF 9'999 — höchster Preis in der ganzen Liste",
+        "CHF 6'500 mehr als PL Carbon (CHF 3'490 Sale) — gleiche Plattform, gleicher Motor, gleicher Akku, gleiche Geometrie",
+        "Aktionspreise Jan/Feb 2026 (CHF 4'990 bei bikeperfection, CHF 8'599 bei hostettler/biketotal) alle seit 2. März 2026 abgelaufen",
+        "Nur ~6–8 Händler in der ganzen Schweiz — keiner im Aargau",
+        "Marke seit 2024 am Markt — Service-Erfahrung über mehrere Jahre fehlt komplett",
+        "DJI Avinox-Motor neu — Reparierbarkeit und Ersatzteilversorgung in 5+ Jahren ungewiss",
+        "Premium-Specs erfordern aktive Fahrtechnik — weniger einsteigerfreundlich für 3. Saison",
+        "Lieferzeiten teils Mai/Juni 2026 — nicht sofort bei allen Händlern verfügbar",
+        "Hersteller-Gewichtsangabe 19,2 kg gilt für M — Realität in L ist 20,7 kg (1,5 kg Differenz)",
+        "Keine Grösse S — kleinste Grösse M (162–178 cm)",
+        "Magura MT7 Pro: Bremsleitung vorne reibt am Steuerrohr und beschädigt den Lack (laut Magazin-Test)"
+      ],
+      "fazit": "Premium-Variante des AMFLOW PL Carbon mit absoluten Top-Komponenten: Fox Factory Kashima + GRIP X2, SRAM X0 elektronisch, Magura MT7 Pro. Magazin-Test 2025 als 'absolute Waffe' bezeichnet. ABER: Bei UVP CHF 9'999 zahlst du CHF 6'500 mehr als für das normale PL Carbon (CHF 3'490 Sale) — für identische Plattform, gleichen Motor, gleichen Akku. Score 8 statt 9 reflektiert das Preis-Leistungs-Problem, nicht die Bike-Qualität. Wenn dir absolute Top-Komponenten wichtig sind und du das Budget hast: ja. Sonst macht das PL Carbon das Gleiche für ein Drittel des Preises."
+    }
   },
   {
     "id": "santa-cruz-vala-x0-axs-rsv-2026",
@@ -1374,7 +1522,11 @@
     "preis_quelle_url": "https://www.rosebikes.ch/p/rose-root-miller-plus-3-2695384",
     "rahmen": {
       "material": "Carbon",
-      "groessen_verfuegbar": ["S", "M", "L"],
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L"
+      ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": null,
@@ -1417,9 +1569,13 @@
     "gewicht_kg": 23.0,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
-      "haendler": ["rosebikes.ch (Stores: Basel, Bern, Meilen, St. Gallen + Service-Partner)"],
+      "haendler": [
+        "rosebikes.ch (Stores: Basel, Bern, Meilen, St. Gallen + Service-Partner)"
+      ],
       "probefahrt_moeglich": "Ja",
-      "urls": ["https://www.rosebikes.ch/p/rose-root-miller-plus-3-2695384"]
+      "urls": [
+        "https://www.rosebikes.ch/p/rose-root-miller-plus-3-2695384"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "rosebikes.ch",
@@ -1430,8 +1586,15 @@
       {
         "publikation": "Kundenrezensionen rosebikes.ch",
         "bewertung_kurz": "4.3 von 5 aus 6 Reviews. Gute Fahrleistung, aber Akku-Entnahme umständlich (4-Schrauben-Blende), QC bei Auslieferung mehrfach kritisiert.",
-        "stärken": ["Carbon-Rahmen", "Gute Fahrleistung laut Reviews", "6 Jahre Crash Replacement Garantie"],
-        "schwaechen": ["Akku-Entnahme umständlich (4-Schrauben-Blende)", "QC bei Auslieferung kritisiert"],
+        "stärken": [
+          "Carbon-Rahmen",
+          "Gute Fahrleistung laut Reviews",
+          "6 Jahre Crash Replacement Garantie"
+        ],
+        "schwaechen": [
+          "Akku-Entnahme umständlich (4-Schrauben-Blende)",
+          "QC bei Auslieferung kritisiert"
+        ],
         "test_url": "https://www.rosebikes.ch/p/rose-root-miller-plus-3-2695384",
         "datum": "2026-04"
       }
@@ -2619,7 +2782,12 @@
     "preis_quelle_url": "NOT_SPECIFIED",
     "rahmen": {
       "material": "Alu",
-      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "groesse_L_reach_mm": 460,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 65.5,
@@ -2662,9 +2830,13 @@
     "gewicht_kg": 23.5,
     "laufradgroesse": "29\"",
     "verfuegbarkeit_ch": {
-      "haendler": ["commencal-store.com"],
+      "haendler": [
+        "commencal-store.com"
+      ],
       "probefahrt_moeglich": "Nein",
-      "urls": ["https://www.commencal-store.com/meta-power-tr"]
+      "urls": [
+        "https://www.commencal-store.com/meta-power-tr"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "commencal-store.com",
@@ -2674,7 +2846,9 @@
     "test_ergebnisse": [],
     "passend_fuer_martina_score": 8,
     "passend_fuer_martina_begruendung": "Starkes Preis-Leistungs-Verhältnis: Bosch CX Gen5 mit 100 Nm, 150/140 mm Federweg und 29\" Laufräder für CHF ~4'725. Für Martinas Trail- und Alpeneinsatz ideal — leichter als viele Konkurrenten und günstiger als die meisten Vergleichsmodelle.",
-    "warnungen": ["Kein CHF-Preis — muss direkt bei Commencal bestellt werden, kein Schweizer Fachhändler."],
+    "warnungen": [
+      "Kein CHF-Preis — muss direkt bei Commencal bestellt werden, kein Schweizer Fachhändler."
+    ],
     "alternativ_zu": []
   },
   {
@@ -2691,7 +2865,12 @@
     "preis_quelle_url": "NOT_SPECIFIED",
     "rahmen": {
       "material": "Alu",
-      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "groesse_L_reach_mm": 480,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 63.5,
@@ -2734,9 +2913,13 @@
     "gewicht_kg": 24.8,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
-      "haendler": ["commencal-store.com"],
+      "haendler": [
+        "commencal-store.com"
+      ],
       "probefahrt_moeglich": "Nein",
-      "urls": ["https://www.commencal-store.com/meta-power-sx"]
+      "urls": [
+        "https://www.commencal-store.com/meta-power-sx"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "commencal-store.com",
@@ -2746,8 +2929,13 @@
     "test_ergebnisse": [],
     "passend_fuer_martina_score": 6,
     "passend_fuer_martina_begruendung": "Klarer Enduro-Charakter mit 170/165 mm Federweg — etwas zu viel für Martinas Einsatzprofil (Trail + Alpen). Bosch CX Gen5 und MX-Bereifung sind top, aber das Gewicht und die Enduro-Geometrie passen besser zu Bikepark-Fahrern.",
-    "warnungen": ["170 mm Federweg überdimensioniert für Trail/Alpen-Einsatz.", "Kein Schweizer Händler."],
-    "alternativ_zu": ["commencal-meta-power-tr-ride-2026"]
+    "warnungen": [
+      "170 mm Federweg überdimensioniert für Trail/Alpen-Einsatz.",
+      "Kein Schweizer Händler."
+    ],
+    "alternativ_zu": [
+      "commencal-meta-power-tr-ride-2026"
+    ]
   },
   {
     "id": "santa-cruz-heckler-mx-2026",
@@ -2763,7 +2951,12 @@
     "preis_quelle_url": "NOT_SPECIFIED",
     "rahmen": {
       "material": "Carbon",
-      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "groesse_L_reach_mm": 468,
       "groesse_L_stack_mm": 626,
       "lenkwinkel_grad": 64.5,
@@ -2806,7 +2999,10 @@
     "gewicht_kg": 22.8,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
-      "haendler": ["bikeworld.ch", "veloplus.ch"],
+      "haendler": [
+        "bikeworld.ch",
+        "veloplus.ch"
+      ],
       "probefahrt_moeglich": "Ja",
       "urls": []
     },
@@ -2818,7 +3014,9 @@
     "test_ergebnisse": [],
     "passend_fuer_martina_score": 7,
     "passend_fuer_martina_begruendung": "Leichter Carbon-Rahmen, MX-Laufräder und 160/150 mm Federweg — ideal für Martinas All-Mountain-Einsatz. Shimano EP801 ist zuverlässig mit gutem Service-Netz. Mit EUR 7'000 klar über Budget, aber technisch einer der besten Kandidaten.",
-    "warnungen": ["EUR 7'000 deutlich über Martinas Budget von CHF 3'500–6'500."],
+    "warnungen": [
+      "EUR 7'000 deutlich über Martinas Budget von CHF 3'500–6'500."
+    ],
     "alternativ_zu": []
   },
   {
@@ -2835,7 +3033,13 @@
     "preis_quelle_url": "NOT_SPECIFIED",
     "rahmen": {
       "material": "Carbon",
-      "groessen_verfuegbar": ["S", "M", "L", "XL", "XXL"],
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
       "groesse_L_reach_mm": 460,
       "groesse_L_stack_mm": 622,
       "lenkwinkel_grad": 66.0,
@@ -2878,7 +3082,10 @@
     "gewicht_kg": 21.5,
     "laufradgroesse": "29\"",
     "verfuegbarkeit_ch": {
-      "haendler": ["veloplus.ch", "bikeshop.ch"],
+      "haendler": [
+        "veloplus.ch",
+        "bikeshop.ch"
+      ],
       "probefahrt_moeglich": "Ja",
       "urls": []
     },
@@ -2890,7 +3097,12 @@
     "test_ergebnisse": [],
     "passend_fuer_martina_score": 6,
     "passend_fuer_martina_begruendung": "Leichtestes Bike im Vergleich (21.5 kg) dank TQ HPR60 Light-Motor — fühlt sich fast wie ein normales E-Bike an. Aber: 60 Nm und 300 W reichen auf steilen Alpenstiegen nicht immer aus. Für Martinas Einsatz mit langen Anstiegen eher Risiko.",
-    "warnungen": ["TQ HPR60: nur 60 Nm — deutlich weniger als Bosch (100 Nm) oder Shimano (85 Nm). Auf langen Anstiegen Nachteil.", "580 Wh kleinste Akkukapazität im Vergleich."],
-    "alternativ_zu": ["commencal-meta-power-tr-ride-2026"]
+    "warnungen": [
+      "TQ HPR60: nur 60 Nm — deutlich weniger als Bosch (100 Nm) oder Shimano (85 Nm). Auf langen Anstiegen Nachteil.",
+      "580 Wh kleinste Akkukapazität im Vergleich."
+    ],
+    "alternativ_zu": [
+      "commencal-meta-power-tr-ride-2026"
+    ]
   }
 ]
