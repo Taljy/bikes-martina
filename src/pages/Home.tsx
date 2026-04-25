@@ -6,38 +6,38 @@ const profil = [
   {
     icon: User,
     label: 'Fahrerin',
-    wert: '1.80 m / 80 kg — Rahmengrösse L',
-    detail: '3. Saison auf dem E-MTB, Fortgeschrittene mit wachsendem technischen Anspruch.',
+    wert: '1.80 m / 80 kg — Rahmegröössi L',
+    detail: '3. Saison ufem E-MTB, Technik ja — Bikepark-Profi no nöd',
   },
   {
     icon: User,
     label: 'Beinlänge / Schrittlänge',
     wert: '86 cm',
-    detail: 'Relevant für Sattelrohrlänge und Reach-Optimierung bei Rahmengrösse L.',
+    detail: "Entscheided für d'Sattelhöchi und de Reach bi Gröössi L.",
   },
   {
     icon: MapPin,
     label: 'Einsatzgebiet',
-    wert: 'Aargau & Jura · Alpen · Bikepark',
-    detail: 'Vom Hausrunde-Feeling bis zur mehrtägigen Alpentour — das Bike muss beides können.',
+    wert: 'Flachland & Alpe, Trails & Bikepark',
+    detail: "Vo de Hausrunde bis zur Alpetoure — s'Bike muss beides chöne.",
   },
   {
     icon: Gauge,
     label: 'Federweg',
     wert: '140–180 mm',
-    detail: 'All-Mountain bis Enduro. Genug Reserve für technische Abfahrten, effizient genug für lange Anstiege.',
+    detail: 'All-Mountain bis Enduro. Abfahrt und Ufstig — beides zellt.',
   },
   {
     icon: Banknote,
     label: 'Budget',
     wert: "CHF 3'500 – 6'500",
-    detail: 'Realistische Obergrenze. Bikes darüber können als Referenz dienen, kommen aber nicht in die engere Wahl.',
+    detail: 'Usnahme zur Orientierig',
   },
   {
     icon: Zap,
     label: 'Motor-Präferenz',
     wert: 'Bosch CX Gen5 · Shimano EP801 · DJI Avinox M1',
-    detail: 'Bewährte Systeme mit gutem Servicenetz in der Schweiz. DJI als spannende Newcomer-Option mit Leistungsplus.',
+    detail: "Bosch und Shimano sind bewährt, Service-Netz i de Schwiiz stimmt. DJI isch spannend — mir behalted's im Auge.",
   },
 ]
 
