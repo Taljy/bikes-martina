@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { ChevronDown, User, MapPin, Gauge, Banknote, Zap, Bike, Mountain, Sparkles, ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import MTBIcon from '@/components/MTBIcon'
 
 const profil = [
   {
@@ -62,7 +61,7 @@ const tiles = [
     route: '/wissen/neuheiten-2026',
   },
   {
-    icon: MTBIcon,
+    icon: Zap,
     titel: "D'Motore im Verglich",
     beschreibung: 'Bosch, Shimano oder DJI? Alli Systeme direkt vergliche.',
     route: '/wissen/motoren',
