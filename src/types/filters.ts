@@ -18,7 +18,7 @@ export const DEFAULTS: Filters = {
   preisMax: 13000,
   motoren: [],
   kategorien: [],
-  federwegMin: 140,
+  federwegMin: 120,
   federwegMax: 180,
   materialien: [],
   gewichtMax: 28,
