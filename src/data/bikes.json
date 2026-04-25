@@ -1917,14 +1917,14 @@
     "hersteller": "Orbea",
     "modell": "Wild H10",
     "modelljahr": 2026,
-    "kategorie": "All-Mountain",
-    "hersteller_url": "https://www.orbea.com/",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": 5999,
-    "preis_eur": 5599,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "kategorie": "Enduro | E-Enduro",
+    "hersteller_url": "https://www.orbea.com",
+    "produktseite_url": "https://www.orbea.com/ch-de/ebikes/mtb/wild/cat/wild-h10",
+    "preis_chf": 4990,
+    "preis_eur": 5499,
+    "preis_quelle_url": "https://www.bikeperfection.ch/produkt/orbea-wild-h10-2/",
     "rahmen": {
-      "material": "Aluminium",
+      "material": "Aluminium (Orbea Wild Hydro High-Polish, gefertigt in Mallabia, Spanien)",
       "groessen_verfuegbar": [
         "S",
         "M",
@@ -1933,81 +1933,153 @@
       ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": 64.5,
-      "sitzwinkel_effektiv_grad": 77,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
     "federweg": {
-      "vorne_mm": 160,
-      "hinten_mm": 150,
-      "gabel_modell": "Fox 36 Float Performance",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "Fox Float X Performance",
-      "daempfer_url": "NOT_SPECIFIED"
+      "vorne_mm": 170,
+      "hinten_mm": 170,
+      "gabel_modell": "Fox 38 Float Performance Grip 170 mm 3-Pos QR15x110",
+      "gabel_url": "https://www.ridefox.com",
+      "daempfer_modell": "Fox Float X Performance Trunnion 2-Pos Evol LV 205x65 mm",
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "Bosch",
-      "modell": "Performance Line CX Gen5",
-      "drehmoment_nm": 100,
-      "leistung_spitze_w": 750,
-      "hersteller_url": "NOT_SPECIFIED"
+      "modell": "Performance Line CX Gen5 (BDU384Y)",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "https://www.bosch-ebike.com"
     },
     "akku": {
-      "kapazitaet_wh": 800,
+      "kapazitaet_wh": 750,
       "wechselbar": true,
-      "range_extender_optional": false
+      "range_extender_optional": true
     },
     "ausstattung": {
-      "schaltung": "Shimano XT 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano XT 4-Kolben",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "Race Face AR Offset",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Maxxis Assegai EXO+",
-      "reifen_hinten": "Maxxis Dissector EXO+",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "Shimano XT M8100 SGS Shadow Plus 12-fach (Schaltwerk) + Shimano Deore M6100 I-Spec EV (Schalthebel)",
+      "schaltung_url": "https://www.shimano.com",
+      "bremsen": "Shimano M6120 Hydraulic Disc 4-Kolben (Deore-Niveau)",
+      "bremsen_url": "https://www.shimano.com",
+      "laufraeder": "DT Swiss H-1900 Spline 30c TLR 15/110 mm 6-Bolt",
+      "reifen_vorne": "Maxxis Minion 29×2.40\" 120 TPI 3CT/EXO",
+      "reifen_hinten": "Maxxis Minion 29×2.40\" 120 TPI",
+      "reifen_url": "https://www.maxxis.com",
+      "cockpit": "OC Mountain Control MC20 Lenker Alu 800 mm + OC MC20 Vorbau 0° + OC MC22 Dropper 31.6 mm"
     },
-    "gewicht_kg": 24.5,
+    "gewicht_kg": null,
     "laufradgroesse": "29",
     "verfuegbarkeit_ch": {
       "haendler": [
-        "Orbea-Händler CH"
+        "bikeperfection.ch (Dietfurt/Toggenburg SG)",
+        "velocorner.ch (St. Gallen)"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Ja, bei bikeperfection.ch in Dietfurt SG",
+      "urls": [
+        "https://www.bikeperfection.ch/produkt/orbea-wild-h10-2/",
+        "https://www.velocorner.ch"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "orbea.com",
+      "shop": "orbea.com / rabe-bike.de",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.orbea.com/ch-de/ebikes/mtb/wild/cat/wild-h10"
     },
     "test_ergebnisse": [
       {
-        "publikation": "bikekompass.de",
-        "bewertung_kurz": "Individualisierbar",
+        "publikation": "Orbea Hersteller-Beschreibung 2026",
+        "bewertung_kurz": "Wild — eines der leichtesten Full-Power-E-Bikes auf dem Markt. 170 mm Federweg vorne und hinten, Geometrie auf Tempo ausgelegt. Bergab fühlt sich Wild wie deine Lieblings-Enduro-Maschine an. EWS-E Series Team-Gesamtsieg.",
         "stärken": [
-          "MyO-Individualisierung",
-          "Ausgewogenes Fahrwerk",
-          "Bosch CX Gen5"
+          "Leichtestes Alu-Enduro-E-MTB",
+          "Fox 38 Gabel",
+          "EWS-E Race-Pedigree"
+        ],
+        "schwaechen": [],
+        "test_url": "https://www.orbea.com",
+        "datum": "2025-09"
+      },
+      {
+        "publikation": "bikeperfection.ch (CH-Händler) Konfiguration",
+        "bewertung_kurz": "Fox 38 Float Performance Grip 170 mm, Fox Float X Performance Trunnion, Shimano XT 12-Gang, Deore M6120 4-Kolben, DT Swiss / OQUO Laufräder, Bosch CX G5 85 Nm, 750 Wh. CHF 4'990. Showroom in Dietfurt/Toggenburg SG.",
+        "stärken": [
+          "Preis-Leistung",
+          "Fox 38",
+          "750 Wh"
         ],
         "schwaechen": [
-          "Alu-Rahmen (höheres Gewicht)",
-          "Lieferzeit durch MyO"
+          "Deore Bremsen"
         ],
-        "test_url": "NOT_SPECIFIED",
-        "datum": "2025-12"
+        "test_url": "https://www.bikeperfection.ch/produkt/orbea-wild-h10-2/",
+        "datum": "2026-04"
       }
     ],
-    "passend_fuer_martina_score": 8,
-    "passend_fuer_martina_begruendung": "Orbea Wild als Alu-Variante mit Bosch CX Gen5. Sehr individualisierbar via MyO-Programm (Farben/Specs bei Bestellung). Für Martina, wenn Konfigurations-Flexibilität reizt.",
-    "warnungen": [],
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Spanischer Geheimtipp mit Top Preis-Leistung: CHF 4'990 bei CH-Händler bikeperfection.ch — Fox 38, 170/170 mm, XT-Schaltwerk, DT Swiss Laufräder UND lebenslange bedingte Rahmen-Garantie. EWS-E Race-Pedigree (Orbea Team Gesamtsieg). Einziger Schwachpunkt: Deore-Bremsen (nachträglich upgradebar ~CHF 400). Score 9 wegen aussergewöhnlichem Preis-Leistungs-Verhältnis und établiertem CH-Händlernetz.",
+    "warnungen": [
+      "Bremsen Shimano M6120 (Deore-Niveau) sind für intensiven Bikepark-Einsatz ein realistisches erstes Upgrade (~CHF 350-500)",
+      "Standard-Konfiguration orbea.com/ch-de hat 600 Wh — bei CH-Händlern ist oft 750 Wh konfiguriert verfügbar",
+      "Aluminium-Rahmen (kein Carbon) — schwerer und weniger steif als Carbon-Konkurrenten",
+      "Gewicht nicht offiziell publiziert — geschätzt 24-25 kg"
+    ],
     "alternativ_zu": [
-      "Cube Stereo Hybrid ONE44",
-      "Canyon Spectral:ON"
-    ]
+      "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+      "canyon-spectral-on-cf-8-2026"
+    ],
+    "badge": null,
+    "referenzbike": false,
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "hinweis": "Mehrere Schweizer Orbea-Händler haben das Wild H10 2026 verfügbar: bikeperfection.ch (Dietfurt/Toggenburg SG) für CHF 4'990 mit 750 Wh, velocorner.ch (St. Gallen) mit Finanzierung ab CHF 227.25/Monat. Direkt-Bestellung via orbea.com/ch-de mit MyO-Konfigurator möglich (Standard 600 Wh, 750 Wh wählbar). Probefahrt bei bikeperfection.ch möglich.",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://www.bikeperfection.ch/produkt/orbea-wild-h10-2/"
+    },
+    "preise": {
+      "uvp_chf": 4990,
+      "sale_chf": null,
+      "sale_haendler": "bikeperfection.ch (Toggenburg SG)",
+      "sale_url": "https://www.bikeperfection.ch/produkt/orbea-wild-h10-2/"
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 6,
+      "bergauf_touren": 7,
+      "bikepark_reserve": 9,
+      "gewicht_handling": 6,
+      "preis_leistung": 9,
+      "service_haendlernetz_ch": 8,
+      "risiko_datenunsicherheit": 8
+    },
+    "bewertung_detail": {
+      "pro": [
+        "TOP Preis-Leistung: CHF 4'990 bei CH-Händler bikeperfection.ch — gleicher Preis wie Cube ONE44 SLX 800, aber Fox 38 (statt Fox 36) und 170/170 mm (statt 160/150 mm)",
+        "Bosch Performance Line CX Gen5 (BDU384Y) — entspricht dem Motor-Wunsch, Performance Update auf 100 Nm via Bosch Flow App möglich",
+        "750 Wh PowerTube Akku in der CH-Standardkonfiguration (Range Extender +250 Wh via MyO optional)",
+        "Fox 38 Float Performance Federgabel 170 mm — die steifste Gabel ihrer Klasse, perfekt für aggressiven Enduro-Einsatz",
+        "Fox Float X Performance Trunnion Dämpfer mit 170 mm Federweg",
+        "Echtes Enduro-Setup: 170 mm vorne UND hinten — mehr Federweg als die meisten Konkurrenten bei diesem Preis",
+        "Shimano XT M8100 SGS Shadow Plus Schaltwerk 12-fach — Premium-Schaltwerk",
+        "DT Swiss H-1900 Spline 30c TLR Laufräder — robuste Marken-Laufräder",
+        "e*thirteen Helix Core Kurbel — Premium-Komponente",
+        "LEBENSLANGE BEDINGTE RAHMEN-GARANTIE für Erstbesitzer (mit Registrierung) — einzigartig in dieser Preisklasse, Cube hat nur 6 Jahre",
+        "Echter EWS-E Race-Pedigree: Orbea Race Team gewann Gesamtwertung der EWS-E Series",
+        "Etabliertes Orbea CH-Händlernetz — Probefahrt und lokaler Service möglich (bikeperfection.ch Toggenburg, velocorner.ch St. Gallen)",
+        "MyO-Konfigurator für individuelle Lackierung und Komponenten-Upgrades — uncommon bei E-MTBs",
+        "Orbea-Rahmen direkt in Mallabia, Spanien gefertigt (nicht China) — Manufaktur-Qualität",
+        "Orbea: älteste Velo-Marke mit langer Geschichte — seit 1969 als Mitarbeiter-Genossenschaft, einzigartige Eigentümerstruktur"
+      ],
+      "contra": [
+        "Aluminium-Rahmen statt Carbon (Cube ONE44 SLX hat Carbon-Hauptrahmen zum gleichen Preis)",
+        "Bremsen Shimano M6120 (Deore-Niveau) — wichtigster Komponenten-Tradeoff, realistisch erstes Upgrade nach Kauf nötig (~CHF 350-500 für SRAM Maven Bronze oder Shimano XT M8120)",
+        "Schalthebel Deore M6100 (nicht XT M8100) — funktioniert, aber weniger präzises Schaltgefühl als volles XT-Setup",
+        "Geschätzt 24–25 kg Gewicht (nicht offiziell publiziert) — schwerer als Carbon-Konkurrenz",
+        "Standard-Display Bosch System Controller (kein Kiox 400C) — Kiox 300 als Option via MyO +CHF 186",
+        "Maxxis Minion 2.40\" Reifen solide, aber kein Race-Niveau wie Continental Kryptotal Soft",
+        "170/170 mm Enduro-Setup ist eher nicht ideal für reine Tour-Ausritte — Bike ist auf Bergab-Performance ausgelegt"
+      ],
+      "fazit": "Spanischer Geheimtipp mit aussergewöhnlichem Preis-Leistungs-Verhältnis. Bei CHF 4'990 (verifiziert bei bikeperfection.ch im Toggenburg) bekommst du Fox 38 — die steifste Gabel ihrer Klasse —, 170/170 mm Enduro-Federweg, Shimano XT-Schaltwerk, DT Swiss Laufräder UND eine lebenslange bedingte Rahmen-Garantie. Plus echter EWS-E Race-Pedigree (Orbea Team gewann die Gesamtwertung). Der einzige echte Schwachpunkt: Deore-Bremsen — realistisch ein Upgrade nach 1-2 Saisons für ~CHF 400. Wenn du Aluminium akzeptierst und mit den Bremsen leben kannst: einer der besten Enduro-Werte in der ganzen Liste. Mehr Federweg und stärkere Gabel als Cube ONE44 SLX 800 zum gleichen Preis. Für Tour-Fahrer: Cube ONE44 SLX (Score 9, Carbon, leichter, weniger aggressiv) ist die bessere Wahl. Für Enduro/Bikepark: Wild H10 ist der unterschätzte Knaller."
+    }
   },
   {
     "id": "yt-decoy-sn-mx-core-3-2026",
