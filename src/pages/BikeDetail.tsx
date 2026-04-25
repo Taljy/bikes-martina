@@ -214,7 +214,7 @@ export default function BikeDetail() {
           <p className="text-sm text-stone-600 leading-relaxed">
             {bike.passend_fuer_martina_begruendung}
           </p>
-          {bike.warnungen.length > 0 && (
+          {(bike.warnungen?.length ?? 0) > 0 && (
             <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 flex gap-3">
               <AlertTriangle size={16} className="text-amber-500 shrink-0 mt-0.5" />
               <div className="space-y-1">
@@ -409,10 +409,10 @@ export default function BikeDetail() {
       </SpecCard>
 
       {/* ── Sektion 4: Tests & Reviews ── */}
-      {bike.test_ergebnisse.length > 0 && (
+      {(bike.test_ergebnisse?.length ?? 0) > 0 && (
         <SpecCard title="Tests & Reviews">
           <div className="space-y-5">
-            {bike.test_ergebnisse.map((test, i) => {
+            {bike.test_ergebnisse!.map((test, i) => {
               const hatTestUrl = test.test_url && test.test_url !== 'NOT_SPECIFIED'
               return (
                 <div key={i} className="border border-stone-100 rounded-lg p-4 space-y-3">
@@ -432,7 +432,7 @@ export default function BikeDetail() {
 
                   {/* Stärken / Schwächen */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-                    {test.stärken.length > 0 && (
+                    {(test.stärken?.length ?? 0) > 0 && (
                       <div className="space-y-1.5">
                         <p className="text-[10px] font-semibold tracking-widest text-stone-400 uppercase mb-2">Stärken</p>
                         {test.stärken.map((s, j) => (
@@ -443,7 +443,7 @@ export default function BikeDetail() {
                         ))}
                       </div>
                     )}
-                    {test.schwaechen.length > 0 && (
+                    {(test.schwaechen?.length ?? 0) > 0 && (
                       <div className="space-y-1.5">
                         <p className="text-[10px] font-semibold tracking-widest text-stone-400 uppercase mb-2">Schwächen</p>
                         {test.schwaechen.map((s, j) => (
@@ -522,7 +522,7 @@ export default function BikeDetail() {
           {/* Direktversand */}
           <div>
             <GroupLabel>Direktversand</GroupLabel>
-            {!bike.verfuegbarkeit_de_direkt.shop || bike.verfuegbarkeit_de_direkt.shop === 'NOT_SPECIFIED' ? (
+            {!bike.verfuegbarkeit_de_direkt?.shop || bike.verfuegbarkeit_de_direkt.shop === 'NOT_SPECIFIED' ? (
               <p className="text-sm text-stone-400 italic">Kein Direktversand bekannt.</p>
             ) : (
               <div className="space-y-1.5">
@@ -553,7 +553,7 @@ export default function BikeDetail() {
       </SpecCard>
 
       {/* ── Sektion 6: Ähnliche Bikes ── */}
-      {bike.alternativ_zu.length > 0 && (
+      {(bike.alternativ_zu?.length ?? 0) > 0 && (
         <SpecCard title="Ähnliche Bikes">
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {bike.alternativ_zu.map(altName => {
