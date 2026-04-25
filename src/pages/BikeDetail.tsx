@@ -1,11 +1,12 @@
 import { useParams, Link, useLocation } from 'react-router-dom'
-import { ArrowLeft, ExternalLink, AlertTriangle, CheckCircle2, AlertCircle, Plus, Check } from 'lucide-react'
+import { ArrowLeft, ExternalLink, AlertTriangle, CheckCircle2, AlertCircle, Plus, Check, XCircle } from 'lucide-react'
 import { Bike } from 'lucide-react'
 import bikesData from '@/data/bikes.json'
 import type { Bike as BikeType } from '@/types/bike'
 import { formatChf, formatEur } from '@/lib/format'
 import SpecCard from '@/components/SpecCard'
 import { useCompare } from '@/context/CompareContext'
+import BewertungRadar from '@/components/BewertungRadar'
 
 const ALL_BIKES = bikesData as BikeType[]
 
@@ -207,8 +208,8 @@ export default function BikeDetail() {
       </div>
 
       {/* ── Sektion 2: Passt zu Martina? ── */}
-      <SpecCard title="Passt zu Martina?">
-        <div className="space-y-4">
+      <SpecCard title={bike.bewertung_detail ? "Passt zu Martina? — Detail-Bewertig" : "Passt zu Martina?"}>
+        <div className="space-y-5">
           <ScoreGauge score={bike.passend_fuer_martina_score} />
           <p className="text-sm text-stone-600 leading-relaxed">
             {bike.passend_fuer_martina_begruendung}
@@ -222,6 +223,74 @@ export default function BikeDetail() {
                 ))}
               </div>
             </div>
+          )}
+
+          {/* Spinnendiagramm */}
+          {bike.bewertung_kategorien && (
+            <>
+              <hr className="border-stone-100" />
+              <div>
+                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-1">
+                  Fähigkeits-Profil (0–10)
+                </p>
+                <BewertungRadar bewertung={bike.bewertung_kategorien} size="md" />
+              </div>
+            </>
+          )}
+
+          {/* Pro-Liste */}
+          {bike.bewertung_detail?.pro && bike.bewertung_detail.pro.length > 0 && (
+            <>
+              <hr className="border-stone-100" />
+              <div>
+                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-3">
+                  Was spricht dafür
+                </p>
+                <ul className="space-y-2">
+                  {bike.bewertung_detail.pro.map((punkt, i) => (
+                    <li key={i} className="flex items-start gap-2.5">
+                      <CheckCircle2 size={15} className="text-green-500 shrink-0 mt-0.5" />
+                      <span className="text-sm text-stone-700 leading-snug">{punkt}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </>
+          )}
+
+          {/* Contra-Liste */}
+          {bike.bewertung_detail?.contra && bike.bewertung_detail.contra.length > 0 && (
+            <>
+              <hr className="border-stone-100" />
+              <div>
+                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-3">
+                  Was spricht degege
+                </p>
+                <ul className="space-y-2">
+                  {bike.bewertung_detail.contra.map((punkt, i) => (
+                    <li key={i} className="flex items-start gap-2.5">
+                      <XCircle size={15} className="text-red-400 shrink-0 mt-0.5" />
+                      <span className="text-sm text-stone-700 leading-snug">{punkt}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </>
+          )}
+
+          {/* Fazit */}
+          {bike.bewertung_detail?.fazit && (
+            <>
+              <hr className="border-stone-100" />
+              <div className="pl-4 border-l-2 border-terracotta-400">
+                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-2">
+                  Sherlocks Fazit
+                </p>
+                <p className="text-sm text-stone-600 leading-relaxed italic">
+                  {bike.bewertung_detail.fazit}
+                </p>
+              </div>
+            </>
           )}
         </div>
       </SpecCard>
