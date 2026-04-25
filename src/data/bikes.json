@@ -435,98 +435,141 @@
     "hersteller": "Canyon",
     "modell": "Neuron:ON AL 9",
     "modelljahr": 2026,
-    "kategorie": "Trail/All-Mountain",
+    "kategorie": "All-Mountain / Trail-Tour",
     "hersteller_url": "https://www.canyon.com/de-ch/",
-    "produktseite_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/neuron-on/",
+    "produktseite_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/neuron-on/al/neuron-on-al-9/4059.html",
     "preis_chf": 5499,
-    "preis_eur": 5499,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "preis_eur": null,
+    "preis_quelle_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/neuron-on/al/neuron-on-al-9/4059.html",
+    "preise": {
+      "uvp_chf": 5499,
+      "sale_chf": null,
+      "sale_haendler": null,
+      "sale_url": null
+    },
     "rahmen": {
       "material": "Aluminium",
-      "groessen_verfuegbar": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "groesse_L_reach_mm": null,
+      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groesse_L_reach_mm": 480,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": 65,
-      "sitzwinkel_effektiv_grad": 77.5,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 71.0,
       "radstand_mm": null,
-      "kettenstrebe_mm": null
+      "kettenstrebe_mm": 455
     },
     "federweg": {
       "vorne_mm": 150,
-      "hinten_mm": 140,
-      "gabel_modell": "RockShox Lyrik",
+      "hinten_mm": 145,
+      "gabel_modell": "RockShox Lyrik Base, 150 mm",
       "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "RockShox Super Deluxe",
+      "daempfer_modell": "RockShox Deluxe Select",
       "daempfer_url": "NOT_SPECIFIED"
     },
     "motor": {
       "hersteller": "Bosch",
       "modell": "Performance Line CX Gen5",
-      "drehmoment_nm": 100,
-      "leistung_spitze_w": 750,
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
       "hersteller_url": "NOT_SPECIFIED"
     },
     "akku": {
       "kapazitaet_wh": 800,
       "wechselbar": true,
-      "range_extender_optional": false
+      "range_extender_optional": true
     },
     "ausstattung": {
-      "schaltung": "SRAM GX AXS Transmission",
+      "schaltung": "SRAM S1000 AXS Eagle Transmission 12-fach",
       "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "SRAM Code Bronze",
+      "bremsen": "SRAM DB8 Stealth 4-Kolben 200 mm",
       "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "DT Swiss HX 1700",
+      "laufraeder": "DT Swiss H1900 LS",
       "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Schwalbe Hans Dampf 2.4",
-      "reifen_hinten": "Schwalbe Hans Dampf 2.4",
+      "reifen_vorne": "Schwalbe Magic Mary Addix Soft",
+      "reifen_hinten": "Schwalbe Hans Dampf Addix Speed Grip",
       "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "cockpit": "Bosch Kiox 300 + Connect Modul 3100"
     },
     "gewicht_kg": 24.9,
-    "laufradgroesse": "29",
+    "laufradgroesse": "29\"",
     "verfuegbarkeit_ch": {
-      "haendler": [
-        "Canyon Direktversand"
-      ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "haendler": ["canyon.com (Direct-to-Consumer)"],
+      "probefahrt_moeglich": "Ja",
+      "urls": ["https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/neuron-on/al/neuron-on-al-9/4059.html"]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "canyon.com",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/neuron-on/al/neuron-on-al-9/4059.html"
     },
     "test_ergebnisse": [
       {
-        "publikation": "bike-magazin.de",
-        "bewertung_kurz": "All-Mountain-Allrounder",
-        "stärken": [
-          "Bosch CX Gen5",
-          "SRAM AXS elektronisch",
-          "800 Wh wechselbar",
-          "Top Direktversand-Preis"
-        ],
-        "schwaechen": [
-          "Alu-Rahmen (Gewicht ~25 kg)",
-          "Keine CH-Probefahrt möglich"
-        ],
+        "publikation": "BIKE Magazin Test (September 2025)",
+        "bewertung_kurz": "Komfortorientierter Allrounder, der Alltagseinsätze und Trail-Touren souverän meistert. Moderne Ausstattung, passables Gewicht, komfortable Sitzposition. Aber: bietet im extremen Gelände nicht die dicksten Reserven.",
+        "stärken": ["Komfort auf langen Touren", "Bosch Gen5", "SRAM AXS elektronisch", "800 Wh entnehmbar"],
+        "schwaechen": ["Kein Bikepark-Material", "Alu-Gewicht ~25 kg"],
         "test_url": "NOT_SPECIFIED",
-        "datum": "2025-04"
+        "datum": "2025-09"
+      },
+      {
+        "publikation": "EMTB-News Test (März 2025)",
+        "bewertung_kurz": "Guter Kletterer, gleitet glatt und einfach über Hindernisse. Gewicht lädt nicht zum Spielen ein, aber macht Spass schnell über die Trails zu düsen. Auf Tour überzeugt die komfortable Sitzposition.",
+        "stärken": ["Bergaufstärke", "Komfortsitzposition", "Smooth over obstacles"],
+        "schwaechen": ["Gewicht limitiert Spielfreude", "Canyon DTC Service"],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2025-03"
       }
     ],
-    "passend_fuer_martina_score": 9,
-    "passend_fuer_martina_begruendung": "Canyon-Direktversand-Klassiker, jetzt mit Bosch CX Gen5 und elektronischer SRAM AXS Transmission. Alu-Rahmen etwas schwerer, aber dafür sehr robust und Preis fair. Für Martina ideal als Allrounder.",
-    "warnungen": [],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Solides Tour-/Trail-E-Bike mit Bosch Gen5, 800 Wh und elektronischer SRAM AXS Schaltung. Klar für lange Touren konzipiert. Aber 24.9 kg Alu-Gewicht und CHF 5'499 UVP sind schwer zu rechtfertigen wenn Cube ONE44 SLX 800 für CHF 500 weniger einen Carbon-Rahmen bietet. Service-Risiko bei Canyon real und dokumentiert.",
+    "warnungen": [
+      "Canyon-Service-Probleme dokumentiert: Torque:ON Akku-Recall mit 5+ Monate Wartezeit, Strive:ON Garantiefälle mit 8+ Monate Wartezeit (Forum-Reports 2025). DTC-Modell wird zur Schwachstelle bei Defekten.",
+      "24.9 kg für ein Alu-Bike bei CHF 5'499 — Cube ONE44 SLX 800 bietet Carbon für CHF 500 weniger."
+    ],
     "alternativ_zu": [
-      "Cube Stereo Hybrid ONE44 HPC SLX 800",
-      "Focus JAM² 6.8"
-    ]
+      "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+      "canyon-spectral-on-cf-8-2026"
+    ],
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "hinweis": "Direkt bei canyon.com bestellbar in zwei Farbvarianten. Aktuell kein Sale-Preis (UVP CHF 5'499). Verfügbarkeit pro Grösse vor Bestellung auf canyon.com checken.",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://www.canyon.com/en-ch/electric-bikes/electric-mountain-bikes/neuron-on/al/neuron-on-al-9/4059.html"
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 7,
+      "einsteigerfreundlichkeit": 8,
+      "bergauf_touren": 9,
+      "bikepark_reserve": 5,
+      "gewicht_handling": 5,
+      "preis_leistung": 7,
+      "service_haendlernetz_ch": 5,
+      "risiko_datenunsicherheit": 7
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Bosch Performance CX Gen5 (85 Nm) — entspricht deinem Motor-Wunsch",
+        "800 Wh PowerTube Akku, entnehmbar — exzellente Reichweite",
+        "Range Extender 250 Wh als Zubehör → bis 1'050 Wh Gesamtkapazität für lange Alpentouren",
+        "SRAM S1000 AXS Eagle Transmission — elektronisches Schalten als Premium-Feature für den Preis",
+        "DT Swiss H1900 LS Laufräder — robust und etabliert",
+        "Schwalbe Magic Mary Soft vorne — exzellenter Grip in jedem Gelände",
+        "Erhöhter Stack — komfortable, aufrechte Sitzposition für lange Touren, weniger Belastung für Schultern und Nacken",
+        "Bosch Kiox 300 + Connect Modul — Anti-Theft, Navigation, Flow App",
+        "64.5° Lenkwinkel + 455 mm Kettenstrebe — stabiles Trail-Handling",
+        "6 Jahre Rahmen-Garantie (Canyon-Standard)",
+        "Klassisches All-Mountain-Setup, perfekt abgestimmt auf gemischtes Tour/Trail-Profil"
+      ],
+      "contra": [
+        "24.9 kg in Grösse L mit 800 Wh — eines der schwersten E-MTBs in deiner Liste, schwerer als Cube ONE44 (24.3 kg) und deutlich schwerer als AMFLOW (19.2 kg)",
+        "Aluminium-Rahmen statt Carbon — bei UVP CHF 5'499 nicht überzeugend, weil Cube ONE44 SLX 800 für CHF 4'999 UVP einen Carbon-Rahmen mit ähnlichen Specs bietet",
+        "Kategorie 3 (nicht 4 wie Spectral:ON CF 8) — weniger Reserve für Bikepark und aggressives Fahren",
+        "145 mm Heck-Federweg — klassisches Tour-Bike-Niveau, kein Bikepark-Material",
+        "Canyon-Service-Probleme dokumentiert: Torque:ON Akku-Recall mit über 5 Monaten Wartezeit für Ersatz-Akkus, Strive:ON Garantiefälle mit über 8 Monaten Wartezeit (Forum-Reports März-Mai 2025) — das DTC-Modell wird zur Schwachstelle bei Defekten",
+        "Direct-to-Consumer = bei Service alles via Versand zu Canyon Koblenz",
+        "Reach M nur ca. 445 mm — Tester mit 1.80 m Körpergrösse fand Grösse M 'tad small'. L mit Reach 480 mm wahrscheinlich passender für dich, aber ohne Probefahrt nicht eindeutig"
+      ],
+      "fazit": "Solides, komfortabel ausgelegtes Tour-/Trail-E-Bike mit Bosch Gen5 und 800 Wh — klar für lange Touren konzipiert, weniger für Bikepark. Die elektronische SRAM AXS-Schaltung ist ein cooles Premium-Feature. Aber 24.9 kg sind viel für ein Aluminium-Bike, und im direkten Vergleich macht Cube ONE44 SLX 800 für CHF 500 weniger das gleiche in Carbon. Service-Risiko bei Canyon ist real und dokumentiert. Wenn dein Fokus klar Tour ist und SRAM AXS dir wichtig ist: OK. Sonst gibt es bessere Alternativen in dieser Liste."
+    }
   },
   {
     "id": "focus-jam2-69-2026",

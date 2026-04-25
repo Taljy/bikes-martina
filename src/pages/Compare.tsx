@@ -10,7 +10,7 @@ import {
   ResponsiveContainer,
 } from 'recharts'
 import bikesData from '@/data/bikes.json'
-import type { Bike as BikeType } from '@/types/bike'
+import type { Bike as BikeType, BewertungKategorien } from '@/types/bike'
 import { formatChf, formatEur, motorKurzname } from '@/lib/format'
 import { useCompare } from '@/context/CompareContext'
 
@@ -60,6 +60,86 @@ function buildRadarData(bikes: BikeType[]) {
     })
     return row
   })
+}
+
+// ── Bewertungs-Radar (kurierte Werte) ─────────────────────
+
+const BEWERTUNG_ACHSEN: { key: keyof BewertungKategorien; label: string }[] = [
+  { key: 'geometrie_rahmengroesse',  label: 'Rahmegrössi'         },
+  { key: 'einsteigerfreundlichkeit', label: 'Einsteiger-tauglich' },
+  { key: 'bergauf_touren',           label: 'Bergauf / Toure'     },
+  { key: 'bikepark_reserve',         label: 'Bikepark-Reserve'    },
+  { key: 'gewicht_handling',         label: 'Gwicht / Handling'   },
+  { key: 'preis_leistung',           label: 'Priis-Leistig'       },
+  { key: 'service_haendlernetz_ch',  label: 'Service CH'          },
+  { key: 'risiko_datenunsicherheit', label: 'Date-Sicherheit'     },
+]
+
+function buildBewertungRadarData(bikes: BikeType[]) {
+  return BEWERTUNG_ACHSEN.map(({ key, label }) => {
+    const row: Record<string, string | number> = { achse: label }
+    bikes.forEach((b, i) => {
+      row[`bike${i}`] = b.bewertung_kategorien![key]
+    })
+    return row
+  })
+}
+
+function BewertungVergleichRadar({ bikes }: { bikes: BikeType[] }) {
+  const data = useMemo(() => buildBewertungRadarData(bikes), [bikes])
+
+  return (
+    <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
+      <div className="px-6 py-3 border-b border-stone-100 bg-stone-50">
+        <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase">
+          Bewertung im Überblick
+        </p>
+      </div>
+      <div className="px-6 py-6">
+        <ResponsiveContainer width="100%" height={320}>
+          <RadarChart data={data} margin={{ top: 10, right: 30, bottom: 10, left: 30 }}>
+            <PolarGrid stroke="#e7e5e4" />
+            <PolarAngleAxis
+              dataKey="achse"
+              tick={{ fontSize: 12, fill: '#78716c' }}
+            />
+            <PolarRadiusAxis
+              angle={90}
+              domain={[0, 10]}
+              tickCount={6}
+              tick={{ fontSize: 10, fill: '#a8a29e' }}
+              tickFormatter={v => v === 0 ? '' : String(v)}
+            />
+            {bikes.map((_, i) => (
+              <Radar
+                key={i}
+                name={`bike${i}`}
+                dataKey={`bike${i}`}
+                stroke={BIKE_COLORS[i]}
+                fill={BIKE_COLORS[i]}
+                fillOpacity={0.15}
+                strokeWidth={2}
+              />
+            ))}
+          </RadarChart>
+        </ResponsiveContainer>
+
+        <div className="flex flex-wrap justify-center gap-5 mt-2">
+          {bikes.map((bike, i) => (
+            <div key={bike.id} className="flex items-center gap-2">
+              <span
+                className="w-3 h-3 rounded-full shrink-0"
+                style={{ backgroundColor: BIKE_COLORS[i] }}
+              />
+              <span className="text-xs text-stone-600">
+                {bike.hersteller} {bike.modell}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  )
 }
 
 // ── Radar-Chart-Komponente ────────────────────────────────
@@ -387,6 +467,11 @@ export default function Compare() {
 
       {/* Radar-Chart */}
       {bikes.length >= 1 && <BikeRadarChart bikes={bikes} />}
+
+      {/* Bewertungs-Radar — nur wenn ALLE verglichenen Bikes kurierte Werte haben */}
+      {bikes.length >= 1 && bikes.every(b => b.bewertung_kategorien) && (
+        <BewertungVergleichRadar bikes={bikes} />
+      )}
 
       {/* Vergleichs-Tabelle */}
       {bikes.length >= 1 && (
