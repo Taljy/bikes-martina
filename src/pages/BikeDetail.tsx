@@ -153,7 +153,7 @@ export default function BikeDetail() {
               <img
                 src={bike.bild_pfad}
                 alt={`${bike.hersteller} ${bike.modell}`}
-                className="w-full h-full object-contain mix-blend-multiply"
+                className="w-full h-full object-contain"
                 loading="eager"
                 onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
               />
@@ -471,7 +471,7 @@ export default function BikeDetail() {
                         <img
                           src={match.bild_pfad}
                           alt={`${match.hersteller} ${match.modell}`}
-                          className="w-full h-full object-contain mix-blend-multiply"
+                          className="w-full h-full object-contain"
                           loading="lazy"
                           onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
                         />

@@ -240,7 +240,7 @@ function BikeHeaderCard({ bike, onRemove }: { bike: BikeType; onRemove: () => vo
           <img
             src={bike.bild_pfad}
             alt={`${bike.hersteller} ${bike.modell}`}
-            className="w-full h-full object-contain mix-blend-multiply"
+            className="w-full h-full object-contain"
             loading="lazy"
             onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
           />
