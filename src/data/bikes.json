@@ -1643,41 +1643,41 @@
     "hersteller": "Haibike",
     "modell": "Hybe CF 9",
     "modelljahr": 2026,
-    "kategorie": "All-Mountain",
-    "hersteller_url": "https://www.haibike.com/",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": 5490,
-    "preis_eur": 5199,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "kategorie": "Enduro | Race",
+    "hersteller_url": "https://www.haibike.com",
+    "produktseite_url": "https://www.haibike.com/ch-de/p/hybe-cf-9-hmst1/",
+    "preis_chf": 7499,
+    "preis_eur": 7499,
+    "preis_quelle_url": "https://www.haibike.com/ch-de/p/hybe-cf-9-hmst1/",
     "rahmen": {
-      "material": "Carbon",
+      "material": "Vollcarbon (innovative Motor-Rahmen-Integration, Motor von oben eingesetzt)",
       "groessen_verfuegbar": [
-        "S",
-        "M",
-        "L",
-        "XL"
+        "S (40 cm)",
+        "M (43 cm)",
+        "L (46 cm)",
+        "XL (49 cm)"
       ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
-      "sitzwinkel_effektiv_grad": 77.5,
+      "sitzwinkel_effektiv_grad": null,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
     "federweg": {
-      "vorne_mm": 150,
-      "hinten_mm": 150,
-      "gabel_modell": "RockShox Lyrik Select+",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "RockShox Super Deluxe Select+",
-      "daempfer_url": "NOT_SPECIFIED"
+      "vorne_mm": 170,
+      "hinten_mm": 160,
+      "gabel_modell": "RockShox ZEB Base Rush RC 170 mm",
+      "gabel_url": "https://www.sram.com/rockshox",
+      "daempfer_modell": "RockShox Super Deluxe Select",
+      "daempfer_url": "https://www.sram.com/rockshox"
     },
     "motor": {
       "hersteller": "Bosch",
-      "modell": "Performance Line CX Gen5",
-      "drehmoment_nm": 100,
-      "leistung_spitze_w": 750,
-      "hersteller_url": "NOT_SPECIFIED"
+      "modell": "Performance Line CX Gen5 (BDU384Y)",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "https://www.bosch-ebike.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -1685,55 +1685,125 @@
       "range_extender_optional": false
     },
     "ausstattung": {
-      "schaltung": "SRAM GX Eagle AXS",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "SRAM Code R",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "DT Swiss H 1900",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Maxxis Assegai EXO+",
-      "reifen_hinten": "Maxxis Dissector EXO+",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "SRAM S1000 Eagle Transmission AXS 12-fach (elektronisch, Wireless)",
+      "schaltung_url": "https://www.sram.com",
+      "bremsen": "SRAM DB Maven Bronze 4-Kolben 220 mm / 200 mm",
+      "bremsen_url": "https://www.sram.com",
+      "laufraeder": "XLC HF-M55 Boost (Hausmarke)",
+      "reifen_vorne": "Continental Kryptotal-Fr Enduro Soft 29×2.5\" (60-622)",
+      "reifen_hinten": "Continental Kryptotal-Re Enduro Casing 27.5×2.6\" (65-584)",
+      "reifen_url": "https://www.continental-tires.com",
+      "cockpit": "Haibike Flat bar TheBar++ + XLC ST-M50 Vorbau 40 mm + XLC Dropper SP-T21 34.9 mm + AXS Pod Controller"
     },
-    "gewicht_kg": 23.5,
+    "gewicht_kg": 23.4,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
-        "m-way.ch"
+        "Haibike-CH-Händlernetz vorhanden — aktuelle Verfügbarkeit pro Grösse direkt beim Händler anfragen"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Bei lokalen Haibike-Händlern — aktuelle Lagerbestände direkt anfragen",
+      "urls": [
+        "https://www.haibike.com/ch-de/p/hybe-cf-9-hmst1/"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "haibike.com",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.haibike.com/de-de/p/hybe-cf-9-hmst1/"
     },
     "test_ergebnisse": [
       {
-        "publikation": "emtb-news.de",
-        "bewertung_kurz": "Upgrade-Launch 2026",
+        "publikation": "emtb-news.de Test 2025 (Hybe CF MY2025, gleiche Plattform)",
+        "bewertung_kurz": "Vollkommen neu entwickelt, mit cleveren Details. 23,4 kg in Grösse L. Komfortabler Hinterbau. Solide Fahreigenschaften, breiter Einsatzbereich mit vielen Reserven, durchdachte hochwertige Ausstattung.",
         "stärken": [
-          "Bosch CX-R (stärker als CX)",
-          "Carbon-Rahmen",
-          "SRAM AXS drahtlos"
+          "Cleanes Cockpit mit AXS Funk",
+          "Innovative Motor-Integration",
+          "Komfortabler Hinterbau"
         ],
         "schwaechen": [
-          "CX-R aggressiver (Eingewöhnung)",
-          "Haibike-Design nicht jedermanns Geschmack"
+          "Service-Beschwerden bei Haibike",
+          "Gewicht"
         ],
-        "test_url": "NOT_SPECIFIED",
-        "datum": "2026-02"
+        "test_url": "https://www.emtb-news.de",
+        "datum": "2025-09"
+      },
+      {
+        "publikation": "Hersteller Race-Pedigree",
+        "bewertung_kurz": "Tom Öhler Weltrekord 2025: 15 Gipfel in 14 Stunden (RID-zertifiziert). Anna Spielmann: UCI Mountain Bike World Championships Sieg. Andrea Garibbo: European E-MTB Enduro Tour Sieg.",
+        "stärken": [
+          "Weltrekord-Bike",
+          "UCI-Sieger",
+          "Enduro-Champion"
+        ],
+        "schwaechen": [],
+        "test_url": "https://www.haibike.com",
+        "datum": "2025-01"
       }
     ],
-    "passend_fuer_martina_score": 8,
-    "passend_fuer_martina_begruendung": "Upgrade mit Bosch CX-R Motor (Race-Ableger). Carbon-Rahmen, SRAM AXS Funkschaltung. Motor etwas aggressiver in Beschleunigung — für Martina reizvoll, wenn sie gerne kräftig pedaliert.",
-    "warnungen": [],
+    "passend_fuer_martina_score": 7,
+    "passend_fuer_martina_begruendung": "Echtes Race-Enduro-Bike mit Vollcarbon, Race-Pedigree (Weltrekord!) und guten Specs. ABER: Aktuell alle Grössen auf haibike.com/ch-de ausverkauft. Und Magazintest-Kommentar September 2025 dokumentiert Service-Probleme. Score 7 konsistent mit Santa Cruz Vala (auch 7 wegen Verfügbarkeits- und Risikofaktoren) — Bike-Qualität wäre höher, aber Verfügbarkeits- und Service-Realität drücken den Score.",
+    "warnungen": [
+      "AKTUELL AUSVERKAUFT: Alle Grössen auf haibike.com/ch-de (Stand 2026-04-25) als 'sold out' gelistet",
+      "Magazintest-Kommentar emtb-news September 2025: Service-Beschwerden bei Haibike dokumentiert",
+      "64.5° Lenkwinkel + 170 mm Federweg = aggressiv, eher für erfahrene Rider",
+      "23,4 kg — trotz Vollcarbon nicht leichter als erwartet"
+    ],
     "alternativ_zu": [
-      "Cube Stereo Hybrid ONE44",
-      "Focus JAM² 6.9"
-    ]
+      "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+      "canyon-spectral-on-cf-8-2026"
+    ],
+    "badge": null,
+    "referenzbike": false,
+    "verfuegbarkeit": {
+      "status": "ausverkauft",
+      "hinweis": "Auf der offiziellen Haibike Schweiz Website (haibike.com/ch-de) sind aktuell alle Grössen (S, M, L, XL) als 'sold out or unavailable' gelistet. Lokale CH-Händler haben teilweise Vorgänger-Modelle oder andere Hybe-Varianten. Vor Kauf direkten Kontakt mit Haibike-CH-Händler aufnehmen. Achtung: Magazintest-Kommentare dokumentieren Service-Beschwerden bei Haibike (Stand September 2025).",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://www.haibike.com/ch-de/p/hybe-cf-9-hmst1/"
+    },
+    "preise": {
+      "uvp_chf": 7499,
+      "sale_chf": null,
+      "sale_haendler": null,
+      "sale_url": null
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 5,
+      "bergauf_touren": 7,
+      "bikepark_reserve": 9,
+      "gewicht_handling": 6,
+      "preis_leistung": 7,
+      "service_haendlernetz_ch": 4,
+      "risiko_datenunsicherheit": 5
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Vollcarbon-Frame mit innovativer Motor-Rahmen-Integration — Motor von oben eingesetzt für tiefsten Schwerpunkt",
+        "Bosch Performance CX Gen5 (BDU384Y) — entspricht dem Motor-Wunsch, Performance Update auf 100 Nm via Flow App möglich",
+        "800 Wh PowerTube Akku, entnehmbar ohne Öffnen des Unterrohrs",
+        "Bosch Kiox 400C Display im Oberrohr versenkt (NEU für 2026) + AXS Pod Controller",
+        "170/160 mm Federweg — Enduro-Niveau mit viel Bikepark-Reserve",
+        "SRAM S1000 Eagle Transmission AXS elektronisch — Wireless-Schaltung",
+        "SRAM DB Maven Bronze 4-Kolben mit 220/200 mm — starke Bremspower",
+        "Continental Kryptotal-Fr/Re Enduro Soft Reifen — Race-Niveau Grip",
+        "Mullet Setup (29\"/27.5\") — optimale Traktion bergauf, maximale Beweglichkeit bergab",
+        "Echter Race-Pedigree: Tom Öhler Weltrekord (15 Gipfel in 14 Stunden, RID-zertifiziert), Anna Spielmann UCI-Sieger, Andrea Garibbo European E-MTB Enduro Tour Sieger",
+        "Etablierte deutsche Marke seit 1995 — E-Bike-Pionier mit erstem Bosch-E-MTB",
+        "emtb-news 2025: 'Cleanes Cockpit dank SRAM AXS Funk, komfortabler Hinterbau, breiter Einsatzbereich'",
+        "Progressive Kinematik mit Viergelenk-Hinterbau — gutes Feedback am Lenker"
+      ],
+      "contra": [
+        "AKTUELL AUSVERKAUFT: Alle Grössen auf der offiziellen Haibike Schweiz Website als 'sold out' gelistet",
+        "Magazintest-Kommentar emtb-news September 2025: 'Wenn nur der Support von dem Schuppen nicht so ne Vollkatastrophe wäre' — Service-Beschwerden dokumentiert",
+        "23,4 kg in Grösse L — schwerer als erwartet für Vollcarbon (zum Vergleich: Canyon Spectral CF 8 mit Vollcarbon nur 23 kg)",
+        "RockShox ZEB Base Rush RC — leichtes Downgrade gegenüber Vorgänger (ZEB Select Charger RC)",
+        "SRAM Maven BRONZE — Einstiegsvariante der Maven-Familie (Silver beim Cube AT 800, Ultimate beim CF 11)",
+        "64.5° Lenkwinkel + 170 mm Federweg = aggressive Enduro-Geometrie, nicht ideal für Tour-Fahrer",
+        "XLC Hausmarken-Laufräder, Vorbau und Sattelstütze — keine Premium-Marken wie DT Swiss oder OneUp",
+        "Kein Carbon-Lenker (erst beim CF 11 dabei)"
+      ],
+      "fazit": "Echtes Race-Enduro-Bike mit Vollcarbon-Frame, 170/160 mm Federweg und glaubwürdigem Race-Pedigree — Tom Öhler hat mit dem HYBE CF einen Weltrekord aufgestellt, Anna Spielmann gewann die UCI Worlds. Bosch Gen5, 800 Wh und AXS-Schaltung sind stark. ABER: Aktuell sind alle Grössen auf haibike.com/ch-de ausverkauft — und Magazin-Kommentare September 2025 dokumentieren Service-Beschwerden bei Haibike. Wenn du Glück hast und ein CH-Händler hat Lager: Top Enduro-Bike. Sonst gibt es Alternativen mit besserer Verfügbarkeit und Service: Cube ONE44 SLX 800 (Score 9, günstiger, riesiges CH-Händlernetz) oder Canyon Spectral:ON CF 8 (Score 9, Vollcarbon, im Sale). Score 7 reflektiert die Verfügbarkeits- und Service-Realität, nicht die Bike-Qualität."
+    }
   },
   {
     "id": "rose-root-miller-plus-3-2026",
