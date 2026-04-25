@@ -7,6 +7,7 @@ interface Props {
   onChange: (f: Filters) => void
   filtered: number
   total: number
+  alleJahre: number[]
 }
 
 const MOTOR_OPTIONS = [
@@ -103,7 +104,7 @@ function Divider() {
   return <hr className="border-stone-100" />
 }
 
-export default function FilterSidebar({ filters, onChange, filtered, total }: Props) {
+export default function FilterSidebar({ filters, onChange, filtered, total, alleJahre }: Props) {
   const set = (partial: Partial<Filters>) => onChange({ ...filters, ...partial })
 
   function toggleMulti(field: 'motoren' | 'kategorien' | 'materialien' | 'laufraeder', key: string) {
@@ -123,6 +124,7 @@ export default function FilterSidebar({ filters, onChange, filtered, total }: Pr
     filters.materialien.length === 0 &&
     filters.gewichtMax === DEFAULTS.gewichtMax &&
     filters.laufraeder.length === 0 &&
+    filters.jahrgaenge.length === 0 &&
     !filters.nurBudget &&
     !filters.nurScoreMin7
 
@@ -244,6 +246,35 @@ export default function FilterSidebar({ filters, onChange, filtered, total }: Pr
       </div>
 
       <Divider />
+
+      {/* Modelljahr */}
+      {alleJahre.length > 1 && (
+        <div>
+          <SectionLabel>Modelljahr</SectionLabel>
+          <div className="space-y-2">
+            {alleJahre.map(jahr => (
+              <label key={jahr} className="flex items-center gap-2.5 cursor-pointer group">
+                <input
+                  type="checkbox"
+                  checked={filters.jahrgaenge.includes(jahr)}
+                  onChange={() => {
+                    const next = filters.jahrgaenge.includes(jahr)
+                      ? filters.jahrgaenge.filter(j => j !== jahr)
+                      : [...filters.jahrgaenge, jahr]
+                    set({ jahrgaenge: next })
+                  }}
+                  className="w-3.5 h-3.5 rounded border-stone-300 accent-terracotta-500 cursor-pointer"
+                />
+                <span className="text-sm text-stone-600 group-hover:text-stone-900 transition-colors">
+                  {jahr}
+                </span>
+              </label>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {alleJahre.length > 1 && <Divider />}
 
       {/* Toggles */}
       <div className="space-y-3">

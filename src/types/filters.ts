@@ -8,6 +8,7 @@ export interface Filters {
   materialien: string[]  // 'carbon' | 'alu'
   gewichtMax: number
   laufraeder: string[]   // '29' | 'mx' | '27.5'
+  jahrgaenge: number[]   // e.g. [2025, 2026]
   nurBudget: boolean
   nurScoreMin7: boolean
   sort: string
@@ -23,6 +24,7 @@ export const DEFAULTS: Filters = {
   materialien: [],
   gewichtMax: 28,
   laufraeder: [],
+  jahrgaenge: [],
   nurBudget: false,
   nurScoreMin7: false,
   sort: 'score-desc',
@@ -39,6 +41,7 @@ export function parseFilters(params: URLSearchParams): Filters {
     materialien: params.get('mat')?.split(',').filter(Boolean) ?? [],
     gewichtMax: Number(params.get('kg_max') ?? DEFAULTS.gewichtMax),
     laufraeder: params.get('rad')?.split(',').filter(Boolean) ?? [],
+    jahrgaenge: params.get('jahr')?.split(',').filter(Boolean).map(Number) ?? [],
     nurBudget: params.get('budget') === '1',
     nurScoreMin7: params.get('score7') === '1',
     sort: params.get('sort') ?? DEFAULTS.sort,
@@ -56,6 +59,7 @@ export function filtersToParams(f: Filters): Record<string, string> {
   if (f.materialien.length) p.mat = f.materialien.join(',')
   if (f.gewichtMax !== DEFAULTS.gewichtMax) p.kg_max = String(f.gewichtMax)
   if (f.laufraeder.length) p.rad = f.laufraeder.join(',')
+  if (f.jahrgaenge.length) p.jahr = f.jahrgaenge.join(',')
   if (f.nurBudget) p.budget = '1'
   if (f.nurScoreMin7) p.score7 = '1'
   if (f.sort !== DEFAULTS.sort) p.sort = f.sort

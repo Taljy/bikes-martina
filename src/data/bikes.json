@@ -2324,5 +2324,293 @@
     "alternativ_zu": [],
     "referenzbike": true,
     "badge": "Mis Bike"
+  },
+  {
+    "id": "commencal-meta-power-tr-ride-2026",
+    "bild_pfad": null,
+    "hersteller": "Commencal",
+    "modell": "Meta Power TR Ride",
+    "modelljahr": 2026,
+    "kategorie": "Trail",
+    "hersteller_url": "https://www.commencal-store.com/",
+    "produktseite_url": "https://www.commencal-store.com/meta-power-tr",
+    "preis_chf": null,
+    "preis_eur": 4500,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Alu",
+      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groesse_L_reach_mm": 460,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 65.5,
+      "sitzwinkel_effektiv_grad": 76.5,
+      "radstand_mm": null,
+      "kettenstrebe_mm": 440
+    },
+    "federweg": {
+      "vorne_mm": 150,
+      "hinten_mm": 140,
+      "gabel_modell": "RockShox Pike Select",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "RockShox Deluxe Select",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 625,
+      "wechselbar": false,
+      "range_extender_optional": true
+    },
+    "ausstattung": {
+      "schaltung": "Shimano Deore 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano MT420 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "29\"",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Minion DHF 2.5",
+      "reifen_hinten": "Maxxis Minion DHR II 2.4",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "Commencal Bar 800mm"
+    },
+    "gewicht_kg": 23.5,
+    "laufradgroesse": "29\"",
+    "verfuegbarkeit_ch": {
+      "haendler": ["commencal-store.com"],
+      "probefahrt_moeglich": "Nein",
+      "urls": ["https://www.commencal-store.com/meta-power-tr"]
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "commencal-store.com",
+      "lieferzeit_tage": null,
+      "url": "https://www.commencal-store.com/meta-power-tr"
+    },
+    "test_ergebnisse": [],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Starkes Preis-Leistungs-Verhältnis: Bosch CX Gen5 mit 100 Nm, 150/140 mm Federweg und 29\" Laufräder für CHF ~4'725. Für Martinas Trail- und Alpeneinsatz ideal — leichter als viele Konkurrenten und günstiger als die meisten Vergleichsmodelle.",
+    "warnungen": ["Kein CHF-Preis — muss direkt bei Commencal bestellt werden, kein Schweizer Fachhändler."],
+    "alternativ_zu": []
+  },
+  {
+    "id": "commencal-meta-power-sx-2026",
+    "bild_pfad": null,
+    "hersteller": "Commencal",
+    "modell": "Meta Power SX",
+    "modelljahr": 2026,
+    "kategorie": "Enduro",
+    "hersteller_url": "https://www.commencal-store.com/",
+    "produktseite_url": "https://www.commencal-store.com/meta-power-sx",
+    "preis_chf": null,
+    "preis_eur": 5000,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Alu",
+      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groesse_L_reach_mm": 480,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 63.5,
+      "sitzwinkel_effektiv_grad": 77.0,
+      "radstand_mm": null,
+      "kettenstrebe_mm": 445
+    },
+    "federweg": {
+      "vorne_mm": 170,
+      "hinten_mm": 165,
+      "gabel_modell": "RockShox Lyrik Select",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "RockShox Super Deluxe Select",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Bosch",
+      "modell": "Performance Line CX Gen5",
+      "drehmoment_nm": 100,
+      "leistung_spitze_w": 750,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 625,
+      "wechselbar": false,
+      "range_extender_optional": true
+    },
+    "ausstattung": {
+      "schaltung": "Shimano Deore 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano MT520 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "MX (Mullet)",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Assegai 2.5",
+      "reifen_hinten": "Maxxis Minion DHR II 2.4",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "Commencal Bar 800mm"
+    },
+    "gewicht_kg": 24.8,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": ["commencal-store.com"],
+      "probefahrt_moeglich": "Nein",
+      "urls": ["https://www.commencal-store.com/meta-power-sx"]
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "commencal-store.com",
+      "lieferzeit_tage": null,
+      "url": "https://www.commencal-store.com/meta-power-sx"
+    },
+    "test_ergebnisse": [],
+    "passend_fuer_martina_score": 6,
+    "passend_fuer_martina_begruendung": "Klarer Enduro-Charakter mit 170/165 mm Federweg — etwas zu viel für Martinas Einsatzprofil (Trail + Alpen). Bosch CX Gen5 und MX-Bereifung sind top, aber das Gewicht und die Enduro-Geometrie passen besser zu Bikepark-Fahrern.",
+    "warnungen": ["170 mm Federweg überdimensioniert für Trail/Alpen-Einsatz.", "Kein Schweizer Händler."],
+    "alternativ_zu": ["commencal-meta-power-tr-ride-2026"]
+  },
+  {
+    "id": "santa-cruz-heckler-mx-2026",
+    "bild_pfad": null,
+    "hersteller": "Santa Cruz",
+    "modell": "Heckler MX",
+    "modelljahr": 2026,
+    "kategorie": "All-Mountain",
+    "hersteller_url": "https://www.santacruzbicycles.com/",
+    "produktseite_url": "https://www.santacruzbicycles.com/en-US/heckler",
+    "preis_chf": null,
+    "preis_eur": 7000,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groesse_L_reach_mm": 468,
+      "groesse_L_stack_mm": 626,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 77.5,
+      "radstand_mm": 1218,
+      "kettenstrebe_mm": 438
+    },
+    "federweg": {
+      "vorne_mm": 160,
+      "hinten_mm": 150,
+      "gabel_modell": "Fox 36 Float Factory",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Factory",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "Shimano",
+      "modell": "EP801",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "NOT_SPECIFIED"
+    },
+    "akku": {
+      "kapazitaet_wh": 720,
+      "wechselbar": false,
+      "range_extender_optional": false
+    },
+    "ausstattung": {
+      "schaltung": "SRAM GX Eagle 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "SRAM Code RSC 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "MX (Mullet)",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Maxxis Minion DHF 2.5",
+      "reifen_hinten": "Maxxis Minion DHR II 2.4",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "Santa Cruz Riser Bar 800mm"
+    },
+    "gewicht_kg": 22.8,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit_ch": {
+      "haendler": ["bikeworld.ch", "veloplus.ch"],
+      "probefahrt_moeglich": "Ja",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "NOT_SPECIFIED",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [],
+    "passend_fuer_martina_score": 7,
+    "passend_fuer_martina_begruendung": "Leichter Carbon-Rahmen, MX-Laufräder und 160/150 mm Federweg — ideal für Martinas All-Mountain-Einsatz. Shimano EP801 ist zuverlässig mit gutem Service-Netz. Mit EUR 7'000 klar über Budget, aber technisch einer der besten Kandidaten.",
+    "warnungen": ["EUR 7'000 deutlich über Martinas Budget von CHF 3'500–6'500."],
+    "alternativ_zu": []
+  },
+  {
+    "id": "trek-fuel-exe-plus-2026",
+    "bild_pfad": null,
+    "hersteller": "Trek",
+    "modell": "Fuel EXe+",
+    "modelljahr": 2026,
+    "kategorie": "Trail",
+    "hersteller_url": "https://www.trekbikes.com/",
+    "produktseite_url": "https://www.trekbikes.com/us/en_US/bikes/mountain-bikes/electric-mountain-bikes/fuel-exe/",
+    "preis_chf": null,
+    "preis_eur": 5500,
+    "preis_quelle_url": "NOT_SPECIFIED",
+    "rahmen": {
+      "material": "Carbon",
+      "groessen_verfuegbar": ["S", "M", "L", "XL", "XXL"],
+      "groesse_L_reach_mm": 460,
+      "groesse_L_stack_mm": 622,
+      "lenkwinkel_grad": 66.0,
+      "sitzwinkel_effektiv_grad": 76.0,
+      "radstand_mm": 1195,
+      "kettenstrebe_mm": 438
+    },
+    "federweg": {
+      "vorne_mm": 150,
+      "hinten_mm": 145,
+      "gabel_modell": "Fox 36 Float Performance",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float Performance",
+      "daempfer_url": "NOT_SPECIFIED"
+    },
+    "motor": {
+      "hersteller": "TQ",
+      "modell": "HPR60",
+      "drehmoment_nm": 60,
+      "leistung_spitze_w": 300,
+      "hersteller_url": "https://www.tq-group.com/"
+    },
+    "akku": {
+      "kapazitaet_wh": 580,
+      "wechselbar": false,
+      "range_extender_optional": true
+    },
+    "ausstattung": {
+      "schaltung": "Shimano XT 12-fach",
+      "schaltung_url": "NOT_SPECIFIED",
+      "bremsen": "Shimano XT 4-Kolben",
+      "bremsen_url": "NOT_SPECIFIED",
+      "laufraeder": "29\"",
+      "laufraeder_url": "NOT_SPECIFIED",
+      "reifen_vorne": "Bontrager XR4 Team Issue 2.4",
+      "reifen_hinten": "Bontrager XR4 Team Issue 2.4",
+      "reifen_url": "NOT_SPECIFIED",
+      "cockpit": "Bontrager Line Pro 780mm"
+    },
+    "gewicht_kg": 21.5,
+    "laufradgroesse": "29\"",
+    "verfuegbarkeit_ch": {
+      "haendler": ["veloplus.ch", "bikeshop.ch"],
+      "probefahrt_moeglich": "Ja",
+      "urls": []
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "NOT_SPECIFIED",
+      "lieferzeit_tage": null,
+      "url": "NOT_SPECIFIED"
+    },
+    "test_ergebnisse": [],
+    "passend_fuer_martina_score": 6,
+    "passend_fuer_martina_begruendung": "Leichtestes Bike im Vergleich (21.5 kg) dank TQ HPR60 Light-Motor — fühlt sich fast wie ein normales E-Bike an. Aber: 60 Nm und 300 W reichen auf steilen Alpenstiegen nicht immer aus. Für Martinas Einsatz mit langen Anstiegen eher Risiko.",
+    "warnungen": ["TQ HPR60: nur 60 Nm — deutlich weniger als Bosch (100 Nm) oder Shimano (85 Nm). Auf langen Anstiegen Nachteil.", "580 Wh kleinste Akkukapazität im Vergleich."],
+    "alternativ_zu": ["commencal-meta-power-tr-ride-2026"]
   }
 ]

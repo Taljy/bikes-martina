@@ -263,6 +263,7 @@ function BikeHeaderCard({ bike, onRemove }: { bike: BikeType; onRemove: () => vo
         <p className="text-sm font-semibold text-stone-900 leading-snug">
           {bike.hersteller} {bike.modell}
         </p>
+        <p className="text-[10px] text-stone-400">{bike.modelljahr}</p>
         {preis && <p className="text-sm text-stone-600">{preis}</p>}
         <Link
           to={`/bikes/${bike.id}`}

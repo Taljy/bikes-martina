@@ -81,6 +81,7 @@ export default function BikeCard({ bike }: Props) {
           <p className="font-semibold text-stone-900 leading-snug">
             {bike.hersteller} {bike.modell}
           </p>
+          <p className="text-xs text-stone-400 mt-0.5">{bike.modelljahr}</p>
         </div>
 
         <div>

@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import { ChevronDown, User, MapPin, Gauge, Banknote, Zap, Bike, Mountain, Sparkles, ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import bikesData from '@/data/bikes.json'
+
+const BIKE_COUNT = bikesData.length
 
 const profil = [
   {
@@ -45,7 +48,7 @@ const tiles = [
   {
     icon: Bike,
     titel: 'Alli Bikes',
-    beschreibung: '23 E-MTBs vergliche — filtere nach Budget, Motor und Federweg.',
+    beschreibung: `${BIKE_COUNT} E-MTBs vergliche — filtere nach Budget, Motor und Federweg.`,
     route: '/bikes',
   },
   {
@@ -83,7 +86,7 @@ export default function Home() {
           S'perfekte E-MTB<br />für Martina.
         </h1>
         <p className="text-lg text-stone-500 max-w-xl leading-relaxed">
-          23 aktuelli E-MTBs, sorgfältig usegsuecht — mit alle Details, Testresultate und Hersteller-Links.
+          {BIKE_COUNT} aktuelli E-MTBs, sorgfältig usegsuecht — mit alle Details, Testresultate und Hersteller-Links.
         </p>
       </div>
 

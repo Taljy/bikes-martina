@@ -9,6 +9,8 @@ import FilterSidebar from '@/components/FilterSidebar'
 
 const ALL_BIKES = bikesData as Bike[]
 
+const ALLE_JAHRE = [...new Set(ALL_BIKES.map(b => b.modelljahr))].sort((a, b) => b - a)
+
 const SORT_OPTIONS = [
   { value: 'score-desc',   label: 'Score (hoch → tief)' },
   { value: 'preis-asc',    label: 'Preis (günstig → teuer)' },
@@ -66,6 +68,9 @@ function applyFilters(bikes: Bike[], f: Filters): Bike[] {
     // Laufradgrösse
     if (f.laufraeder.length && !f.laufraeder.includes(laufradKey(bike))) return false
 
+    // Modelljahr
+    if (f.jahrgaenge.length && !f.jahrgaenge.includes(bike.modelljahr)) return false
+
     // Budget-Toggle
     if (f.nurBudget) {
       if (chf === null || chf < 3500 || chf > 6500) return false
@@ -116,6 +121,7 @@ export default function BikeList() {
           onChange={setFilters}
           filtered={filtered.length}
           total={ALL_BIKES.length}
+          alleJahre={ALLE_JAHRE}
         />
       </aside>
 
