@@ -2082,41 +2082,46 @@
     }
   },
   {
-    "id": "yt-decoy-sn-mx-core-3-2026",
+    "id": "yt-decoy-sn-mx-core-3-2025",
     "bild_pfad": "/images/bikes/yt-decoy-sn-mx-core-3-2026.jpg",
-    "hersteller": "YT",
+    "hersteller": "YT Industries",
     "modell": "DECOY SN MX CORE 3",
-    "modelljahr": 2026,
-    "kategorie": "Enduro | All-Mountain",
+    "modelljahr": 2025,
+    "kategorie": "Light E-MTB | Enduro",
     "hersteller_url": "https://www.yt-industries.com",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": null,
+    "produktseite_url": "https://www.yt-industries.com/",
+    "preis_chf": 5799,
     "preis_eur": 5799,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "preis_quelle_url": "https://www.yt-industries.com/",
     "rahmen": {
-      "material": "Carbon (Hauptrahmen)",
-      "groessen_verfuegbar": "NOT_SPECIFIED",
-      "groesse_L_reach_mm": null,
+      "material": "Carbon Vollrahmen (V4L Horst Link Hinterbau)",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": 449,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": null,
-      "sitzwinkel_effektiv_grad": null,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 76.0,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
     "federweg": {
       "vorne_mm": 170,
       "hinten_mm": 160,
-      "gabel_modell": "RockShox Pike Select+",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "RockShox Deluxe Select+",
-      "daempfer_url": "NOT_SPECIFIED"
+      "gabel_modell": "RockShox ZEB Ultimate Charger 3.1 RC2 170 mm",
+      "gabel_url": "https://www.sram.com/rockshox",
+      "daempfer_modell": "RockShox Vivid Ultimate",
+      "daempfer_url": "https://www.sram.com/rockshox"
     },
     "motor": {
-      "hersteller": "Fazua",
+      "hersteller": "FAZUA",
       "modell": "Ride 60",
       "drehmoment_nm": 60,
-      "leistung_spitze_w": 450,
-      "hersteller_url": "NOT_SPECIFIED"
+      "leistung_spitze_w": 350,
+      "hersteller_url": "https://www.fazua.com"
     },
     "akku": {
       "kapazitaet_wh": 430,
@@ -2124,57 +2129,144 @@
       "range_extender_optional": false
     },
     "ausstattung": {
-      "schaltung": "Shimano SLX / XT Mix",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano SLX 4-Kolben",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "Crankbrothers",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "NOT_SPECIFIED",
-      "reifen_hinten": "NOT_SPECIFIED",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "SRAM S1000 Eagle Transmission AXS 12-fach (elektronisch, Wireless)",
+      "schaltung_url": "https://www.sram.com",
+      "bremsen": "SRAM 4-Kolben",
+      "bremsen_url": "https://www.sram.com",
+      "laufraeder": "Mullet 29\"/27.5\"",
+      "reifen_vorne": "29\" Enduro",
+      "reifen_hinten": "27.5\" Enduro",
+      "reifen_url": "",
+      "cockpit": "Ring Remote Wireless + YT Postman V2 Dropper 200 mm"
     },
     "gewicht_kg": 21.2,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
-        "YT Direktversand"
+        "Kein CH-Händlernetz — ausschliesslich DTC via yt-industries.com"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Nicht möglich — kein CH-Showroom",
+      "urls": [
+        "https://www.yt-industries.com/"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "YT-Industries.com",
+      "shop": "yt-industries.com",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.yt-industries.com/"
     },
     "test_ergebnisse": [
       {
-        "publikation": "emtb-news.de",
-        "bewertung_kurz": "Testsieger (Light-Vergleich)",
+        "publikation": "emtb-test.com / E-MOUNTAINBIKE Magazine 2025 Group Test",
+        "bewertung_kurz": "RockShox Ultimate Suspension ist ein True Highlight. SRAM Eagle AXS liefert präzise Schaltung. Aber: Ring Remote unter Konkurrenz-Niveau, 21,2 kg für Light-eMTB schwer. Latest Batch FAZUA Ride 60 zuverlässiger als frühere Versionen.",
         "stärken": [
-          "Preis-Leistung",
-          "Abfahrts-Performance",
-          "Gewicht"
+          "RockShox Ultimate Suspension",
+          "SRAM AXS",
+          "Carbon-Vollrahmen"
         ],
         "schwaechen": [
-          "Hohe Eigenleistung im technischen Uphill nötig",
-          "Klobige Motor-Remote"
+          "Ring Remote Ergonomie",
+          "FAZUA Reliability-Reputation",
+          "430 Wh nicht entnehmbar"
         ],
-        "test_url": "NOT_SPECIFIED",
-        "datum": "2025-04"
+        "test_url": "https://emtb-test.com",
+        "datum": "2025-06"
+      },
+      {
+        "publikation": "MBR Review",
+        "bewertung_kurz": "YT has nailed the sizing, geometry, and handling of the Decoy SN, but the suspension could be better and the motor reliability is questionable.",
+        "stärken": [
+          "Handling",
+          "Geometrie",
+          "Sizing"
+        ],
+        "schwaechen": [
+          "Motor Reliability",
+          "Suspension-Abstimmung"
+        ],
+        "test_url": "https://www.mbr.co.uk",
+        "datum": "2025-05"
+      },
+      {
+        "publikation": "MTB-News.de / allmountain.ch — Insolvenz-Berichterstattung 2025",
+        "bewertung_kurz": "YT Industries GmbH meldete Juli 2025 Sanierungsverfahren in Eigenverwaltung beim Amtsgericht Bamberg an. September 2025: Gründer Markus Flossmann kauft Firma zurück mit privatem Kapital. Garantie-Versprechen für Altkunden ist privates Statement, nicht rechtlich bindend.",
+        "stärken": [],
+        "schwaechen": [
+          "Insolvenz 2025",
+          "Unsichere Garantie-Durchsetzung",
+          "Reduzierte Belegschaft"
+        ],
+        "test_url": "https://www.mtb-news.de",
+        "datum": "2025-10"
       }
     ],
-    "passend_fuer_martina_score": 8,
-    "passend_fuer_martina_begruendung": "Viel Speed für's Geld. Martina bekommt hier ein leichtes Enduro, das bergab keine Kompromisse macht. Der Fazua Motor bietet eine gute Mitte zwischen TQ und Full-Power.",
+    "passend_fuer_martina_score": 5,
+    "passend_fuer_martina_begruendung": "Technisch solides Light-eMTB mit Premium-RockShox-Ultimate-Suspension. ABER vier kumulative strukturelle Risiken: (1) YT Industries 2025 in Insolvenz — Neustart läuft, Marken-Risiko real. (2) FAZUA Ride 60 entspricht nicht der Motor-Präferenz für dieses Profil. (3) Permanent integrierter 430 Wh Akku limitiert für CH-Bergtouren. (4) Komplett DTC ohne CH-Service, aktuell durch Sanierungs-Neustart erschwert. Score 5 reflektiert die kumulativen Risiken.",
     "warnungen": [
-      "Geringe Reichweite bei voller Unterstützung"
+      "🚨 YT Industries war 2025 in INSOLVENZ (Sanierungsverfahren Amtsgericht Bamberg, Juli-Oktober 2025) — Garantie-Durchsetzung im Schadensfall unsicher",
+      "FAZUA Ride 60 entspricht NICHT der Motorpräferenz für dieses Profil (Bosch CX Gen5 / Shimano EP801 / DJI Avinox)",
+      "Permanent integrierter 430 Wh Akku — NICHT entnehmbar, Ladezeit 248 Minuten",
+      "Komplett DTC ohne CH-Händlernetz — Service via Versand nach Forchheim DE",
+      "2025-Modell — wahrscheinlich Restbestand. Neue DECOY 2026 mit Bosch CX Gen5 + 800 Wh angekündigt",
+      "Reach 449 mm in Grösse L — eventuell XL besser für Körpergrösse 1.80m"
     ],
     "alternativ_zu": [
-      "Canyon Spectral:ONfly",
-      "Orbea Rise"
-    ]
+      "amflow-pl-carbon-2026"
+    ],
+    "badge": null,
+    "referenzbike": false,
+    "verfuegbarkeit": {
+      "status": "unbekannt",
+      "hinweis": "2025-Modell — aktuellen Status direkt auf yt-industries.com prüfen. Durch das Sanierungsverfahren (Juli–Oktober 2025) ist die Lager- und Liefersituation schwer einzuschätzen. Geschäftsbetrieb läuft nach Rückkauf durch Gründer Markus Flossmann, aber mit reduzierter Belegschaft (~150 statt 200 Mitarbeiter). WICHTIG: Vor Bestellung Status direkt bei YT erfragen und mit Kreditkarte oder Klarna zahlen für besseren Käuferschutz.",
+      "geprueft_am": "2026-04-26",
+      "geprueft_quelle": "https://www.yt-industries.com/"
+    },
+    "preise": {
+      "uvp_chf": 5799,
+      "sale_chf": null,
+      "sale_haendler": null,
+      "sale_url": null
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 7,
+      "einsteigerfreundlichkeit": 6,
+      "bergauf_touren": 5,
+      "bikepark_reserve": 8,
+      "gewicht_handling": 8,
+      "preis_leistung": 7,
+      "service_haendlernetz_ch": 2,
+      "risiko_datenunsicherheit": 3
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Carbon Vollrahmen mit V4L Horst Link Hinterbau",
+        "21,2 kg in Grösse L — relativ leicht für 170/160 mm Federweg",
+        "RockShox ZEB Ultimate Federgabel mit Charger 3.1 Damper — Premium-Niveau",
+        "RockShox Vivid Ultimate Dämpfer — Premium-Niveau",
+        "SRAM S1000 Eagle Transmission AXS — elektronische Schaltung",
+        "YT Postman V2 Dropper mit 200 mm Hub — sehr lang, top für Bikepark",
+        "EUR 5'799 für RockShox Ultimate Suspension (sonst nur in 8'000+ EUR Bikes)",
+        "Mullet Setup (29\"/27.5\") für agile Kurvenlage",
+        "Aggressive Geometrie 64.5° Lenkwinkel — für Bikepark/Enduro optimiert",
+        "Tidy Cockpit dank interner Kabelführung",
+        "Light-eMTB Charakter — fühlt sich beim Bergabfahren wie normales Enduro an"
+      ],
+      "contra": [
+        "🚨 YT Industries war 2025 in INSOLVENZ — Sanierungsverfahren in Eigenverwaltung Amtsgericht Bamberg (Juli–Oktober 2025). Neustart unter Gründer Markus Flossmann mit privatem Kapital. Garantie-Durchsetzung im Schadensfall unsicher, Marken-Existenzrisiko real",
+        "FAZUA Ride 60 entspricht NICHT der Motorpräferenz für dieses Profil (Bosch CX Gen5, Shimano EP801, oder DJI Avinox) — anderes Leistungsniveau und Reliability-Reputation",
+        "FAZUA-Motoren haben historisch dokumentierte Reliability-Probleme — Magazinkommentar MBR: 'the motor isn't the most reliable'",
+        "Permanent integrierter 430 Wh Akku (NICHT entnehmbar) — Ladezeit 248 Minuten, schwierig bei Hütten-Touren",
+        "430 Wh + 60 Nm = stark limitiert für CH-Bergtouren (ca. 1'000 hm Reichweite)",
+        "Komplett DTC ohne CH-Händlernetz — Service/Garantie nur via Versand nach Forchheim DE, aktuell erschwert durch Sanierungs-Neustart",
+        "Reduzierte Belegschaft seit Insolvenz (~150 statt 200 Mitarbeiter) — Service-Kapazität eingeschränkt",
+        "Reach 449 mm in Grösse L — eher kurz für 1.80m, XL eventuell besser",
+        "Ring Remote ergonomisch und haptisch unter Konkurrenz-Niveau (Magazintest)",
+        "21,2 kg ist für Light-eMTB schon recht schwer (näher an Full-Power-Niveau)",
+        "2025-Modell im Abverkauf — neue DECOY 2026 mit Bosch CX Gen5 + 800 Wh angekündigt",
+        "Ladegeschwindigkeit 2.2 Wh/min am unteren Ende des Light-eMTB-Felds"
+      ],
+      "fazit": "Technisch ein gutes Light-eMTB mit Premium-RockShox-Ultimate-Suspension, AXS-Schaltung und Carbon-Vollrahmen für faire EUR 5'799. ABER: Vier kumulative strukturelle Risiken machen es zu einer schwachen Wahl. (1) YT Industries war 2025 INSOLVENT — Neustart läuft, aber Garantie-Durchsetzung unsicher. (2) FAZUA Ride 60 entspricht nicht der Motorpräferenz und hat dokumentierte Reliability-Reputation. (3) Permanent integrierter 430 Wh Akku limitiert CH-Bergtouren. (4) DTC ohne CH-Service, aktuell durch Sanierungs-Neustart erschwert. Wenn du ein Light-eMTB willst: AMFLOW PL Carbon (Score 9) bietet DJI Avinox, 800 Wh und bessere Marken-Stabilität. Wenn du YT willst: warten auf die neue DECOY 2026 (mit Bosch CX Gen5 + 800 Wh). Score 5 reflektiert die kumulativen Risiken — nicht die Bike-Qualität allein."
+    }
   },
   {
     "id": "merida-eone-sixty-775-2026",
