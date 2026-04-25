@@ -10,6 +10,12 @@ const profil = [
     detail: '3. Saison auf dem E-MTB, Fortgeschrittene mit wachsendem technischen Anspruch.',
   },
   {
+    icon: User,
+    label: 'Beinlänge / Schrittlänge',
+    wert: '86 cm',
+    detail: 'Relevant für Sattelrohrlänge und Reach-Optimierung bei Rahmengrösse L.',
+  },
+  {
     icon: MapPin,
     label: 'Einsatzgebiet',
     wert: 'Aargau & Jura · Alpen · Bikepark',
