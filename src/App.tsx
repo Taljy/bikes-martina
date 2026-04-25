@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { CompareProvider } from './context/CompareContext'
+import { ScrollToTop } from './components/ScrollToTop'
 import Layout from './components/Layout'
 import Home from './pages/Home'
 import BikeList from './pages/BikeList'
@@ -14,6 +15,7 @@ import Impressum from './pages/Impressum'
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <CompareProvider>
         <Routes>
           <Route path="/" element={<Layout />}>
