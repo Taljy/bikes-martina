@@ -148,12 +148,12 @@ export default function BikeDetail() {
       {/* ── Sektion 1: Hero ── */}
       <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
         <div className="flex flex-col sm:flex-row">
-          <div className="relative sm:w-72 shrink-0 aspect-[4/3] sm:aspect-auto bg-white flex items-center justify-center overflow-hidden">
+          <div className="relative sm:w-72 shrink-0 aspect-[4/3] sm:aspect-auto bg-white flex items-center justify-center overflow-hidden p-4">
             {bike.bild_pfad ? (
               <img
                 src={bike.bild_pfad}
                 alt={`${bike.hersteller} ${bike.modell}`}
-                className="w-full h-full object-cover mix-blend-multiply"
+                className="w-full h-full object-contain mix-blend-multiply"
                 loading="eager"
                 onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
               />
@@ -466,8 +466,18 @@ export default function BikeDetail() {
                     state={{ fromSearch: location.search }}
                     className="group flex flex-col bg-white border border-stone-200 rounded-xl overflow-hidden hover:border-terracotta-400 transition-colors"
                   >
-                    <div className="relative aspect-[4/3] bg-terracotta-50 flex items-center justify-center">
-                      <Bike size={24} className="text-terracotta-200" strokeWidth={1.25} />
+                    <div className="relative aspect-[4/3] bg-white flex items-center justify-center overflow-hidden p-2">
+                      {match.bild_pfad ? (
+                        <img
+                          src={match.bild_pfad}
+                          alt={`${match.hersteller} ${match.modell}`}
+                          className="w-full h-full object-contain mix-blend-multiply"
+                          loading="lazy"
+                          onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
+                        />
+                      ) : (
+                        <Bike size={24} className="text-terracotta-200" strokeWidth={1.25} />
+                      )}
                       <span className="absolute top-2 right-2 bg-terracotta-500 text-white text-[10px] font-semibold px-1.5 py-0.5 rounded-full">
                         {match.passend_fuer_martina_score}/10
                       </span>

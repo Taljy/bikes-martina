@@ -35,12 +35,12 @@ export default function BikeCard({ bike }: Props) {
       className="group flex flex-col bg-white border border-stone-200 rounded-xl overflow-hidden hover:border-terracotta-500 hover:scale-[1.01] transition-all duration-150"
     >
       {/* Bild */}
-      <div className="relative aspect-[4/3] bg-white flex items-center justify-center overflow-hidden">
+      <div className="relative aspect-[4/3] bg-white flex items-center justify-center overflow-hidden p-3">
         {bike.bild_pfad ? (
           <img
             src={bike.bild_pfad}
             alt={`${bike.hersteller} ${bike.modell}`}
-            className="w-full h-full object-cover mix-blend-multiply"
+            className="w-full h-full object-contain mix-blend-multiply"
             loading="lazy"
             onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
           />
