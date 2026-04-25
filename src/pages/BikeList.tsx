@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import bikesData from '@/data/bikes.json'
 import type { Bike } from '@/types/bike'
@@ -102,6 +102,8 @@ function applySorting(bikes: Bike[], sort: string): Bike[] {
 export default function BikeList() {
   const [searchParams, setSearchParams] = useSearchParams()
 
+  const [searchQuery, setSearchQuery] = useState('')
+
   const filters = useMemo(() => parseFilters(searchParams), [searchParams])
 
   const setFilters = (next: Filters) => {
@@ -109,7 +111,20 @@ export default function BikeList() {
   }
 
   const filtered = useMemo(() => applyFilters(ALL_BIKES, filters), [filters])
-  const sorted = useMemo(() => applySorting(filtered, filters.sort), [filtered, filters.sort])
+
+  const searched = useMemo(() => {
+    if (!searchQuery.trim()) return filtered
+    const q = searchQuery.toLowerCase()
+    return filtered.filter(bike =>
+      bike.hersteller?.toLowerCase().includes(q) ||
+      bike.modell?.toLowerCase().includes(q) ||
+      `${bike.motor.hersteller} ${bike.motor.modell}`.toLowerCase().includes(q) ||
+      bike.rahmen.material?.toLowerCase().includes(q) ||
+      bike.kategorie?.toLowerCase().includes(q)
+    )
+  }, [filtered, searchQuery])
+
+  const sorted = useMemo(() => applySorting(searched, filters.sort), [searched, filters.sort])
 
   return (
     <div className="flex gap-8 items-start">
@@ -128,8 +143,8 @@ export default function BikeList() {
       {/* Hauptbereich */}
       <div className="flex-1 min-w-0">
 
-        {/* Kopfzeile mit Sortierung */}
-        <div className="flex items-center justify-between mb-5">
+        {/* Kopfzeile mit Suche + Sortierung */}
+        <div className="flex items-center justify-between mb-3">
           <h1 className="text-xl font-semibold text-stone-900 tracking-tight">Alle Bikes</h1>
           <select
             value={filters.sort}
@@ -142,6 +157,17 @@ export default function BikeList() {
           </select>
         </div>
 
+        {/* Suchfeld */}
+        <div className="mb-5">
+          <input
+            type="search"
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+            placeholder="Such nach Marke, Modell, Motor..."
+            className="w-full text-sm border border-stone-200 rounded-lg px-3 py-1.5 bg-white text-stone-700 placeholder:text-stone-400 focus:outline-none focus:border-terracotta-400"
+          />
+        </div>
+
         {/* Grid */}
         {sorted.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -151,13 +177,30 @@ export default function BikeList() {
           </div>
         ) : (
           <div className="flex flex-col items-center justify-center py-20 text-center">
-            <p className="text-stone-400 text-sm">Keine Bikes entsprechen den Filtern.</p>
-            <button
-              onClick={() => setFilters(DEFAULTS)}
-              className="mt-3 text-sm text-terracotta-600 hover:underline"
-            >
-              Filter zurücksetzen
-            </button>
+            {searchQuery.trim() ? (
+              <>
+                <p className="text-stone-400 text-sm">
+                  Kei Bike gfunde für «{searchQuery}».<br />
+                  Mol mit anderem Suechwort probiere oder Filter zruggsetze.
+                </p>
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="mt-3 text-sm text-terracotta-600 hover:underline"
+                >
+                  Suche lösche
+                </button>
+              </>
+            ) : (
+              <>
+                <p className="text-stone-400 text-sm">Keine Bikes entsprechen den Filtern.</p>
+                <button
+                  onClick={() => setFilters(DEFAULTS)}
+                  className="mt-3 text-sm text-terracotta-600 hover:underline"
+                >
+                  Filter zurücksetzen
+                </button>
+              </>
+            )}
           </div>
         )}
 
