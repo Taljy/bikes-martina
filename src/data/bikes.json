@@ -288,33 +288,34 @@
     "hersteller": "Canyon",
     "modell": "Spectral:ON CF 8",
     "modelljahr": 2026,
-    "kategorie": "All-Mountain/Enduro",
+    "kategorie": "Trail / All-Mountain",
     "hersteller_url": "https://www.canyon.com/de-ch/",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": 5299,
-    "preis_eur": 4999,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "produktseite_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html",
+    "preis_chf": 4099,
+    "preis_eur": null,
+    "preis_quelle_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html",
+    "preise": {
+      "uvp_chf": 5699,
+      "sale_chf": 4099,
+      "sale_haendler": "canyon.com (offiziell)",
+      "sale_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html"
+    },
     "rahmen": {
-      "material": "Carbon",
-      "groessen_verfuegbar": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "groesse_L_reach_mm": null,
+      "material": "Vollcarbon (Frame 3180 g, Cat. 4e zertifiziert)",
+      "groessen_verfuegbar": ["XS", "S", "M", "L", "XL"],
+      "groesse_L_reach_mm": 485,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": 64,
-      "sitzwinkel_effektiv_grad": 77,
+      "lenkwinkel_grad": 65.5,
+      "sitzwinkel_effektiv_grad": 76.5,
       "radstand_mm": null,
-      "kettenstrebe_mm": null
+      "kettenstrebe_mm": 440
     },
     "federweg": {
       "vorne_mm": 160,
       "hinten_mm": 155,
-      "gabel_modell": "Fox 36 Float Performance",
+      "gabel_modell": "Fox 38 Rhythm, 160 mm",
       "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "Fox Float X Performance",
+      "daempfer_modell": "Fox Float DPS Performance",
       "daempfer_url": "NOT_SPECIFIED"
     },
     "motor": {
@@ -326,60 +327,107 @@
     },
     "akku": {
       "kapazitaet_wh": 800,
-      "wechselbar": true,
+      "wechselbar": false,
       "range_extender_optional": false
     },
     "ausstattung": {
-      "schaltung": "Shimano XT 12-fach",
+      "schaltung": "Shimano XT M8100 12-fach",
       "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano XT 4-Kolben",
+      "bremsen": "Shimano SLX M7120 4-Kolben, 203 mm",
       "bremsen_url": "NOT_SPECIFIED",
       "laufraeder": "DT Swiss HX 1700",
       "laufraeder_url": "NOT_SPECIFIED",
       "reifen_vorne": "Maxxis Assegai EXO+",
       "reifen_hinten": "Maxxis Dissector EXO+",
       "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "cockpit": "Canyon G5 Dropper"
     },
-    "gewicht_kg": 23.5,
+    "gewicht_kg": 23.0,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
-      "haendler": [
-        "Canyon Direktversand"
-      ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "haendler": ["canyon.com (Direct-to-Consumer)"],
+      "probefahrt_moeglich": "Ja",
+      "urls": ["https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html"]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "canyon.com",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html"
     },
     "test_ergebnisse": [
       {
-        "publikation": "emtb-news.de",
-        "bewertung_kurz": "Rückkehr nach Rückruf",
+        "publikation": "emtb-test.com (Januar 2026)",
+        "bewertung_kurz": "Spectral:ON ist nach Akku-Issues zurück am Markt mit kompetitivem Preis. Was Canyon mit der Preisgestaltung macht, ist nichts weniger als eine Kriegserklärung an die Industrie. 'Value for Money' steht wieder ganz oben.",
         "stärken": [
-          "Sehr ausgewogenes Fahrwerk",
-          "Shimano EP801 bewährt",
-          "Carbon-Vollrahmen",
-          "Mullet-Setup verspielt"
+          "Preis-Leistung unschlagbar dank Direct-to-Consumer",
+          "Vollcarbon Cat. 4e, Bikepark-tauglich",
+          "Neuer 800 Wh Akku für 2026",
+          "Fox 38 Rhythm 160 mm Gabel"
         ],
         "schwaechen": [
-          "Shimano-Motor kann bei Abfahrt klappern",
-          "Nur Canyon-Direktversand"
+          "Kein lokales Service-Netz CH",
+          "Akku-Probleme der Vorgängergeneration als Markenrisiko"
         ],
         "test_url": "NOT_SPECIFIED",
         "datum": "2026-01"
+      },
+      {
+        "publikation": "BikePerfect Review",
+        "bewertung_kurz": "Sorted, lively e-trail bomber. Spec ist grosser Wert für den Preis, grosse Akku-Optionen sorgen für viel Reichweite. Gut ausbalancierte Geometrie zwischen planted und playful.",
+        "stärken": ["Ausgewogene Geometrie", "Viel Reichweite", "Lively Handling"],
+        "schwaechen": [],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2026-02"
       }
     ],
     "passend_fuer_martina_score": 9,
-    "passend_fuer_martina_begruendung": "Canyon-Comeback nach Akku-Rückruf mit überarbeitetem 800-Wh-Akku. Shimano EP801 ausgereift. 160/155 mm bieten Martina Reserven für alles — Alpen bis Bikepark.",
-    "warnungen": [],
+    "passend_fuer_martina_begruendung": "Top Preis-Leistungs-Verhältnis dank Direct-to-Consumer und CHF 4'099 Sale (-28%). Fox 38, 800 Wh, Cat. 4e Carbon. Einziger echter Vorbehalt: Akku-Geschichte der Vorgängergeneration — Canyon hat es gefixt, aber Vertrauen muss neu aufgebaut werden.",
+    "warnungen": [
+      "Akku-Probleme der Vorgängergeneration (Bike war zwischenzeitlich vom Markt). 2026er Generation behoben, aber bleibt ein Marken-Risikofaktor.",
+      "Kein Händler-Netz CH — Service ausschliesslich via Versand zu Canyon."
+    ],
     "alternativ_zu": [
-      "Santa Cruz Vala",
-      "Focus JAM² 6.9"
-    ]
+      "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+      "amflow-pl-carbon-2026"
+    ],
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "hinweis": "Direkt bei canyon.com bestellbar in Farben Stealth oder Hint of Lime. Aktueller Sale CHF 4'099 (statt UVP CHF 5'699, -28%) — Sale-Preis kann kurzfristig zurückgenommen werden.",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/"
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 7,
+      "bergauf_touren": 8,
+      "bikepark_reserve": 8,
+      "gewicht_handling": 7,
+      "preis_leistung": 10,
+      "service_haendlernetz_ch": 6,
+      "risiko_datenunsicherheit": 7
+    },
+    "bewertung_detail": {
+      "pro": [
+        "CHF 4'099 mit -28% Sale (statt UVP CHF 5'699) – Preis-Leistung der absolute Knaller in dieser Klasse",
+        "Vollcarbon-Rahmen mit Cat. 4e Zertifizierung – robust für Trail UND Bikepark",
+        "Neuer 800 Wh Akku für 2026 – top Reichweite",
+        "Shimano EP801 Motor – etabliert, zuverlässig (im Gegensatz zur jungen DJI Avinox bei AMFLOW)",
+        "Fox 38 Rhythm 160 mm – robuste Enduro-Gabel statt der häufigeren Fox 36",
+        "160/155 mm Federweg – gute Reserve für anspruchsvolle Trails",
+        "Mullet Setup (29\"/27.5\") – verspieltes Handling kombiniert mit Rollover-Fähigkeit",
+        "GPS-Tracker integriert – Diebstahlschutz via Canyon App",
+        "Direct-to-Consumer = unschlagbarer Preis, ohne Händler-Marge",
+        "100% Zufriedenheits-Garantie / 14 Tage Rückgabe"
+      ],
+      "contra": [
+        "Vorgängergeneration hatte Akku-Probleme – Bike war zwischenzeitlich vom Markt. 2026er Generation hat das behoben, aber es bleibt ein Marken-Risikofaktor",
+        "Direct-to-Consumer Service: Kein lokales Service-Netz in CH – bei Defekten musst du das Bike einpacken und zu Canyon schicken (Bike Guard Verpackung wird mitgeliefert)",
+        "Shimano EP801 mit 85 Nm – schwächer als Bosch CX Gen5 (100 Nm) bei Cube oder DJI Avinox M1 (105 Nm) bei AMFLOW",
+        "23 kg Gewicht – Mittelfeld zwischen AMFLOW (19.2 kg) und Cube (24.3 kg)",
+        "Reach L = 485 mm – könnte für 1.80 m grenzwertig lang sein, Probefahrt empfohlen falls möglich"
+      ],
+      "fazit": "Top Preis-Leistungs-Verhältnis dank Direct-to-Consumer und aktuellem -28%-Sale. Solide, etablierte Komponenten (Shimano EP801, Fox 38, Cat. 4e Carbon). Aber die Akku-Geschichte der Vorgängergeneration ist eine Mahnung – Canyon hat es gefixt, aber Vertrauen muss man neu aufbauen. Wenn du mit dem Direct-to-Consumer-Modell vertraut bist (kein Händler vor Ort, alles via Versand), ist das wahrscheinlich der beste Kauf in dieser Liste rein objektiv. Probefahrt vor Kauf wenn möglich – Canyon hat Test-Standorte."
+    }
   },
   {
     "id": "canyon-neuron-on-al-9-2026",
