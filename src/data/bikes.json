@@ -2544,103 +2544,101 @@
     ]
   },
   {
-    "id": "trek-rail-plus-9-7-2026",
-    "bild_pfad": "/images/bikes/trek-rail-plus-9-7-2026.jpg",
+    "id": "trek-rail-plus-9-7-gen-5-2026",
     "hersteller": "Trek",
-    "modell": "Rail+ 9.7",
+    "modell": "Rail+ 9.7 Gen 5",
     "modelljahr": 2026,
-    "kategorie": "All-Mountain",
-    "hersteller_url": "https://www.trekbikes.com/",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": 6999,
-    "preis_eur": 6499,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "kategorie": "Trail/All-Mountain",
+    "preis_chf": 7990,
+    "preis_eur": null,
+    "bild_pfad": "/images/bikes/trek-rail-plus-9-7-gen-5-2026.jpg",
+    "passend_fuer_martina_score": 7,
+    "referenzbike": false,
+    "badge": null,
     "rahmen": {
-      "material": "Carbon",
-      "groessen_verfuegbar": [
+      "material": "Carbon (OCLV Carbon, Gen 5)",
+      "groessen": [
         "S",
         "M",
         "L",
         "XL"
       ],
-      "groesse_L_reach_mm": null,
-      "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": null,
-      "sitzwinkel_effektiv_grad": null,
-      "radstand_mm": null,
-      "kettenstrebe_mm": null
-    },
-    "federweg": {
-      "vorne_mm": 160,
-      "hinten_mm": 150,
-      "gabel_modell": "RockShox Lyrik Select+",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "RockShox Super Deluxe Select+",
-      "daempfer_url": "NOT_SPECIFIED"
+      "besonderheiten": "Überarbeitete Gen-5-Geometrie, integriertes Kabelmanagement, breites Steuerrohr, optimierter Hauptrahmen für steifere Front"
     },
     "motor": {
       "hersteller": "Bosch",
-      "modell": "Performance Line CX Gen5",
-      "drehmoment_nm": 100,
-      "leistung_spitze_w": 750,
-      "hersteller_url": "NOT_SPECIFIED"
+      "modell": "Performance CX Gen5",
+      "nm": 85,
+      "watt": 600,
+      "gewicht_kg": 2.8
     },
     "akku": {
-      "kapazitaet_wh": 800,
-      "wechselbar": true,
-      "range_extender_optional": false
+      "wh": 800,
+      "integriert": true,
+      "erweiterbar": false,
+      "modell": "Bosch PowerTube 800"
     },
-    "ausstattung": {
-      "schaltung": "Shimano XT 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "SRAM Code R",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "Bontrager Line Pro 30",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Bontrager SE5 Team",
-      "reifen_hinten": "Bontrager SE5 Team",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+    "federweg": {
+      "vorne_mm": 150,
+      "hinten_mm": 150
     },
-    "gewicht_kg": 24,
-    "laufradgroesse": "MX (Mullet)",
-    "verfuegbarkeit_ch": {
-      "haendler": [
-        "Trek-Händler CH"
+    "fahrwerk": {
+      "gabel": "RockShox ZEB Ultimate",
+      "daempfer": "RockShox Deluxe Ultimate"
+    },
+    "antrieb": {
+      "schaltung": "SRAM GX Eagle AXS (12-fach, kabellos)",
+      "bremsen": "SRAM Code Silver Stealth",
+      "kassette": "SRAM Eagle 10-52T"
+    },
+    "laufradgroesse": "29\"",
+    "gewicht_kg": 23.2,
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "info": "Bei Trek-Händlern verfügbar; Lieferzeiten können je nach Händler variieren"
+    },
+    "geometrie": {
+      "groesse_getestet": "L",
+      "reach_mm": 485,
+      "stack_mm": 630,
+      "lenkwinkel_grad": 63.5,
+      "sitzwinkel_grad": 77.5,
+      "kettenstrebe_mm": 445,
+      "radstand_mm": 1240
+    },
+    "bewertung_kategorien": {
+      "Abfahrt": 8,
+      "Ufstig": 7,
+      "Geometrie": 9,
+      "Preis-Leistung": 5,
+      "Einsteigerfreundlich": 7,
+      "Service CH": 8,
+      "Risiko": 9
+    },
+    "bewertung_detail": {
+      "pro": [
+        "OCLV Carbon — Trek-eigene, hochwertige Carbon-Technologie mit Langzeiterfahrung",
+        "Gen-5-Geometrie exzellent abgestimmt: Reach 485 mm (L), Lenkwinkel 63.5°",
+        "RockShox ZEB Ultimate — Topgabel mit ausgezeichnetem Ansprechverhalten",
+        "SRAM GX Eagle AXS kabellos — zuverlässige, wartungsarme Schaltung",
+        "Bosch CX Gen5 mit 85 Nm und 800 Wh — vollständiges System, top Reichweite",
+        "SRAM Code Silver Bremsen — starke Verzögerung für 23 kg Systemgewicht",
+        "Trek-Händlernetz Schweiz sehr gut ausgebaut — Service-Perspektive top",
+        "Bewährte Marke mit langjähriger E-MTB-Erfahrung (Rail seit 2019)",
+        "150/150 mm Federweg — vielseitiger Trail-Charakter",
+        "Integriertes Kabelmanagement — sauberes Design, weniger Verschmutzungsrisiko"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
-    },
-    "verfuegbarkeit_de_direkt": {
-      "shop": "trekbikes.com",
-      "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
-    },
-    "test_ergebnisse": [
-      {
-        "publikation": "emtb-news.de",
-        "bewertung_kurz": "Premium-All-Mountain",
-        "stärken": [
-          "Bosch CX Gen5",
-          "Carbon-Rahmen",
-          "Sehr gutes Service-Netz",
-          "Knock Block 2"
-        ],
-        "schwaechen": [
-          "Preis am Limit",
-          "Bontrager-Teile teilweise proprietär"
-        ],
-        "test_url": "NOT_SPECIFIED",
-        "datum": "2025-10"
-      }
-    ],
-    "passend_fuer_martina_score": 8,
-    "passend_fuer_martina_begruendung": "Trek Rail+ mit Bosch CX Gen5. Carbon-Rahmen, Knock Block entfernt (mehr Lenkwinkel-Freiheit). Bosch-Service-Netz super. Für Martina solide Wahl mit premiumiger Händler-Erfahrung.",
-    "warnungen": [],
-    "alternativ_zu": [
-      "Cube Stereo Hybrid ONE44 HPC AT",
-      "Canyon Spectral:ON CF 8"
-    ]
+      "contra": [
+        "CHF 7'990 für Score 7 — deutlich teurer als Cube Stereo (CHF 5'490, Score 8) oder Orbea Wild H10 (CHF 4'990, Score 9)",
+        "Preis-Leistungs-Verhältnis klar unterlegen: vergleichbare Konkurrenz kostet CHF 2'000-3'000 weniger",
+        "150 mm Federweg limitiert für schweres Enduro-Terrain (Vala/Stereo bieten 160-170 mm)",
+        "Gewicht 23.2 kg — für den Preis nicht marktführend",
+        "Kein Range Extender-Option beim Bosch PowerTube 800",
+        "Trek Rail+ positioniert sich als Einstieg ins Premium-E-MTB, aber der Preis ist hart",
+        "Topmodelle im Segment (CHF 10'000+) würden Trek-Spezifika besser rechtfertigen"
+      ],
+      "fazit": "Das Trek Rail+ 9.7 Gen 5 ist ein solides, gut durchdachtes Trail-E-MTB von einer der bekanntesten Marken der Welt. Die Gen-5-Geometrie ist exzellent, OCLV Carbon bewährt, Bosch CX Gen5 + 800 Wh ist das richtige System. Aber: Für CHF 7'990 bekommt Martina anderswo deutlich mehr Bike. Der Orbea Wild H10 kostet CHF 3'000 weniger und erreicht Score 9. Der Cube Stereo kostet CHF 2'500 weniger bei Score 8. Das Trek Rail+ 9.7 ist nicht schlecht — es ist einfach zu teuer für das, was es bietet. Die Marken-Premium rechtfertigt den Preisunterschied nicht. Nur für Trek-Fans mit entsprechendem Budget."
+    }
   },
   {
     "id": "cannondale-moterra-sl-2026",
