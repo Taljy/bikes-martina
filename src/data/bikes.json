@@ -2641,97 +2641,161 @@
     }
   },
   {
-    "id": "cannondale-moterra-sl-2026",
-    "bild_pfad": "/images/bikes/cannondale-moterra-sl-2026.jpg",
+    "id": "cannondale-moterra-sl-2-2026",
+    "bild_pfad": "/images/bikes/cannondale-moterra-sl-2-2026.jpg",
     "hersteller": "Cannondale",
-    "modell": "Moterra SL",
+    "modell": "Moterra SL 2",
+    "modell_hinweis": "Standard-Variante der Moterra SL Familie 2026 (4 Varianten: SL 3, SL 2, SL 1, SL LAB71). SL = Light-eMTB mit Full-Power-Motor.",
     "modelljahr": 2026,
-    "kategorie": "All-Mountain",
-    "hersteller_url": "NOT_SPECIFIED",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": null,
-    "preis_eur": 8999,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "kategorie": "Trail/All-Mountain",
+    "hersteller_url": "https://www.cannondale.com",
+    "produktseite_url": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-sl/moterra-sl-2",
+    "preis_chf": 7999,
+    "preis_eur": 7499,
+    "preis_hinweis": "UVP CHF 7'999 verifiziert via TCS Velocorner. CH-Sale-Spanne aktuell: CHF 5'199 (-35% bei VD-Haendler), CHF 6'999 (-12.5% bei AG-Haendler), CHF 7'199 (-10% bei VS-Haendler). Selbst mit -35% Sale (CHF 5'199) noch CHF 1'700 teurer als AMFLOW PL Carbon (CHF 3'490 Sale). Bei UVP CHF 7'999 ist das Bike preislich nicht konkurrenzfaehig im Light-eMTB-Segment.",
+    "preis_sale_chf": 5199,
+    "preis_sale_haendler": "Velocorner-Haendler (VD, Waadt)",
+    "preis_quelle_url": "https://velocorner.ch/de/cannondale/moterra-sl-2",
     "rahmen": {
-      "material": "Carbon",
-      "groessen_verfuegbar": "NOT_SPECIFIED",
-      "groesse_L_reach_mm": null,
-      "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": null,
-      "sitzwinkel_effektiv_grad": null,
+      "material": "Carbon (Series 1 Carbon mit FlexPivot-Technologie)",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": 485,
+      "groesse_L_stack_mm": 630,
+      "lenkwinkel_grad": 62.5,
+      "sitzwinkel_effektiv_grad": 77.5,
       "radstand_mm": null,
-      "kettenstrebe_mm": null
+      "kettenstrebe_mm": null,
+      "besonderheiten": "FlexPivot-Kettenstreben (kein Horst Pivot), Proportional Response (Kinematik pro Groesse individuell), Acros Adjustable Headset (1.2 Grad Anpassung), integriertes Kabelmanagement"
     },
     "federweg": {
       "vorne_mm": 160,
       "hinten_mm": 150,
-      "gabel_modell": "Fox 36 Factory",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "Fox Float X Factory",
-      "daempfer_url": "NOT_SPECIFIED"
+      "gabel_modell": "Fox Performance 36, Grip Damper, 3-position adjust, 15x110mm Kabolt",
+      "gabel_url": "https://www.ridefox.com",
+      "daempfer_modell": "Fox Float X Performance Elite (Trunnion Mount)",
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "Shimano",
       "modell": "EP801",
       "drehmoment_nm": 85,
       "leistung_spitze_w": 600,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.shimano.com",
+      "hinweis": "Custom-tuned by Cannondale. 4 Fahrmodi: ECO, TRAIL 1, TRAIL 2, BOOST. Shimano SC-EM800 Display."
     },
     "akku": {
       "kapazitaet_wh": 601,
       "wechselbar": false,
-      "range_extender_optional": false
+      "range_extender_optional": false,
+      "hinweis": "601 Wh CUSTOM Cell Configuration permanent integriert (NICHT entnehmbar) - 3.1 kg inkl. Verkabelung. KRITISCH: Akku kann nicht ausgebaut werden. AMFLOW PL Carbon (Score 9) hat 800 Wh ENTNEHMBAR."
     },
     "ausstattung": {
-      "schaltung": "SRAM XO Eagle Transmission",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Magura MT7",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "DT Swiss",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "NOT_SPECIFIED",
-      "reifen_hinten": "NOT_SPECIFIED",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "Shimano Deore 12-fach (CH-Markt, DE-Markt: Shimano XT 12-fach)",
+      "schaltung_url": "https://www.shimano.com",
+      "schaltung_hinweis": "Fuer CHF 7'999 UVP ist Deore SCHWACH - Cube ONE44 SLX 800 (CHF 4'999 UVP) hat Voll-XT",
+      "bremsen": "Magura MT5 4-Kolben, 203/203 mm Storm HC 6-bolt Rotors",
+      "bremsen_url": "https://www.magura.com",
+      "laufraeder": "Stan's Arch MK4 Tubeless Ready",
+      "reifen_vorne": "Maxxis Minion DHF 29x2.5\" 3C EXO+",
+      "reifen_hinten": "Maxxis Dissector 27.5x2.4\" 3C EXO+",
+      "reifen_url": "https://www.maxxis.com",
+      "cockpit": "Cannondale DownLow Dropper (150 mm bei S, 170 mm bei M-L, 200 mm bei XL)"
     },
-    "gewicht_kg": 20.5,
+    "gewicht_kg": 20.6,
+    "gewicht_hinweis": "20.6 kg laut Z-Bike CH (CH-Haendler). VitalMTB nennt 19.5 kg fuer Top-Variante SL LAB71. Vergleich: AMFLOW PL Carbon 19.2 kg.",
     "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "info": "Verfuegbar bei Schweizer Cannondale-Haendlern. Sale-Aktionen: VD-Haendler -35% (CHF 5'199), AG-Haendler -12.5% (CHF 6'999). Probefahrten beim lokalen Haendler empfohlen.",
+      "geprueft_am": "2026-04-26",
+      "geprueft_quelle": "https://velocorner.ch/de/cannondale/moterra-sl-2"
+    },
     "verfuegbarkeit_ch": {
       "haendler": [
-        "NOT_SPECIFIED"
+        "velocorner.ch",
+        "z-bike.ch",
+        "m-way.ch",
+        "lokale Cannondale-Haendler"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Ja, bei lokalen Cannondale-Haendlern",
+      "urls": [
+        "https://velocorner.ch/de/cannondale/moterra-sl-2",
+        "https://www.z-bike.ch"
+      ]
     },
-    "verfuegbarkeit_de_direkt": {
-      "shop": "NOT_SPECIFIED",
-      "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+    "passend_fuer_martina_score": 6,
+    "passend_fuer_martina_begruendung": "Technisch innovatives Light-eMTB, aber 601 Wh permanent integrierter Akku limitiert CH-Bergtouren. Bei UVP CHF 7'999 objectiv schlechtere Preis-Leistung als AMFLOW PL Carbon (Score 9, CHF 3'490 Sale) oder Orbea Wild H10 (Score 9, CHF 4'990).",
+    "bewertung_kategorien": {
+      "Abfahrt": 7,
+      "Ufstig": 5,
+      "Geometrie": 9,
+      "Preis-Leistung": 4,
+      "Einsteigerfreundlich": 6,
+      "Service CH": 9,
+      "Risiko": 9
     },
-    "test_ergebnisse": [
+    "bewertung_detail": {
+      "pro": [
+        "Vollcarbon FlexPivot-Rahmen mit Series 1 Carbon-Konstruktion - Cannondale-eigene Technologie aus dem WC-Scalpel-Projekt",
+        "Shimano EP801 Drive Unit (Marios Wunsch-Motor!) - leicht, zuverlaessig, kraftvoll mit 85 Nm und ueber 600 W max output",
+        "Light-eMTB-Konzept: ~20.6 kg bei Full-Power-Motor - agile Handling-Charakteristik wie ein konventionelles Trailbike",
+        "Lenkwinkel 62.5 Grad = DH-Niveau fuer maximale Abfahrtssicherheit",
+        "Verstellbare Steuersatzlagerschalen (Acros Adjustable Headset) - 1.2 Grad Lenkwinkel-Anpassung steeper/slacker",
+        "Proportional Response: Kinematik UND Geometrie individuell pro Frame-Groesse angepasst - innovatives Cannondale-Konzept",
+        "FlexPivot-Kettenstreben statt traditioneller Horst Pivot - eliminiert Pivot-Bearings, weniger Wartung",
+        "Mullet-Setup ab Werk (29/27.5) mit Flipchip-Option auf Full 29 - Setup-Flexibilitaet",
+        "Fox Performance 36 Gabel mit Grip Damper und 3-position adjust",
+        "Fox Float X Performance Elite Daempfer",
+        "Magura MT5 4-Kolben Bremsen - solide deutsche Premium-Bremsen, 203/203 mm",
+        "Maxxis 3C EXO+ Reifen (DHF/Dissector) - Top-Reifen fuer aggressive Trail-Einsetze",
+        "Cannondale DownLow Dropper mit grossem Hub (150-200 mm je nach Groesse)",
+        "TOP CH-SERVICE: Cannondale Europe Hauptsitz in Allschwil/BL - direkter Service ab Schweiz, eigene Service-Email und Telefon",
+        "Cannondale seit 1971 (US) - etablierte Marke mit langer MTB-Geschichte und WC-Renommee",
+        "Lebenslange Rahmen-Garantie plus 1 Jahr Komponenten",
+        "4 Cannondale-spezifische Fahrmodi (inkl. zwei TRAIL-Modi fuer unterschiedliche Gruppen-Fahrten)",
+        "601 Wh-Akku ist sehr leicht (3.1 kg inkl. Verkabelung) - hoechste Energiedichte pro kg im Markt"
+      ],
+      "contra": [
+        "601 Wh Akku ist KLEIN fuer CH-Bergtouren - AMFLOW PL Carbon hat 800 Wh bei vergleichbarem Gewicht",
+        "Akku ist PERMANENT INTEGRIERT (NICHT entnehmbar!) - kann nicht ausgebaut werden zum bequemen Laden oder fuer Ersatz",
+        "Bei UVP CHF 7'999 ist das Bike CHF 4'500 TEURER als AMFLOW PL Carbon (Score 9, CHF 3'490 Sale) bei objectiv schwaecheren Specs",
+        "Selbst mit -35% Sale (CHF 5'199) noch CHF 1'700 teurer als AMFLOW",
+        "AMFLOW hat staerkeren Motor (DJI Avinox 105 Nm, 1000 W peak vs. EP801 85 Nm, 600+ W)",
+        "AMFLOW hat groesseren Akku (800 Wh entnehmbar vs. 601 Wh permanent)",
+        "AMFLOW ist leichter (19.2 kg vs. 20.6 kg)",
+        "Schaltung Deore 12-fach (CH-Markt) fuer CHF 7'999 ist SCHWACH - Cube ONE44 SLX 800 (CHF 4'999 UVP) hat Voll-XT",
+        "Stan's Arch MK4 Felgen sind solide, aber unter dem Niveau von DT Swiss XM 1700 (Cube ONE44 SLX) oder Newmen Evolution SL.A.30 (Radon Render)",
+        "Kein Range Extender ab Werk - muss separat gekauft werden fuer laengere Touren",
+        "Cannondale ist seit 2008 Teil der Cycling Sports Group / Pon Holdings (NL) - keine reine US-Boutique-Marke mehr"
+      ],
+      "fazit": "Innovatives Light-eMTB-Konzept mit objectiv schwacher Preis-Positionierung. Pro: Vollcarbon FlexPivot + Shimano EP801 + DH-Lenkwinkel 62.5 Grad + verstellbare Geometrie + Proportional Response + Light-eMTB-Charakter (~20.6 kg) + Magura MT5 + Maxxis 3C EXO+ Reifen + TOP-CH-Service via Allschwil + lebenslange Rahmen-Garantie + Marken-Stabilitaet seit 1971. Contra: 601 Wh permanent integrierter Akku ist limitierend fuer CH-Bergtouren (AMFLOW hat 800 Wh entnehmbar), Schaltung Deore fuer CHF 7'999 ist schwach (Cube ONE44 SLX hat Voll-XT fuer CHF 4'999), bei UVP CHF 4'500 teurer als AMFLOW PL Carbon (Score 9) ohne klare Spec-Vorteile, selbst -35% Sale (CHF 5'199) noch CHF 1'700 ueber AMFLOW. Das Cannondale ist ein technisch interessantes Bike mit echtem Light-eMTB-Charakter und top CH-Service, aber bei der aktuellen Marktsituation mit AMFLOW PL Carbon zum CHF 3'490-Preispunkt ist die Preis-Positionierung nicht zu rechtfertigen. Score 6 reflektiert: Bike ist OK, aber es gibt objectiv bessere Alternativen im Light-eMTB-Segment fuer deutlich weniger Geld. Wer die DH-Geo + Proportional Response + Allschwil-Service besonders schaetzt: vernuenftige Wahl. Wer maximale Light-eMTB-Performance pro CHF will: AMFLOW PL Carbon ist die klare Empfehlung."
+    },
+    "test_urteile": [
       {
-        "publikation": "E-MOUNTAINBIKE Magazin",
-        "bewertung_kurz": "Agiler Allrounder",
-        "stärken": [
-          "Sehr geringes Gewicht (20.5 kg)",
-          "Modernes Design",
-          "Leichtfüßiges Handling"
-        ],
-        "schwaechen": [
-          "Straffes Fahrwerk (eher für Könner)",
-          "Kein entnehmbarer Akku"
-        ],
-        "test_url": "NOT_SPECIFIED",
-        "datum": "2025-04"
+        "quelle": "VitalMTB Press Release (Februar 2024)",
+        "kurzfazit": "The lightest, full-power, electric mountain bike ever made. Up to 85Nm of torque, 600+ watts of peak output, 601Wh of battery power yet weighing as little as 19.5 kg. Defines its own class: agility and playfulness with power and range."
+      },
+      {
+        "quelle": "Z-Bike CH (CH-Haendler)",
+        "kurzfazit": "Erste Trailbike mit 150 mm Federweg, das 85 Nm Drehmoment, ueber 600 W Leistung und 601 Wh Batterie in einem Gewicht von nur 20.6 kg vereint. Voller Spass bei voller Power trifft auf Agilitaet und Leichtigkeit."
+      },
+      {
+        "quelle": "Bikes.de Magazintest 2026",
+        "kurzfazit": "Carbonrahmen verbindet hohe Steifigkeit mit direkter Kraftuebertragung. Konsequent auf anspruchsvolle All-Terrain-Einsetze ausgelegt."
       }
     ],
-    "passend_fuer_martina_score": 8,
-    "passend_fuer_martina_begruendung": "Hervorragende Gewichts-Leistungs-Balance. Martina profitiert vom geringen Gewicht beim Handling, muss aber mit dem straffen Hinterbau umgehen können.",
     "warnungen": [
-      "Shimano Motor kann bergab klappern"
+      "601 Wh Akku permanent integriert (nicht entnehmbar) - kritisch fuer laengere CH-Bergtouren",
+      "Deore-Schaltung fuer CHF 7'999 UVP ist schwach vs. Konkurrenz"
     ],
     "alternativ_zu": [
-      "Orbea Rise",
+      "AMFLOW PL Carbon Pro (Score 9, CHF 3'490 Sale - objectiv bessere Light-eMTB-Option)",
+      "Orbea Rise M-Team",
       "Specialized Turbo Levo SL"
     ]
   },
