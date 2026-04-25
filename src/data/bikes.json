@@ -579,29 +579,30 @@
     "modelljahr": 2026,
     "kategorie": "All-Mountain",
     "hersteller_url": "https://www.focus-bikes.com/",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": 5999,
-    "preis_eur": 5599,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "produktseite_url": "https://www.focus-bikes.com/int/jam2-6-9",
+    "preis_chf": 6799,
+    "preis_eur": null,
+    "preis_quelle_url": "https://primusbikecenter.ch/boutique/marque/focus/focus-jam2-6-9-2026/",
+    "preise": {
+      "uvp_chf": 7499,
+      "sale_chf": 6799,
+      "sale_haendler": "primusbikecenter.ch (inkl. Service+)",
+      "sale_url": "https://primusbikecenter.ch/boutique/marque/focus/focus-jam2-6-9-2026/"
+    },
     "rahmen": {
       "material": "Aluminium",
-      "groessen_verfuegbar": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
+      "groessen_verfuegbar": ["S", "M", "L", "XL"],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
-      "sitzwinkel_effektiv_grad": 77,
+      "sitzwinkel_effektiv_grad": 77.0,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
     "federweg": {
       "vorne_mm": 160,
       "hinten_mm": 150,
-      "gabel_modell": "Fox 36 Float Performance",
+      "gabel_modell": "Fox 36 Performance Elite GRIP X2, 160 mm",
       "gabel_url": "NOT_SPECIFIED",
       "daempfer_modell": "Fox Float X Performance",
       "daempfer_url": "NOT_SPECIFIED"
@@ -609,8 +610,8 @@
     "motor": {
       "hersteller": "Bosch",
       "modell": "Performance Line CX Gen5",
-      "drehmoment_nm": 100,
-      "leistung_spitze_w": 750,
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
       "hersteller_url": "NOT_SPECIFIED"
     },
     "akku": {
@@ -619,57 +620,117 @@
       "range_extender_optional": false
     },
     "ausstattung": {
-      "schaltung": "Shimano XT 12-fach",
+      "schaltung": "Shimano Deore XT 12-fach",
       "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano XT 4-Kolben",
+      "bremsen": "TRP DH-R EVO Pro 4-Kolben 203/200 mm",
       "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "DT Swiss H 1900",
+      "laufraeder": "DT Swiss H1900",
       "laufraeder_url": "NOT_SPECIFIED",
       "reifen_vorne": "Maxxis Assegai EXO+",
       "reifen_hinten": "Maxxis Minion DHR II EXO+",
       "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "cockpit": "Bosch Kiox Display"
     },
-    "gewicht_kg": 23.9,
+    "gewicht_kg": null,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
-        "m-way.ch",
-        "Focus-Händler CH"
+        "Primus Bike Center (Region Bern)",
+        "weitere Focus-Partner in der Schweiz"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Ja",
+      "urls": ["https://primusbikecenter.ch/boutique/marque/focus/focus-jam2-6-9-2026/"]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "focus-bikes.com",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.focus-bikes.com/int/jam2-6-9"
     },
     "test_ergebnisse": [
       {
-        "publikation": "emtb-news.de",
-        "bewertung_kurz": "Kauftipp agiles All-Mountain",
+        "publikation": "emtb-News (2025) via Primus Bike Center",
+        "bewertung_kurz": "Agile, maniable und mit enormem Abfahrts-Potenzial. Klettert remarquabel gut, agile, mit ausreichend Reserven für schnelle Abfahrten.",
         "stärken": [
-          "Ballergenen (bergab schnell)",
-          "Bosch CX Gen5",
-          "Service-Netz CH",
-          "Solide XT-Austattung"
+          "Exzellente Agilität bergab",
+          "Fox 36 Performance Elite GRIP X2",
+          "TRP DH-R EVO Pro Bremsen"
         ],
         "schwaechen": [
-          "Alu-Rahmen (Gewicht)",
-          "Aggressive Geometrie erfordert Eingewöhnung"
+          "Alu-Rahmen bei hohem UVP",
+          "Kein Range Extender"
         ],
         "test_url": "NOT_SPECIFIED",
         "datum": "2025-11"
+      },
+      {
+        "publikation": "ebike-crew.de Test (April 2026)",
+        "bewertung_kurz": "Bosch CX Gen5 deutlich sensibler und leiser als Vorgänger, kein Klappern mehr bergab. Fox 36 Performance Elite und TRP DH-R EVO Pro Bremsen mit enormer Bremspower.",
+        "stärken": ["Motor-Qualität Gen5", "Bremsen-Performance", "Fox 36 Elite"],
+        "schwaechen": [],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2026-04"
+      },
+      {
+        "publikation": "Flow Mountain Bike Review (April 2026)",
+        "bewertung_kurz": "An outstanding ride, albeit with some polarising quirks. Updates haben Suspension, Handling und Look verbessert — but it's still not perfect.",
+        "stärken": ["Ride quality", "Suspension updates"],
+        "schwaechen": ["Einige polarisierende Eigenheiten"],
+        "test_url": "NOT_SPECIFIED",
+        "datum": "2026-04"
       }
     ],
-    "passend_fuer_martina_score": 9,
-    "passend_fuer_martina_begruendung": "Kauftipp von emtb-news.de. Bosch CX Gen5, sehr agiles Handling, Bosch-Service-Netz in CH top. Alu-Rahmen hält Preis fair. Für Martina solider Daily Driver mit Bikepark-Reserven.",
-    "warnungen": [],
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Hochwertige Komponenten (Fox 36 Elite, TRP DH-R EVO Pro) und Bosch CX Gen5 in einem soliden All-Mountain-Paket. Aber Aluminium-Rahmen bei UVP CHF 7'499 ist teuer — Cube ONE44 SLX 800 für CHF 4'999 (Carbon) und Canyon Spectral:ON CF 8 für CHF 4'099 (Carbon, Sale) bieten bessere Preis-Leistung.",
+    "warnungen": [
+      "Höchster UVP bisher (CHF 7'499) — Aluminium-Rahmen bei diesem Preis schwer zu rechtfertigen gegenüber Carbon-Konkurrenten.",
+      "Gewicht nicht offiziell publiziert — geschätzt 24-25 kg (Alu + 800 Wh)."
+    ],
     "alternativ_zu": [
-      "Cube Stereo Hybrid ONE44",
-      "Canyon Spectral:ON"
-    ]
+      "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+      "canyon-spectral-on-cf-8-2026"
+    ],
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "hinweis": "Bei primusbikecenter.ch im Sale für CHF 6'799 (statt UVP 7'499, -9%) inklusive 'Service+'-Paket. Vor Bestellung Lagerbestand und Grössen-Verfügbarkeit beim Händler bestätigen lassen.",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://primusbikecenter.ch/boutique/marque/focus/focus-jam2-6-9-2026/"
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 7,
+      "bergauf_touren": 8,
+      "bikepark_reserve": 8,
+      "gewicht_handling": 6,
+      "preis_leistung": 7,
+      "service_haendlernetz_ch": 8,
+      "risiko_datenunsicherheit": 8
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Bosch Performance CX Gen5 (85 Nm, 600 W peak) — entspricht deinem Motor-Wunsch, sensiblerer Antritt als Vorgänger-Generationen, kein Klappern bergab mehr",
+        "800 Wh PowerTube Akku, entnehmbar — top Reichweite (40-80 km laut Focus auf Trail-Touren)",
+        "Fox 36 Performance Elite GRIP X2 Gabel — Top-Niveau, klare Aufwertung gegenüber Fox 36 Rhythm bei Cube oder Fox 38 Rhythm bei Spectral",
+        "TRP DH-R EVO Pro 4-Kolben Bremsen mit 203/200 mm — Downhill-Niveau, kein Fading auf langen Abfahrten, mit Abstand stärkste Bremsen in dieser Liste",
+        "160 mm vorne / 150 mm hinten Federweg — gute Bikepark-Reserve",
+        "Shimano Deore XT 12-fach (mechanisch) — robust, zuverlässig, keine Akku-Probleme bei elektronischen Schaltungen",
+        "DT Swiss H1900 Laufräder — robust und etabliert",
+        "Bosch Kiox Display mit Navigation + Bosch Flow App",
+        "'Service+'-Paket inklusive bei Schweizer Händler (Primus Bike Center)",
+        "Etablierte Marke (Focus seit 1992) — keine bekannten Defekt-Issues",
+        "Magazintests positiv: 'Agile, maniable, enormes Abfahrts-Potenzial' (emtb-News), 'Outstanding ride' (Flow MTB)"
+      ],
+      "contra": [
+        "Aluminium-Rahmen statt Carbon — bei UVP CHF 7'499 nicht überzeugend gegenüber Carbon-Konkurrenten",
+        "Höchster UVP in dieser Liste (CHF 7'499) — auch der Sale-Preis CHF 6'799 ist im oberen Drittel",
+        "Direkter Preis-Vergleich kritisch: Cube ONE44 SLX 800 für CHF 4'999 UVP (Carbon), Canyon Spectral:ON CF 8 für CHF 4'099 Sale (Carbon) — beide günstiger und mit Carbon-Rahmen",
+        "Keine elektronische Schaltung (Shimano XT mechanisch) — bewusste Wahl von Focus für Zuverlässigkeit, aber als Premium-Feature für den Preis fehlend",
+        "Kein Range Extender als Option (anders als Canyon Neuron mit 1'050 Wh möglich)",
+        "Gewicht nicht offiziell publiziert — geschätzt 24-25 kg basierend auf Alu-Rahmen + 800 Wh",
+        "Aktueller Sale -9% ist vergleichsweise klein (Spectral hat -28%, AMFLOW -22%)",
+        "Primus Bike Center ist in Region Bern — nicht im Aargau, längere Service-Wege"
+      ],
+      "fazit": "Solides All-Mountain-E-MTB mit absolut hochwertigen Komponenten — die Fox 36 Performance Elite GRIP X2 Gabel und die TRP DH-R EVO Pro Bremsen sind die beste Trail-Komponenten-Kombination in dieser Liste bisher. Etablierte Marke, keine Service-Risiken. ABER: Der Aluminium-Rahmen bei UVP CHF 7'499 (Sale 6'799) ist preislich nicht überzeugend, weil Carbon-Konkurrenten wie Cube ONE44 SLX 800 oder Canyon Spectral:ON CF 8 für deutlich weniger Geld vergleichbare oder bessere Pakete bieten. Wenn dir die Bremsen- und Gabel-Performance wichtiger ist als das Rahmenmaterial und du beim CH-Händler Probefahrt machst, kann es passen — sonst gibt es bessere Preis-Leistungs-Verhältnisse."
+    }
   },
   {
     "id": "cube-stereo-hybrid-one44-hpc-at-800-2026",
