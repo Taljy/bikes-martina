@@ -2828,93 +2828,167 @@
     "bild_pfad": "/images/bikes/transition-regulator-cx-xt-2026.jpg",
     "hersteller": "Transition",
     "modell": "Regulator CX XT",
+    "modell_hinweis": "XT-Variante (mechanische Shimano XT 12-fach) der Regulator CX-Familie 2026. Es gibt 4 Varianten: Regulator CX Deore, Regulator CX XT, Regulator SX Deore, Regulator SX XT. CX = Bosch Performance Line CX (Full-Power), SX = Bosch SX (Light-eMTB). Diese Bewertung gilt fuer CX XT (Full-Power + Premium-Spec).",
     "modelljahr": 2026,
-    "kategorie": "All-Mountain | Trail",
-    "hersteller_url": "NOT_SPECIFIED",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": null,
+    "kategorie": "All-Mountain/Trail",
+    "hersteller_url": "https://www.transitionbikes.com",
+    "produktseite_url": "https://transitionbikes.ch/products/regulator",
+    "preis_chf": 9990,
     "preis_eur": 9990,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "preis_hinweis": "UVP CHF 9'990 GESCHAETZT basierend auf transitionbikes.ch SX XT-Preis (CHF 8'999 UVP) plus ueblichen CX-Aufschlag wegen groesserem Akku/staerkerem Motor. EUR-UVP ist verifiziert: 9'990 EUR. 5% Rabatt mit Code WELCOMETR5 moeglich. Bei UVP CHF 9'990 ist das Bike CHF 2'000 TEURER als Cannondale Moterra SL 2 (Score 6, CHF 7'999) bei vergleichbarem 600 Wh-Akku-Problem.",
+    "preis_quelle_url": "https://transitionbikes.ch/products/regulator",
     "rahmen": {
-      "material": "Carbon",
-      "groessen_verfuegbar": "NOT_SPECIFIED",
-      "groesse_L_reach_mm": null,
+      "material": "Vollcarbon (Proportional Geometry, gross-spezifische Kettenstrebenlängen)",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": 480,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": null,
+      "lenkwinkel_grad": 64.0,
       "sitzwinkel_effektiv_grad": null,
       "radstand_mm": null,
-      "kettenstrebe_mm": null
+      "kettenstrebe_mm": 445,
+      "besonderheiten": "Flip-Chip am Daempfer fuer 0.5 Grad Lenkwinkel-Anpassung (64/64.5 Grad), Proportional Geometry (kettenstrebenlängen nach Groesse), Magnetic Charge Port, Integrierte Frame-Protection, UDH Universal Derailleur Hanger"
     },
     "federweg": {
       "vorne_mm": 160,
       "hinten_mm": 150,
-      "gabel_modell": "Fox 36 Factory",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "Fox Float X Factory",
-      "daempfer_url": "NOT_SPECIFIED"
+      "gabel_modell": "RockShox ZEB Ultimate, Charger 3.1 Damper, 160 mm",
+      "gabel_url": "https://www.sram.com/rockshox",
+      "daempfer_modell": "RockShox Super Deluxe Ultimate, DebonAir, vollständig einstellbar, 150 mm",
+      "daempfer_url": "https://www.sram.com/rockshox"
     },
     "motor": {
       "hersteller": "Bosch",
-      "modell": "Performance Line CX Gen5",
+      "modell": "Performance Line CX Gen5 (BDU384Y)",
       "drehmoment_nm": 85,
       "leistung_spitze_w": 600,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.bosch-ebike.com",
+      "hinweis": "Performance Update auf 100 Nm via Bosch eBike Flow App ab Juli 2025 verfügbar"
     },
     "akku": {
       "kapazitaet_wh": 600,
       "wechselbar": false,
-      "range_extender_optional": true
+      "range_extender_optional": true,
+      "hinweis": "600 Wh Bosch PowerTube PERMANENT integriert (NICHT entnehmbar). Bosch PowerMore 250 Wh Range Extender kompatibel = bis 850 Wh kombiniert. KRITISCH: kein bequemes Laden ohne Bike in der Wohnung."
     },
     "ausstattung": {
-      "schaltung": "Shimano XT 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano XT",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "NOT_SPECIFIED",
-      "reifen_vorne": "NOT_SPECIFIED",
-      "reifen_hinten": "NOT_SPECIFIED",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "Shimano XT M8100 12-fach (mechanisch, Voll-XT Setup)",
+      "schaltung_url": "https://bike.shimano.com",
+      "bremsen": "TRP DH-R EVO Pro 4-Kolben Hydraulic Disc, 203/203 mm",
+      "bremsen_url": "https://www.trpbrakes.com",
+      "laufraeder": "DT Swiss H1900 Spline Hybrid 30 (E-Bike-spezifisch verstaerkt)",
+      "laufraeder_url": "https://www.dtswiss.com",
+      "reifen_vorne": "Schwalbe Albert Trail Evo Radial 29x2.5\" Ultra Soft",
+      "reifen_hinten": "Schwalbe Albert Trail Evo Radial 27.5x2.4\" Soft",
+      "reifen_url": "https://www.schwalbe.com",
+      "cockpit": "ANVL Swage 40 mm Vorbau + OneUp Carbon 800 mm Lenker + OneUp V3 Dropper 180 mm"
     },
-    "gewicht_kg": 22,
+    "gewicht_kg": 22.0,
     "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "info": "Verfuegbar via offiziellen Transition CH-Webshop (transitionbikes.ch) mit Direktvertrieb. 5% Rabatt mit Code WELCOMETR5. Da Transition eine US-Boutique-Marke ist, kann die CH-Verfuegbarkeit zeitweise eingeschraenkt sein.",
+      "geprueft_am": "2026-04-26",
+      "geprueft_quelle": "https://transitionbikes.ch/products/regulator"
+    },
     "verfuegbarkeit_ch": {
       "haendler": [
-        "NOT_SPECIFIED"
+        "transitionbikes.ch (offizieller CH-Webshop, Direktvertrieb, 5% Rabatt Code WELCOMETR5)"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Ja, bei lokalen Transition-Partner-Haendlern",
+      "urls": [
+        "https://transitionbikes.ch/products/regulator"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "NOT_SPECIFIED",
+      "shop": "transitionbikes.com / transitionbikes.ch",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://transitionbikes.ch/products/regulator"
     },
-    "test_ergebnisse": [
+    "passend_fuer_martina_score": 6,
+    "passend_fuer_martina_begruendung": "Magazin-Highlight mit Top-Komponenten-Spec, aber 600 Wh permanent integrierter Akku limitiert CH-Bergtouren (gleiche Schwaeche wie Cannondale Moterra SL 2). Bei UVP CHF 9'990 deutlich teurer als Cannondale (CHF 7'999, Score 6) und doppelt so teuer wie Cube ONE44 SLX (CHF 4'999, Score 9).",
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 6,
+      "bergauf_touren": 6,
+      "bikepark_reserve": 9,
+      "gewicht_handling": 8,
+      "preis_leistung": 4,
+      "service_haendlernetz_ch": 6,
+      "risiko_datenunsicherheit": 8
+    },
+    "bewertung_detail": {
+      "pro": [
+        "MAGAZIN-HIGHLIGHT: E-MOUNTAINBIKE Magazine 2025 fragt 'Das beste E-Mountainbike 2025?' — hoegstes Magazin-Rating in der Liste",
+        "Pinkbike: 'Exceptionally fun and versatile ripper that rides less like an e-bike and more like a traditional mountain bike'",
+        "Vital MTB: 'Exceptionally fun and versatile ripper'",
+        "eMTB-News: 'Wow! Erstklassiges Trailbike, eine echte Offenbarung im Mittelgebirge'",
+        "Vollcarbon Rahmen mit Proportional Geometry (gross-spezifische Kettenstrebenlängen 442/448 mm)",
+        "Bosch Performance Line CX Gen5 — Marios Wunsch-Motor, mit Performance Update auf 100 Nm via App",
+        "RockShox ZEB ULTIMATE Federgabel mit Charger 3.1 Damper — hoechstes ZEB-Spec-Niveau in der Liste",
+        "RockShox Super Deluxe ULTIMATE Daempfer — vollstaendig einstellbar mit HSC/LSC",
+        "Voll-XT Setup (Shimano XT M8100 12-fach) — Premium-Schaltung",
+        "TRP DH-R EVO Pro 4-Kolben Bremsen, 203/203 mm — Premium-Bremsen",
+        "DT Swiss H1900 Spline Hybrid 30 Laufraeder — E-Bike-spezifisch verstaerkt",
+        "OneUp Carbon 800 mm Lenker + V3 Dropper 180 mm — Premium Cockpit",
+        "22 kg in L — leicht fuer Full-Power-Bike mit diesem Spec-Niveau",
+        "Flip-Chip am Daempfer fuer 0.5 Grad Lenkwinkel + Sitzwinkel-Anpassung (64/64.5 Grad)",
+        "Magnetic Charge Port — innovatives Detail mit solidem magnetischen Verschluss",
+        "Bosch PowerMore 250 Wh Range Extender kompatibel = bis 850 Wh kombinierte Kapazitaet",
+        "Lebenslange Rahmen-Garantie auf alle Carbon-Modelle",
+        "Offizieller CH-Webshop transitionbikes.ch mit Direktversand und 5% Rabatt-Code WELCOMETR5",
+        "Transition seit 2001 (Bellingham, Washington) — etablierte US-Boutique-Marke mit ehrlichem Trail-Fokus",
+        "Mixed Wheel Setup (29\"/27.5\") fuer ausgewogene Stabilitaet + Agilitaet"
+      ],
+      "contra": [
+        "600 Wh Akku ist PERMANENT INTEGRIERT (NICHT entnehmbar) — kein bequemes Laden ohne Bike in der Wohnung",
+        "Bei UVP CHF 9'990 CHF 5'000 TEURER als Cube ONE44 SLX 800 (Score 9, CHF 4'999) und Orbea Wild H10 (Score 9, CHF 4'990)",
+        "CHF 2'000 TEURER als Cannondale Moterra SL 2 (Score 6, CHF 7'999) bei vergleichbarem Akku-Problem (600/601 Wh permanent)",
+        "Premium-Komponenten rechtfertigen einen Aufschlag, aber DOPPELTER Preis vs. Cube ONE44 SLX ist schwer zu argumentieren",
+        "Schwalbe Albert Radial Karkasse Reifen sind laut MBR pannen-anfaellig fuer aggressive/schwere Fahrer",
+        "US-Boutique-Marke ohne CH-Hauptsitz — Service-Profil schwaecher als Cannondale (Allschwil), Scott (Givisiez), Merida (Belimport)",
+        "CH-Service via offiziellen Webshop oder lokale Partner-Haendler — keine flaechendeckende Service-Anbindung",
+        "CHF-UVP ist GESCHAETZT — exakter CX XT-Preis bei transitionbikes.ch nicht immer direkt sichtbar",
+        "Akku-Ausbau im Schadensfall nur via Werkstatt — komplizierte Wartung",
+        "150 mm Kurbellänge (sehr kurz) — Eingewoehnung noetig",
+        "Verfuegbarkeit zeitweise eingeschraenkt — Boutique-Marke mit Lieferengpaessen moeglich"
+      ],
+      "fazit": "Premium-Boutique-Bike mit Magazinhighlight-Status, aber objektiv schwaechste Preis-Positionierung in der Liste. Pro: Magazintests sind aussergewoehnlich positiv (E-MOUNTAINBIKE 'Bestes E-MTB 2025?', Pinkbike + Vital MTB Top-Ratings) + hoechstes Komponenten-Spec-Niveau in der Liste (ZEB Ultimate + Voll-XT + TRP Pro + OneUp Carbon + DT Swiss) + Vollcarbon mit Proportional Geometry + 22 kg = leichtes Full-Power-Bike + Bosch Gen5 Motor + Flip-Chip Geometrie-Adjust + lebenslange Rahmen-Garantie + offizieller CH-Webshop. Contra: 600 Wh permanent integrierter Akku ist limitierend (gleiche Schwaeche wie Cannondale Moterra SL 2), bei UVP CHF 9'990 CHF 5'000 teurer als Cube ONE44 SLX (Score 9), CHF 2'000 teurer als Cannondale Moterra SL 2 (Score 6) bei gleichem Akku-Problem, US-Boutique-Marke ohne CH-Hauptsitz = schwaecheres Service-Profil. Score 6 reflektiert: Bike ist objektiv ein BESSERES Bike als Cannondale Moterra SL 2 (bessere Komponenten, positivere Magazintests), aber teurer bei gleichem Akku-Problem. Wer Magazin-Highlights und Top-Komponenten ueber Preis-Leistung priorisiert: vernuenftige Wahl. Wer maximale Bike-Performance pro CHF will: Cube ONE44 SLX 800 (Score 9) bietet vergleichbares Spec-Niveau fuer die HAELFTE des Geldes."
+    },
+    "test_urteile": [
       {
-        "publikation": "BIKE",
-        "bewertung_kurz": "Lebendig & Schnell",
-        "stärken": [
-          "Geringes Gewicht für Bosch CX",
-          "Verspieltes Handling",
-          "Starke Trail-DNA"
-        ],
-        "schwaechen": [
-          "Fest verbauter Akku",
-          "Geringere Reichweite (600 Wh)"
-        ],
-        "test_url": "NOT_SPECIFIED",
-        "datum": "2026-03"
+        "quelle": "E-MOUNTAINBIKE Magazine 2025 (Vergleichstest)",
+        "kurzfazit": "Das beste E-Mountainbike 2025? Transition Regulator CX XT. Bosch Performance Line CX Gen5/600 Wh, 160/150 mm, 22 kg in L, 9.990 EUR. Bergauf geraeumig und aufrecht, effizientes Pedalieren. Feinfuehliges Fahrwerk auf langen Uphills."
+      },
+      {
+        "quelle": "Pinkbike Review (Maerz 2025)",
+        "kurzfazit": "The Regulator CX covers that broad range of demands better than anything else I've ridden. Ride characteristics shockingly close to a regular mountain bike. The XT build certainly isn't cheap, but it does have a very solid spec for the price, with top of the line suspension and great brakes."
+      },
+      {
+        "quelle": "eMTB-News.de Magazintest 2025",
+        "kurzfazit": "Wow! Transition hat mit dem Regulator ein erstklassiges Trailbike im Portfolio, welches auf Trails im Mittelgebirge eine echte Offenbarung ist. Carbonrahmen schlank und modern, hochwertige RockShox Ultimate-Federelemente, Voll-XT Schaltung, TRP DH-R Evo Bremsen."
+      },
+      {
+        "quelle": "Vital MTB Review",
+        "kurzfazit": "Exceptionally fun and versatile ripper that rides less like an e-bike and more like a traditional mountain bike. Balanced geometry in a full-carbon frame with capable components."
+      },
+      {
+        "quelle": "MBR.co.uk Review",
+        "kurzfazit": "Great use of power from the Bosch CX Gen 5 motor. Suspension components are top drawer. Well made full carbon frame with neat touches like magnetic charge port. Geometry spot on. ABER: Schwalbe Radial tyres spoiled it for me — pannen-anfaellig fuer aggressive/schwere Fahrer."
       }
     ],
-    "passend_fuer_martina_score": 8,
-    "passend_fuer_martina_begruendung": "Ideal für Martina, wenn sie volle Bosch-Power in einem kompakten, leichten Paket (22 kg) will. Das Mullet-Setup macht es sehr wendig in technischen Sektionen.",
     "warnungen": [
-      "Eingeschränkte Tourentauglichkeit durch 600-Wh-Akku ohne Range Extender"
+      "600 Wh Akku permanent integriert (nicht entnehmbar) — kritisch fuer laengere CH-Bergtouren",
+      "CHF-UVP ist geschaetzt (basierend auf SX XT CHF 8'999 + CX-Aufschlag)"
     ],
     "alternativ_zu": [
-      "Santa Cruz Vala",
-      "Cannondale Moterra SL"
+      "Cube ONE44 SLX 800 (Score 9, CHF 4'999 — halbem Preis, vergleichbares Spec-Niveau)",
+      "Cannondale Moterra SL 2 (Score 6, CHF 7'999 — guenstiger mit aehnlichem Akku-Problem)",
+      "AMFLOW PL Carbon Pro (Score 8, CHF 3'490 Sale — guenstigste Light-eMTB-Option)"
     ]
   },
   {
