@@ -740,19 +740,20 @@
     "modelljahr": 2026,
     "kategorie": "All-Mountain",
     "hersteller_url": "https://www.cube.eu/",
-    "produktseite_url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-at-800-my2025-2026-carbon-n-gold-diamant-s/",
+    "produktseite_url": "https://www.cube.eu/ch-de/cube-stereo-hybrid-one44-hpc-at-800-carbon-n-gold/102800",
     "preis_chf": 6999,
-    "preis_eur": 6499,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "preis_eur": null,
+    "preis_quelle_url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-at-800-my2025-2026-carbon-n-gold-diamant-s/",
+    "preise": {
+      "uvp_chf": 6999,
+      "sale_chf": null,
+      "sale_haendler": null,
+      "sale_url": null
+    },
     "rahmen": {
-      "material": "Carbon",
-      "groessen_verfuegbar": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "groesse_L_reach_mm": null,
+      "material": "Carbon (HPC C:62 Hauptrahmen, Alu 6061 T6 Hinterbau)",
+      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groesse_L_reach_mm": 477,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
       "sitzwinkel_effektiv_grad": 77.5,
@@ -762,14 +763,14 @@
     "federweg": {
       "vorne_mm": 150,
       "hinten_mm": 140,
-      "gabel_modell": "Fox 36 Float Factory",
+      "gabel_modell": "Fox 36 Float Factory mit Kashima-Beschichtung, 150 mm",
       "gabel_url": "NOT_SPECIFIED",
       "daempfer_modell": "Fox Float X Factory",
       "daempfer_url": "NOT_SPECIFIED"
     },
     "motor": {
       "hersteller": "Bosch",
-      "modell": "Performance Line CX Gen5",
+      "modell": "Performance Line CX Smart Gen5",
       "drehmoment_nm": 100,
       "leistung_spitze_w": 750,
       "hersteller_url": "NOT_SPECIFIED"
@@ -780,56 +781,101 @@
       "range_extender_optional": false
     },
     "ausstattung": {
-      "schaltung": "Shimano XT Di2 12-fach",
+      "schaltung": "Shimano XT Di2 12-fach (elektronisch)",
       "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano XT 4-Kolben ABS Pro",
+      "bremsen": "Shimano XT BR-M8220 4-Kolben 203 mm + Bosch ABS Pro Vorderrad",
       "bremsen_url": "NOT_SPECIFIED",
       "laufraeder": "Newmen Beskar 30",
       "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Schwalbe Albert 2.5",
-      "reifen_hinten": "Schwalbe Albert 2.5",
+      "reifen_vorne": "Schwalbe Albert 2.5\"",
+      "reifen_hinten": "Schwalbe Albert 2.5\"",
       "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "cockpit": "Bosch Kiox 400C Display"
     },
-    "gewicht_kg": 23.8,
+    "gewicht_kg": 24.3,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
-        "m-way.ch",
-        "bikester.ch"
+        "m-way.ch (Lieferzeit 4-7 Tage)",
+        "bikester.ch",
+        "Cube-Händler in der Schweiz"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Ja",
+      "urls": ["https://m-way.ch/cube-stereo-hybrid-one44-hpc-at-800-my2025-2026-carbon-n-gold-diamant-s/"]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "bikester.ch",
-      "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "shop": "m-way.ch",
+      "lieferzeit_tage": 7,
+      "url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-at-800-my2025-2026-carbon-n-gold-diamant-s/"
     },
     "test_ergebnisse": [
       {
-        "publikation": "Cube/bikester.ch",
-        "bewertung_kurz": "All-Mountain-Topmodell",
+        "publikation": "Cube Hersteller-Beschreibung",
+        "bewertung_kurz": "Begeistert mit ausgeklügelten Details für Trailriding: Bosch ABS Pro Technologie, Schwalbe Albert Reifen, elektronische XT Di2-Schaltung und potentes Fahrwerk aus Fox 36 Float Factory + Fox Float X Factory.",
         "stärken": [
-          "Bosch CX Gen5 mit ABS Pro",
-          "Hochwertiges Fahrwerk",
-          "XT Di2 elektronisch",
-          "800 Wh wechselbar"
+          "Bosch ABS Pro (Vorderrad)",
+          "Fox 36 Factory mit Kashima",
+          "Fox Float X Factory",
+          "Shimano XT Di2 elektronisch"
         ],
         "schwaechen": [
-          "Preis am oberen Limit des Budgets"
+          "CHF 2'000 Aufpreis gegenüber SLX für gleiche Plattform"
         ],
         "test_url": "NOT_SPECIFIED",
         "datum": "2026-03"
       }
     ],
     "passend_fuer_martina_score": 9,
-    "passend_fuer_martina_begruendung": "Top-Ausstattung für Martina: Bosch CX Gen5 (neueste Generation), 800-Wh-Akku, ABS Pro für extra Sicherheit, elektronische XT Di2. Carbon hält Gewicht moderat. Budget leicht überzogen, aber gerechtfertigt.",
-    "warnungen": [],
+    "passend_fuer_martina_begruendung": "Premium-Variante des Cube ONE44: Bosch ABS Pro (Sicherheits-Plus, einzigartig in dieser Liste), Fox Factory mit Kashima, Shimano XT Di2. Gleiche Plattform wie SLX 800, aber CHF 2'000 mehr für echte Komponenten-Upgrades — nur sinnvoll wenn ABS Pro und Di2 wichtig sind.",
+    "warnungen": [
+      "CHF 2'000 Aufpreis gegenüber SLX 800 (UVP CHF 4'999) für gleiche Rahmen-Plattform. Preis-Leistung deutlich schlechter als SLX.",
+      "Beim SLX 800 gibt es aktuell -15% Sale bei m-way.ch (CHF 4'249) — AT hat keinen Sale."
+    ],
     "alternativ_zu": [
-      "Canyon Spectral:ON CF 9",
-      "Focus JAM² 6.9"
-    ]
+      "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+      "focus-jam2-69-2026"
+    ],
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "hinweis": "Bei m-way.ch in Grösse S online verfügbar (Lieferzeit 4-7 Tage). Andere Grössen Filialbestand prüfen oder bei weiteren Cube-Händlern anfragen. Aktuell kein Sale (UVP CHF 6'999).",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-at-800-my2025-2026-carbon-n-gold-diamant-s/"
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 7,
+      "bergauf_touren": 9,
+      "bikepark_reserve": 8,
+      "gewicht_handling": 6,
+      "preis_leistung": 6,
+      "service_haendlernetz_ch": 10,
+      "risiko_datenunsicherheit": 9
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Bosch ABS Pro am Vorderrad — innovatives Sicherheits-Feature, einzigartig in dieser Liste, hilft besonders bei Notbremsungen und auf losem Untergrund",
+        "Shimano XT Di2 elektronische Schaltung — präzise Gangwechsel auch unter Last in technischen Passagen",
+        "Fox 36 Float Factory mit Kashima-Beschichtung — Premium-Niveau, klare Aufwertung gegenüber Fox Rhythm beim SLX",
+        "Fox Float X Factory Dämpfer — Premium-Niveau",
+        "Schwalbe Albert 2.5\" Reifen — neuere Schwalbe-Konstruktion, sehr griffig",
+        "Bosch Performance CX Smart Gen5 — entspricht deinem Motor-Wunsch",
+        "800 Wh PowerTube Akku, entnehmbar",
+        "Carbon-Hauptrahmen (HPC C:62) mit verstellbarem Steuerwinkel",
+        "Riesiges Cube-Händlernetz in der Schweiz",
+        "DIN-Klassifikation 4 — bikepark-tauglich (Sprünge bis 120 cm)",
+        "Reach 477 mm in Grösse L passt zu 1.80 m"
+      ],
+      "contra": [
+        "UVP CHF 6'999 — CHF 2'000 mehr als SLX 800 (UVP 4'999) für identische Plattform (gleicher Rahmen, Motor, Akku, Geometrie)",
+        "Aktuell kein Sale — beim SLX 800 gibt's bei m-way.ch -15% Rabatt (CHF 4'249)",
+        "Hinterbau aus Aluminium, nicht Carbon (gleiche Bauweise wie SLX)",
+        "24.3 kg Gewicht — schwer wie der SLX (kein Vorteil durch Premium-Komponenten)",
+        "Schwalbe Albert ist immer noch ein aggressiver Reifen — ähnliche Tour-Schwächen wie Conti Kryptotal beim SLX",
+        "Elektronische Di2-Schaltung = zusätzliche Akku-Abhängigkeit für Schalten",
+        "Du zahlst hauptsächlich für Komponenten-Upgrade, nicht für ein 'besseres Bike' — die gleiche Plattform fährt bereits SLX 800 mit Score 9"
+      ],
+      "fazit": "Premium-Variante des Cube ONE44 mit echten Top-Komponenten: Fox Factory mit Kashima, Shimano XT Di2 elektronisch und Bosch ABS Pro am Vorderrad. Letzteres ist ein Sicherheits-Plus, das es in keinem anderen Bike dieser Liste gibt — für deine 3. E-MTB-Saison potentiell wertvoll. ABER: Du fährst die gleiche Plattform wie beim SLX 800 (gleicher Rahmen, gleicher Motor, gleiche Geometrie) für CHF 2'000 mehr. Wenn dir ABS Pro wichtig ist (Sicherheit beim Bremsen), kann sich das rechnen. Wenn nicht, ist das SLX 800 das objektiv bessere Preis-Leistungs-Bike — gleicher Score 9, aber CHF 2'000 günstiger."
+    }
   },
   {
     "id": "amflow-pl-carbon-pro-2026",
