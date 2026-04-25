@@ -9,6 +9,7 @@ import Wissen from './pages/Wissen'
 import TrailVsEnduro from './pages/TrailVsEnduro'
 import WissenMotoren from './pages/WissenMotoren'
 import WissenNeuheiten from './pages/WissenNeuheiten'
+import Impressum from './pages/Impressum'
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="wissen/trail-vs-enduro" element={<TrailVsEnduro />} />
             <Route path="wissen/motoren" element={<WissenMotoren />} />
             <Route path="wissen/neuheiten-2026" element={<WissenNeuheiten />} />
+            <Route path="impressum" element={<Impressum />} />
           </Route>
         </Routes>
       </CompareProvider>

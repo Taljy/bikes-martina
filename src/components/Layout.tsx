@@ -95,7 +95,12 @@ export default function Layout() {
       <footer className="border-t border-stone-200 bg-white mt-auto">
         <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between text-sm text-stone-400">
           <span>Bikes für Martina — Studio Da Rugna, Baden AG</span>
-          <span>2026</span>
+          <div className="flex items-center gap-4">
+            <span>2026</span>
+            <NavLink to="/impressum" className="hover:text-terracotta-500 transition-colors">
+              Impressum
+            </NavLink>
+          </div>
         </div>
       </footer>
     </div>
