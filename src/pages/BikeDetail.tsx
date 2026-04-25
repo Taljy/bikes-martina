@@ -284,7 +284,7 @@ export default function BikeDetail() {
               <hr className="border-stone-100" />
               <div className="pl-4 border-l-2 border-terracotta-400">
                 <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-2">
-                  Sherlocks Fazit
+                  Min Sänf dezu
                 </p>
                 <p className="text-sm text-stone-600 leading-relaxed italic">
                   {bike.bewertung_detail.fazit}
