@@ -135,33 +135,39 @@
     }
   },
   {
-    "id": "amflow-pl-carbon-2026-budget-king",
-    "bild_pfad": "/images/bikes/amflow-pl-carbon-2026-budget-king.jpg",
+    "id": "amflow-pl-carbon-2026",
+    "bild_pfad": "/images/bikes/amflow-pl-carbon-2026.jpg",
     "hersteller": "AMFLOW",
     "modell": "PL Carbon",
     "modelljahr": 2026,
-    "kategorie": "All-Mountain | Trail",
-    "hersteller_url": "NOT_SPECIFIED",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": null,
-    "preis_eur": 6449,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "kategorie": "Enduro / All-Mountain",
+    "hersteller_url": "https://www.amflowbikes.com/",
+    "produktseite_url": "https://www.amflowbikes.com/de/pl-carbon",
+    "preis_chf": 3490,
+    "preis_eur": null,
+    "preis_quelle_url": "https://www.bikeperfection.ch/produkt/amflow-pl-carbon-3/",
+    "preise": {
+      "uvp_chf": 4490,
+      "sale_chf": 3490,
+      "sale_haendler": "bikeperfection.ch",
+      "sale_url": "https://www.bikeperfection.ch/produkt/amflow-pl-carbon-3/"
+    },
     "rahmen": {
-      "material": "Carbon",
-      "groessen_verfuegbar": "NOT_SPECIFIED",
-      "groesse_L_reach_mm": null,
+      "material": "Carbon (Rahmengewicht 2.27 kg)",
+      "groessen_verfuegbar": ["M", "L", "XL", "XXL"],
+      "groesse_L_reach_mm": 470,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": null,
-      "sitzwinkel_effektiv_grad": null,
+      "lenkwinkel_grad": 64.5,
+      "sitzwinkel_effektiv_grad": 77.0,
       "radstand_mm": null,
-      "kettenstrebe_mm": null
+      "kettenstrebe_mm": 445
     },
     "federweg": {
       "vorne_mm": 160,
       "hinten_mm": 150,
-      "gabel_modell": "Fox 36 Performance GRIP",
+      "gabel_modell": "Fox 36 Performance, 160 mm",
       "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "Fox Float Performance",
+      "daempfer_modell": "Fox Float Performance, 2-Position, 150 mm",
       "daempfer_url": "NOT_SPECIFIED"
     },
     "motor": {
@@ -177,58 +183,104 @@
       "range_extender_optional": false
     },
     "ausstattung": {
-      "schaltung": "SRAM GX Eagle",
+      "schaltung": "SRAM GX Eagle 12-fach",
       "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "MAGURA MT5",
+      "bremsen": "Magura MT5 eSTOP 4-Kolben",
       "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "AMFLOW HMA-30 Alu",
+      "laufraeder": "AMFLOW HMA-30",
       "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Maxxis Assegai EXO",
-      "reifen_hinten": "Maxxis Dissector EXO+",
+      "reifen_vorne": "Maxxis Assegai",
+      "reifen_hinten": "Maxxis Assegai",
       "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "Aluminium Lenker"
+      "cockpit": "KS RAGEi Dropper + DJI Avinox 2\" OLED Display"
     },
-    "gewicht_kg": 21.5,
-    "laufradgroesse": "29",
+    "gewicht_kg": 19.2,
+    "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
-        "NOT_SPECIFIED"
+        "bikeperfection.ch (Dietfurt/Toggenburg)",
+        "hostettler-veloland.ch",
+        "lorisvelos.ch",
+        "dreamparts.ch",
+        "swisscycle.ch"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Ja",
+      "urls": ["https://www.bikeperfection.ch/produkt/amflow-pl-carbon-3/"]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "NOT_SPECIFIED",
+      "shop": "bikeperfection.ch",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.bikeperfection.ch/produkt/amflow-pl-carbon-3/"
     },
     "test_ergebnisse": [
       {
-        "publikation": "E-MOUNTAINBIKE Magazin",
-        "bewertung_kurz": "Uphill-Spezialist",
+        "publikation": "Vital MTB Review",
+        "bewertung_kurz": "Avinox-Motor liefert ab. Geometrie modern aber für kleinere Fahrer (Reach 452 mm bei M) eher gross. Bike wirkt 'enduro-ready', man steht etwas mehr 'auf' als 'in' dem Bike. Federung kann bei High-Speed-Chatter etwas unforgiving sein.",
         "stärken": [
-          "Bärenstarker Motor",
-          "Top Preis-Leistung",
-          "Schnellladefunktion"
+          "Leichtestes Full-Power E-MTB der Klasse",
+          "DJI Avinox M1 Motor (120 Nm Boost)",
+          "800 Wh + Schnellladung 0-75% in 1.5h",
+          "Smart-Features (App, Diebstahlschutz, Phone Key)"
         ],
         "schwaechen": [
-          "Geringeres Sicherheitsgefühl bergab",
-          "Einfache Dämpfungskartusche"
+          "Enduro-Geometrie für Touren-Fokus grenzwertig",
+          "Federung bei High-Speed unforgiving",
+          "Neue Marke, Service-Netz im Aufbau"
         ],
         "test_url": "NOT_SPECIFIED",
-        "datum": "2025-04"
+        "datum": "2025-10"
       }
     ],
-    "passend_fuer_martina_score": 10,
-    "passend_fuer_martina_begruendung": "Das beste Preis-Leistungs-Verhältnis für ein modernes E-MTB mit Full-Power Motor und geringem Gewicht (21.5 kg). Perfekt für lange Touren dank 800-Wh-Akku und extrem kompaktem Schnellladegerät.",
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Sensationelles Preis-Leistungs-Verhältnis: 19.2 kg, DJI Avinox M1 (120 Nm Boost), 800 Wh, CHF 3'490. Aber: aggressive Enduro-Geo (64.5°), neues Händlernetz in der Schweiz und neue Marke sind reale Risiken. Probefahrt in Toggenburg ist Pflicht.",
     "warnungen": [
-      "Lackschaden durch Bremsleitung am Steuerrohr möglich",
-      "Fest verbauter Akku"
+      "Händlernetz CH: nur ~5 Shops, keiner im Aargau — Service-Wege länger.",
+      "Grösse S nicht verfügbar — kleinste Grösse M (162-178 cm).",
+      "DJI Avinox M1 seit 2024 am Markt — Service-Erfahrung weniger etabliert als Bosch/Shimano."
     ],
     "alternativ_zu": [
-      "Orbea WILD H20",
-      "Canyon Spectral:ON CF 7"
-    ]
+      "cube-stereo-hybrid-one44-hpc-slx-800-2026"
+    ],
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "hinweis": "Bei bikeperfection.ch (Dietfurt/Toggenburg) zu CHF 3'490 in Grösse L verfügbar. Bei Bestellung aktuellen Preis und Lagerbestand bestätigen lassen.",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://www.bikeperfection.ch/produkt/amflow-pl-carbon-3/"
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 7,
+      "einsteigerfreundlichkeit": 6,
+      "bergauf_touren": 9,
+      "bikepark_reserve": 9,
+      "gewicht_handling": 10,
+      "preis_leistung": 10,
+      "service_haendlernetz_ch": 6,
+      "risiko_datenunsicherheit": 7
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Sensationelle 19.2 kg für ein Full-Power E-MTB – 5 kg leichter als Cube ONE44 SLX 800",
+        "DJI Avinox M1 Motor: 105 Nm continuous, 120 Nm im Boost-Modus – derzeit stärkster E-MTB-Motor am Markt",
+        "800 Wh Akku integriert – 157 km Reichweite (Werksangabe Eco-Modus)",
+        "160/150 mm Federweg – mehr Reserve als Cube ONE44, bikepark-tauglicher",
+        "27.5\"/29\" Mullet-fähig via Flip Chip",
+        "12A Schnellladegerät: 0-75% in 1.5h",
+        "TÜV SÜD und TÜV Rheinland zertifiziert",
+        "Smart-Features (App, Diebstahlschutz, Strava-Sync, Phone Key)",
+        "CHF 3'490 bei bikeperfection.ch – Preis-Leistung unschlagbar",
+        "2 Jahre Vollgarantie"
+      ],
+      "contra": [
+        "AMFLOW ist neue Marke (Launch 2024) – Langzeit-Zuverlässigkeit unbekannt, DJI ist Drohnen-Hersteller, nicht traditioneller Bike-Hersteller",
+        "Schweizer Händlernetz klein (~5-6 Shops, keiner im Aargau) – bei Defekten musst du nach Toggenburg oder versenden",
+        "DJI Avinox M1 erst seit ca. 1.5 Jahren am Markt – Service-Erfahrung und Ersatzteilverfügbarkeit weniger etabliert als Bosch CX",
+        "Geometrie ist enduro-orientiert (64.5° Lenkwinkel, 160 mm Gabel) – könnte für deine 3. E-MTB-Saison im Mix Tour/Trail/Bikepark zu aggressiv sein",
+        "Reach L ca. 470 mm – könnte für 1.80 m grenzwertig lang sein, Probefahrt unbedingt nötig",
+        "Keine Grösse S verfügbar – kleinste ist M (162-178 cm)",
+        "Komponenten-Mix mid-tier (SRAM GX, Fox 36 Performance, Magura MT5) – funktional, aber nicht High-End wie beim Pro-Modell"
+      ],
+      "fazit": "Das beste Preis-Leistungs-Verhältnis im ganzen Markt – objektiv ein Knaller mit dem leichtesten Full-Power E-MTB der Klasse. Aber für dich speziell: aggressive Enduro-Geometrie, neue Marke und kleines CH-Service-Netz sind Bremsklötze. Probefahrt in Toggenburg ist Pflicht – wenn dir die Geo passt und du mit der Marken-Unsicherheit leben kannst, ist das Bike unschlagbar. Andernfalls bietet der Cube ONE44 mehr Sicherheit zu höherem Preis."
+    }
   },
   {
     "id": "canyon-spectral-on-cf-8-2026",
