@@ -296,16 +296,15 @@ export default function BikeDetail() {
       </SpecCard>
 
       {/* ── Sektion 2b: Verfügbarkeit ── */}
-      {bike.verfuegbarkeit && bike.verfuegbarkeit.status !== 'unbekannt' && (() => {
+      {bike.verfuegbarkeit && (() => {
         const vf = bike.verfuegbarkeit!
-        const statusMap: Record<string, { label: string; bg: string; border: string; dot: string; text: string } | null> = {
+        const statusMap: Record<string, { label: string; bg: string; border: string; dot: string; text: string }> = {
           ausverkauft:    { label: 'Usverchauft',          bg: 'bg-red-50',    border: 'border-red-200',    dot: 'bg-red-500',    text: 'text-red-800' },
           teilverfuegbar: { label: 'Teilwiis verfüegbar',  bg: 'bg-orange-50', border: 'border-orange-200', dot: 'bg-orange-500', text: 'text-orange-800' },
           verfuegbar:     { label: 'Verfüegbar',           bg: 'bg-green-50',  border: 'border-green-200',  dot: 'bg-green-500',  text: 'text-green-800' },
-          unbekannt:      null,
+          unbekannt:      { label: 'Verfüegbarkeit prüfe', bg: 'bg-stone-50',  border: 'border-stone-200',  dot: 'bg-stone-400',  text: 'text-stone-600' },
         }
-        const statusConfig = statusMap[vf.status] ?? null
-        if (!statusConfig) return null
+        const statusConfig = statusMap[vf.status] ?? statusMap['unbekannt']
 
         const datumFormatiert = vf.geprueft_am
           ? new Date(vf.geprueft_am).toLocaleDateString('de-CH', { day: 'numeric', month: 'long', year: 'numeric' })

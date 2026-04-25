@@ -122,6 +122,11 @@ export default function BikeCard({ bike }: Props) {
             Verfüegbar
           </span>
         )}
+        {bike.verfuegbarkeit?.status === 'unbekannt' && (
+          <span className="self-start text-[10px] font-medium bg-stone-100 text-stone-500 px-2 py-0.5 rounded-full">
+            Verfüegbarkeit prüfe
+          </span>
+        )}
       </div>
     </Link>
   )

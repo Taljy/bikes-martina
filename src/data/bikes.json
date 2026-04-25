@@ -1125,36 +1125,42 @@
     "hersteller": "Santa Cruz",
     "modell": "Vala X0 AXS RSV",
     "modelljahr": 2026,
-    "kategorie": "All-Mountain",
-    "hersteller_url": "NOT_SPECIFIED",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": null,
+    "kategorie": "All-Mountain | Enduro",
+    "hersteller_url": "https://www.santacruzbicycles.com",
+    "produktseite_url": "https://www.santacruzbicycles.com/de/products/vala-x-0-axs-rsv-2026",
+    "preis_chf": 11499,
     "preis_eur": 11499,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "preis_quelle_url": "https://www.santacruzbicycles.com/de/products/vala-x-0-axs-rsv-2026",
     "rahmen": {
-      "material": "Carbon",
-      "groessen_verfuegbar": "NOT_SPECIFIED",
-      "groesse_L_reach_mm": null,
+      "material": "Carbon CC Vollcarbon (Premium-Faseranteil)",
+      "groessen_verfuegbar": [
+        "SM",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "groesse_L_reach_mm": 480,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": null,
-      "sitzwinkel_effektiv_grad": null,
+      "lenkwinkel_grad": 64.2,
+      "sitzwinkel_effektiv_grad": 77.0,
       "radstand_mm": null,
-      "kettenstrebe_mm": null
+      "kettenstrebe_mm": 433
     },
     "federweg": {
       "vorne_mm": 160,
       "hinten_mm": 150,
-      "gabel_modell": "Fox 36 Factory",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_modell": "Fox 38 Factory Kashima GRIP X2 160 mm",
+      "gabel_url": "https://www.ridefox.com",
       "daempfer_modell": "Fox Float X Factory",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "Bosch",
-      "modell": "Performance Line CX Gen5",
+      "modell": "Performance Line CX Gen5 (BDU384Y)",
       "drehmoment_nm": 85,
       "leistung_spitze_w": 600,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.bosch-ebike.com"
     },
     "akku": {
       "kapazitaet_wh": 600,
@@ -1162,58 +1168,128 @@
       "range_extender_optional": true
     },
     "ausstattung": {
-      "schaltung": "SRAM X0 Eagle Transmission",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "SRAM Maven",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "Reserve Carbon",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "NOT_SPECIFIED",
-      "reifen_hinten": "NOT_SPECIFIED",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "SRAM X0 AXS T-Type Eagle Transmission 12-fach (elektronisch, Wireless)",
+      "schaltung_url": "https://www.sram.com",
+      "bremsen": "SRAM Maven Silver 4-Kolben 200 mm",
+      "bremsen_url": "https://www.sram.com",
+      "laufraeder": "Reserve 30 HD Carbon (29\") / Reserve 31 DH Carbon (27.5\") — Lifetime Warranty auch nach Crash",
+      "reifen_vorne": "Schwalbe Magic Mary Ultra Soft Super Trail Casing 29×2.5\"",
+      "reifen_hinten": "Schwalbe Magic Mary Soft Super Gravity Casing 27.5×2.5\"",
+      "reifen_url": "https://www.schwalbe.com",
+      "cockpit": "Santa Cruz 35 Carbon Lenker 800 mm + Burgtec Enduro Mk3 Vorbau 42 mm + OneUp V3 Dropper 210 mm"
     },
     "gewicht_kg": 21.5,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
-        "NOT_SPECIFIED"
+        "Wenige Santa Cruz-Partner in der Schweiz — Verfügbarkeit direkt anfragen"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Unbekannt — vor Kauf CH-Händler direkt kontaktieren",
+      "urls": [
+        "https://www.santacruzbicycles.com/de/store-finder"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "NOT_SPECIFIED",
+      "shop": "liquid-life.de",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.liquid-life.de"
     },
     "test_ergebnisse": [
       {
-        "publikation": "E-MOUNTAINBIKE Magazin",
-        "bewertung_kurz": "Fahr-Performance Tipp",
+        "publikation": "E-MOUNTAINBIKE Magazin Vergleichstest 2025 (30 Bikes)",
+        "bewertung_kurz": "21,5 kg — by far the most lightweight Bosch Performance Line CX-powered bike. Brandneue Vala-Plattform, bricht mit VPP-Hinterbau, setzt auf Horst-Link Four-Bar.",
         "stärken": [
-          "Intuitives Handling",
-          "Zuverlässigkeit",
-          "Top-Integration Bosch CX"
+          "Leichtestes Bosch CX-Bike im Testfeld",
+          "Carbon CC Qualität",
+          "Top-Specs"
         ],
         "schwaechen": [
-          "Kein Display (nur System Controller)",
-          "Hoher Preis"
+          "600 Wh Akku limitiert Reichweite",
+          "Aggressiv für Einsteiger"
         ],
-        "test_url": "NOT_SPECIFIED",
+        "test_url": "https://emtb-mtb.com",
         "datum": "2025-04"
+      },
+      {
+        "publikation": "Magazin-Quote (auf Santa Cruz Website)",
+        "bewertung_kurz": "'For my money, it's right up there in terms of the best mid-travel e-MTBs and could well be the bike that others aspire to beat.'",
+        "stärken": [
+          "Gesamtpaket",
+          "Handling",
+          "Qualität"
+        ],
+        "schwaechen": [],
+        "test_url": "https://www.santacruzbicycles.com",
+        "datum": "2025-01"
       }
     ],
-    "passend_fuer_martina_score": 9,
-    "passend_fuer_martina_begruendung": "Sehr hochwertiges Handling und mit 21.5 kg leicht genug für verspieltes Fahren. Die Kombination aus neuem Bosch CX und Santa Cruz DNA bietet Martina maximale Sicherheit.",
+    "passend_fuer_martina_score": 7,
+    "passend_fuer_martina_begruendung": "Premium Vollcarbon mit einzigartigen 3x Lifetime Warranties (Frame, Wheels, Pivot-Bearings), 21,5 kg sensationell leicht für Bosch CX. ABER: Vala ist physisch NUR für 600 Wh ausgelegt (alle vergleichbaren Bikes haben 800 Wh). Range Extender als Pflicht für lange Touren. UVP ~CHF 11'500. CH-Verfügbarkeit unklar — kein einziger Schweizer Händler-Listenpreis findbar. Score 7 wegen Akku-Limitation, UVP und Verfügbarkeitsrisiko.",
     "warnungen": [
-      "Fummelige Ladeport-Abdeckung",
-      "Kein entnehmbarer Akku"
+      "NUR 600 Wh Akku — 800 Wh Bosch-Akku ist NICHT kompatibel mit Vala-Rahmen",
+      "Range Extender (Bosch PowerMore 250 Wh) nötig für lange Touren — zusätzliche Kosten + Gewicht",
+      "CH-Verfügbarkeit unklar — kein direkter Schweizer Händler-Listenpreis in der Recherche findbar",
+      "Preis CHF 11'499 geschätzt 1:1 zu EUR — echter CHF-Preis muss beim Händler bestätigt werden",
+      "Aggressive Geometrie (63.9°–64.2° Lenkwinkel) — eher für ambitionierte Rider"
     ],
     "alternativ_zu": [
-      "Specialized S-Works Turbo Levo 4",
-      "Transition Regulator CX"
-    ]
+      "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+      "canyon-spectral-on-cf-8-2026"
+    ],
+    "badge": null,
+    "referenzbike": false,
+    "verfuegbarkeit": {
+      "status": "unbekannt",
+      "hinweis": "CH-Verfügbarkeit muss direkt angefragt werden — in der Recherche kein direkter Schweizer Händler-Listenpreis findbar. Santa Cruz hat in der Schweiz nur wenige Partner. Bei DE-Händler liquid-life.de aktueller Sale -15% auf EUR 9'775 (für 2025-Modell). Vor Kauf zwingend Schweizer Verfügbarkeit beim nächsten Santa-Cruz-Händler bestätigen.",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://www.santacruzbicycles.com/de/products/vala-x-0-axs-rsv-2026"
+    },
+    "preise": {
+      "uvp_chf": 11499,
+      "sale_chf": null,
+      "sale_haendler": null,
+      "sale_url": null
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 9,
+      "einsteigerfreundlichkeit": 5,
+      "bergauf_touren": 6,
+      "bikepark_reserve": 9,
+      "gewicht_handling": 9,
+      "preis_leistung": 4,
+      "service_haendlernetz_ch": 5,
+      "risiko_datenunsicherheit": 8
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Bosch Performance CX Gen5 (85 Nm) — entspricht dem Motor-Wunsch",
+        "21,5 kg in Grösse L — sensationell leicht für ein Bosch CX-Bike (Cube ONE44 mit gleichem Motor: 24,3 kg)",
+        "Vollcarbon CC-Frame mit Premium-Faseranteil — leichter als Standard-C-Variante",
+        "Fox 38 Factory Kashima mit GRIP X2 Damper — Top-Niveau",
+        "Fox Float X Factory Dämpfer — Top-Niveau",
+        "SRAM X0 AXS T-Type Eagle Transmission — elektronische Top-Schaltung",
+        "SRAM Maven Silver Bremsen — neue 2026 Top-Bremsen mit hohem Bremsmoment",
+        "Reserve 30 HD / 31 DH Carbon Laufräder mit Lifetime Warranty (auch nach Crash!)",
+        "Frame Lifetime Warranty + Pivot Bearings Free Replacement (Lifetime) — das hat sonst niemand in der Liste",
+        "Geo-Flip-Chip + separater Progression-Flip-Chip — sehr anpassbar an Fahrstil",
+        "5 Grössen (SM, M, L, XL, XXL) — breiteste Grössenpalette in der Liste",
+        "Schwalbe Magic Mary Ultra Soft + Super Gravity Casing — Race-Reifen",
+        "OneUp V3 Dropper mit 210 mm Hub in Grösse L",
+        "Magazin emtb-mtb.com Test 2025: Kandidat für 'Best e-MTB of 2025'"
+      ],
+      "contra": [
+        "ACHTUNG: Vala ist physisch NUR für 600 Wh ausgelegt — 800 Wh Bosch-Akku ist NICHT kompatibel. Cube ONE44, Canyon Neuron/Spectral, Focus JAM² haben alle 800 Wh standardmässig.",
+        "Range Extender 250 Wh als Add-On nötig für lange Touren (zusätzliche Kosten + Gewicht)",
+        "UVP CHF ~11'499 (geschätzt 1:1 zu EUR) — im Spitzenbereich der Liste",
+        "CH-Verfügbarkeit unklar — kein einziger Schweizer Händler-Listenpreis in der Recherche findbar",
+        "Aggressive Geometrie (63.9°–64.2° Lenkwinkel) — eher für ambitionierte Rider",
+        "Kein klassisches Lenker-Display — nur 5-LED Oberrohr-Controller, exakter Akkustand nur via App",
+        "Akku nicht für tägliches Entnehmen ausgelegt — laden via externen Charge-Port",
+        "Bosch Charge-Port-Cover laut Magazintest 'zu weich, klickt kaum ein'",
+        "Brandneue Plattform 2025 — Service-Erfahrung in CH begrenzt"
+      ],
+      "fazit": "Premium-Vollcarbon von Santa Cruz mit einzigartigen 3x Lifetime Warranties: Frame, Reserve-Wheels und Pivot-Bearings — das hat niemand sonst in der Liste. Mit 21,5 kg das leichteste Bosch CX-Bike der ganzen Auswahl. Magazin-Test 2025: 'right up there in terms of the best mid-travel e-MTBs'. ABER: Der Vala hat als einziges Bike in der Liste nur 600 Wh — alle anderen Bosch CX-Bikes (Cube ONE44, Canyon, Focus) haben 800 Wh. Der Range Extender ist für lange Touren Pflicht. UVP ~CHF 11'500 und unklare CH-Verfügbarkeit machen die Kaufentscheidung riskant. Score 7 — nicht wegen Bike-Qualität, sondern wegen Akku-Limitation, Preis und Verfügbarkeitsrisiko."
+    }
   },
   {
     "id": "unno-mith-pro-2026",
