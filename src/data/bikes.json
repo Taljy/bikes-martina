@@ -2269,102 +2269,181 @@
     }
   },
   {
-    "id": "merida-eone-sixty-775-2026",
-    "bild_pfad": "/images/bikes/merida-eone-sixty-775-2026.jpg",
+    "id": "merida-eone-sixty-875-2026",
+    "bild_pfad": "/images/bikes/merida-eone-sixty-875-2026.jpg",
     "hersteller": "Merida",
-    "modell": "eOne-Sixty 775",
+    "modell": "eOne-Sixty 875",
     "modelljahr": 2026,
-    "kategorie": "All-Mountain/Enduro",
-    "hersteller_url": "https://www.merida-bikes.com/",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": 6290,
-    "preis_eur": 5999,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "kategorie": "E-Enduro | All-Mountain",
+    "hersteller_url": "https://www.merida-bikes.com",
+    "produktseite_url": "https://www.merida-bikes.com/de-ch/bike/4622/eone-sixty-875",
+    "preis_chf": 7490,
+    "preis_eur": 6599,
+    "preis_quelle_url": "https://www.velolegi.ch/produkt/merida-eone-sixty-875/",
     "rahmen": {
-      "material": "Aluminium",
+      "material": "Aluminium eOne-Sixty LITE IV (4. Gen. Hydroforming 6061)",
       "groessen_verfuegbar": [
-        "S",
-        "M",
-        "L",
-        "XL"
+        "XShort",
+        "Short",
+        "Mid",
+        "Long",
+        "XLong"
       ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
-      "sitzwinkel_effektiv_grad": 77,
+      "sitzwinkel_effektiv_grad": null,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
     "federweg": {
-      "vorne_mm": 160,
-      "hinten_mm": 150,
-      "gabel_modell": "Fox 36 Float Performance",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "Fox Float X Performance",
-      "daempfer_url": "NOT_SPECIFIED"
+      "vorne_mm": 170,
+      "hinten_mm": 174,
+      "gabel_modell": "RockShox ZEB Select Air 170 mm 38 mm Standrohre",
+      "gabel_url": "https://www.sram.com/rockshox",
+      "daempfer_modell": "RockShox Super Deluxe Select",
+      "daempfer_url": "https://www.sram.com/rockshox"
     },
     "motor": {
       "hersteller": "Shimano",
       "modell": "EP801",
       "drehmoment_nm": 85,
       "leistung_spitze_w": 600,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://bike.shimano.com"
     },
     "akku": {
-      "kapazitaet_wh": 800,
+      "kapazitaet_wh": 750,
       "wechselbar": true,
-      "range_extender_optional": false
+      "range_extender_optional": true
     },
     "ausstattung": {
-      "schaltung": "Shimano XT 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano XT 4-Kolben",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "DT Swiss H 1900",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Maxxis Assegai EXO+",
-      "reifen_hinten": "Maxxis Dissector EXO+",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "Shimano XT M8130 LinkGlide 11-fach",
+      "schaltung_url": "https://bike.shimano.com",
+      "bremsen": "Shimano XT 4-Kolben 220 mm / 203 mm",
+      "bremsen_url": "https://bike.shimano.com",
+      "laufraeder": "MERIDA EXPERT TR II Aluminium 30 mm Maulweite Tubeless-ready",
+      "reifen_vorne": "Maxxis Assegai 29×2.5\" TR EXO+ 3C MaxxGrip",
+      "reifen_hinten": "Maxxis Minion DHR II 27.5×2.4\" TR EXO+ 3C MaxxTerra",
+      "reifen_url": "https://www.maxxis.com",
+      "cockpit": "MERIDA EXPERT eTR 780 mm 20 mm Rise + MERIDA EXPERT eTR II Vorbau 40 mm + MERIDA TEAM TR II Dropper 30-230 mm"
     },
-    "gewicht_kg": 23.8,
+    "gewicht_kg": 26.1,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
-        "Merida-Händler CH"
+        "Velo Legi (CH)",
+        "Belimport SA Händlernetz (offiz. CH-Importeur)"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Ja, bei lokalen Belimport-Partnern sowie Verbier Bike Festival und Bike Kingdom Lenzerheide",
+      "urls": [
+        "https://www.velolegi.ch/produkt/merida-eone-sixty-875/",
+        "https://www.merida-bikes.com/de-ch/p/merida-suisse-angebote/enduro-special-price-800.html"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "merida-bikes.com",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.merida-bikes.com/de-ch/bike/4622/eone-sixty-875"
     },
     "test_ergebnisse": [
       {
-        "publikation": "emtb-news.de",
-        "bewertung_kurz": "Solider Allrounder",
+        "publikation": "emtb-test.com Magazintest April 2025",
+        "bewertung_kurz": "Solider Allrounder mit breitem Spektrum. Mit den mittelmässigen Schaltungskomponenten hat das eONE-SIXTY 875 definitiv Schwächen, dennoch bleibt es dank ausgezeichneter Bremsen, gutem Motor und gutem Fahrwerk stark. 26,1 kg ist nicht leicht. Shimano EP801 — organisch wirkende Motorsteuerung, harmonische Kraftentfaltung.",
         "stärken": [
-          "Solide Ausstattung",
-          "Shimano EP801",
-          "800 Wh"
+          "Shimano XT Bremsen 220/203 mm",
+          "EP801 Motor",
+          "RockShox ZEB 38 mm"
         ],
         "schwaechen": [
-          "Alu-Rahmen",
-          "Design konservativ"
+          "26,1 kg",
+          "XT LinkGlide 11-fach (eingeschränkter Gangbereich)",
+          "FSA Stahlkurbel"
         ],
-        "test_url": "NOT_SPECIFIED",
-        "datum": "2025-11"
+        "test_url": "https://emtb-test.com",
+        "datum": "2025-04"
+      },
+      {
+        "publikation": "MERIDA Hersteller-Beschreibung 2026",
+        "bewertung_kurz": "Goodbye range anxiety, hello horizon. Robuster Alu-Rahmen mit Full-Power-Antrieb, 750 Wh entnehmbarer Akku, optionaler 360 Wh Range Extender (Total 1'110 Wh). Wartungsarme FAST-Fahrwerksplattform. Lebenslange Rahmen-Garantie als Merida-Standard.",
+        "stärken": [
+          "Range Extender auf 1'110 Wh möglich",
+          "Lebenslange Garantie",
+          "Belimport CH-Netz"
+        ],
+        "schwaechen": [],
+        "test_url": "https://www.merida-bikes.com",
+        "datum": "2025-09"
       }
     ],
     "passend_fuer_martina_score": 8,
-    "passend_fuer_martina_begruendung": "Merida mit Shimano EP801 und 800 Wh. Solide Ausstattung, ausgewogenes Fahrwerk. Für Martina eine solide Alternative, falls Cube/Canyon nicht gefallen.",
-    "warnungen": [],
+    "passend_fuer_martina_begruendung": "Robustes Alu-Enduro vom weltweit zweitgrössten Velo-Hersteller: EP801 Motor, 750 Wh, RockShox ZEB 38 mm, XT 220/203 mm Bremsen, lebenslange Garantie, bestes CH-Service-Netz (Belimport SA). Aktuelle Sale-Aktion '-CHF 2000' macht es zu einer starken Option. Einziger Schwachpunkt: 26,1 kg schwerstes Bike in der Liste. Service CH und Risiko erhalten die HÖCHSTEN Werte aller Bikes (9/9).",
+    "warnungen": [
+      "26,1 kg — schwerstes Bike in der Liste (deutlich schwerer als Cube ONE44 SLX 24,3 kg oder Canyon Spectral CF 23 kg)",
+      "Shimano XT LinkGlide 11-fach — eingeschränkter Gangbereich vs. 12-fach Hyperglide+ oder SRAM AXS",
+      "FSA Steel Crankset — kein Premium-Kurbel-Niveau",
+      "Kurze Kettenstreben: aktive Gewichtsverlagerung nötig bei steilen Auffahrten (Magazintest)"
+    ],
     "alternativ_zu": [
-      "Cube Stereo Hybrid ONE44",
-      "Rose Root Miller"
-    ]
+      "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+      "orbea-wild-h10-2026"
+    ],
+    "badge": null,
+    "referenzbike": false,
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "hinweis": "Verfügbar via Belimport SA und CH-Händlernetz (Velo Legi CHF 7'490). Aktuelle Sale-Aktion 'Enduro Special Price' (-CHF 2'000 = effektiv ~CHF 5'490) läuft über Merida Schweiz und teilnehmende CH-Händler. Probefahrten bei Verbier Bike Festival und Bike Kingdom Lenzerheide möglich.",
+      "geprueft_am": "2026-04-26",
+      "geprueft_quelle": "https://www.velolegi.ch/produkt/merida-eone-sixty-875/"
+    },
+    "preise": {
+      "uvp_chf": 7490,
+      "sale_chf": 5490,
+      "sale_haendler": "Merida Schweiz Aktion 'Enduro Special Price'",
+      "sale_url": "https://www.merida-bikes.com/de-ch/p/merida-suisse-angebote/enduro-special-price-800.html"
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 6,
+      "bergauf_touren": 7,
+      "bikepark_reserve": 9,
+      "gewicht_handling": 5,
+      "preis_leistung": 7,
+      "service_haendlernetz_ch": 9,
+      "risiko_datenunsicherheit": 9
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Shimano EP801 Motor (85 Nm, 600 W peak) — entspricht dem Wunsch-Motor",
+        "750 Wh entnehmbarer Akku — klassisch nach vorne aus Unterrohr klappbar",
+        "Optional +360 Wh Range Extender (Total 1'110 Wh!) — grösste Reichweite in der Liste",
+        "170 mm vorne / 174 mm hinten Federweg — echtes Enduro-Niveau",
+        "RockShox ZEB Select Gabel mit 38 mm Standrohren — extrem steif für aggressive Enduro-Einsätze",
+        "RockShox Super Deluxe Select Dämpfer — kompromisslose Hinterbau-Performance",
+        "Shimano XT 4-Kolben Bremsen mit 220/203 mm Scheiben — Top-Bremspower (Magazintest: 'Wurfanker')",
+        "Maxxis Assegai MaxxGrip + Minion DHR II MaxxTerra — Race-Niveau Reifen",
+        "MERIDA TEAM TR II Dropper mit 30-230 mm verstellbarem Hub — uncommon Feature",
+        "5 Rahmengrössen (XShort bis XLong) — beste Passform-Auswahl in der Liste",
+        "LEBENSLANGE RAHMEN-GARANTIE — Merida-Standard für ALLE Modelle (Cube hat nur 6 Jahre)",
+        "Belimport SA als offizieller Schweizer Importeur — BESTES Service-Netz aller Bikes im Tool (9/10)",
+        "AKTUELLE SALE-AKTION 'Enduro Special Price': -CHF 2'000 = effektiv CHF ~5'490",
+        "Weltweit zweitgrösster Velo-Hersteller (Merida gegründet 1972, Taiwan) — höchste Markenstabilität",
+        "Smart Entry Frame mit austauschbaren Kabel-Inserts (Di2, Hydraulik)",
+        "Internal Block Headset schützt Rahmen bei Crash",
+        "Flexstay-Design für Mullet oder Full 29\" Setup via Flip-Chip",
+        "4. Generation LITE Aluminium-Frame (eOne-Sixty Lite IV) mit Hydroforming-Technik"
+      ],
+      "contra": [
+        "26,1 kg in Grösse Mid — schwerstes Bike in der ganzen Liste (Cube ONE44 SLX: 24,3 kg, Canyon Spectral CF: 23 kg, Orbea Wild H10: ~24-25 kg)",
+        "Shimano XT LinkGlide 11-fach — eingeschränkter Gangbereich vs. 12-fach Hyperglide+ oder SRAM AXS Transmission",
+        "FSA Steel Crankset (Stahlkurbel) — nicht Premium-Niveau wie e*thirteen Helix Core oder SRAM CR T-Type",
+        "emtb-test.com April 2025: 'Mit den mittelmässigen Schaltungskomponenten hat das eONE-SIXTY 875 definitiv Schwächen'",
+        "Aluminium statt Carbon — bei vergleichbaren Konkurrenten in der Preisklasse teilweise Carbon",
+        "Kurze Kettenstreben: aktive Gewichtsverlagerung nötig in steilen Auffahrten — Front wheel lift",
+        "UVP CHF 7'490 — erst mit Sale-Aktion (-CHF 2'000) wirklich konkurrenzfähig zu Cube SLX oder Orbea H10",
+        "Mit Range Extender (+2,9 kg) ca. 29 kg — dann wirklich schwer"
+      ],
+      "fazit": "Robustes Alu-Enduro vom weltweit zweitgrössten Velo-Hersteller mit ehrlichem Trade-off: Top-Fahrwerk (RockShox ZEB 38 mm + Super Deluxe), Top-Bremsen (XT 220/203 mm — Magazin: 'Wurfanker'), Top-Motor (EP801), lebenslange Rahmen-Garantie und bestes CH-Service-Netz aller Bikes in der Liste (Belimport SA). ABER: Mit 26,1 kg das schwerste Bike in der ganzen Liste. Bei UVP CHF 7'490 nur Score 8, aber mit der aktuellen Sale-Aktion 'Enduro Special Price' (-CHF 2'000 = CHF ~5'490) wird es zu einer sehr starken Option mit mehr Federweg als Cube ONE44 SLX oder Orbea Wild H10. Service CH und Markenstabilität bekommen die HÖCHSTEN Werte aller Bikes (9/9) — Merida ist die stabilste Marke in der Liste. Wenn du Robust > Leicht priorisierst und lokalen CH-Service schätzt: Top-Wahl — besonders im Sale. Wenn du Gewicht und Agilität priorisierst: Cube ONE44 SLX 800 (Score 9, 24,3 kg) ist die bessere Wahl."
+    }
   },
   {
     "id": "scott-patron-st-920-2026",
