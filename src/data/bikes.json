@@ -3469,87 +3469,174 @@
     "badge": "Mis Bike"
   },
   {
-    "id": "commencal-meta-power-tr-ride-2026",
-    "bild_pfad": "/images/bikes/commencal-meta-power-tr-ride.jpg",
+    "id": "commencal-meta-power-sx-800-rockshox-2026",
+    "bild_pfad": "/images/bikes/commencal-meta-power-sx-800-rockshox-2026.jpg",
     "hersteller": "Commencal",
-    "modell": "Meta Power TR Ride",
+    "modell": "Meta Power SX 800 RockShox",
+    "modell_hinweis": "MODELLWECHSEL: Urspruenglich war 'Meta Power TR Ride' gelistet (2022er Auslaufmodell mit Shimano EP8). Fuer 2026 hat Commencal das Lineup neu strukturiert — das aktuelle Top-Modell ist die SX 800 Familie mit Bosch Performance Line CX Gen5 Smart System. Es gibt 2 Varianten: SX 800 RockShox (EUR 8'500, RockShox-Komponenten) und SX 800 Signature (EUR 9'500, Fox Factory Komponenten). Diese Bewertung gilt fuer die RockShox-Variante (mid-tier).",
     "modelljahr": 2026,
-    "kategorie": "Trail",
-    "hersteller_url": "https://www.commencal-store.com/",
-    "produktseite_url": "https://www.commencal-store.com/meta-power-tr",
-    "preis_chf": null,
-    "preis_eur": 4500,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "kategorie": "Enduro",
+    "hersteller_url": "https://www.commencal.com",
+    "produktseite_url": "https://www.commencal.com/en/meta-power-sx-800-rockshox-pure-white-2026-enduro-ebike-europe/BT5MSXV5PW8EEU1.html",
+    "preis_chf": 8200,
+    "preis_eur": 8500,
+    "preis_hinweis": "UVP CHF 8'200 GESCHAETZT basierend auf EUR 8'500 (1:1 EUR/CHF Konversion, Commencal hat keinen separaten CH-Pricing). Direct-to-Consumer via commencal.com. 10% Rabatt bei Abholung im COMMENCAL Village (Andorra). ACHTUNG: Andorra ist NICHT EU-Mitglied — bei Direkt-Versand in die Schweiz koennen zusaetzliche Importsteuer/Zollkosten anfallen.",
+    "preis_quelle_url": "https://www.commencal.com/en/meta-power-sx-800-rockshox-pure-white-2026-enduro-ebike-europe/BT5MSXV5PW8EEU1.html",
     "rahmen": {
-      "material": "Alu",
+      "material": "Aluminium 6066 triple butted (T4/T6 Tubes mit Bolu Bearings)",
       "groessen_verfuegbar": [
         "S",
         "M",
         "L",
         "XL"
       ],
-      "groesse_L_reach_mm": 460,
+      "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": 65.5,
-      "sitzwinkel_effektiv_grad": 76.5,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
       "radstand_mm": null,
-      "kettenstrebe_mm": 440
+      "kettenstrebe_mm": null,
+      "besonderheiten": "VCS Virtual Contact System Mehrgelenk-Kinematik, Internal cable routing mit Half-Shell Dust Covers, Engine Guard mit Bosch-Cooling-Standards, RIDEWRAP Lotus Pro Schutzfilm ab Werk, FIDLOCK Basis fuer 750ml Wasserflasche, Thru axles mit Expanders"
     },
     "federweg": {
-      "vorne_mm": 150,
-      "hinten_mm": 140,
-      "gabel_modell": "RockShox Pike Select",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "RockShox Deluxe Select",
-      "daempfer_url": "NOT_SPECIFIED"
+      "vorne_mm": 180,
+      "hinten_mm": 180,
+      "gabel_modell": "RockShox ZEB Ultimate, 180 mm, Charger 3.1 Damper, HSR/LSR/HSC/LSC, 38mm Stanchions",
+      "gabel_url": "https://www.sram.com/rockshox",
+      "daempfer_modell": "RockShox Super Deluxe Select, 230x65 mm, DebonAir+, 2-position lever (Mid-Tier — nicht Ultimate)",
+      "daempfer_url": "https://www.sram.com/rockshox"
     },
     "motor": {
       "hersteller": "Bosch",
-      "modell": "Performance Line CX Gen5",
+      "modell": "Performance Line CX Gen5 (BDU384Y)",
       "drehmoment_nm": 100,
       "leistung_spitze_w": 750,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.bosch-ebike.com",
+      "hinweis": "STAERKSTER Bosch-Motor in der Liste: 100 Nm (via Bosch eBike Flow App, ab Juli 2025) und 750 W Peak Power. Standard ohne App: 85 Nm."
     },
     "akku": {
-      "kapazitaet_wh": 625,
+      "kapazitaet_wh": 800,
       "wechselbar": false,
-      "range_extender_optional": true
+      "range_extender_optional": true,
+      "hinweis": "800 Wh Bosch PowerTube PERMANENT integriert (NICHT entnehmbar). Bosch PowerMore 250 Wh Range Extender kompatibel = bis 1050 Wh kombiniert. KRITISCH: kein bequemes Laden ohne Bike in der Wohnung."
     },
     "ausstattung": {
-      "schaltung": "Shimano Deore 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano MT420 4-Kolben",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "29\"",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Maxxis Minion DHF 2.5",
-      "reifen_hinten": "Maxxis Minion DHR II 2.4",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "Commencal Bar 800mm"
+      "schaltung": "SRAM Eagle 90 mechanisch T-Type 12-fach (NEU 2025, full-mount system)",
+      "schaltung_url": "https://www.sram.com",
+      "bremsen": "TRP DH-R EVO Pro 4-Kolben, 220 mm vorne / 203 mm hinten Storm HC Rotors",
+      "bremsen_url": "https://www.trpbrakes.com",
+      "laufraeder": "DT Swiss 370 Hybrid (E-Bike-spezifisch verstaerkt, 28h sealed bearings)",
+      "laufraeder_url": "https://www.dtswiss.com",
+      "reifen_vorne": "Maxxis Assegai 29x2.5\" 3C MaxxGrip EXO+",
+      "reifen_hinten": "Maxxis Minion DHR II 27.5x2.5\" 3C MaxxTerra Double Down",
+      "reifen_url": "https://www.maxxis.com",
+      "cockpit": "RIDE ALPHA R27 780mm Lenker + RIDE ALPHA Mushroom Vorbau + Bosch Kiox 400C Display (mit Navigation) + KS Rage-i Dropper 170mm (L) + Crankbrothers Stamp 1 Pedale (inkludiert)"
     },
-    "gewicht_kg": 23.5,
-    "laufradgroesse": "29\"",
+    "gewicht_kg": 25.5,
+    "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "info": "Verfuegbar via offiziellen Commencal-Webshop (commencal.com) mit Direktvertrieb. 10% Rabatt bei Abholung im Commencal Village Andorra-la-Vella. ACHTUNG: Andorra ist NICHT EU-Mitglied — Importsteuer/Zollkosten moeglich.",
+      "geprueft_am": "2026-04-26",
+      "geprueft_quelle": "https://www.commencal.com/en/meta-power-sx-800-rockshox-pure-white-2026-enduro-ebike-europe/BT5MSXV5PW8EEU1.html"
+    },
     "verfuegbarkeit_ch": {
       "haendler": [
-        "commencal-store.com"
+        "commencal.com (offizieller Direktvertrieb, Versand in die Schweiz)",
+        "Breitenstein Bikes CH (ausgewaehlte CH-Haendler)"
       ],
-      "probefahrt_moeglich": "Nein",
+      "probefahrt_moeglich": "Eingeschraenkt — hauptsaechlich via DTC-Versand",
       "urls": [
-        "https://www.commencal-store.com/meta-power-tr"
+        "https://www.commencal.com/en/meta-power-sx-800-rockshox-pure-white-2026-enduro-ebike-europe/BT5MSXV5PW8EEU1.html"
       ]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "commencal-store.com",
+      "shop": "commencal.com (Direktvertrieb aus Andorra)",
       "lieferzeit_tage": null,
-      "url": "https://www.commencal-store.com/meta-power-tr"
+      "url": "https://www.commencal.com/en/meta-power-sx-800-rockshox-pure-white-2026-enduro-ebike-europe/BT5MSXV5PW8EEU1.html"
     },
-    "test_ergebnisse": [],
-    "passend_fuer_martina_score": 8,
-    "passend_fuer_martina_begruendung": "Starkes Preis-Leistungs-Verhältnis: Bosch CX Gen5 mit 100 Nm, 150/140 mm Federweg und 29\" Laufräder für CHF ~4'725. Für Martinas Trail- und Alpeneinsatz ideal — leichter als viele Konkurrenten und günstiger als die meisten Vergleichsmodelle.",
-    "warnungen": [
-      "Kein CHF-Preis — muss direkt bei Commencal bestellt werden, kein Schweizer Fachhändler."
+    "passend_fuer_martina_score": 7,
+    "passend_fuer_martina_begruendung": "Staerkster Bosch-Motor (100 Nm) + 180 mm Enduro-Federweg + Top-Komponenten, aber 800 Wh permanent integriert (gleiche Schwaeche wie Cannondale/Transition mit Score 6) und DTC ohne CH-Service-Niederlassung. Score 7 = besser als Score-6-Bikes wegen mehr Federweg + Motor, aber klar unter Score-8/9-Bikes wegen Akku-Problem + Preis.",
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 5,
+      "bergauf_touren": 7,
+      "bikepark_reserve": 9,
+      "gewicht_handling": 5,
+      "preis_leistung": 5,
+      "service_haendlernetz_ch": 4,
+      "risiko_datenunsicherheit": 8
+    },
+    "bewertung_detail": {
+      "pro": [
+        "STAERKSTER Bosch-Motor in der Liste: Bosch Performance Line CX Gen5 mit 100 Nm (via Flow App) und 750 W Peak — mehr als die 85 Nm Standard-Variante bei allen anderen Bosch-Bikes",
+        "800 Wh Bosch PowerTube Akku — gleicher wie Cube ONE44 SLX (Score 9), Orbea Wild H10 (Score 9)",
+        "180 mm Federweg vorne UND hinten — echtes Enduro-Niveau, MEHR als Trek Rail+ 9.7 (160/160), Cannondale (160/150), Transition (160/150)",
+        "RockShox ZEB ULTIMATE Federgabel mit Charger 3.1 Damper — gleiches Top-Niveau wie Transition Regulator CX XT",
+        "TRP DH-R EVO Pro 4-Kolben Bremsen, 220 mm VORNE / 203 mm hinten — Premium-Bremsen auf World-Cup-Niveau",
+        "SRAM Eagle 90 T-Type mechanisch — neuste 2025 Schaltung mit full-mount system und hoher Durability",
+        "Bosch Kiox 400C Display mit NAVIGATION (5 cm Diagonale, audible alerts) — Premium-Feature",
+        "VCS Virtual Contact System Hinterbau-Kinematik — komfortable und vergebende Charakteristik",
+        "DT Swiss 370 Hybrid Laufraeder — E-Bike-spezifisch verstaerkt",
+        "Maxxis Assegai 3C MaxxGrip vorne + Minion DHR II 3C MaxxTerra Double Down hinten — Top-Reifen",
+        "LEBENSLANGE Garantie auf Hauptrahmen UND Contact System Linkages",
+        "Crankbrothers Stamp 1 Pedale INKLUDIERT",
+        "RIDEWRAP Lotus Pro Schutzfilm ab Werk + integrierte Frame Protection",
+        "Aluminium 6066 triple butted Rahmen — robust, langlebig, einfach zu reparieren",
+        "Bosch PowerMore 250 Wh Range Extender kompatibel = bis 1050 Wh kombinierte Kapazitaet",
+        "Direct-to-Consumer Vertrieb — keine Haendler-Marge, transparente Preise",
+        "10% Rabatt bei Abholung im Commencal Village (Andorra-la-Vella)",
+        "Commencal seit 2000 (Andorra) mit DH/Enduro-Heritage und World-Cup-Renommee",
+        "FIDLOCK Basis fuer 750ml Wasserflasche im Hauptdreieck integriert",
+        "Thru axles mit Expanders + Half-Shell Dust Covers — Premium-Konstruktions-Details"
+      ],
+      "contra": [
+        "800 Wh Akku ist PERMANENT INTEGRIERT (NICHT entnehmbar) — kein bequemes Laden. Gleiche Schwaeche wie Cannondale Moterra SL 2 (601 Wh) und Transition Regulator CX XT (600 Wh), die beide Score 6 haben",
+        "Bei UVP CHF 8'200 CHF 3'200 TEURER als Cube ONE44 SLX 800 (Score 9, CHF 4'999) und Orbea Wild H10 (Score 9, CHF 4'990)",
+        "Andorra ist NICHT EU-Mitglied — Importsteuer/Zollkosten moeglich bei Direkt-Versand in die Schweiz",
+        "KEIN klassisches CH-Haendlernetz — Service-Profil schwaechstes in der Liste (Service CH 4)",
+        "Bei Reklamationen oder Garantiefaellen laeuft alles via Andorra — laenger und komplizierter als lokales Haendlernetz",
+        "25.5 kg Minimum-Gewicht (Groesse S) — L/XL geschaetzt 26-27 kg, schwerer als Cube/Orbea",
+        "RockShox Super Deluxe Select (Mid-Tier, NICHT Ultimate) — leichter Spec-Knick gegenueber ZEB Ultimate Gabel",
+        "Aluminium-Rahmen statt Carbon (robuster aber schwerer als Carbon-Konkurrenz)",
+        "Probefahrten kaum moeglich — hauptsaechlich DTC-Versand",
+        "Bei Garantiefall: Bike eventuell nach Andorra versenden — kein lokaler Service",
+        "Cube ONE44 SLX bietet vergleichbare Specs zu 60% des Preises bei Voll-CH-Service"
+      ],
+      "fazit": "Staerkste Bosch-Enduro-Spec in der Liste mit objektiver Top-Ausstattung, aber DTC-Modell ohne CH-Service und permanenter Akku limitieren den Score. Pro: Bosch Performance Line CX Gen5 mit 100 Nm + 750 W ist STAERKSTER Bosch-Motor in der Liste, 800 Wh Akku, 180/180 mm echtes Enduro-Niveau (mehr als alle anderen Bosch-Bikes), RockShox ZEB Ultimate, TRP DH-R EVO Pro, SRAM Eagle 90 T-Type, Bosch Kiox 400C Navigation, VCS Hinterbau, lebenslange Rahmen-Garantie inkl. Linkages, DT Swiss Laeufer, Maxxis 3C Reifen, Pedale inkludiert. Contra: 800 Wh PERMANENT (gleiche Schwaeche wie Cannondale + Transition mit Score 6), CHF 3'200 teurer als Cube ONE44 SLX (Score 9), DTC ohne CH-Service-Niederlassung (Service CH 4 = Tiefstwert), Andorra-Import moeglicherweise mit Zusatzkosten, 25.5 kg ist schwer, Super Deluxe Select (nicht Ultimate). Score 7 reflektiert: Bike ist objektiv STAERKER als Cannondale + Transition (beide Score 6) wegen 100 Nm Motor + 180 mm Enduro + mehr Kapazitaet, aber permanenter Akku + Preis-Schwaeche zu Cube/Orbea verhindern Score 8. Wer den staerksten Bosch-Motor + 180 mm Enduro will und mit DTC-Vertrieb + Andorra-Import leben kann: solide Wahl. Wer maximale Preis-Leistung mit CH-Service will: Cube ONE44 SLX 800 (Score 9) bietet 60% des Preises."
+    },
+    "test_urteile": [
+      {
+        "quelle": "The Loam Wolf First Ride Review (November 2025)",
+        "kurzfazit": "Designed 'for those who ride where no one walks'. 100Nm Torque and 750W Peak Power. Excellent rear end for climbing all sorts of terrain. Robert was impressed by the uphill performance even on steepest and most technical climbing."
+      },
+      {
+        "quelle": "Pinkbike Press Release (November 2025)",
+        "kurzfazit": "The META POWER SX 800 delivers the perfect mix of power and range. SRAM T-Type cable transmission makes light work of steep climbs, while 180mm of travel keeps things comfortable. Monstrous 800Wh battery — you can turbo it for the whole ride."
+      },
+      {
+        "quelle": "Bikerumor (Juni 2025)",
+        "kurzfazit": "10mm more squish and 200 more watt hours. Most powerful in the Bosch line-up: 100Nm torque and 750W maximum power, yet extremely quiet."
+      },
+      {
+        "quelle": "Cyclonline.com (Januar 2026)",
+        "kurzfazit": "Two distinct builds: RockShox at EUR 8'500, Fox at EUR 9'500. Both with mechanical SRAM Eagle 90, TRP brakes, DT Swiss wheels. Bosch Kiox 400C navigation with audible alerts makes it extremely simple to stay on course."
+      },
+      {
+        "quelle": "Vital MTB 2026 Spec Sheet",
+        "kurzfazit": "180mm travel front + rear, 29\"/27.5\" mullet, Aluminium 6066 triple butted T4/T6, ZEB Ultimate + Super Deluxe Select, SRAM Eagle 90 T-Type, TRP DH-R EVO Pro 220/203mm, DT Swiss 370 Hybrid. Lifetime frame warranty + Contact System linkages."
+      }
     ],
-    "alternativ_zu": []
+    "warnungen": [
+      "800 Wh Akku permanent integriert (nicht entnehmbar) — kritisch fuer laengere CH-Bergtouren",
+      "Andorra ist NICHT EU-Mitglied — Importsteuer/Zollkosten bei CH-Versand moeglich",
+      "CHF-UVP ist geschaetzt (EUR 8'500 x 1:1 Konversion)"
+    ],
+    "alternativ_zu": [
+      "Cube ONE44 SLX 800 (Score 9, CHF 4'999 — 60% des Preises, Voll-CH-Service)",
+      "Orbea Wild H10 (Score 9, CHF 4'990 — 60% des Preises)",
+      "Trek Rail+ 9.7 Gen 5 (Score 7, CHF 7'990 — aehnlicher Score, mit CH-Haendlernetz)"
+    ]
   },
   {
     "id": "commencal-meta-power-sx-2026",
