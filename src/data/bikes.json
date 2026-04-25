@@ -2586,11 +2586,6 @@
       "gabel": "RockShox ZEB Ultimate",
       "daempfer": "RockShox Deluxe Ultimate"
     },
-    "antrieb": {
-      "schaltung": "SRAM GX Eagle AXS (12-fach, kabellos)",
-      "bremsen": "SRAM Code Silver Stealth",
-      "kassette": "SRAM Eagle 10-52T"
-    },
     "laufradgroesse": "29\"",
     "gewicht_kg": 23.2,
     "verfuegbarkeit": {
@@ -2607,13 +2602,13 @@
       "radstand_mm": 1240
     },
     "bewertung_kategorien": {
-      "Abfahrt": 8,
-      "Ufstig": 7,
-      "Geometrie": 9,
-      "Preis-Leistung": 5,
-      "Einsteigerfreundlich": 7,
-      "Service CH": 8,
-      "Risiko": 9
+      "bikepark_reserve": 8,
+      "bergauf_touren": 7,
+      "geometrie_rahmengroesse": 9,
+      "preis_leistung": 5,
+      "einsteigerfreundlichkeit": 7,
+      "service_haendlernetz_ch": 8,
+      "risiko_datenunsicherheit": 9
     },
     "bewertung_detail": {
       "pro": [
@@ -2638,7 +2633,36 @@
         "Topmodelle im Segment (CHF 10'000+) würden Trek-Spezifika besser rechtfertigen"
       ],
       "fazit": "Das Trek Rail+ 9.7 Gen 5 ist ein solides, gut durchdachtes Trail-E-MTB von einer der bekanntesten Marken der Welt. Die Gen-5-Geometrie ist exzellent, OCLV Carbon bewährt, Bosch CX Gen5 + 800 Wh ist das richtige System. Aber: Für CHF 7'990 bekommt Martina anderswo deutlich mehr Bike. Der Orbea Wild H10 kostet CHF 3'000 weniger und erreicht Score 9. Der Cube Stereo kostet CHF 2'500 weniger bei Score 8. Das Trek Rail+ 9.7 ist nicht schlecht — es ist einfach zu teuer für das, was es bietet. Die Marken-Premium rechtfertigt den Preisunterschied nicht. Nur für Trek-Fans mit entsprechendem Budget."
-    }
+    },
+    "ausstattung": {
+      "schaltung": "SRAM GX Eagle AXS (12-fach, kabellos)",
+      "schaltung_url": "https://www.sram.com",
+      "bremsen": "SRAM Code Silver Stealth",
+      "bremsen_url": "https://www.sram.com",
+      "laufraeder": "Trek Tubeless Ready",
+      "laufraeder_url": null,
+      "reifen_vorne": "Maxxis Minion DHF 29×2.5\" EXO+",
+      "reifen_hinten": "Maxxis Minion DHRII 29×2.4\" EXO+",
+      "reifen_url": "https://www.maxxis.com",
+      "cockpit": "Trek Stem + Handlebar + RockShox Reverb AXS Dropper"
+    },
+    "verfuegbarkeit_ch": {
+      "haendler": [
+        "Trek Authorized Retailer CH",
+        "trekcycles.ch"
+      ],
+      "probefahrt_moeglich": "Ja, bei lokalen Trek-Händlern",
+      "urls": [
+        "https://www.trekbikes.com/ch/de_CH/"
+      ]
+    },
+    "verfuegbarkeit_de_direkt": {
+      "shop": "trekbikes.com",
+      "lieferzeit_tage": null,
+      "url": "https://www.trekbikes.com/ch/de_CH/bikes/mountain-bikes/e-mountain-bikes/rail/rail-9-7-gen-5/p/47400-2026/"
+    },
+    "warnungen": [],
+    "alternativ_zu": []
   },
   {
     "id": "cannondale-moterra-sl-2-2026",
@@ -2731,13 +2755,13 @@
     "passend_fuer_martina_score": 6,
     "passend_fuer_martina_begruendung": "Technisch innovatives Light-eMTB, aber 601 Wh permanent integrierter Akku limitiert CH-Bergtouren. Bei UVP CHF 7'999 objectiv schlechtere Preis-Leistung als AMFLOW PL Carbon (Score 9, CHF 3'490 Sale) oder Orbea Wild H10 (Score 9, CHF 4'990).",
     "bewertung_kategorien": {
-      "Abfahrt": 7,
-      "Ufstig": 5,
-      "Geometrie": 9,
-      "Preis-Leistung": 4,
-      "Einsteigerfreundlich": 6,
-      "Service CH": 9,
-      "Risiko": 9
+      "bikepark_reserve": 7,
+      "bergauf_touren": 5,
+      "geometrie_rahmengroesse": 9,
+      "preis_leistung": 4,
+      "einsteigerfreundlichkeit": 6,
+      "service_haendlernetz_ch": 9,
+      "risiko_datenunsicherheit": 9
     },
     "bewertung_detail": {
       "pro": [
