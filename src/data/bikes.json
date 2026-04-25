@@ -1467,46 +1467,45 @@
     }
   },
   {
-    "id": "radon-render-90-2026",
-    "bild_pfad": "/images/bikes/radon-render-90-2026.jpg",
+    "id": "radon-render-9-0-800-2026",
+    "bild_pfad": "/images/bikes/radon-render-9-0-800-2026.jpg",
     "hersteller": "Radon",
-    "modell": "Render 9.0",
+    "modell": "Render 9.0 800",
     "modelljahr": 2026,
-    "kategorie": "Enduro",
-    "hersteller_url": "https://www.radon-bikes.de/",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": 4499,
-    "preis_eur": 4199,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "kategorie": "All-Mountain | Trail",
+    "hersteller_url": "https://www.radon-bikes.de",
+    "produktseite_url": "https://www.radon-bikes.de/e-bike/mountainbike/render/render-90-800-2026/",
+    "preis_chf": 5999,
+    "preis_eur": 5999,
+    "preis_quelle_url": "https://www.radon-bikes.de/e-bike/mountainbike/render/render-90-800-2026/",
     "rahmen": {
-      "material": "Aluminium",
+      "material": "Carbon-Hauptrahmen (Carbon-Frontrahmen + Aluminium-Hinterbau)",
       "groessen_verfuegbar": [
-        "S",
         "M",
         "L",
         "XL"
       ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": 63.5,
-      "sitzwinkel_effektiv_grad": 77.5,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
       "radstand_mm": null,
       "kettenstrebe_mm": null
     },
     "federweg": {
-      "vorne_mm": 170,
-      "hinten_mm": 160,
-      "gabel_modell": "RockShox Zeb Select+",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "RockShox Super Deluxe Select+",
-      "daempfer_url": "NOT_SPECIFIED"
+      "vorne_mm": 160,
+      "hinten_mm": 140,
+      "gabel_modell": "Fox 36 Performance FIT GRIP 160 mm",
+      "gabel_url": "https://www.ridefox.com",
+      "daempfer_modell": "Fox Float X Performance 2-Position",
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "Bosch",
-      "modell": "Performance Line CX Gen5",
-      "drehmoment_nm": 100,
-      "leistung_spitze_w": 750,
-      "hersteller_url": "NOT_SPECIFIED"
+      "modell": "Performance Line CX Smart System Gen5 (BDU384)",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "https://www.bosch-ebike.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -1514,57 +1513,129 @@
       "range_extender_optional": false
     },
     "ausstattung": {
-      "schaltung": "Shimano XT 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "SRAM Code R",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "DT Swiss H 1900",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Maxxis Assegai MaxxGrip",
-      "reifen_hinten": "Maxxis Minion DHR II MaxxTerra",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "SRAM GX Eagle Transmission 12-fach (elektronisch, AXS Wireless)",
+      "schaltung_url": "https://www.sram.com",
+      "bremsen": "SRAM Maven 4-Kolben",
+      "bremsen_url": "https://www.sram.com",
+      "laufraeder": "NEWMEN Performance 30 base/strong 30 mm Maulweite",
+      "reifen_vorne": "Continental Kryptotal Soft",
+      "reifen_hinten": "Continental Kryptotal Soft",
+      "reifen_url": "https://www.continental-tires.com",
+      "cockpit": "Bosch Kiox 400C Display + Bosch Mini Controller Wireless"
     },
-    "gewicht_kg": 24.2,
-    "laufradgroesse": "MX (Mullet)",
+    "gewicht_kg": null,
+    "laufradgroesse": "29",
     "verfuegbarkeit_ch": {
-      "haendler": [],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "haendler": [
+        "bike-discount.de (DTC, Versand aus Bonn DE)"
+      ],
+      "probefahrt_moeglich": "Kein CH-Händlernetz — kein Probefahrt-Angebot in der Schweiz",
+      "urls": [
+        "https://www.bike-discount.de"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
       "shop": "bike-discount.de",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.bike-discount.de"
     },
     "test_ergebnisse": [
       {
-        "publikation": "bike-discount.de / Radon",
-        "bewertung_kurz": "P/L-Sieger Enduro",
+        "publikation": "Mountainbike Magazin 03/2025 (für Vorgänger 9.0 750)",
+        "bewertung_kurz": "Sehr gut — Preis-Leistungs-Sieger. Für nur EUR 4'000 ein preislich unschlagbares E-MTB mit kraftvollem Bosch-Motor und überzeugenden All-Mountain-Eigenschaften.",
         "stärken": [
-          "Extrem gutes P/L bei Enduro",
-          "Bosch CX Gen5",
-          "Starkes Fahrwerk",
-          "800 Wh"
+          "Preis-Leistungs-Verhältnis",
+          "Bosch CX Motor",
+          "Carbon-Hauptrahmen"
         ],
         "schwaechen": [
-          "Nur Online-Kauf (DE)",
-          "Support/Service in CH schwieriger",
-          "170 mm Enduro-Geometrie"
+          "Hinterbau Aluminium",
+          "DTC ohne lokalen Service"
         ],
-        "test_url": "NOT_SPECIFIED",
-        "datum": "2026-01"
+        "test_url": "https://www.mountainbike-magazin.de",
+        "datum": "2025-03"
+      },
+      {
+        "publikation": "emtb-test.com Review (für 9.0 750 Vorgänger)",
+        "bewertung_kurz": "More of a forgiving companion than a spirited stallion. Als Touring-Bike für Trail und All-Mountain ausgezeichnet. 750 Wh → 2'250 m Höhenmeter im Turbo-Modus.",
+        "stärken": [
+          "Forgiving rideability",
+          "Tour-Performance",
+          "Intuitive Handling"
+        ],
+        "schwaechen": [
+          "Keine sportliche Enduro-Reserve",
+          "Relativ lange Kettenstreben"
+        ],
+        "test_url": "https://www.emtb-test.com",
+        "datum": "2025-06"
       }
     ],
     "passend_fuer_martina_score": 8,
-    "passend_fuer_martina_begruendung": "Preis-Leistungs-Sieger bei Enduro. 170/160 mm mit Bosch CX Gen5 für unter 5k. Nur via DE-Direktversand (bike-discount.de). Für Martina attraktiv, wenn Bikepark wichtig wird.",
+    "passend_fuer_martina_begruendung": "Solide All-Mountain-Plattform mit 2026-Update auf Bosch Gen5, 800 Wh und neuen Premium-Komponenten (SRAM Maven + GX AXS). Preis-Leistungs-Sieger Mountainbike Magazin 2025. ABER: DTC ohne CH-Händlernetz — Service via Versand nach DE. Schweizer MwSt + ggf. Zoll kommen oben drauf. Score 8 konsistent mit Canyon Neuron AL (ähnliches Profil: gutes Preis-Leistungs-Verhältnis, aber Service-Einschränkungen).",
     "warnungen": [
-      "Reines Enduro — bergauf weniger agil. Für Einsteigerinnen nur sinnvoll bei regelmässiger Bikepark-Nutzung."
+      "DTC-Modell: kein CH-Händlernetz — Service und Garantiefälle via Versand zurück nach Deutschland",
+      "Schweizer MwSt + ggf. Zoll kommen zum DE-Listenpreis dazu (finale CHF-Kosten direkt auf bike-discount.de prüfen)",
+      "Gewicht 2026er Modell nicht offiziell publiziert — geschätzt ca. 24–25 kg",
+      "Carbon-Hauptrahmen nur Front-Triangle, Hinterbau Aluminium — nicht Vollcarbon"
     ],
     "alternativ_zu": [
-      "Cube Stereo Hybrid ONE77",
-      "YT Capra"
-    ]
+      "cube-stereo-hybrid-one44-hpc-slx-800-2026",
+      "canyon-neuron-on-al-9-2026"
+    ],
+    "badge": null,
+    "referenzbike": false,
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "hinweis": "Bei bike-discount.de (Bonn DE) online bestellbar. DTC-Modell: Service und Garantie laufen via Versand nach DE. Lieferung in die Schweiz möglich, aber Schweizer MwSt + ggf. Zoll kommen oben drauf — aktuelle CHF-Endpreise direkt auf bike-discount.de prüfen vor Bestellung.",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://www.radon-bikes.de/e-bike/mountainbike/render/render-90-800-2026/"
+    },
+    "preise": {
+      "uvp_chf": 5999,
+      "sale_chf": null,
+      "sale_haendler": null,
+      "sale_url": null
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 7,
+      "bergauf_touren": 8,
+      "bikepark_reserve": 7,
+      "gewicht_handling": 6,
+      "preis_leistung": 8,
+      "service_haendlernetz_ch": 4,
+      "risiko_datenunsicherheit": 7
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Bosch Performance CX Smart System Gen5 (bis 100 Nm) — entspricht dem Motor-Wunsch",
+        "800 Wh PowerTube Akku, entnehmbar mit neuem Tool-Free Cover und Snap-Closure",
+        "SRAM GX Eagle Transmission elektronisch — Premium-Schaltung (NEU für 2026, Vorgänger hatte Shimano XT mechanisch)",
+        "SRAM Maven 4-Kolben Bremsen — starke 2026 Bremsen (NEU für 2026, Vorgänger hatte Shimano XT)",
+        "Bosch Kiox 400C Display im Oberrohr versenkt + Bosch Mini Controller — sauberes Cockpit",
+        "Continental Kryptotal Reifen mit weicher Soft-Gummimischung — top Grip",
+        "NEWMEN Performance 30 Laufräder mit 30 mm Maulweite",
+        "Fox 36 Performance Gabel + Fox Float X Performance Dämpfer — solides Standard-Niveau",
+        "Carbon-Hauptrahmen mit 2026-Design (filigraner, markante Flügel-Strebe)",
+        "Etablierte deutsche DTC-Marke seit 1996 — keine bekannten Defekt-Issues wie bei Canyon",
+        "DTC-Modell: Premium-Komponenten zu günstigerem Preis als Händler-vertriebene Marken",
+        "Mountainbike Magazin 03/2025: 'Preis-Leistungs-Sieger' (für Vorgänger-Modell)",
+        "emtb-test.com: 'Forgiving companion' mit guten All-Mountain-Eigenschaften"
+      ],
+      "contra": [
+        "DTC ohne CH-Händlernetz — Service und Garantiefälle via Versand zurück nach Deutschland",
+        "Lieferung aus DE — Schweizer MwSt + ggf. Zoll kommen zum Listenpreis dazu (Endpreis ggf. CHF 6'500–7'000)",
+        "Carbon nur im Front-Triangle, Hinterbau Aluminium — nicht Vollcarbon wie Cube ONE44 oder Canyon Spectral",
+        "Geschätzt 24–25 kg — schwerer als Cube ONE44 SLX (24,3 kg) oder Canyon Spectral (23 kg)",
+        "Fox Performance Niveau (nicht Elite oder Factory wie bei Cube AT oder Focus JAM²)",
+        "Kein lokales Schweizer Service-Netz — bei Garantiefällen längere Wartezeiten",
+        "emtb-test.com: 'More forgiving companion than spirited stallion' — kein progressives Enduro-Setup",
+        "Magazin: Relativ lange Kettenstreben — mehr Geradeausstabilität, aber weniger agil in Kurven",
+        "Gewicht 2026er Modell nicht offiziell publiziert"
+      ],
+      "fazit": "Solide All-Mountain-Plattform mit echtem 2026-Upgrade: Bosch Gen5, 800 Wh und vor allem neue Premium-Komponenten (SRAM Maven 4-Kolben, GX AXS elektronisch). Der Vorgänger war bereits Preis-Leistungs-Sieger. ABER: DTC aus Deutschland heisst kein CH-Händlernetz — Service und Garantie via Versand nach DE, Schweizer MwSt kommt oben drauf. Für DTC-erfahrene Käufer mit etwas Werkstatt-Know-how: Top Preis-Leistungs-Verhältnis. Wer lokales Service-Netz will: Cube ONE44 SLX 800 bietet ähnlichen Score (9 vs 8), Vollcarbon und CH-Händlernetz zu etwas höherem Preis."
+    }
   },
   {
     "id": "haibike-hybe-cf-9-2026",
