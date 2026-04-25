@@ -2996,15 +2996,19 @@
     "bild_pfad": "/images/bikes/cube-stereo-hybrid-one77-hpc-slx-800-2026.jpg",
     "hersteller": "Cube",
     "modell": "Stereo Hybrid ONE77 HPC SLX 800",
+    "modell_hinweis": "Long-Travel-Enduro-Variante der Cube ONE77-Familie. ONE77 = 170 mm Federweg-Plattform (Big-Mountain-Trail), HPC = High Performance Composite (Carbon-Hauptrahmen + Aluminium-Hinterbau), SLX = mid-tier Komponenten-Spec-Level, 800 = 800 Wh Akku. Gleicher UVP wie ONE44 SLX 800, aber mehr Federweg + staerkere Gabel.",
     "modelljahr": 2026,
-    "kategorie": "Enduro",
-    "hersteller_url": "https://www.cube.eu/",
-    "produktseite_url": "https://www.bikester.ch/collections/cube-stereo-hybrid",
+    "kategorie": "Enduro | Long-Travel",
+    "hersteller_url": "https://www.cube.eu",
+    "produktseite_url": "https://www.cube.eu/ch-de/e-bikes/mountainbike/fullsuspension/stereo-hybrid-one77",
     "preis_chf": 4999,
-    "preis_eur": 4699,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "preis_eur": 4999,
+    "preis_hinweis": "UVP CHF 4'999 verifiziert. AKTUELLER SALE: CHF 4'499 bei Cube Store Muenchenbuchsee (-10%). Gleicher UVP wie Cube ONE44 SLX 800 (Score 9) aber mit 10 mm mehr Federweg vorne (170 vs. 160) und 20 mm mehr Federweg hinten (170 vs. 150) plus staerkerer Fox 38 statt Fox 36.",
+    "preis_sale_chf": 4499,
+    "preis_sale_haendler": "Cube Store Muenchenbuchsee (Velovirus)",
+    "preis_quelle_url": "https://cubestore.velovirus.ch/shop/velos/elektrovelo/mtb-full-suspension/stereo-hybrid-one77/stereo-hybrid-one77-hpc-slx-800/",
     "rahmen": {
-      "material": "Carbon",
+      "material": "C:62 HPC Carbon Hauptrahmen (Monocoque Advanced Twin Mold Technology) + Aluminium 6061 T6 Rear Triangle",
       "groessen_verfuegbar": [
         "S",
         "M",
@@ -3013,85 +3017,141 @@
       ],
       "groesse_L_reach_mm": null,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": 63.5,
-      "sitzwinkel_effektiv_grad": 77,
+      "lenkwinkel_grad": null,
+      "sitzwinkel_effektiv_grad": null,
       "radstand_mm": null,
-      "kettenstrebe_mm": null
+      "kettenstrebe_mm": null,
+      "besonderheiten": "FSP 4-Link Hinterbau-Kinematik, verstellbarer Steuersatz fuer Lenkwinkel-Anpassung, Full Integrated Battery im Carbon-Unterrohr, Direct Mount Kettenfuehrung, Advanced Internal Cable Routing, UDH Universal Derailleur Hanger, Boost 148 Hinterachse"
     },
     "federweg": {
       "vorne_mm": 170,
       "hinten_mm": 170,
-      "gabel_modell": "Fox 38 Float Performance",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "Fox Float X Performance",
-      "daempfer_url": "NOT_SPECIFIED"
+      "gabel_modell": "Fox 38 Float Rhythm GRIP, 170 mm, 2-Position Sweep-Adjust, 15x110mm, E-Bike Optimized",
+      "gabel_url": "https://www.ridefox.com",
+      "daempfer_modell": "Fox Float X Performance, 230x65 mm, Adjustable LSR, 2-Position",
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "Bosch",
-      "modell": "Performance Line CX Gen5",
-      "drehmoment_nm": 100,
-      "leistung_spitze_w": 750,
-      "hersteller_url": "NOT_SPECIFIED"
+      "modell": "Performance Line CX Gen5 (BDU384Y)",
+      "drehmoment_nm": 85,
+      "leistung_spitze_w": 600,
+      "hersteller_url": "https://www.bosch-ebike.com",
+      "hinweis": "Performance Update auf 100 Nm via Bosch eBike Flow App ab Juli 2025 verfuegbar"
     },
     "akku": {
       "kapazitaet_wh": 800,
       "wechselbar": true,
-      "range_extender_optional": false
+      "range_extender_optional": true,
+      "hinweis": "800 Wh Bosch PowerTube ENTNEHMBAR. Kompatibel mit Bosch PowerMore 250 Wh Range Extender = bis 1050 Wh kombiniert. Kritischer Vorteil gegenueber Cannondale (601 Wh fix), Transition (600 Wh fix) und Commencal (800 Wh fix)."
     },
     "ausstattung": {
-      "schaltung": "Shimano SLX 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano SLX 4-Kolben",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "Newmen Performance 30",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Schwalbe Magic Mary 2.4",
-      "reifen_hinten": "Schwalbe Big Betty 2.4",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "Shimano XT M8100 12-fach",
+      "schaltung_url": "https://bike.shimano.com",
+      "bremsen": "Shimano XT BR-M8120 4-Kolben Hydraulic Disc, 203/203 mm Rotors",
+      "bremsen_url": "https://bike.shimano.com",
+      "laufraeder": "Newmen Performance 30 (E-Bike-spezifisch verstaerkt, Mullet 29\"/27.5\")",
+      "laufraeder_url": "https://www.newmen-components.com",
+      "reifen_vorne": "Continental Argotal 29x2.4\"",
+      "reifen_hinten": "Continental Kryptotal 27.5x2.4\"",
+      "reifen_url": "https://www.continental-tires.com",
+      "cockpit": "Cube Performance Vorbau + Cube Carbon Lenker + Cube Vario Dropper (intern) + Bosch Kiox 400C Display mit Navigation + Wireless Bosch Mini Remote"
     },
-    "gewicht_kg": 25.2,
+    "gewicht_kg": null,
     "laufradgroesse": "MX (Mullet)",
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "info": "Sehr gute CH-Verfuegbarkeit mit mehreren Online-Shops und Cube Store Standorten. AKTUELL Sale CHF 4'499 bei Cube Store Muenchenbuchsee (-10%). Probefahrten an mehreren CH-Standorten moeglich.",
+      "geprueft_am": "2026-04-26",
+      "geprueft_quelle": "https://cubestore.velovirus.ch/shop/velos/elektrovelo/mtb-full-suspension/stereo-hybrid-one77/stereo-hybrid-one77-hpc-slx-800/"
+    },
     "verfuegbarkeit_ch": {
       "haendler": [
-        "m-way.ch",
-        "bikester.ch"
+        "Cube Store Muenchenbuchsee (Velovirus) — CHF 4'499 Sale, Probefahrt moeglich",
+        "bikester.ch — mehrere Farbvarianten",
+        "godspeed.ch — CHF 4'749",
+        "velocorner.ch"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Ja, bei Cube Store Muenchenbuchsee und weiteren CH-Cube-Haendlern",
+      "urls": [
+        "https://cubestore.velovirus.ch/shop/velos/elektrovelo/mtb-full-suspension/stereo-hybrid-one77/stereo-hybrid-one77-hpc-slx-800/",
+        "https://www.bikester.ch/products/cube-stereo-hybrid-one77-hpc-slx-800-glintsand-n-black",
+        "https://www.godspeed.ch/de/cube-stereo-hybrid-one77-hpc-slx-blackline.html"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "bikester.ch",
+      "shop": "cube.eu / bikester.ch",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.cube.eu/ch-de/e-bikes/mountainbike/fullsuspension/stereo-hybrid-one77"
     },
-    "test_ergebnisse": [
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Drittes Cube-Bike mit Score 9. 170/170 mm Carbon-Hauptrahmen + Fox 38 + Shimano XT + 800 Wh entnehmbar + Bosch CX Gen5 fuer CHF 4'999. Gleicher Preis wie ONE44 SLX 800 (Score 9) aber mit mehr Federweg und staerkerer Gabel. Konsistent mit Orbea Wild H10 (Score 9, CHF 4'990, 170/170 mm).",
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 9,
+      "einsteigerfreundlichkeit": 7,
+      "bergauf_touren": 8,
+      "bikepark_reserve": 9,
+      "gewicht_handling": 7,
+      "preis_leistung": 9,
+      "service_haendlernetz_ch": 9,
+      "risiko_datenunsicherheit": 9
+    },
+    "bewertung_detail": {
+      "pro": [
+        "C:62 HPC Carbon Hauptrahmen mit Monocoque Advanced Twin Mold Technology — Cube-eigene Top-Karbontechnologie",
+        "Bosch Performance Line CX Gen5 (Marios Wunsch-Motor) mit Performance Update auf 100 Nm via Flow App",
+        "800 Wh Bosch PowerTube ENTNEHMBAR — kritischer Vorteil gegenueber Cannondale (601 Wh fix), Transition (600 Wh fix), Commencal (800 Wh fix)",
+        "170 mm Federweg vorne UND hinten — echtes Enduro-Niveau, mehr als Cube ONE44 SLX 800 (160/150 mm)",
+        "Fox 38 Float Rhythm GRIP Federgabel — STAERKER als Fox 36 bei ONE44 SLX, vergleichbar mit Orbea Wild H10",
+        "Fox Float X Performance Daempfer mit Adjustable LSR und 2-Position Lever",
+        "Shimano XT BR-M8120 4-Kolben Bremsen, 203/203 mm — Premium-Bremsen auf Top-Score-9-Niveau",
+        "Mullet-Setup ab Werk (29\"/27.5\") + verstellbarer Steuersatz fuer Lenkwinkel-Anpassung",
+        "Bosch Kiox 400C Display mit NAVIGATION (5 cm Diagonale, audible alerts) — neues Premium-Feature",
+        "Newmen Performance 30 Laufraeder — E-Bike-spezifisch verstaerkt",
+        "Continental Argotal + Kryptotal Reifen — Top-Trail-Reifen mit aggressivem Profil",
+        "FSP 4-Link Hinterbau-Kinematik fuer effizientes Pedalieren + sensibles Ansprechverhalten",
+        "Direct Mount Kettenfuehrung gegen Kettenabwurf",
+        "UDH Universal Derailleur Hanger fuer moderne Drivetrains und einfache Ersatzteilbeschaffung",
+        "Advanced Internal Cable Routing fuer sauberen Look + reduzierte Wartung",
+        "SEHR STARKES CH-Haendlernetz: Cube Stores in Muenchenbuchsee, Chur, Solothurn etc. + viele Velo-Spezialgeschaefte",
+        "Cube seit 1993 (Waldershof, Bayern) — eine der groessten und stabilsten Velo-Marken Europas",
+        "AKTUELLER SALE: CHF 4'499 bei Cube Store Muenchenbuchsee (-10%)",
+        "GLEICHER UVP wie ONE44 SLX 800 (Score 9) bei MEHR Federweg + STAERKERER Gabel",
+        "Probefahrten an mehreren CH-Standorten moeglich"
+      ],
+      "contra": [
+        "Aluminium-Hinterbau (kein Vollcarbon wie z.B. Cube ONE44 SLX) — kleiner Spec-Knick, aber Cube-Standard fuer Robustheit",
+        "Modellname 'SLX' kann irrefuehren — Bremsen und Schaltung sind effektiv XT-Niveau",
+        "~24.5 kg geschaetzt — schwerer als ONE44 SLX wegen mehr Federweg + staerkerer Gabel",
+        "170/170 mm Federweg ist mehr Enduro als All-Mountain — fuer reine Touren-Fahrer eventuell zu viel",
+        "Cube hat keine offizielle Gewichtsangabe fuer 2026 publiziert",
+        "Fox 38 Rhythm ist Einstiegs-Variante der Fox 38-Familie — solide aber nicht maximales Tuning"
+      ],
+      "fazit": "Drittes Cube-Bike auf Score-9-Niveau und konsistent mit der Bewertungslogik der Liste. Pro: C:62 HPC Carbon-Hauptrahmen, Bosch CX Gen5, 800 Wh ENTNEHMBAR (kritischer Vorteil ueber Cannondale/Transition/Commencal mit fixen Akkus), 170/170 mm echtes Enduro-Niveau (mehr als ONE44 SLX!), Fox 38 Float Rhythm (staerker als Fox 36 bei ONE44), Shimano XT Bremsen, Bosch Kiox 400C mit Navigation, Newmen Performance 30, Continental Top-Trail-Reifen, verstellbarer Steuersatz, sehr starkes CH-Haendlernetz. Contra: Aluminium-Hinterbau (kein Vollcarbon), ~24.5 kg ist schwerer als ONE44 SLX wegen mehr Federweg. Score 9 reflektiert: Bei CHF 4'999 ist das Bike OBJEKTIV BESSER als Cube ONE44 SLX 800 (Score 9, gleicher Preis, 160/150 mm + Fox 36) fuer Enduro-Einsaetze. Konsistent mit Orbea Wild H10 (Score 9, CHF 4'990, 170/170 mm Alu, Fox 38). Das Bike ist eine direkte Antwort auf alle Score-6/7 Bikes mit fixen Akkus: Cannondale (CHF 7'999), Transition (~CHF 9'990), Commencal (~CHF 8'200) bieten alle weniger Bike fuers Geld."
+    },
+    "test_urteile": [
       {
-        "publikation": "bikester.ch / Cube",
-        "bewertung_kurz": "Enduro Preis-Leistungs-Tipp",
-        "stärken": [
-          "Sehr viel Federweg für Preis",
-          "Bosch CX Gen5",
-          "Carbon-Rahmen unter 5k",
-          "800 Wh wechselbar"
-        ],
-        "schwaechen": [
-          "170 mm bergauf träger",
-          "Gewicht über 25 kg",
-          "SLX-Ausstattung nicht Top-Level"
-        ],
-        "test_url": "NOT_SPECIFIED",
-        "datum": "2026-02"
+        "quelle": "Bikester.ch (CH-Haendler-Beschreibung 2026)",
+        "kurzfazit": "Wer seine Bergzeit am liebsten auf anspruchsvollen Trails verbringt, hat mit dem Stereo Hybrid ONE77 HPC SLX das richtige Bike unterm Sattel. Fox Float 38 Rhythm + Float X Performance Daempfer = 170 mm Federweg vorne und hinten. Bosch CX Motor + 800 Wh PowerTube unauffaellig, aber effizient."
+      },
+      {
+        "quelle": "Cube Store Muenchenbuchsee (CH-Cube-Vertrieb)",
+        "kurzfazit": "Big-Mountain-Trail-Traeume. 170 mm Federweg + Mullet-Setup. Maximal detailverliebt konstruiert. Integrated Cable Routing, verstellbarer Steuersatz, 800 Wh PowerTube sauber im Carbon-Unterrohr integriert. CHF 4'499 aktuell im Sale."
+      },
+      {
+        "quelle": "Velocorner.ch (TCS Marktplatz)",
+        "kurzfazit": "Big-Mountain-Fully bringt auf dem Weg nach oben ebenso viel Leistung wie bergab. Bosch CX Motor, HPC Carbonrahmen, sorgfaeltig ausgewaehlte Komponenten. Fox 38 Float Rhythm GRIP, Fox Float X Performance 230x65mm, Shimano XT BR-M8120 Bremsen 203/203mm."
+      },
+      {
+        "quelle": "Cube Hersteller-Beschreibung 2026",
+        "kurzfazit": "Haarige Lines und taffe Trails verlangen Fahrer und Bike so einiges ab. Gut, dass es das superpotente Stereo Hybrid ONE77 gibt. Sein kraftvoller Bosch Antrieb macht den Weg bergauf zum Spaziergang. Sein Mullet-Set-up, die verstellbare Geometrie und ein Fahrwerk von CUBE erledigen den Rest."
       }
     ],
-    "passend_fuer_martina_score": 7,
-    "passend_fuer_martina_begruendung": "Enduro-Variante mit 170/170 mm. Für Martinas gelegentliche Bikepark-Besuche top. Bergauf aber zäher als ein All-Mountain. Sehr faires Preis-Leistungs-Verhältnis für Carbon-Enduro mit Bosch CX Gen5.",
-    "warnungen": [
-      "Mit 170 mm hinten eher Enduro-lastig — bergauf weniger agil, für Einsteigerinnen auf flachem Terrain unhandlich. Nur wählen, wenn Bikepark-Nutzung regelmässig."
-    ],
+    "warnungen": [],
     "alternativ_zu": [
-      "Focus SAM² 6.9",
-      "Canyon Torque:ON"
+      "Cube ONE44 SLX 800 (Score 9, CHF 4'999 — gleicher Preis, weniger Federweg 160/150 mm, besser fuer Trail/All-Mountain)",
+      "Orbea Wild H10 (Score 9, CHF 4'990 — vergleichbare Federweg 170/170 mm, Aluminium-Rahmen)",
+      "Cube ONE44 HPC AT 800 (Score 9, CHF 6'999 — mehr Budget, mehr Spec)"
     ]
   },
   {
