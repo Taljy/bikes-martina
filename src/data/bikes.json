@@ -1216,41 +1216,45 @@
     ]
   },
   {
-    "id": "unno-mith-pro-2026-editors-choice",
-    "bild_pfad": "/images/bikes/unno-mith-pro-2026-editors-choice.jpg",
+    "id": "unno-mith-pro-2026",
+    "bild_pfad": "/images/bikes/unno-mith-pro-2026.jpg",
     "hersteller": "UNNO",
     "modell": "Mith Pro",
     "modelljahr": 2026,
-    "kategorie": "Enduro | All-Mountain",
-    "hersteller_url": "NOT_SPECIFIED",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": null,
+    "kategorie": "Enduro | Race",
+    "hersteller_url": "https://www.unno.com",
+    "produktseite_url": "https://www.unno.com/en-ch/mith/pro",
+    "preis_chf": 10295,
     "preis_eur": 11995,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "preis_quelle_url": "https://www.unno.com/en-ch/mith/pro",
     "rahmen": {
-      "material": "Carbon",
-      "groessen_verfuegbar": "NOT_SPECIFIED",
-      "groesse_L_reach_mm": null,
+      "material": "Carbon Vollmonocoque (twill weave Finish, 2x ISO-Norm getestet)",
+      "groessen_verfuegbar": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "groesse_L_reach_mm": 460,
       "groesse_L_stack_mm": null,
-      "lenkwinkel_grad": null,
-      "sitzwinkel_effektiv_grad": null,
+      "lenkwinkel_grad": 63.5,
+      "sitzwinkel_effektiv_grad": 77.0,
       "radstand_mm": null,
-      "kettenstrebe_mm": null
+      "kettenstrebe_mm": 450
     },
     "federweg": {
       "vorne_mm": 170,
       "hinten_mm": 160,
-      "gabel_modell": "NOT_SPECIFIED",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "NOT_SPECIFIED",
-      "daempfer_url": "NOT_SPECIFIED"
+      "gabel_modell": "Fox 38 Factory Kashima GRIP X2 170 mm",
+      "gabel_url": "https://www.ridefox.com",
+      "daempfer_modell": "Fox Float X2 Factory",
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "DJI",
       "modell": "Avinox M1",
       "drehmoment_nm": 105,
       "leistung_spitze_w": 1000,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.amflowbikes.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -1258,57 +1262,133 @@
       "range_extender_optional": false
     },
     "ausstattung": {
-      "schaltung": "SRAM XX Eagle Transmission",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "NOT_SPECIFIED",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "DT Swiss",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "NOT_SPECIFIED",
-      "reifen_hinten": "NOT_SPECIFIED",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "Integrated Carbon"
+      "schaltung": "SRAM X0 AXS T-Type Eagle Transmission 12-fach (elektronisch)",
+      "schaltung_url": "https://www.sram.com",
+      "bremsen": "SRAM Maven Silver 4-Kolben",
+      "bremsen_url": "https://www.sram.com",
+      "laufraeder": "DT Swiss HXC 1700 Carbon (Mullet 29\"/27.5\")",
+      "reifen_vorne": "Schwalbe Magic Mary Gravity PRO Casing",
+      "reifen_hinten": "Schwalbe Magic Mary Gravity PRO Casing",
+      "reifen_url": "https://www.schwalbe.com",
+      "cockpit": "OneUp V2 Carbon Lenker + OneUp EDC Stem + OneUp V3 Dropper 180 mm"
     },
     "gewicht_kg": 21.5,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
       "haendler": [
-        "NOT_SPECIFIED"
+        "DRIFT Bike Shop Mels (St. Gallen)",
+        "Backside Bike Shop (Wallis)",
+        "Cypress Warehouse"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Nur DRIFT Mels, Backside Wallis — keiner im Aargau",
+      "urls": [
+        "https://www.driftbikeshop.ch/produkt/unno-mith-pro-m2s/"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "NOT_SPECIFIED",
+      "shop": "unno.com",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.unno.com/en-ch/mith/pro"
     },
     "test_ergebnisse": [
       {
-        "publikation": "E-MOUNTAINBIKE Magazin",
-        "bewertung_kurz": "Editor's Choice",
+        "publikation": "E-MOUNTAINBIKE Magazin Vergleichstest 2025 (30 Bikes)",
+        "bewertung_kurz": "Wie ein zweirädriger Supersportwagen — eines der schnellsten Bikes auf Abfahrten",
         "stärken": [
-          "Exzellentes Design",
-          "Kompromisslose Downhill-Performance",
-          "Sehr gute Gewichtsbalance"
+          "Abfahrt-Performance Top-Level",
+          "21,5 kg bei 800 Wh + 170/160 mm",
+          "Carbon Monocoque Boutique-Qualität"
         ],
         "schwaechen": [
-          "Nur durchschnittliche Performance in technischem Uphill",
-          "Preis"
+          "Demands active riding style — 2-5 Fahrten Eingewöhnung",
+          "Front lifts on steep climbs",
+          "Nur mid-level Climbing-Performance"
         ],
-        "test_url": "NOT_SPECIFIED",
+        "test_url": "https://emtb-mtb.com",
+        "datum": "2025-04"
+      },
+      {
+        "publikation": "Pinkbike First Look (April 2025)",
+        "bewertung_kurz": "Carbon Fiber Spaceship Category — 21,2 kg mit DH-Casing-Reifen beeindruckend",
+        "stärken": [
+          "Gewicht",
+          "Design",
+          "Premium-Spec"
+        ],
+        "schwaechen": [],
+        "test_url": "https://www.pinkbike.com",
         "datum": "2025-04"
       }
     ],
-    "passend_fuer_martina_score": 9,
-    "passend_fuer_martina_begruendung": "Das futuristischste Bike im Feld. Hält trotz 800er Akku das Gewicht unter 22 kg. Für Martina geeignet, wenn Design und exklusive Abfahrts-Performance vor Preis gehen.",
+    "passend_fuer_martina_score": 8,
+    "passend_fuer_martina_begruendung": "Award-Winner 2026, Lifetime Frame Warranty, eines der schnellsten Bikes auf Abfahrten. ABER: Magazintest sagt klar 'Demands active riding style, 2-5 Fahrten Eingewöhnung' — nicht ideal für 3. Saison. Climbing nur mid-level. Race-DNA, nicht Tour-Bike. CHF 10'295 UVP. Score 8 wegen Preis-Leistungs-Mismatch und fehlender Einsteigerfreundlichkeit.",
     "warnungen": [
-      "Aggressive Geometrie erfordert versierten Piloten"
+      "Magazintest: 'Demands active riding style — 2 bis 5 Fahrten Eingewöhnung'",
+      "Front wheel lifts on steep climbs — aktive Gewichtsverlagerung nötig",
+      "Nur ~3 Händler in der ganzen Schweiz — keiner im Aargau",
+      "Sizing S1/S2/S3 mit Reach 430/460/490 mm — Probefahrt zwingend vor Kauf",
+      "DJI Avinox Motor jung (Launch 2024) — Ersatzteilversorgung langfristig ungewiss",
+      "Boutique-Marke aus Barcelona — Service in CH sehr limitiert"
     ],
     "alternativ_zu": [
-      "Specialized S-Works Turbo Levo 4",
-      "Santa Cruz Vala"
-    ]
+      "amflow-pl-carbon-pro-2026",
+      "amflow-pl-carbon-2026"
+    ],
+    "badge": "Award 2026",
+    "referenzbike": false,
+    "verfuegbarkeit": {
+      "status": "teilverfuegbar",
+      "hinweis": "Vorbestellung möglich bei DRIFT Bike Shop Mels (Lieferung ab 21.05.2026) und Backside Bike Shop Wallis (Frühling 2026). Nur 3–4 Händler in der Schweiz, keiner im Aargau. Boutique-Marke mit limitierten Stückzahlen — Verfügbarkeit pro Grösse direkt beim Händler erfragen.",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://www.driftbikeshop.ch/produkt/unno-mith-pro-m2s/"
+    },
+    "preise": {
+      "uvp_chf": 10295,
+      "sale_chf": null,
+      "sale_haendler": null,
+      "sale_url": null
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 7,
+      "einsteigerfreundlichkeit": 3,
+      "bergauf_touren": 6,
+      "bikepark_reserve": 10,
+      "gewicht_handling": 9,
+      "preis_leistung": 5,
+      "service_haendlernetz_ch": 4,
+      "risiko_datenunsicherheit": 7
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Design & Innovation Award 2026 — Winner in der E-Mountainbike-Kategorie",
+        "Lifetime Warranty auf Rahmen — einzigartig in der ganzen Liste, kein anderes Bike bietet das",
+        "21,5 kg in Grösse S2 mit 800 Wh Akku — sensationell leicht für 170/160 mm Race-Enduro",
+        "Vollcarbon Monocoque mit twill weave Finish, 2x ISO-Norm getestet — Boutique-Qualität sichtbar und spürbar",
+        "DJI Avinox M1 Motor — 105 Nm kontinuierlich, 120 Nm Boost, 1000 W Spitze",
+        "800 Wh Akku mit GaN-Schnellladung (0–100% in 2h25min)",
+        "Fox 38 Factory Kashima mit GRIP X2 — Top-Niveau Gabel für Race-Einsatz",
+        "Fox Float X2 Factory Dämpfer — Top-Niveau",
+        "SRAM X0 AXS T-Type Transmission — elektronische Topschaltung",
+        "SRAM Maven Silver Bremsen — neue 2026 Top-Bremsen mit hohem Bremsmoment",
+        "DT Swiss HXC 1700 Carbon Laufräder — Premium",
+        "Magazin emtb-mtb.com 2025: 'Eines der schnellsten Bikes im gesamten Testfeld' (auf Abfahrten, 30-Bike-Vergleich)",
+        "Aggressive Race-Geometrie: 63.5° Lenkwinkel, 170/160 mm — konsequente Race-DNA",
+        "Designer Cesar Rojo (Ex-Mondraker) — Boutique-Marke mit klarer Designsprache, nicht ein weiteres Mainstream-Bike"
+      ],
+      "contra": [
+        "UVP CHF 10'295 — höchster Preis in der ganzen Liste",
+        "Magazintest emtb-mtb.com: 'Demands active riding style — 2 bis 5 Fahrten nötig um sich an den Bike-Charakter zu gewöhnen' — nicht ideal für 3. Saison",
+        "Climbing-Performance laut Test nur mid-level: 'auf Niveau von Focus JAM² oder Transition Repeater' — kein Bergauf-Bike",
+        "Front wheel lifts on steep climbs — aktive Gewichtsverlagerung nötig",
+        "Designprinzip: 'Designed primarily for descending' — wer viel Tour fährt ist hier falsch",
+        "Nur ~3 Händler in der gesamten Schweiz: DRIFT Mels, Backside Wallis, Cypress Warehouse — keiner im Aargau",
+        "Boutique-Marke aus Barcelona — Service in CH sehr limitiert, Ersatzteile ggf. aus Spanien",
+        "DJI Avinox M1 Motor jung am Markt (Launch 2024) — Reparierbarkeit und Ersatzteilversorgung langfristig ungewiss",
+        "Größenkonzept S1/S2/S3 mit Reach 430/460/490 mm — Probefahrt zwingend nötig vor Kauf",
+        "Lieferzeiten teils erst ab Mai 2026 — nicht sofort verfügbar"
+      ],
+      "fazit": "Boutique-Premium-Bike aus Barcelona, Award-Winner 2026 und mit einer Lifetime-Garantie auf den Rahmen, die in der Liste einzigartig ist. Auf Abfahrten 'eines der schnellsten Bikes im gesamten Testfeld' (emtb-mtb.com 2025). ABER: Der Magazintest sagt klar — 'Demands active riding style, 2–5 Fahrten Eingewöhnung'. Climbing nur mid-level. Das ist kein Tour-Bike, sondern ein Race-Enduro für ambitionierte Rider. Bei UVP CHF 10'295 zahlst du Top-Geld für ein hochspezialisiertes Bike. Wenn Bikepark und Race im Fokus liegen und die Zeit zur Eingewöhnung vorhanden ist: ein Traum. Wenn du primär Touren fährst und schnell Fortschritte machen willst, gibt es einsteigerfreundlichere Alternativen mit besserem Preis-Leistungs-Verhältnis."
+    }
   },
   {
     "id": "radon-render-90-2026",
