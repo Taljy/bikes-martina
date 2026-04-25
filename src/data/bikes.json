@@ -7,19 +7,20 @@
     "modelljahr": 2026,
     "kategorie": "All-Mountain",
     "hersteller_url": "https://www.cube.eu/",
-    "produktseite_url": "NOT_SPECIFIED",
+    "produktseite_url": "https://www.cube.eu/ch-de/cube-stereo-hybrid-one44-hpc-slx-800-slabgrey-n-orange/102500",
     "preis_chf": 4999,
     "preis_eur": 4499,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "preis_quelle_url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-slx-slabgrey/",
+    "preise": {
+      "uvp_chf": 4999,
+      "sale_chf": 4249.15,
+      "sale_haendler": "m-way.ch",
+      "sale_url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-slx-slabgrey/"
+    },
     "rahmen": {
-      "material": "Carbon",
-      "groessen_verfuegbar": [
-        "S",
-        "M",
-        "L",
-        "XL"
-      ],
-      "groesse_L_reach_mm": null,
+      "material": "Carbon (HPC C:62 Hauptrahmen, Alu 6061 T6 Hinterbau)",
+      "groessen_verfuegbar": ["S", "M", "L", "XL"],
+      "groesse_L_reach_mm": 477,
       "groesse_L_stack_mm": null,
       "lenkwinkel_grad": 64.5,
       "sitzwinkel_effektiv_grad": 77.5,
@@ -29,14 +30,14 @@
     "federweg": {
       "vorne_mm": 150,
       "hinten_mm": 140,
-      "gabel_modell": "Fox 36 Float Rhythm",
+      "gabel_modell": "Fox 36 Float Rhythm GRIP, E-Bike Optimized",
       "gabel_url": "NOT_SPECIFIED",
       "daempfer_modell": "Fox Float Performance",
       "daempfer_url": "NOT_SPECIFIED"
     },
     "motor": {
       "hersteller": "Bosch",
-      "modell": "Performance Line CX Gen5",
+      "modell": "Performance Line CX BDU384Y",
       "drehmoment_nm": 100,
       "leistung_spitze_w": 750,
       "hersteller_url": "NOT_SPECIFIED"
@@ -49,55 +50,89 @@
     "ausstattung": {
       "schaltung": "Shimano XT 12-fach",
       "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano SLX 4-Kolben",
+      "bremsen": "Shimano XT BR-M8220, 203/203 mm",
       "bremsen_url": "NOT_SPECIFIED",
       "laufraeder": "Newmen Performance 30",
       "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Continental Kryptotal 2.4",
-      "reifen_hinten": "Continental Kryptotal 2.4",
+      "reifen_vorne": "Continental Kryptotal Front 2.4, Enduro Soft",
+      "reifen_hinten": "Continental Kryptotal Rear 2.4, Downhill Soft",
       "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "cockpit": "Bosch Kiox 400C Display"
     },
-    "gewicht_kg": 24,
+    "gewicht_kg": 24.3,
     "laufradgroesse": "MX (Mullet)",
     "verfuegbarkeit_ch": {
-      "haendler": [
-        "m-way.ch",
-        "bikester.ch"
-      ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "haendler": ["m-way.ch", "Cube-Händler in der Schweiz"],
+      "probefahrt_moeglich": "Ja",
+      "urls": ["https://m-way.ch/cube-stereo-hybrid-one44-hpc-slx-slabgrey/"]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "bikester.ch",
+      "shop": "m-way.ch",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-slx-slabgrey/"
     },
     "test_ergebnisse": [
       {
-        "publikation": "Cube / bikester.ch",
-        "bewertung_kurz": "Kauftipp Preis-Leistung",
+        "publikation": "RABE BIKE Magazin Test",
+        "bewertung_kurz": "Erstaunlich leichtfüssig für ein Full-Sized E-MTB, aktives Fahren wird vom Fahrwerk unterstützt. Bei sehr ruppigem, verblocktem Trail wäre Dämpfer mit Ausgleichsbehälter wünschenswert. Für moderate Trails völlig zufriedenstellend.",
         "stärken": [
-          "Bosch CX Gen5 im Budget",
-          "Carbon-Rahmen",
-          "800 Wh wechselbar",
-          "Solide Fox-Gabel"
+          "Leichtfüssiges Handling trotz E-MTB-Gewicht",
+          "Bosch CX BDU384Y mit 100 Nm",
+          "800 Wh Akku für lange Touren",
+          "Fox 36 Gabel"
         ],
         "schwaechen": [
-          "SLX-Bremsen statt XT",
-          "Mechanische Schaltung statt Di2"
+          "Dämpfer ohne Ausgleichsbehälter bei ruppigem Terrain",
+          "DH-Reifen hinten für Tourenfahrer suboptimal"
         ],
         "test_url": "NOT_SPECIFIED",
         "datum": "2026-02"
       }
     ],
-    "passend_fuer_martina_score": 10,
-    "passend_fuer_martina_begruendung": "Optimaler Treffer für Martina: Carbon-All-Mountain mit Bosch CX Gen5, 800 Wh, Fox-Fahrwerk — und CHF 4'999 voll im Budget. XT-Schaltung solide. Klarer Preis-Leistungs-Kauftipp.",
-    "warnungen": [],
+    "passend_fuer_martina_score": 9,
+    "passend_fuer_martina_begruendung": "Top E-MTB für gemischten Einsatz Tour/Trail. Bosch CX BDU384Y (100 Nm), 800 Wh, Carbon, Fox 36, Reach 477 mm in L — alles stimmt. Im Sale bei m-way.ch für CHF 4'249 mit -15%. Einziger Vorbehalt: Hinterreifen Kryptotal DH Soft ist ein Bikepark-Reifen mit hohem Rollwiderstand — vor Touren-Einsatz wechseln.",
+    "warnungen": [
+      "Hinterreifen Conti Kryptotal DH Soft: hoher Rollwiderstand auf Touren, empfehle Wechsel auf Kryptotal Trail Endurance."
+    ],
     "alternativ_zu": [
       "Canyon Neuron:ON AL 9",
       "Focus JAM² 6.8"
-    ]
+    ],
+    "verfuegbarkeit": {
+      "status": "teilverfuegbar",
+      "hinweis": "Bei m-way.ch im Sale (CHF 4249, -15%). Grösse S nicht vorrätig. Andere Grössen Status nicht eindeutig prüfbar — direkt bei Händler bestätigen lassen.",
+      "geprueft_am": "2026-04-25",
+      "geprueft_quelle": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-slx-slabgrey/"
+    },
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 6,
+      "bergauf_touren": 9,
+      "bikepark_reserve": 7,
+      "gewicht_handling": 6,
+      "preis_leistung": 9,
+      "service_haendlernetz_ch": 10,
+      "risiko_datenunsicherheit": 9
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Bosch CX BDU384Y mit 100 Nm – neueste Generation, entspricht deinem Gen5-Wunsch",
+        "800 Wh PowerTube – exzellent für lange Alpen-Touren",
+        "Carbon-Hauptrahmen (HPC C:62)",
+        "Verstellbarer Steuerwinkel – ungewöhnlich gutes Feature",
+        "Reach 477 mm in L passt zu 1.80 m",
+        "Riesiges Cube-Händlernetz in der Schweiz",
+        "Top-Komponenten: Fox 36, Shimano XT, Newmen Performance 30",
+        "DIN-Klassifikation 4 – bikepark-tauglich (Sprünge bis 120 cm)"
+      ],
+      "contra": [
+        "Reifen-Setup aggressiv: Conti Kryptotal DH Soft hinten ist ein Bikepark-Reifen, hoher Rollwiderstand auf Touren, schnellerer Verschleiss",
+        "24,3 kg recht schwer – Konkurrenz wie Canyon Spectral:ON oder Santa Cruz Vala ist 1-2 kg leichter",
+        "140 mm Heck eher Trail/All-Mountain – bei Bikepark-Fokus wäre ONE77 (170 mm) oder ONE44 TM passender",
+        "Hinterbau aus Aluminium, nicht Carbon"
+      ],
+      "fazit": "Top E-MTB für gemischten Einsatz Tour/Trail, aber Reifen-Setup und Gewicht passen nicht ideal zu deiner 3. E-MTB-Saison. Vor Tour-Einsatz Hinterreifen wechseln (z.B. Conti Kryptotal Trail Endurance), oder das ONE44 TM mit mehr Federweg als Bikepark-Bias prüfen."
+    }
   },
   {
     "id": "amflow-pl-carbon-2026-budget-king",

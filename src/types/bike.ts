@@ -1,3 +1,27 @@
+export type BewertungKategorien = {
+  geometrie_rahmengroesse: number       // 1-10
+  einsteigerfreundlichkeit: number
+  bergauf_touren: number
+  bikepark_reserve: number
+  gewicht_handling: number
+  preis_leistung: number
+  service_haendlernetz_ch: number
+  risiko_datenunsicherheit: number
+}
+
+export type BewertungDetail = {
+  pro: string[]
+  contra: string[]
+  fazit?: string
+}
+
+export type Preise = {
+  uvp_chf: number
+  sale_chf?: number
+  sale_haendler?: string
+  sale_url?: string
+}
+
 export type Verfuegbarkeit = {
   status: 'verfuegbar' | 'teilverfuegbar' | 'ausverkauft' | 'unbekannt'
   hinweis?: string
@@ -86,4 +110,7 @@ export interface Bike {
   referenzbike?: boolean
   badge?: string
   verfuegbarkeit?: Verfuegbarkeit
+  preise?: Preise
+  bewertung_kategorien?: BewertungKategorien
+  bewertung_detail?: BewertungDetail
 }
