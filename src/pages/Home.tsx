@@ -90,6 +90,13 @@ export default function Home() {
         </p>
       </div>
 
+      {/* KI-Warnhinweis */}
+      <div className="rounded-lg border border-amber-200 bg-amber-50 p-3">
+        <p className="text-sm text-amber-800">
+          ⚠️ Achtung: Ig bi mit KI baut worde und han sicher no chli geischtige Beschränkige.
+        </p>
+      </div>
+
       {/* Profil-Card */}
       <div className="border border-stone-200 rounded-xl bg-white overflow-hidden">
         <button
