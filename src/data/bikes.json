@@ -2327,7 +2327,7 @@
   },
   {
     "id": "commencal-meta-power-tr-ride-2026",
-    "bild_pfad": null,
+    "bild_pfad": "/images/bikes/commencal-meta-power-tr-ride.jpg",
     "hersteller": "Commencal",
     "modell": "Meta Power TR Ride",
     "modelljahr": 2026,
@@ -2399,7 +2399,7 @@
   },
   {
     "id": "commencal-meta-power-sx-2026",
-    "bild_pfad": null,
+    "bild_pfad": "/images/bikes/commencal-meta-power-sx.jpg",
     "hersteller": "Commencal",
     "modell": "Meta Power SX",
     "modelljahr": 2026,
@@ -2471,7 +2471,7 @@
   },
   {
     "id": "santa-cruz-heckler-mx-2026",
-    "bild_pfad": null,
+    "bild_pfad": "/images/bikes/santa-cruz-heckler-mx.jpg",
     "hersteller": "Santa Cruz",
     "modell": "Heckler MX",
     "modelljahr": 2026,
@@ -2543,7 +2543,7 @@
   },
   {
     "id": "trek-fuel-exe-plus-2026",
-    "bild_pfad": null,
+    "bild_pfad": "/images/bikes/trek-fuel-plus.jpg",
     "hersteller": "Trek",
     "modell": "Fuel EXe+",
     "modelljahr": 2026,
