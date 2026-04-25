@@ -1,4 +1,4 @@
-export default function MTBIcon({ className }: { className?: string }) {
+export default function MTBIcon({ className, size: _size, strokeWidth: _sw }: { className?: string; size?: number; strokeWidth?: number }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

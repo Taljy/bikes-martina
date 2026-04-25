@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { ChevronDown, User, MapPin, Gauge, Banknote, Zap, Bike, Mountain, Sparkles, ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import MTBIcon from '@/components/MTBIcon'
 
 const profil = [
   {
@@ -51,7 +52,7 @@ const tiles = [
   {
     icon: Mountain,
     titel: 'Trail oder Enduro?',
-    beschreibung: 'Welchi Kategorie passt zu dir? Mit Verglychstabelle und Entscheidfrage.',
+    beschreibung: 'Welchi Kategorie passt zu dir? Mit Vergliichstabelle und Entscheidfrage.',
     route: '/wissen/trail-vs-enduro',
   },
   {
@@ -61,7 +62,7 @@ const tiles = [
     route: '/wissen/neuheiten-2026',
   },
   {
-    icon: Zap,
+    icon: MTBIcon,
     titel: "D'Motore im Verglich",
     beschreibung: 'Bosch, Shimano oder DJI? Alli Systeme direkt vergliche.',
     route: '/wissen/motoren',
