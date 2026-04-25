@@ -226,6 +226,50 @@ export default function BikeDetail() {
         </div>
       </SpecCard>
 
+      {/* ── Sektion 2b: Verfügbarkeit ── */}
+      {bike.verfuegbarkeit && bike.verfuegbarkeit.status !== 'unbekannt' && (() => {
+        const vf = bike.verfuegbarkeit!
+        const statusMap: Record<string, { label: string; bg: string; border: string; dot: string; text: string } | null> = {
+          ausverkauft:    { label: 'Usverchauft',          bg: 'bg-red-50',    border: 'border-red-200',    dot: 'bg-red-500',    text: 'text-red-800' },
+          teilverfuegbar: { label: 'Teilwiis verfüegbar',  bg: 'bg-orange-50', border: 'border-orange-200', dot: 'bg-orange-500', text: 'text-orange-800' },
+          verfuegbar:     { label: 'Verfüegbar',           bg: 'bg-green-50',  border: 'border-green-200',  dot: 'bg-green-500',  text: 'text-green-800' },
+          unbekannt:      null,
+        }
+        const statusConfig = statusMap[vf.status] ?? null
+        if (!statusConfig) return null
+
+        const datumFormatiert = vf.geprueft_am
+          ? new Date(vf.geprueft_am).toLocaleDateString('de-CH', { day: 'numeric', month: 'long', year: 'numeric' })
+          : null
+        const domain = vf.geprueft_quelle
+          ? (() => { try { return new URL(vf.geprueft_quelle).hostname.replace('www.', '') } catch { return vf.geprueft_quelle } })()
+          : null
+
+        return (
+          <SpecCard title="Verfüegbarkeit">
+            <div className="space-y-3">
+              <div className={`flex items-center gap-2.5 rounded-lg border px-4 py-3 ${statusConfig.bg} ${statusConfig.border}`}>
+                <span className={`w-2 h-2 rounded-full shrink-0 ${statusConfig.dot}`} />
+                <span className={`text-sm font-semibold ${statusConfig.text}`}>{statusConfig.label}</span>
+              </div>
+              {vf.hinweis && (
+                <p className="text-sm text-stone-600 leading-relaxed">{vf.hinweis}</p>
+              )}
+              {(datumFormatiert || domain) && (
+                <p className="text-xs text-stone-400">
+                  Gprüeft am {datumFormatiert}
+                  {domain && (
+                    <> uf {vf.geprueft_quelle ? (
+                      <a href={vf.geprueft_quelle} target="_blank" rel="noopener noreferrer" className="underline hover:text-terracotta-500 transition-colors">{domain}</a>
+                    ) : domain}</>
+                  )}
+                </p>
+              )}
+            </div>
+          </SpecCard>
+        )
+      })()}
+
       {/* ── Sektion 3: Spezifikationen ── */}
       <SpecCard title="Spezifikationen">
 

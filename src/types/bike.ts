@@ -1,3 +1,10 @@
+export type Verfuegbarkeit = {
+  status: 'verfuegbar' | 'teilverfuegbar' | 'ausverkauft' | 'unbekannt'
+  hinweis?: string
+  geprueft_am?: string        // ISO-Datum, z.B. "2026-04-25"
+  geprueft_quelle?: string    // URL
+}
+
 export interface Bike {
   id: string
   bild_pfad?: string
@@ -78,4 +85,5 @@ export interface Bike {
   alternativ_zu: string[]
   referenzbike?: boolean
   badge?: string
+  verfuegbarkeit?: Verfuegbarkeit
 }

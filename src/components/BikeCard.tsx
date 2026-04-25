@@ -105,6 +105,23 @@ export default function BikeCard({ bike }: Props) {
             </span>
           ))}
         </div>
+
+        {/* Verfügbarkeits-Badge */}
+        {bike.verfuegbarkeit?.status === 'ausverkauft' && (
+          <span className="self-start text-[10px] font-medium bg-red-100 text-red-700 px-2 py-0.5 rounded-full">
+            Usverchauft
+          </span>
+        )}
+        {bike.verfuegbarkeit?.status === 'teilverfuegbar' && (
+          <span className="self-start text-[10px] font-medium bg-orange-100 text-orange-700 px-2 py-0.5 rounded-full">
+            Teilwiis verfüegbar
+          </span>
+        )}
+        {bike.verfuegbarkeit?.status === 'verfuegbar' && (
+          <span className="self-start text-[10px] font-medium bg-green-100 text-green-700 px-2 py-0.5 rounded-full">
+            Verfüegbar
+          </span>
+        )}
       </div>
     </Link>
   )
