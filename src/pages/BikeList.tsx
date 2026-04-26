@@ -9,7 +9,7 @@ import FilterSidebar from '@/components/FilterSidebar'
 
 const ALL_BIKES = bikesData as Bike[]
 
-const ALLE_JAHRE = [...new Set(ALL_BIKES.map(b => b.modelljahr))].sort((a, b) => b - a)
+const ALLE_JAHRE = [...new Set(ALL_BIKES.map(b => b.modelljahr ?? b.jahr ?? 0))].filter(n => n > 0).sort((a, b) => b - a)
 
 const SORT_OPTIONS = [
   { value: 'score-desc',   label: 'Score (hoch → tief)' },
@@ -20,9 +20,12 @@ const SORT_OPTIONS = [
 
 // Bikes ohne CHF-Preis: EUR × 1.05 als Schätzwert fürs Filtern.
 // Bikes ohne jeglichen Preis werden nie durch den Preisfilter ausgeschlossen.
+// Unterstützt altes Schema (preis_chf/eur) und neues Schema (preise.uvp_chf/eur).
 function estimatedChf(bike: Bike): number | null {
-  if (bike.preis_chf) return bike.preis_chf
-  if (bike.preis_eur) return Math.round(bike.preis_eur * 1.05)
+  const chf = bike.preis_chf ?? bike.preise?.uvp_chf ?? null
+  const eur = bike.preis_eur ?? bike.preise?.uvp_eur ?? null
+  if (chf) return chf
+  if (eur) return Math.round(eur * 1.05)
   return null
 }
 
@@ -35,11 +38,14 @@ function motorKey(bike: Bike): string {
 }
 
 function materialKey(bike: Bike): string {
-  return bike.rahmen.material.startsWith('Carbon') ? 'carbon' : 'alu'
+  // Altes Schema: rahmen.material — Neues Schema: rahmen_material (flat)
+  const mat = bike.rahmen?.material ?? bike.rahmen_material ?? ''
+  return mat.startsWith('Carbon') ? 'carbon' : 'alu'
 }
 
 function laufradKey(bike: Bike): string {
-  return bike.laufradgroesse === 'MX (Mullet)' ? 'mx' : bike.laufradgroesse
+  const lg = bike.laufradgroesse ?? ''
+  return lg === 'MX (Mullet)' ? 'mx' : lg
 }
 
 function applyFilters(bikes: Bike[], f: Filters): Bike[] {
@@ -53,11 +59,12 @@ function applyFilters(bikes: Bike[], f: Filters): Bike[] {
     if (f.motoren.length && !f.motoren.includes(motorKey(bike))) return false
 
     // Kategorie — Substring-Match (z.B. "All-Mountain" trifft "All-Mountain/Enduro")
-    if (f.kategorien.length && !f.kategorien.some(k => bike.kategorie.includes(k))) return false
+    // Unterstützt altes Schema (kategorie) und neues Schema (konzept)
+    if (f.kategorien.length && !f.kategorien.some(k => (bike.kategorie ?? bike.konzept ?? '').includes(k))) return false
 
-    // Federweg
-    const fw = bike.federweg.hinten_mm
-    if (fw < f.federwegMin || fw > f.federwegMax) return false
+    // Federweg — altes Schema: federweg.hinten_mm — neues Schema: federweg_hinten (flat)
+    const fw = bike.federweg?.hinten_mm ?? bike.federweg_hinten ?? 0
+    if (fw > 0 && (fw < f.federwegMin || fw > f.federwegMax)) return false
 
     // Rahmenmaterial
     if (f.materialien.length && !f.materialien.includes(materialKey(bike))) return false
@@ -68,16 +75,18 @@ function applyFilters(bikes: Bike[], f: Filters): Bike[] {
     // Laufradgrösse
     if (f.laufraeder.length && !f.laufraeder.includes(laufradKey(bike))) return false
 
-    // Modelljahr
-    if (f.jahrgaenge.length && !f.jahrgaenge.includes(bike.modelljahr)) return false
+    // Modelljahr — altes Schema: modelljahr — neues Schema: jahr
+    const year = bike.modelljahr ?? bike.jahr ?? 0
+    if (f.jahrgaenge.length && year > 0 && !f.jahrgaenge.includes(year)) return false
 
     // Budget-Toggle
     if (f.nurBudget) {
       if (chf === null || chf < 3500 || chf > 6500) return false
     }
 
-    // Score
-    if (f.nurScoreMin7 && bike.passend_fuer_martina_score < 7) return false
+    // Score — altes Schema: passend_fuer_martina_score — neues Schema: score
+    const bikeScore = bike.passend_fuer_martina_score ?? bike.score ?? 0
+    if (f.nurScoreMin7 && bikeScore < 7) return false
 
     return true
   })
@@ -87,7 +96,9 @@ function applySorting(bikes: Bike[], sort: string): Bike[] {
   const sorted = [...bikes]
   switch (sort) {
     case 'score-desc':
-      return sorted.sort((a, b) => b.passend_fuer_martina_score - a.passend_fuer_martina_score)
+      return sorted.sort((a, b) =>
+        (b.passend_fuer_martina_score ?? b.score ?? 0) - (a.passend_fuer_martina_score ?? a.score ?? 0)
+      )
     case 'preis-asc':
       return sorted.sort((a, b) => (estimatedChf(a) ?? 99999) - (estimatedChf(b) ?? 99999))
     case 'preis-desc':
@@ -119,8 +130,8 @@ export default function BikeList() {
       bike.hersteller?.toLowerCase().includes(q) ||
       bike.modell?.toLowerCase().includes(q) ||
       `${bike.motor.hersteller} ${bike.motor.modell}`.toLowerCase().includes(q) ||
-      bike.rahmen.material?.toLowerCase().includes(q) ||
-      bike.kategorie?.toLowerCase().includes(q)
+      (bike.rahmen?.material ?? bike.rahmen_material)?.toLowerCase().includes(q) ||
+      (bike.kategorie ?? bike.konzept)?.toLowerCase().includes(q)
     )
   }, [filtered, searchQuery])
 

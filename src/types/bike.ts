@@ -16,10 +16,13 @@ export type BewertungDetail = {
 }
 
 export type Preise = {
-  uvp_chf: number
-  sale_chf?: number
-  sale_haendler?: string
+  uvp_chf?: number
+  uvp_eur?: number
+  uvp_chf_geschaetzt?: boolean
+  sale_chf?: number | null
+  sale_haendler?: string | null
   sale_url?: string
+  preis_hinweis?: string
 }
 
 export type Verfuegbarkeit = {
@@ -34,14 +37,23 @@ export interface Bike {
   bild_pfad?: string
   hersteller: string
   modell: string
-  modelljahr: number
-  kategorie: string
-  hersteller_url: string
-  produktseite_url: string
-  preis_chf: number | null
-  preis_eur: number | null
-  preis_quelle_url: string
-  rahmen: {
+  /** Altes Schema-Feld; neues Schema nutzt `jahr` */
+  modelljahr?: number
+  /** Neues Schema-Feld; altes Schema nutzt `modelljahr` */
+  jahr?: number
+  /** Altes Schema-Feld; neues Schema nutzt `konzept` */
+  kategorie?: string
+  /** Neues Schema-Feld; altes Schema nutzt `kategorie` */
+  konzept?: string
+  hersteller_url?: string
+  produktseite_url?: string
+  /** Altes Schema: Flat-Feld; neues Schema nutzt `preise.uvp_chf` */
+  preis_chf?: number | null
+  /** Altes Schema: Flat-Feld; neues Schema nutzt `preise.uvp_eur` */
+  preis_eur?: number | null
+  preis_quelle_url?: string
+  /** Altes Schema: Nested-Objekt; neues Schema nutzt flache Felder `rahmen_material` etc. */
+  rahmen?: {
     material: string
     groessen_verfuegbar: string[]
     groesse_L_reach_mm: number | null
@@ -51,7 +63,10 @@ export interface Bike {
     radstand_mm: number | null
     kettenstrebe_mm: number | null
   }
-  federweg: {
+  /** Neues Schema: Flat-Feld; altes Schema nutzt `rahmen.material` */
+  rahmen_material?: string
+  /** Altes Schema: Nested-Objekt; neues Schema nutzt flache Felder `federweg_vorne/hinten` */
+  federweg?: {
     vorne_mm: number
     hinten_mm: number
     gabel_modell: string
@@ -59,6 +74,10 @@ export interface Bike {
     daempfer_modell: string
     daempfer_url: string
   }
+  /** Neues Schema: Flat-Feld; altes Schema nutzt `federweg.vorne_mm` */
+  federweg_vorne?: number
+  /** Neues Schema: Flat-Feld; altes Schema nutzt `federweg.hinten_mm` */
+  federweg_hinten?: number
   motor: {
     hersteller: string
     modell: string
@@ -103,9 +122,12 @@ export interface Bike {
     test_url: string
     datum: string
   }>
-  passend_fuer_martina_score: number
-  passend_fuer_martina_begruendung: string
-  warnungen: string[]
+  /** Altes Schema; neues Schema nutzt `score` */
+  passend_fuer_martina_score?: number
+  /** Neues Schema; altes Schema nutzt `passend_fuer_martina_score` */
+  score?: number
+  passend_fuer_martina_begruendung?: string
+  warnungen?: string[]
   alternativ_zu: string[]
   referenzbike?: boolean
   badge?: string

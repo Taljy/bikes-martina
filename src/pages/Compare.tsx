@@ -25,12 +25,14 @@ function radarScores(b: BikeType) {
   const bergauf =
     nm === null ? 5 : nm >= 100 ? 9 : nm >= 85 ? 8 : nm >= 75 ? 7 : 6
 
-  const fw = b.federweg.hinten_mm
+  // Altes Schema: federweg.hinten_mm — Neues Schema: federweg_hinten (flat)
+  const fw = b.federweg?.hinten_mm ?? b.federweg_hinten ?? 150
   const bergab = fw >= 170 ? 9 : fw >= 160 ? 8 : fw >= 150 ? 7 : 6
 
   const komfort = Math.min(9, Math.round((fw / 20) * 10) / 10)
 
-  const preisLeistung = b.passend_fuer_martina_score
+  // Altes Schema: passend_fuer_martina_score — Neues Schema: score
+  const preisLeistung = b.passend_fuer_martina_score ?? b.score ?? 5
 
   const gkg = b.gewicht_kg
   const gewicht =
@@ -224,20 +226,28 @@ interface SpecRow {
 }
 
 const SPEC_ROWS: SpecRow[] = [
-  // Preis & Score
+  // Preis & Score — unterstützt altes + neues Schema
   {
     gruppe: 'Preis & Bewertung', label: 'Preis CHF',
-    get: b => b.preis_chf ? formatChf(b.preis_chf) : b.preis_eur ? formatEur(b.preis_eur) : '–',
-    num: b => b.preis_chf ?? (b.preis_eur ? Math.round(b.preis_eur * 1.05) : null),
+    get: b => {
+      const chf = b.preis_chf ?? b.preise?.uvp_chf ?? null
+      const eur = b.preis_eur ?? b.preise?.uvp_eur ?? null
+      return chf ? formatChf(chf) : eur ? formatEur(eur) : '–'
+    },
+    num: b => {
+      const chf = b.preis_chf ?? b.preise?.uvp_chf ?? null
+      const eur = b.preis_eur ?? b.preise?.uvp_eur ?? null
+      return chf ?? (eur ? Math.round(eur * 1.05) : null)
+    },
     highlight: 'min',
   },
   {
     gruppe: 'Preis & Bewertung', label: 'Score Martina',
-    get: b => `${b.passend_fuer_martina_score} / 10`,
-    num: b => b.passend_fuer_martina_score,
+    get: b => `${b.passend_fuer_martina_score ?? b.score ?? '–'} / 10`,
+    num: b => b.passend_fuer_martina_score ?? b.score ?? null,
     highlight: 'max',
   },
-  { gruppe: 'Preis & Bewertung', label: 'Kategorie', get: b => b.kategorie },
+  { gruppe: 'Preis & Bewertung', label: 'Kategorie', get: b => v(b.kategorie ?? b.konzept) },
 
   // Motor & Akku
   { gruppe: 'Antrieb', label: 'Motor', get: b => motorKurzname(b.motor.hersteller, b.motor.modell) },
@@ -262,19 +272,20 @@ const SPEC_ROWS: SpecRow[] = [
   { gruppe: 'Antrieb', label: 'Akku wechselbar', get: b => bool(b.akku.wechselbar) },
   { gruppe: 'Antrieb', label: 'Range Extender', get: b => bool(b.akku.range_extender_optional) },
 
-  // Fahrwerk — kein Highlight (mehr ≠ besser, hängt vom Einsatz ab)
-  { gruppe: 'Fahrwerk', label: 'Federweg vorne', get: b => mm(b.federweg.vorne_mm) },
-  { gruppe: 'Fahrwerk', label: 'Federweg hinten', get: b => mm(b.federweg.hinten_mm) },
-  { gruppe: 'Fahrwerk', label: 'Gabel', get: b => v(b.federweg.gabel_modell) },
-  { gruppe: 'Fahrwerk', label: 'Dämpfer', get: b => v(b.federweg.daempfer_modell) },
+  // Fahrwerk — altes Schema: federweg.{vorne_mm,hinten_mm,gabel_modell,daempfer_modell}
+  //             neues Schema: federweg_vorne, federweg_hinten (flat)
+  { gruppe: 'Fahrwerk', label: 'Federweg vorne', get: b => mm(b.federweg?.vorne_mm ?? b.federweg_vorne ?? null) },
+  { gruppe: 'Fahrwerk', label: 'Federweg hinten', get: b => mm(b.federweg?.hinten_mm ?? b.federweg_hinten ?? null) },
+  { gruppe: 'Fahrwerk', label: 'Gabel', get: b => v(b.federweg?.gabel_modell) },
+  { gruppe: 'Fahrwerk', label: 'Dämpfer', get: b => v(b.federweg?.daempfer_modell) },
 
-  // Rahmen & Geometrie — keine Highlighting (kontextabhängig)
-  { gruppe: 'Rahmen & Geometrie', label: 'Material', get: b => v(b.rahmen.material) },
-  { gruppe: 'Rahmen & Geometrie', label: 'Lenkwinkel', get: b => deg(b.rahmen.lenkwinkel_grad) },
-  { gruppe: 'Rahmen & Geometrie', label: 'Sitzwinkel (eff.)', get: b => deg(b.rahmen.sitzwinkel_effektiv_grad) },
-  { gruppe: 'Rahmen & Geometrie', label: 'Reach L', get: b => mm(b.rahmen.groesse_L_reach_mm) },
-  { gruppe: 'Rahmen & Geometrie', label: 'Stack L', get: b => mm(b.rahmen.groesse_L_stack_mm) },
-  { gruppe: 'Rahmen & Geometrie', label: 'Kettenstrebe', get: b => mm(b.rahmen.kettenstrebe_mm) },
+  // Rahmen & Geometrie — altes Schema: rahmen.{material,...} — neues Schema: rahmen_material (flat)
+  { gruppe: 'Rahmen & Geometrie', label: 'Material', get: b => v(b.rahmen?.material ?? b.rahmen_material) },
+  { gruppe: 'Rahmen & Geometrie', label: 'Lenkwinkel', get: b => deg(b.rahmen?.lenkwinkel_grad ?? null) },
+  { gruppe: 'Rahmen & Geometrie', label: 'Sitzwinkel (eff.)', get: b => deg(b.rahmen?.sitzwinkel_effektiv_grad ?? null) },
+  { gruppe: 'Rahmen & Geometrie', label: 'Reach L', get: b => mm(b.rahmen?.groesse_L_reach_mm ?? null) },
+  { gruppe: 'Rahmen & Geometrie', label: 'Stack L', get: b => mm(b.rahmen?.groesse_L_stack_mm ?? null) },
+  { gruppe: 'Rahmen & Geometrie', label: 'Kettenstrebe', get: b => mm(b.rahmen?.kettenstrebe_mm ?? null) },
 
   // Gewicht & Räder
   {
@@ -309,9 +320,10 @@ function highlightedIndices(row: SpecRow, bikes: BikeType[]): Set<number> {
 // ── Bike-Header-Card ──────────────────────────────────────
 
 function BikeHeaderCard({ bike, onRemove }: { bike: BikeType; onRemove: () => void }) {
-  const preis = bike.preis_chf
-    ? formatChf(bike.preis_chf)
-    : bike.preis_eur ? formatEur(bike.preis_eur) : null
+  const _chf = bike.preis_chf ?? bike.preise?.uvp_chf ?? null
+  const _eur = bike.preis_eur ?? bike.preise?.uvp_eur ?? null
+  const preis = _chf ? formatChf(_chf) : _eur ? formatEur(_eur) : null
+  const bikeScore = bike.passend_fuer_martina_score ?? bike.score ?? 0
 
   return (
     <div className="bg-white border border-stone-200 rounded-xl overflow-hidden flex flex-col">
@@ -328,7 +340,7 @@ function BikeHeaderCard({ bike, onRemove }: { bike: BikeType; onRemove: () => vo
           <Bike size={32} className="text-terracotta-200" strokeWidth={1.25} />
         )}
         <span className="absolute top-2 right-2 bg-terracotta-500 text-white text-[10px] font-semibold px-2 py-0.5 rounded-full">
-          {bike.passend_fuer_martina_score}/10
+          {bikeScore}/10
         </span>
         <button
           onClick={onRemove}
@@ -339,11 +351,11 @@ function BikeHeaderCard({ bike, onRemove }: { bike: BikeType; onRemove: () => vo
         </button>
       </div>
       <div className="p-3 flex flex-col gap-1 flex-1">
-        <p className="text-[10px] text-stone-400">{bike.kategorie}</p>
+        <p className="text-[10px] text-stone-400">{bike.kategorie ?? bike.konzept}</p>
         <p className="text-sm font-semibold text-stone-900 leading-snug">
           {bike.hersteller} {bike.modell}
         </p>
-        <p className="text-[10px] text-stone-400">{bike.modelljahr}</p>
+        <p className="text-[10px] text-stone-400">{bike.modelljahr ?? bike.jahr}</p>
         {preis && <p className="text-sm text-stone-600">{preis}</p>}
         <Link
           to={`/bikes/${bike.id}`}
@@ -530,8 +542,8 @@ export default function Compare() {
 
       {/* ── B2: Empfehlungs-Card ── */}
       {bikes.length >= 2 && (() => {
-        const topScore = Math.max(...bikes.map(b => b.passend_fuer_martina_score))
-        const topBikes = bikes.filter(b => b.passend_fuer_martina_score === topScore)
+        const topScore = Math.max(...bikes.map(b => b.passend_fuer_martina_score ?? b.score ?? 0))
+        const topBikes = bikes.filter(b => (b.passend_fuer_martina_score ?? b.score ?? 0) === topScore)
         const isEindeutig = topBikes.length === 1
         const winner = topBikes[0]
 
@@ -554,10 +566,14 @@ export default function Compare() {
                       </h3>
                       <div className="flex items-center gap-3 flex-wrap">
                         <span className="bg-terracotta-500 text-white text-sm font-semibold px-3 py-1 rounded-full">
-                          {winner.passend_fuer_martina_score}/10
+                          {winner.passend_fuer_martina_score ?? winner.score ?? '–'}/10
                         </span>
                         <span className="text-stone-500 text-sm">
-                          {winner.preis_chf ? formatChf(winner.preis_chf) : winner.preis_eur ? formatEur(winner.preis_eur) : '–'}
+                          {(() => {
+                            const c = winner.preis_chf ?? winner.preise?.uvp_chf ?? null
+                            const e = winner.preis_eur ?? winner.preise?.uvp_eur ?? null
+                            return c ? formatChf(c) : e ? formatEur(e) : '–'
+                          })()}
                         </span>
                       </div>
                     </div>
@@ -590,7 +606,7 @@ export default function Compare() {
                           {bike.hersteller} {bike.modell}
                         </span>
                         <span className="bg-terracotta-50 text-terracotta-700 text-xs font-semibold px-2 py-0.5 rounded-full">
-                          {bike.passend_fuer_martina_score}/10
+                          {bike.passend_fuer_martina_score ?? bike.score ?? '–'}/10
                         </span>
                         <Link
                           to={`/bikes/${bike.id}`}

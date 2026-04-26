@@ -30,7 +30,8 @@ function motorWissenId(hersteller: string): string | null {
 
 // ── Sub-Komponenten ───────────────────────────────────────
 
-function ScoreGauge({ score }: { score: number }) {
+function ScoreGauge({ score }: { score: number | undefined }) {
+  if (score === undefined) return null
   return (
     <div className="flex items-center gap-4">
       <div className="flex-1 h-2.5 bg-stone-100 rounded-full overflow-hidden">
@@ -210,7 +211,7 @@ export default function BikeDetail() {
       {/* ── Sektion 2: Passt zu Martina? ── */}
       <SpecCard title={bike.bewertung_detail ? "Passt zu Martina? — Detail-Bewertig" : "Passt zu Martina?"}>
         <div className="space-y-5">
-          <ScoreGauge score={bike.passend_fuer_martina_score} />
+          <ScoreGauge score={bike.passend_fuer_martina_score ?? bike.score} />
           <p className="text-sm text-stone-600 leading-relaxed">
             {bike.passend_fuer_martina_begruendung}
           </p>
@@ -218,7 +219,7 @@ export default function BikeDetail() {
             <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 flex gap-3">
               <AlertTriangle size={16} className="text-amber-500 shrink-0 mt-0.5" />
               <div className="space-y-1">
-                {bike.warnungen.map((w, i) => (
+                {bike.warnungen?.map((w, i) => (
                   <p key={i} className="text-sm text-amber-800 leading-relaxed">{w}</p>
                 ))}
               </div>
@@ -342,22 +343,22 @@ export default function BikeDetail() {
       <SpecCard title="Spezifikationen">
 
         <GroupLabel>Rahmen</GroupLabel>
-        <SpecRow label="Material">{v(bike.rahmen.material)}</SpecRow>
-        <SpecRow label="Reach (Grösse L)">{v(bike.rahmen.groesse_L_reach_mm) !== '–' ? `${bike.rahmen.groesse_L_reach_mm} mm` : '–'}</SpecRow>
-        <SpecRow label="Stack (Grösse L)">{v(bike.rahmen.groesse_L_stack_mm) !== '–' ? `${bike.rahmen.groesse_L_stack_mm} mm` : '–'}</SpecRow>
-        <SpecRow label="Lenkwinkel">{v(bike.rahmen.lenkwinkel_grad) !== '–' ? `${bike.rahmen.lenkwinkel_grad}°` : '–'}</SpecRow>
-        <SpecRow label="Sitzwinkel (effektiv)">{v(bike.rahmen.sitzwinkel_effektiv_grad) !== '–' ? `${bike.rahmen.sitzwinkel_effektiv_grad}°` : '–'}</SpecRow>
-        <SpecRow label="Radstand">{v(bike.rahmen.radstand_mm) !== '–' ? `${bike.rahmen.radstand_mm} mm` : '–'}</SpecRow>
-        <SpecRow label="Kettenstrebe">{v(bike.rahmen.kettenstrebe_mm) !== '–' ? `${bike.rahmen.kettenstrebe_mm} mm` : '–'}</SpecRow>
+        <SpecRow label="Material">{v(bike.rahmen?.material ?? bike.rahmen_material)}</SpecRow>
+        <SpecRow label="Reach (Grösse L)">{bike.rahmen?.groesse_L_reach_mm != null ? `${bike.rahmen.groesse_L_reach_mm} mm` : '–'}</SpecRow>
+        <SpecRow label="Stack (Grösse L)">{bike.rahmen?.groesse_L_stack_mm != null ? `${bike.rahmen.groesse_L_stack_mm} mm` : '–'}</SpecRow>
+        <SpecRow label="Lenkwinkel">{bike.rahmen?.lenkwinkel_grad != null ? `${bike.rahmen.lenkwinkel_grad}°` : '–'}</SpecRow>
+        <SpecRow label="Sitzwinkel (effektiv)">{bike.rahmen?.sitzwinkel_effektiv_grad != null ? `${bike.rahmen.sitzwinkel_effektiv_grad}°` : '–'}</SpecRow>
+        <SpecRow label="Radstand">{bike.rahmen?.radstand_mm != null ? `${bike.rahmen.radstand_mm} mm` : '–'}</SpecRow>
+        <SpecRow label="Kettenstrebe">{bike.rahmen?.kettenstrebe_mm != null ? `${bike.rahmen.kettenstrebe_mm} mm` : '–'}</SpecRow>
 
         <GroupLabel>Fahrwerk</GroupLabel>
-        <SpecRow label="Federweg vorne">{bike.federweg.vorne_mm} mm</SpecRow>
-        <SpecRow label="Federweg hinten">{bike.federweg.hinten_mm} mm</SpecRow>
+        <SpecRow label="Federweg vorne">{bike.federweg?.vorne_mm ?? bike.federweg_vorne ?? '–'}{(bike.federweg?.vorne_mm ?? bike.federweg_vorne) != null ? ' mm' : ''}</SpecRow>
+        <SpecRow label="Federweg hinten">{bike.federweg?.hinten_mm ?? bike.federweg_hinten ?? '–'}{(bike.federweg?.hinten_mm ?? bike.federweg_hinten) != null ? ' mm' : ''}</SpecRow>
         <SpecRow label="Gabel">
-          <ExtLink href={bike.federweg.gabel_url}>{v(bike.federweg.gabel_modell)}</ExtLink>
+          <ExtLink href={bike.federweg?.gabel_url ?? ''}>{v(bike.federweg?.gabel_modell)}</ExtLink>
         </SpecRow>
         <SpecRow label="Dämpfer">
-          <ExtLink href={bike.federweg.daempfer_url}>{v(bike.federweg.daempfer_modell)}</ExtLink>
+          <ExtLink href={bike.federweg?.daempfer_url ?? ''}>{v(bike.federweg?.daempfer_modell)}</ExtLink>
         </SpecRow>
 
         <GroupLabel>Antrieb</GroupLabel>

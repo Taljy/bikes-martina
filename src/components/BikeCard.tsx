@@ -12,19 +12,25 @@ export default function BikeCard({ bike }: Props) {
   const location = useLocation()
   const { toggle, isIn } = useCompare()
   const inCompare = isIn(bike.id)
-  const preis = bike.preis_chf
-    ? formatChf(bike.preis_chf)
-    : bike.preis_eur
-    ? formatEur(bike.preis_eur)
+  // Unterstützt altes Schema (preis_chf/eur) und neues Schema (preise.uvp_chf/eur)
+  const preis_chf = bike.preis_chf ?? bike.preise?.uvp_chf ?? null
+  const preis_eur = bike.preis_eur ?? bike.preise?.uvp_eur ?? null
+  const preis = preis_chf
+    ? formatChf(preis_chf)
+    : preis_eur
+    ? formatEur(preis_eur)
     : null
 
-  const preisNeben = bike.preis_chf && bike.preis_eur
-    ? `EUR ${bike.preis_eur.toLocaleString('de-CH')}`
+  const preisNeben = preis_chf && preis_eur
+    ? `EUR ${preis_eur.toLocaleString('de-CH')}`
     : null
+
+  // Federweg: altes Schema federweg.hinten_mm, neues Schema federweg_hinten (flat)
+  const federwegHinten = bike.federweg?.hinten_mm ?? bike.federweg_hinten ?? null
 
   const chips = [
     motorKurzname(bike.motor.hersteller, bike.motor.modell),
-    `${bike.federweg.hinten_mm} mm`,
+    federwegHinten !== null ? `${federwegHinten} mm` : null,
     bike.gewicht_kg ? `${bike.gewicht_kg} kg` : null,
   ].filter(Boolean) as string[]
 
@@ -55,9 +61,9 @@ export default function BikeCard({ bike }: Props) {
           </span>
         )}
 
-        {/* Score-Badge oben rechts */}
+        {/* Score-Badge oben rechts — altes Schema: passend_fuer_martina_score, neues: score */}
         <span className="absolute top-3 right-3 bg-terracotta-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full">
-          {bike.passend_fuer_martina_score}/10
+          {bike.passend_fuer_martina_score ?? bike.score ?? '–'}/10
         </span>
 
         {/* Vergleich-Toggle oben links — bei Referenzbike ausgeblendet */}
@@ -77,11 +83,11 @@ export default function BikeCard({ bike }: Props) {
       {/* Inhalt */}
       <div className="p-4 flex flex-col gap-3 flex-1">
         <div>
-          <p className="text-xs text-stone-400 mb-0.5">{bike.kategorie}</p>
+          <p className="text-xs text-stone-400 mb-0.5">{bike.kategorie ?? bike.konzept}</p>
           <p className="font-semibold text-stone-900 leading-snug">
             {bike.hersteller} {bike.modell}
           </p>
-          <p className="text-xs text-stone-400 mt-0.5">{bike.modelljahr}</p>
+          <p className="text-xs text-stone-400 mt-0.5">{bike.modelljahr ?? bike.jahr}</p>
         </div>
 
         <div>
