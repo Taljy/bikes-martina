@@ -362,15 +362,15 @@ export default function BikeDetail() {
 
         <GroupLabel>Antrieb</GroupLabel>
         <SpecRow label="Motor">
-          <ExtLink href={bike.motor.hersteller_url}>
-            {bike.motor.hersteller} {bike.motor.modell}
+          <ExtLink href={bike.motor?.hersteller_url}>
+            {bike.motor?.hersteller} {bike.motor?.modell}
           </ExtLink>
         </SpecRow>
-        <SpecRow label="Drehmoment">{bike.motor.drehmoment_nm} Nm</SpecRow>
-        <SpecRow label="Spitzenleistung">{bike.motor.leistung_spitze_w} W</SpecRow>
-        <SpecRow label="Akku-Kapazität">{bike.akku.kapazitaet_wh} Wh</SpecRow>
-        <SpecRow label="Akku wechselbar">{bool(bike.akku.wechselbar)}</SpecRow>
-        <SpecRow label="Range Extender">{bool(bike.akku.range_extender_optional)}</SpecRow>
+        <SpecRow label="Drehmoment">{bike.motor?.drehmoment_nm ?? '–'} Nm</SpecRow>
+        <SpecRow label="Spitzenleistung">{bike.motor?.leistung_spitze_w ?? '–'} W</SpecRow>
+        <SpecRow label="Akku-Kapazität">{bike.akku?.kapazitaet_wh ?? '–'} Wh</SpecRow>
+        <SpecRow label="Akku wechselbar">{bool(bike.akku?.wechselbar)}</SpecRow>
+        <SpecRow label="Range Extender">{bool(bike.akku?.range_extender_optional)}</SpecRow>
         {motorId && (
           <div className="pt-2">
             <Link
