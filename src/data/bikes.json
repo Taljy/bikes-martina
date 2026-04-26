@@ -3159,15 +3159,17 @@
     "bild_pfad": "/images/bikes/giant-trance-x-e-plus-2-2026.jpg",
     "hersteller": "Giant",
     "modell": "Trance X E+ 2",
+    "modell_hinweis": "Trance X E+ 2 ist die mittlere Spec-Stufe der Aluminium-Variante (ueber Pro 1, unter Pro 0). Giant hat eine komplexe Modell-Struktur: Trance X E+ (Aluminium-Trail) vs. Trance X Advanced E+ (Carbon-Trail) vs. Trance X Advanced E+ Elite (Top-Race-Carbon mit Mullet, leichtestes Voll-eMTB der Welt mit 18.8 kg). Diese Bewertung gilt fuer die Aluminium-Variante mit AluxX SL Frame.",
     "modelljahr": 2026,
-    "kategorie": "Trail/All-Mountain",
-    "hersteller_url": "https://www.giant-bicycles.com/",
-    "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": 5690,
-    "preis_eur": 5299,
-    "preis_quelle_url": "NOT_SPECIFIED",
+    "kategorie": "All-Mountain/Trail",
+    "hersteller_url": "https://www.giant-bicycles.com",
+    "produktseite_url": "https://www.giant-bicycles.com/ch/showcase/trance-x-e",
+    "preis_chf": 5649,
+    "preis_eur": 5499,
+    "preis_hinweis": "UVP CHF 5'649 verifiziert auf mybikeplan.ch (offizieller Giant-Schweiz-Vertrieb). KEIN aktueller Sale. KRITISCH: CHF 5'649 ist CHF 650+ TEURER als Cube ONE44 SLX 800 (CHF 4'999, Score 9) und Orbea Wild H10 (CHF 4'990, Score 9), die beide objektiv besser positioniert sind (Bosch Gen5, 800 Wh, mehr Federweg, XT-Komponenten).",
+    "preis_quelle_url": "https://www.mybikeplan.ch/produkt/giant-trance-x-e-2-brown",
     "rahmen": {
-      "material": "Aluminium",
+      "material": "AluxX SL Aluminium (Giant-eigenes Top-Aluminium, NICHT Carbon — Carbon-Variante heisst 'Trance X Advanced E+')",
       "groessen_verfuegbar": [
         "S",
         "M",
@@ -3179,78 +3181,142 @@
       "lenkwinkel_grad": null,
       "sitzwinkel_effektiv_grad": null,
       "radstand_mm": null,
-      "kettenstrebe_mm": null
+      "kettenstrebe_mm": null,
+      "besonderheiten": "Maestro 4-Link Hinterbau-Kinematik, Carbon Umlenkwippe, Flip-Chip am Maestro Hinterbau fuer Geometrie-Verstellung (Lenkwinkel + Sitzwinkel + BB-Hoehe), Internal Cable Routing, Boost 148 Hinterachse, UDH Universal Derailleur Hanger"
     },
     "federweg": {
-      "vorne_mm": 160,
+      "vorne_mm": 150,
       "hinten_mm": 140,
-      "gabel_modell": "Fox 36 Float Rhythm",
-      "gabel_url": "NOT_SPECIFIED",
-      "daempfer_modell": "Fox Float Performance",
-      "daempfer_url": "NOT_SPECIFIED"
+      "gabel_modell": "Fox 36 Float Rhythm GRIP, 150 mm, Tapered, 15x110mm, E-Bike Optimized",
+      "gabel_url": "https://www.ridefox.com",
+      "daempfer_modell": "Fox Float DPS Performance EVOL, 185x52.5 mm Trunnion Mount, custom tuned",
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
-      "hersteller": "Yamaha",
-      "modell": "SyncDrive Pro2",
+      "hersteller": "Giant",
+      "modell": "SyncDrive Pro2 (powered by Yamaha)",
       "drehmoment_nm": 85,
-      "leistung_spitze_w": 600,
-      "hersteller_url": "NOT_SPECIFIED"
+      "leistung_spitze_w": 250,
+      "hersteller_url": "https://www.giant-bicycles.com",
+      "hinweis": "MOTOR-GENERATION-SCHWAECHE: Yamaha-basiert, aeltere Tech als Bosch Gen5/SX/EP801/DJI Avinox. 6 Smart Sensors, 2.7 kg Motorgewicht. Kein App-Update auf 100 Nm moeglich."
     },
     "akku": {
-      "kapazitaet_wh": 800,
+      "kapazitaet_wh": 750,
       "wechselbar": true,
-      "range_extender_optional": false
+      "range_extender_optional": true,
+      "hinweis": "750 Wh Giant EnergyPak Smart XL ENTNEHMBAR. EnergyPak Plus 250 Wh Range Extender kompatibel = bis 1000 Wh kombiniert. 50 Wh weniger als 800 Wh Standard bei Score-8/9 Konkurrenz."
     },
     "ausstattung": {
-      "schaltung": "Shimano XT 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
-      "bremsen": "Shimano XT 4-Kolben",
-      "bremsen_url": "NOT_SPECIFIED",
-      "laufraeder": "Giant TRX 1",
-      "laufraeder_url": "NOT_SPECIFIED",
-      "reifen_vorne": "Maxxis Assegai EXO+",
-      "reifen_hinten": "Maxxis Minion DHR II EXO+",
-      "reifen_url": "NOT_SPECIFIED",
-      "cockpit": "NOT_SPECIFIED"
+      "schaltung": "Shimano SLX M7100 12-fach (mid-tier, NICHT XT)",
+      "schaltung_url": "https://bike.shimano.com",
+      "bremsen": "Shimano SLX 4-Kolben Hydraulic Disc, 203 mm Rotors",
+      "bremsen_url": "https://bike.shimano.com",
+      "laufraeder": "Giant AM 29\" Tubeless-faehig",
+      "laufraeder_url": null,
+      "reifen_vorne": "Maxxis Minion DHF 29x2.6\" 3C MaxxTerra EXO+",
+      "reifen_hinten": "Maxxis Dissector 29x2.6\" 3C MaxxTerra EXO+",
+      "reifen_url": "https://www.maxxis.com",
+      "cockpit": "Giant Contact 35 Vorbau + Giant Contact Trail 780 mm Lenker + Giant Contact Vario Dropper + RideControl Ergo 3 LED-Display am Oberrohr + Wireless Remote"
     },
-    "gewicht_kg": 23.5,
-    "laufradgroesse": "29",
+    "gewicht_kg": 24.4,
+    "laufradgroesse": "29\"",
+    "verfuegbarkeit": {
+      "status": "verfuegbar",
+      "info": "Sehr gute CH-Verfuegbarkeit ueber Giant-Vertrieb mit dichtem Haendlernetz. UVP CHF 5'649 ohne aktuellen Sale. Refurbished-Optionen via upway.ch verfuegbar (bis zu 60% Rabatt). Probefahrten an vielen CH-Standorten moeglich.",
+      "geprueft_am": "2026-04-26",
+      "geprueft_quelle": "https://www.mybikeplan.ch/produkt/giant-trance-x-e-2-brown"
+    },
     "verfuegbarkeit_ch": {
       "haendler": [
-        "Giant-Händler CH"
+        "mybikeplan.ch (offizieller Giant-CH-Vertrieb) — CHF 5'649, 0% Zins-Finanzierung moeglich",
+        "Giant Schweiz autorisierte Haendler (Probefahrten moeglich)",
+        "upway.ch (refurbished, bis 60% Rabatt mit 1 Jahr Garantie)"
       ],
-      "probefahrt_moeglich": "NOT_SPECIFIED",
-      "urls": []
+      "probefahrt_moeglich": "Ja, bei Giant-Haendlern an vielen CH-Standorten",
+      "urls": [
+        "https://www.mybikeplan.ch/produkt/giant-trance-x-e-2-brown",
+        "https://www.giant-bicycles.com/ch/showcase/trance-x-e",
+        "https://upway.ch/products/giant-trance-x-e2-rr4lp8"
+      ]
     },
     "verfuegbarkeit_de_direkt": {
-      "shop": "giant-bicycles.com",
+      "shop": "giant-bicycles.com / mybikeplan.ch",
       "lieferzeit_tage": null,
-      "url": "NOT_SPECIFIED"
+      "url": "https://www.giant-bicycles.com/ch/showcase/trance-x-e"
     },
-    "test_ergebnisse": [
+    "passend_fuer_martina_score": 6,
+    "passend_fuer_martina_begruendung": "Motor-Generation-Schwaeche (Yamaha-basiert statt Bosch Gen5) + CHF 650+ teurer als Cube/Orbea Score 9 mit besseren Specs + 750 Wh statt 800 Wh + SLX statt XT + 150/140 mm Trail-Niveau statt Enduro. Viertes Score-6 Bike der Liste.",
+    "bewertung_kategorien": {
+      "geometrie_rahmengroesse": 8,
+      "einsteigerfreundlichkeit": 7,
+      "bergauf_touren": 7,
+      "bikepark_reserve": 6,
+      "gewicht_handling": 6,
+      "preis_leistung": 4,
+      "service_haendlernetz_ch": 9,
+      "risiko_datenunsicherheit": 9
+    },
+    "bewertung_detail": {
+      "pro": [
+        "Maestro 4-Link Hinterbau-Kinematik — Giant-eigene Bauart auf Top-Niveau, sehr aktiv und sensibel",
+        "AluxX SL Aluminium-Rahmen — Giant-eigenes Top-Aluminium, robust und gut verarbeitet",
+        "Lebenslange Rahmen-Garantie (Giant-Standard) — besser als die meisten Konkurrenten",
+        "Sehr starkes weltweites Service-Netz — Giant ist der GROESSTE Velo-Hersteller weltweit",
+        "Dichtes CH-Haendlernetz mit Probefahrt-Moeglichkeit an vielen Standorten",
+        "Flip-Chip am Maestro Hinterbau fuer Geometrie-Verstellung (Lenkwinkel + Sitzwinkel + BB-Hoehe)",
+        "6 Smart Sensors fuer intelligente Motorunterstuetzung in Echtzeit",
+        "750 Wh Akku ENTNEHMBAR — kein Cannondale/Transition/Commencal-Permanent-Problem",
+        "EnergyPak Plus 250 Wh Range Extender kompatibel = bis 1000 Wh kombinierte Kapazitaet",
+        "Fox 36 Float Rhythm Gabel + Float DPS Performance Daempfer — solides Trail-Setup",
+        "Maxxis Minion DHF + Dissector Reifen — Top-Trail-Reifen mit aggressivem Profil",
+        "Carbon Umlenkwippe fuer Steifigkeit + Gewichtsersparnis",
+        "Refurbished-Optionen via upway.ch verfuegbar (bis zu 60% Rabatt mit 1 Jahr Garantie)",
+        "Modulares Cockpit mit RideControl Ergo 3 Remote — links oder rechts montierbar"
+      ],
+      "contra": [
+        "MOTOR-GENERATION-SCHWAECHE: Giant SyncDrive Pro2 ist Yamaha-basiert und damit AELTERE Tech als Bosch Gen5 (alle Score-8/9 Bikes haben Bosch Gen5, Bosch SX, Shimano EP801 oder DJI Avinox)",
+        "KEIN App-Update auf 100 Nm moeglich (Bosch Gen5 hat 100 Nm Boost, Yamaha hat fest 85 Nm)",
+        "KEIN Bosch Smart System mit Kiox 400C Display und Navigation — nur LED-Anzeige am Oberrohr",
+        "750 Wh Akku ist 50 Wh KLEINER als 800 Wh Standard bei Score-8/9 Konkurrenz",
+        "PREIS-LEISTUNG SCHWACH: CHF 5'649 ist CHF 650+ TEURER als Cube ONE44 SLX 800 (Score 9, CHF 4'999, Carbon, Bosch Gen5, 800 Wh, XT) und Orbea Wild H10 (Score 9, CHF 4'990)",
+        "Schaltung Shimano SLX M7100 (mid-tier, NICHT XT) — Score-8/9 Konkurrenten haben XT oder besser",
+        "Bremsen Shimano SLX (mid-tier) — Spec-Knick gegenueber XT-Niveau",
+        "Federweg 150/140 mm ist TRAIL-NIVEAU (nicht Enduro) — weniger Reserve als Score-9 Konkurrenz",
+        "Aluminium-Rahmen statt Carbon-Hauptrahmen wie bei Cube ONE44/ONE77 zum gleichen oder guenstigeren Preis",
+        "24.4 kg ist relativ schwer fuer ein Trail-Bike dieses Federweg-Niveaus",
+        "Fox 36 RHYTHM ist Einstiegs-Variante — Top-Bikes haben mindestens Performance Series",
+        "RideControl Ergo 3 LED-Einheit ist BASIC — kein Display mit Range/Navigation/Fitness-Daten",
+        "KEIN aktueller Sale — UVP CHF 5'649 voll zu zahlen",
+        "Pedale NICHT inkludiert"
+      ],
+      "fazit": "Solide gebautes Trail-eMTB von der weltgroessten Velo-Marke, aber MEHRERE strukturelle Schwaechen im 2026er Wettbewerbsumfeld. Pro: Maestro Hinterbau (Top-Niveau), lebenslange Rahmen-Garantie, weltgroesstes Service-Netz, dichtes CH-Haendlernetz, Flip-Chip Geometrie, 750 Wh entnehmbar, Range Extender kompatibel, solides Fox-Setup, Top-Maxxis-Reifen. Contra: MOTOR-GENERATION-SCHWAECHE — Giant SyncDrive Pro2 (Yamaha-basiert) ist aeltere Tech als Bosch Gen5 bei allen Score-8/9 Konkurrenten, kein 100 Nm App-Update, kein Kiox 400C Navigation-Display, 750 Wh statt 800 Wh, CHF 5'649 CHF 650+ teurer als Cube ONE44 SLX 800 (Score 9) und Orbea Wild H10 (Score 9) mit besseren Specs, Schaltung + Bremsen SLX statt XT, Federweg nur 150/140 mm Trail-Niveau, Aluminium statt Carbon trotz hoeherem Preis, LED-Anzeige statt Navigation-Display, kein aktueller Sale. Score 6 = vier strukturelle Schwaechen in Kombination (Motor + Preis-Leistung + 750 Wh + SLX). Wer Maestro + Giant-Service + lebenslange Garantie priorsiert: defensible Wahl. Wer maximale Preis-Leistung will: Cube ONE44 SLX 800 (Score 9, CHF 4'999) oder Orbea Wild H10 (Score 9, CHF 4'990) bieten objektiv mehr Bike fuer weniger Geld."
+    },
+    "test_urteile": [
       {
-        "publikation": "emtb-news.de",
-        "bewertung_kurz": "Yamaha-Alternative",
-        "stärken": [
-          "Gute Ausstattung",
-          "800-Wh-Akku",
-          "Verspielte Geometrie"
-        ],
-        "schwaechen": [
-          "Yamaha-Motor statt Bosch/Shimano (ausserhalb Martinas Präferenz)"
-        ],
-        "test_url": "NOT_SPECIFIED",
-        "datum": "2025-09"
+        "quelle": "Mybikeplan.ch (offizieller Giant-CH-Vertrieb)",
+        "kurzfazit": "Geboren fuer grosse Trails und lange Tage: Das Trance X E+ 2 vereint kraftvolle SyncDrive-Unterstuetzung, feinfuehliges Maestro-Fahrwerk, 29er-Praezision und Flip-Chip-Geometrie zu einem souveraenen All-Mountain-Paket. Leise, ausgewogen, souveraen."
+      },
+      {
+        "quelle": "Bikehouse24.de Spec-Beschreibung 2026",
+        "kurzfazit": "AluxX SL Hauptrahmen, Maestro Hinterbau mit Geometrie Flip-Chip, Carbon Umlenkwippe, 140 mm Federweg hinten. Fox Float DPS Performance EVOL Daempfer, Fox 36 Float Rhythm GRIP 150 mm Gabel. SyncDrive Pro2 powered by Yamaha mit 85 Nm. Maxxis Minion DHF/Dissector 29x2.6\"."
+      },
+      {
+        "quelle": "eMTB-News.de (Vorgaengermodell-Test Aluminium-Variante)",
+        "kurzfazit": "Vielseitiges, variables und gut gemachtes E-Trailbike. Leistungsstarker SyncDrive Pro2-Motor, bewaehrtes Maestro-Federungssystem. EnergyPak XL 750 erhoeht Reichweite um bis zu 20%. Mit Range Extender 1000 Wh moeglich."
+      },
+      {
+        "quelle": "Giant Schweiz offizielle Beschreibung 2026",
+        "kurzfazit": "The motor is co-developed with Yamaha and optimized to work with our Maestro suspension. Compact motor (2.7kg), 85Nm torque, significantly reduced noise. Six smart sensors precisely measure the power being applied to the pedals so the motor can provide just the right amount of assistance."
       }
     ],
-    "passend_fuer_martina_score": 7,
-    "passend_fuer_martina_begruendung": "Giant mit Yamaha-Motor (SyncDrive Pro2). Sehr gute Schaltung. Für Martina nur, wenn Giant-Händler in der Nähe ist. Yamaha-Service-Netz in CH moderat.",
     "warnungen": [
-      "Motor-Präferenz: Martina bevorzugt Bosch, Shimano oder DJI Avinox. Yamaha ist eine Alternative, aber Service-Netz in CH nicht so dicht."
+      "Motor-Generation-Schwaeche: Yamaha-basierter SyncDrive Pro2, nicht Bosch Gen5/SX/EP801/DJI Avinox",
+      "CHF 5'649 ist teurer als Cube ONE44 SLX 800 (Score 9, CHF 4'999) und Orbea Wild H10 (Score 9, CHF 4'990) mit besseren Specs"
     ],
     "alternativ_zu": [
-      "Cube Stereo Hybrid ONE44 SLX",
-      "Canyon Neuron:ON AL 9"
+      "Cube ONE44 SLX 800 (Score 9, CHF 4'999 — guenstiger, Bosch Gen5, 800 Wh, Carbon, XT)",
+      "Orbea Wild H10 (Score 9, CHF 4'990 — guenstiger, Bosch Gen5, 800 Wh, 170/170 mm, XT)",
+      "Giant Trance X Advanced E+ (Score hoeheres Modell, Carbon-Variante — besser aber teurer)"
     ]
   },
   {
