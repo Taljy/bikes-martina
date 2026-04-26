@@ -491,7 +491,10 @@ export default function BikeDetail() {
             ) : (
               <ul className="space-y-2">
                 {bike.verfuegbarkeit_ch.haendler.map((haendler, i) => {
-                  const url = bike.verfuegbarkeit_ch.urls[i] ?? null
+                  const haendlerName = typeof haendler === 'string' ? haendler : (haendler as { name?: string }).name ?? '–'
+                  const url = (typeof haendler === 'object' && (haendler as { url?: string }).url)
+                    ? (haendler as { url: string }).url
+                    : bike.verfuegbarkeit_ch.urls[i] ?? null
                   const hatProbefahrt = !!bike.verfuegbarkeit_ch.probefahrt_moeglich
                   return (
                     <li key={i} className="flex items-center gap-2 flex-wrap">
@@ -502,10 +505,10 @@ export default function BikeDetail() {
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1 text-sm text-terracotta-600 hover:underline"
                         >
-                          {haendler} <ExternalLink size={11} />
+                          {haendlerName} <ExternalLink size={11} />
                         </a>
                       ) : (
-                        <span className="text-sm text-stone-700">{haendler}</span>
+                        <span className="text-sm text-stone-700">{haendlerName}</span>
                       )}
                       {hatProbefahrt && (
                         <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">

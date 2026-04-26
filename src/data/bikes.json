@@ -3397,21 +3397,14 @@
     "garantie_besonderheit": "K.I.S.-System hat LEBENSLANGE Garantie (Canyon-Standard für K.I.S.). Rahmen-Garantie 6 Jahre (Canyon-Standard). Motor- und Akku-Garantie via TQ-Hersteller (typisch 2 Jahre).",
     "verfuegbarkeit_ch": {
       "haendler": [
-        {
-          "name": "Canyon CH (offizieller Direktvertrieb)",
-          "url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-fly/spectral-onfly-cf-8/",
-          "hinweis": "UVP ~CHF 5'499, CH-Lager, Schweizer Versand, 30 Tage Rückgaberecht"
-        },
-        {
-          "name": "Canyon CH — Spectral:ONfly CF 9 Sale",
-          "url": "https://www.canyon.com/de-ch/mountainbike/trail-bikes/spectral/",
-          "hinweis": "Höhere Spec-Variante CF 9 aktuell CHF 4'069 Sale (-29% von CHF 5'699 UVP) als alternative Option"
-        }
+        "Canyon CH (offizieller Direktvertrieb)",
+        "Canyon CH — Spectral:ONfly CF 9 Sale"
       ],
       "status": "verfuegbar",
       "probefahrt_moeglich": false,
       "urls": [
-        "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-fly/"
+        "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-fly/spectral-onfly-cf-8/",
+        "https://www.canyon.com/de-ch/mountainbike/trail-bikes/spectral/"
       ]
     },
     "verfuegbarkeit": {
@@ -4080,21 +4073,14 @@
     "garantie_besonderheit": "LIFETIME WARRANTY auf: (1) Hauptrahmen, (2) Hinterbau-Lager (free bearings for life — UNIQUE!), (3) Optionale RESERVE Carbon-Laufräder. Plus Santa Cruz Rider Support-Versprechen. Das ist die STÄRKSTE Garantie der ganzen Liste — kein anderes Bike bietet lebenslange Bearings.",
     "verfuegbarkeit_ch": {
       "haendler": [
-        {
-          "name": "Trailworks AG (offizieller Santa Cruz CH-Distributor) — Schmerikon SG",
-          "url": "https://www.santacruzbikes.ch/de/bike_configurator_detail/348",
-          "hinweis": "Konfigurator + Lagerbestand-Anzeige + Telefon-Support 055 640 67 37"
-        },
-        {
-          "name": "dreamparts.ch (autorisierter CH-Händler)",
-          "url": "https://dreamparts.ch/shop/velo/e-mtb/santa-cruz-heckler-r-carbon-cc-mx/",
-          "hinweis": "Heckler R Carbon C ab CHF 9'999, Heckler GX AXS CHF 9'990, Heckler X0 AXS RSV CHF 11'599"
-        }
+        "Trailworks AG (offizieller Santa Cruz CH-Distributor) — Schmerikon SG",
+        "dreamparts.ch (autorisierter CH-Händler)"
       ],
       "status": "verfuegbar",
       "probefahrt_moeglich": true,
       "urls": [
-        "https://www.santacruzbikes.ch/de/bike_configurator_detail/348"
+        "https://www.santacruzbikes.ch/de/bike_configurator_detail/348",
+        "https://dreamparts.ch/shop/velo/e-mtb/santa-cruz-heckler-r-carbon-cc-mx/"
       ]
     },
     "verfuegbarkeit": {
