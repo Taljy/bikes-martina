@@ -22,11 +22,11 @@ export default function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="bg-white border-b border-stone-200 sticky top-0 z-50">
+      <header className="bg-paper border-b border-rule sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <NavLink to="/" className="flex items-center gap-2.5 text-terracotta-600 hover:text-terracotta-700">
+          <NavLink to="/" className="flex items-center gap-2.5 text-vermillion hover:text-vermillion-deep">
             <MTBIcon className="h-8 w-8" />
-            <span className="font-semibold tracking-tight text-stone-800">E-MTB-Check</span>
+            <span className="font-display text-xl tracking-[0.04em] text-ink">E-MTB-Check</span>
           </NavLink>
 
           <nav className="flex items-center gap-1">
@@ -36,10 +36,10 @@ export default function Layout() {
                 to={to}
                 end={end}
                 className={({ isActive }) =>
-                  `px-3.5 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                  `px-3.5 py-1.5 rounded-sm text-sm font-medium transition-colors ${
                     isActive
-                      ? 'bg-terracotta-50 text-terracotta-700'
-                      : 'text-stone-500 hover:text-stone-800 hover:bg-stone-100'
+                      ? 'bg-paper-deep text-vermillion'
+                      : 'text-asphalt hover:text-ink hover:bg-paper-deep'
                   }`
                 }
               >
@@ -51,10 +51,10 @@ export default function Layout() {
             <div className="relative group">
               <NavLink
                 to="/wissen"
-                className={`inline-flex items-center gap-1 px-3.5 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                className={`inline-flex items-center gap-1 px-3.5 py-1.5 rounded-sm text-sm font-medium transition-colors ${
                   wissenActive
-                    ? 'bg-terracotta-50 text-terracotta-700'
-                    : 'text-stone-500 hover:text-stone-800 hover:bg-stone-100'
+                    ? 'bg-paper-deep text-vermillion'
+                    : 'text-asphalt hover:text-ink hover:bg-paper-deep'
                 }`}
               >
                 Wissen
@@ -64,7 +64,7 @@ export default function Layout() {
               {/* Invisible bridge to prevent gap between button and panel */}
               <div className="absolute top-full left-0 w-full h-1.5" />
 
-              <div className="absolute top-[calc(100%+6px)] left-0 w-44 bg-white border border-stone-200 rounded-xl shadow-md overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150">
+              <div className="absolute top-[calc(100%+6px)] left-0 w-44 bg-paper border border-rule rounded-none shadow-sm overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-150">
                 {WISSEN_ITEMS.map(({ to, label, end }) => (
                   <NavLink
                     key={to}
@@ -73,8 +73,8 @@ export default function Layout() {
                     className={({ isActive }) =>
                       `block px-4 py-2.5 text-sm transition-colors ${
                         isActive
-                          ? 'bg-terracotta-50 text-terracotta-700 font-medium'
-                          : 'text-stone-600 hover:bg-stone-50 hover:text-stone-900'
+                          ? 'bg-paper-deep text-vermillion font-medium'
+                          : 'text-ink-soft hover:bg-paper-deep hover:text-ink'
                       }`
                     }
                   >
@@ -93,12 +93,12 @@ export default function Layout() {
 
       <FloatingCompareBar />
 
-      <footer className="border-t border-stone-200 bg-white mt-auto">
-        <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between text-sm text-stone-400">
+      <footer className="border-t border-rule bg-paper mt-auto">
+        <div className="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between text-sm text-concrete">
           <span>E-MTB-Check — Studio Da Rugna, Baden AG</span>
           <div className="flex items-center gap-4">
             <span>2026</span>
-            <NavLink to="/impressum" className="hover:text-terracotta-500 transition-colors">
+            <NavLink to="/impressum" className="hover:text-vermillion transition-colors">
               Impressum
             </NavLink>
           </div>
