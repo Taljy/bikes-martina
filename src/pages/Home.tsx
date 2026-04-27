@@ -93,7 +93,7 @@ export default function Home() {
       </div>
 
       {/* B) Primary CTA Row */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-center gap-4">
+      <div className="flex flex-col items-center gap-3">
         <NavLink
           to="/bikes"
           className="inline-flex items-center gap-2 px-6 py-3 bg-vermillion text-paper font-display text-lg tracking-[0.04em] hover:bg-vermillion-deep transition-colors"
@@ -134,7 +134,7 @@ export default function Home() {
 
       {/* C) Section-Trenner */}
       <div className="pt-6">
-        <p className="mt-16 mb-8 font-mono text-base tracking-[0.18em] text-vermillion uppercase text-center mx-auto">
+        <p className="mt-12 mb-8 font-mono text-base tracking-[0.18em] text-vermillion uppercase text-center mx-auto">
           Oder erst einlesen
         </p>
 
