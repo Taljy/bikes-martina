@@ -34,14 +34,14 @@ function ScoreGauge({ score }: { score: number | undefined }) {
   if (score === undefined) return null
   return (
     <div className="flex items-center gap-4">
-      <div className="flex-1 h-2.5 bg-stone-100 rounded-full overflow-hidden">
+      <div className="flex-1 h-2.5 bg-paper-deep rounded-none overflow-hidden">
         <div
-          className="h-full bg-terracotta-500 rounded-full"
+          className="h-full bg-vermillion rounded-none"
           style={{ width: `${(score / 10) * 100}%` }}
         />
       </div>
-      <span className="text-2xl font-bold text-terracotta-600 tabular-nums w-12 text-right">
-        {score}<span className="text-sm font-normal text-stone-400">/10</span>
+      <span className="font-mono font-medium text-2xl text-vermillion tabular-nums w-12 text-right">
+        {score}<span className="font-mono text-sm font-normal text-concrete">/10</span>
       </span>
     </div>
   )
@@ -54,7 +54,7 @@ function ExtLink({ href, children }: { href: string; children: React.ReactNode }
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-1 text-terracotta-600 hover:underline"
+      className="inline-flex items-center gap-1 text-vermillion hover:underline"
     >
       {children} <ExternalLink size={11} className="shrink-0" />
     </a>
@@ -69,16 +69,16 @@ function SpecRow({
   children: React.ReactNode
 }) {
   return (
-    <div className="flex gap-4 py-2.5 border-b border-stone-100 last:border-0">
-      <span className="w-44 shrink-0 text-sm text-stone-400">{label}</span>
-      <span className="text-sm text-stone-800 flex-1">{children}</span>
+    <div className="flex gap-4 py-2.5 border-b border-rule last:border-0">
+      <span className="w-44 shrink-0 font-mono text-xs text-concrete tracking-[0.06em]">{label}</span>
+      <span className="text-sm text-ink flex-1">{children}</span>
     </div>
   )
 }
 
 function GroupLabel({ children }: { children: React.ReactNode }) {
   return (
-    <p className="text-[10px] font-semibold tracking-widest text-stone-400 uppercase mb-1 mt-6 first:mt-0">
+    <p className="font-mono text-[10px] tracking-[0.18em] text-concrete uppercase mb-1 mt-6 first:mt-0">
       {children}
     </p>
   )
