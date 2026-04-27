@@ -8,14 +8,15 @@
     "kategorie": "All-Mountain",
     "hersteller_url": "https://www.cube.eu/",
     "produktseite_url": "https://www.cube.eu/ch-de/cube-stereo-hybrid-one44-hpc-slx-800-slabgrey-n-orange/102500",
-    "preis_chf": 4999,
-    "preis_eur": 4499,
     "preis_quelle_url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-slx-slabgrey/",
     "preise": {
       "uvp_chf": 4999,
       "sale_chf": 4249.15,
       "sale_haendler": "m-way.ch",
-      "sale_url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-slx-slabgrey/"
+      "sale_url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-slx-slabgrey/",
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "rahmen": {
       "material": "Carbon (HPC C:62 Hauptrahmen, Alu 6061 T6 Hinterbau)",
@@ -99,7 +100,6 @@
         "datum": "2026-02"
       }
     ],
-    "passend_fuer_martina_score": 9,
     "passend_fuer_martina_begruendung": "Top E-MTB für gemischten Einsatz Tour/Trail. Bosch CX BDU384Y (100 Nm), 800 Wh, Carbon, Fox 36, Reach 477 mm in L — alles stimmt. Im Sale bei m-way.ch für CHF 4'249 mit -15%. Einziger Vorbehalt: Hinterreifen Kryptotal DH Soft ist ein Bikepark-Reifen mit hohem Rollwiderstand — vor Touren-Einsatz wechseln.",
     "warnungen": [
       "Hinterreifen Conti Kryptotal DH Soft: hoher Rollwiderstand auf Touren, empfehle Wechsel auf Kryptotal Trail Endurance."
@@ -142,7 +142,8 @@
         "Hinterbau aus Aluminium, nicht Carbon"
       ],
       "fazit": "Top E-MTB für gemischten Einsatz Tour/Trail, aber Reifen-Setup und Gewicht passen nicht ideal zu deiner 3. E-MTB-Saison. Vor Tour-Einsatz Hinterreifen wechseln (z.B. Conti Kryptotal Trail Endurance), oder das ONE44 TM mit mehr Federweg als Bikepark-Bias prüfen."
-    }
+    },
+    "score": 9
   },
   {
     "id": "amflow-pl-carbon-2026",
@@ -153,14 +154,15 @@
     "kategorie": "Enduro / All-Mountain",
     "hersteller_url": "https://www.amflowbikes.com/",
     "produktseite_url": "https://www.amflowbikes.com/de/pl-carbon",
-    "preis_chf": 3490,
-    "preis_eur": null,
     "preis_quelle_url": "https://www.bikeperfection.ch/produkt/amflow-pl-carbon-3/",
     "preise": {
       "uvp_chf": 4490,
       "sale_chf": 3490,
       "sale_haendler": "bikeperfection.ch",
-      "sale_url": "https://www.bikeperfection.ch/produkt/amflow-pl-carbon-3/"
+      "sale_url": "https://www.bikeperfection.ch/produkt/amflow-pl-carbon-3/",
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "rahmen": {
       "material": "Carbon (Rahmengewicht 2.27 kg)",
@@ -248,7 +250,6 @@
         "datum": "2025-10"
       }
     ],
-    "passend_fuer_martina_score": 9,
     "passend_fuer_martina_begruendung": "Sensationelles Preis-Leistungs-Verhältnis: 19.2 kg, DJI Avinox M1 (120 Nm Boost), 800 Wh, CHF 3'490. Aber: aggressive Enduro-Geo (64.5°), neues Händlernetz in der Schweiz und neue Marke sind reale Risiken. Probefahrt in Toggenburg ist Pflicht.",
     "warnungen": [
       "Händlernetz CH: nur ~5 Shops, keiner im Aargau — Service-Wege länger.",
@@ -297,7 +298,8 @@
         "Komponenten-Mix mid-tier (SRAM GX, Fox 36 Performance, Magura MT5) – funktional, aber nicht High-End wie beim Pro-Modell"
       ],
       "fazit": "Das beste Preis-Leistungs-Verhältnis im ganzen Markt – objektiv ein Knaller mit dem leichtesten Full-Power E-MTB der Klasse. Aber für dich speziell: aggressive Enduro-Geometrie, neue Marke und kleines CH-Service-Netz sind Bremsklötze. Probefahrt in Toggenburg ist Pflicht – wenn dir die Geo passt und du mit der Marken-Unsicherheit leben kannst, ist das Bike unschlagbar. Andernfalls bietet der Cube ONE44 mehr Sicherheit zu höherem Preis."
-    }
+    },
+    "score": 9
   },
   {
     "id": "canyon-spectral-on-cf-8-2026",
@@ -308,14 +310,15 @@
     "kategorie": "Trail / All-Mountain",
     "hersteller_url": "https://www.canyon.com/de-ch/",
     "produktseite_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html",
-    "preis_chf": 4099,
-    "preis_eur": null,
     "preis_quelle_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html",
     "preise": {
       "uvp_chf": 5699,
       "sale_chf": 4099,
       "sale_haendler": "canyon.com (offiziell)",
-      "sale_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html"
+      "sale_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/spectral-on/spectral-on-cf/spectral-on-cf-8/3532.html",
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "rahmen": {
       "material": "Vollcarbon (Frame 3180 g, Cat. 4e zertifiziert)",
@@ -411,7 +414,6 @@
         "datum": "2026-02"
       }
     ],
-    "passend_fuer_martina_score": 9,
     "passend_fuer_martina_begruendung": "Top Preis-Leistungs-Verhältnis dank Direct-to-Consumer und CHF 4'099 Sale (-28%). Fox 38, 800 Wh, Cat. 4e Carbon. Einziger echter Vorbehalt: Akku-Geschichte der Vorgängergeneration — Canyon hat es gefixt, aber Vertrauen muss neu aufgebaut werden.",
     "warnungen": [
       "Akku-Probleme der Vorgängergeneration (Bike war zwischenzeitlich vom Markt). 2026er Generation behoben, aber bleibt ein Marken-Risikofaktor.",
@@ -458,7 +460,8 @@
         "Reach L = 485 mm – könnte für 1.80 m grenzwertig lang sein, Probefahrt empfohlen falls möglich"
       ],
       "fazit": "Top Preis-Leistungs-Verhältnis dank Direct-to-Consumer und aktuellem -28%-Sale. Solide, etablierte Komponenten (Shimano EP801, Fox 38, Cat. 4e Carbon). Aber die Akku-Geschichte der Vorgängergeneration ist eine Mahnung – Canyon hat es gefixt, aber Vertrauen muss man neu aufbauen. Wenn du mit dem Direct-to-Consumer-Modell vertraut bist (kein Händler vor Ort, alles via Versand), ist das wahrscheinlich der beste Kauf in dieser Liste rein objektiv. Probefahrt vor Kauf wenn möglich – Canyon hat Test-Standorte."
-    }
+    },
+    "score": 9
   },
   {
     "id": "canyon-neuron-on-al-9-2026",
@@ -469,14 +472,15 @@
     "kategorie": "All-Mountain / Trail-Tour",
     "hersteller_url": "https://www.canyon.com/de-ch/",
     "produktseite_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/neuron-on/al/neuron-on-al-9/4059.html",
-    "preis_chf": 5499,
-    "preis_eur": null,
     "preis_quelle_url": "https://www.canyon.com/de-ch/e-bikes/e-mountainbikes/neuron-on/al/neuron-on-al-9/4059.html",
     "preise": {
       "uvp_chf": 5499,
       "sale_chf": null,
       "sale_haendler": null,
-      "sale_url": null
+      "sale_url": null,
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "rahmen": {
       "material": "Aluminium",
@@ -574,7 +578,6 @@
         "datum": "2025-03"
       }
     ],
-    "passend_fuer_martina_score": 8,
     "passend_fuer_martina_begruendung": "Solides Tour-/Trail-E-Bike mit Bosch Gen5, 800 Wh und elektronischer SRAM AXS Schaltung. Klar für lange Touren konzipiert. Aber 24.9 kg Alu-Gewicht und CHF 5'499 UVP sind schwer zu rechtfertigen wenn Cube ONE44 SLX 800 für CHF 500 weniger einen Carbon-Rahmen bietet. Service-Risiko bei Canyon real und dokumentiert.",
     "warnungen": [
       "Canyon-Service-Probleme dokumentiert: Torque:ON Akku-Recall mit 5+ Monate Wartezeit, Strive:ON Garantiefälle mit 8+ Monate Wartezeit (Forum-Reports 2025). DTC-Modell wird zur Schwachstelle bei Defekten.",
@@ -624,7 +627,8 @@
         "Reach M nur ca. 445 mm — Tester mit 1.80 m Körpergrösse fand Grösse M 'tad small'. L mit Reach 480 mm wahrscheinlich passender für dich, aber ohne Probefahrt nicht eindeutig"
       ],
       "fazit": "Solides, komfortabel ausgelegtes Tour-/Trail-E-Bike mit Bosch Gen5 und 800 Wh — klar für lange Touren konzipiert, weniger für Bikepark. Die elektronische SRAM AXS-Schaltung ist ein cooles Premium-Feature. Aber 24.9 kg sind viel für ein Aluminium-Bike, und im direkten Vergleich macht Cube ONE44 SLX 800 für CHF 500 weniger das gleiche in Carbon. Service-Risiko bei Canyon ist real und dokumentiert. Wenn dein Fokus klar Tour ist und SRAM AXS dir wichtig ist: OK. Sonst gibt es bessere Alternativen in dieser Liste."
-    }
+    },
+    "score": 8
   },
   {
     "id": "focus-jam2-69-2026",
@@ -635,14 +639,15 @@
     "kategorie": "All-Mountain",
     "hersteller_url": "https://www.focus-bikes.com/",
     "produktseite_url": "https://www.focus-bikes.com/int/jam2-6-9",
-    "preis_chf": 6799,
-    "preis_eur": null,
     "preis_quelle_url": "https://primusbikecenter.ch/boutique/marque/focus/focus-jam2-6-9-2026/",
     "preise": {
       "uvp_chf": 7499,
       "sale_chf": 6799,
       "sale_haendler": "primusbikecenter.ch (inkl. Service+)",
-      "sale_url": "https://primusbikecenter.ch/boutique/marque/focus/focus-jam2-6-9-2026/"
+      "sale_url": "https://primusbikecenter.ch/boutique/marque/focus/focus-jam2-6-9-2026/",
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "rahmen": {
       "material": "Aluminium",
@@ -750,7 +755,6 @@
         "datum": "2026-04"
       }
     ],
-    "passend_fuer_martina_score": 8,
     "passend_fuer_martina_begruendung": "Hochwertige Komponenten (Fox 36 Elite, TRP DH-R EVO Pro) und Bosch CX Gen5 in einem soliden All-Mountain-Paket. Aber Aluminium-Rahmen bei UVP CHF 7'499 ist teuer — Cube ONE44 SLX 800 für CHF 4'999 (Carbon) und Canyon Spectral:ON CF 8 für CHF 4'099 (Carbon, Sale) bieten bessere Preis-Leistung.",
     "warnungen": [
       "Höchster UVP bisher (CHF 7'499) — Aluminium-Rahmen bei diesem Preis schwer zu rechtfertigen gegenüber Carbon-Konkurrenten.",
@@ -801,7 +805,8 @@
         "Primus Bike Center ist in Region Bern — nicht im Aargau, längere Service-Wege"
       ],
       "fazit": "Solides All-Mountain-E-MTB mit absolut hochwertigen Komponenten — die Fox 36 Performance Elite GRIP X2 Gabel und die TRP DH-R EVO Pro Bremsen sind die beste Trail-Komponenten-Kombination in dieser Liste bisher. Etablierte Marke, keine Service-Risiken. ABER: Der Aluminium-Rahmen bei UVP CHF 7'499 (Sale 6'799) ist preislich nicht überzeugend, weil Carbon-Konkurrenten wie Cube ONE44 SLX 800 oder Canyon Spectral:ON CF 8 für deutlich weniger Geld vergleichbare oder bessere Pakete bieten. Wenn dir die Bremsen- und Gabel-Performance wichtiger ist als das Rahmenmaterial und du beim CH-Händler Probefahrt machst, kann es passen — sonst gibt es bessere Preis-Leistungs-Verhältnisse."
-    }
+    },
+    "score": 8
   },
   {
     "id": "cube-stereo-hybrid-one44-hpc-at-800-2026",
@@ -812,14 +817,15 @@
     "kategorie": "All-Mountain",
     "hersteller_url": "https://www.cube.eu/",
     "produktseite_url": "https://www.cube.eu/ch-de/cube-stereo-hybrid-one44-hpc-at-800-carbon-n-gold/102800",
-    "preis_chf": 6999,
-    "preis_eur": null,
     "preis_quelle_url": "https://m-way.ch/cube-stereo-hybrid-one44-hpc-at-800-my2025-2026-carbon-n-gold-diamant-s/",
     "preise": {
       "uvp_chf": 6999,
       "sale_chf": null,
       "sale_haendler": null,
-      "sale_url": null
+      "sale_url": null,
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "rahmen": {
       "material": "Carbon (HPC C:62 Hauptrahmen, Alu 6061 T6 Hinterbau)",
@@ -903,7 +909,6 @@
         "datum": "2026-03"
       }
     ],
-    "passend_fuer_martina_score": 9,
     "passend_fuer_martina_begruendung": "Premium-Variante des Cube ONE44: Bosch ABS Pro (Sicherheits-Plus, einzigartig in dieser Liste), Fox Factory mit Kashima, Shimano XT Di2. Gleiche Plattform wie SLX 800, aber CHF 2'000 mehr für echte Komponenten-Upgrades — nur sinnvoll wenn ABS Pro und Di2 wichtig sind.",
     "warnungen": [
       "CHF 2'000 Aufpreis gegenüber SLX 800 (UVP CHF 4'999) für gleiche Rahmen-Plattform. Preis-Leistung deutlich schlechter als SLX.",
@@ -953,7 +958,8 @@
         "Du zahlst hauptsächlich für Komponenten-Upgrade, nicht für ein 'besseres Bike' — die gleiche Plattform fährt bereits SLX 800 mit Score 9"
       ],
       "fazit": "Premium-Variante des Cube ONE44 mit echten Top-Komponenten: Fox Factory mit Kashima, Shimano XT Di2 elektronisch und Bosch ABS Pro am Vorderrad. Letzteres ist ein Sicherheits-Plus, das es in keinem anderen Bike dieser Liste gibt — für deine 3. E-MTB-Saison potentiell wertvoll. ABER: Du fährst die gleiche Plattform wie beim SLX 800 (gleicher Rahmen, gleicher Motor, gleiche Geometrie) für CHF 2'000 mehr. Wenn dir ABS Pro wichtig ist (Sicherheit beim Bremsen), kann sich das rechnen. Wenn nicht, ist das SLX 800 das objektiv bessere Preis-Leistungs-Bike — gleicher Score 9, aber CHF 2'000 günstiger."
-    }
+    },
+    "score": 9
   },
   {
     "id": "amflow-pl-carbon-pro-2026",
@@ -964,8 +970,6 @@
     "kategorie": "All-Mountain | Enduro",
     "hersteller_url": "https://www.amflowbikes.com",
     "produktseite_url": "https://www.amflowbikes.com/de/product/amflow-pl-carbon-pro",
-    "preis_chf": 9999,
-    "preis_eur": null,
     "preis_quelle_url": "https://www.swisscycle.ch/detail-amflow-carbon-pro-black-800wh-e-bikes-mountainbike-e-bike/keller-hausen/15384",
     "rahmen": {
       "material": "Carbon (Frame 2,27 kg)",
@@ -1051,7 +1055,6 @@
         "datum": "2025-04"
       }
     ],
-    "passend_fuer_martina_score": 8,
     "passend_fuer_martina_begruendung": "Technisch absolute Spitze: Fox Factory Kashima, SRAM X0 elektronisch, Magura MT7 Pro. Aber CHF 9'999 UVP ist CHF 6'500 mehr als das normale PL Carbon (CHF 3'490 Sale) — für identische Plattform, gleichen Motor, gleichen Akku. Score 8 statt 9 wegen massivem Preis-Leistungs-Problem. Aktionspreise vom Jan/Feb 2026 sind seit März abgelaufen.",
     "warnungen": [
       "Keine Grösse S — kleinste Grösse M (162–178 cm), L (170–185 cm)",
@@ -1074,7 +1077,10 @@
       "uvp_chf": 9999,
       "sale_chf": null,
       "sale_haendler": null,
-      "sale_url": null
+      "sale_url": null,
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 8,
@@ -1117,7 +1123,8 @@
         "Magura MT7 Pro: Bremsleitung vorne reibt am Steuerrohr und beschädigt den Lack (laut Magazin-Test)"
       ],
       "fazit": "Premium-Variante des AMFLOW PL Carbon mit absoluten Top-Komponenten: Fox Factory Kashima + GRIP X2, SRAM X0 elektronisch, Magura MT7 Pro. Magazin-Test 2025 als 'absolute Waffe' bezeichnet. ABER: Bei UVP CHF 9'999 zahlst du CHF 6'500 mehr als für das normale PL Carbon (CHF 3'490 Sale) — für identische Plattform, gleichen Motor, gleichen Akku. Score 8 statt 9 reflektiert das Preis-Leistungs-Problem, nicht die Bike-Qualität. Wenn dir absolute Top-Komponenten wichtig sind und du das Budget hast: ja. Sonst macht das PL Carbon das Gleiche für ein Drittel des Preises."
-    }
+    },
+    "score": 8
   },
   {
     "id": "santa-cruz-vala-x0-axs-rsv-2026",
@@ -1128,8 +1135,6 @@
     "kategorie": "All-Mountain | Enduro",
     "hersteller_url": "https://www.santacruzbicycles.com",
     "produktseite_url": "https://www.santacruzbicycles.com/de/products/vala-x-0-axs-rsv-2026",
-    "preis_chf": 11499,
-    "preis_eur": 11499,
     "preis_quelle_url": "https://www.santacruzbicycles.com/de/products/vala-x-0-axs-rsv-2026",
     "rahmen": {
       "material": "Carbon CC Vollcarbon (Premium-Faseranteil)",
@@ -1223,7 +1228,6 @@
         "datum": "2025-01"
       }
     ],
-    "passend_fuer_martina_score": 7,
     "passend_fuer_martina_begruendung": "Premium Vollcarbon mit einzigartigen 3x Lifetime Warranties (Frame, Wheels, Pivot-Bearings), 21,5 kg sensationell leicht für Bosch CX. ABER: Vala ist physisch NUR für 600 Wh ausgelegt (alle vergleichbaren Bikes haben 800 Wh). Range Extender als Pflicht für lange Touren. UVP ~CHF 11'500. CH-Verfügbarkeit unklar — kein einziger Schweizer Händler-Listenpreis findbar. Score 7 wegen Akku-Limitation, UVP und Verfügbarkeitsrisiko.",
     "warnungen": [
       "NUR 600 Wh Akku — 800 Wh Bosch-Akku ist NICHT kompatibel mit Vala-Rahmen",
@@ -1248,7 +1252,10 @@
       "uvp_chf": 11499,
       "sale_chf": null,
       "sale_haendler": null,
-      "sale_url": null
+      "sale_url": null,
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 9,
@@ -1289,7 +1296,8 @@
         "Brandneue Plattform 2025 — Service-Erfahrung in CH begrenzt"
       ],
       "fazit": "Premium-Vollcarbon von Santa Cruz mit einzigartigen 3x Lifetime Warranties: Frame, Reserve-Wheels und Pivot-Bearings — das hat niemand sonst in der Liste. Mit 21,5 kg das leichteste Bosch CX-Bike der ganzen Auswahl. Magazin-Test 2025: 'right up there in terms of the best mid-travel e-MTBs'. ABER: Der Vala hat als einziges Bike in der Liste nur 600 Wh — alle anderen Bosch CX-Bikes (Cube ONE44, Canyon, Focus) haben 800 Wh. Der Range Extender ist für lange Touren Pflicht. UVP ~CHF 11'500 und unklare CH-Verfügbarkeit machen die Kaufentscheidung riskant. Score 7 — nicht wegen Bike-Qualität, sondern wegen Akku-Limitation, Preis und Verfügbarkeitsrisiko."
-    }
+    },
+    "score": 7
   },
   {
     "id": "unno-mith-pro-2026",
@@ -1300,8 +1308,6 @@
     "kategorie": "Enduro | Race",
     "hersteller_url": "https://www.unno.com",
     "produktseite_url": "https://www.unno.com/en-ch/mith/pro",
-    "preis_chf": 10295,
-    "preis_eur": 11995,
     "preis_quelle_url": "https://www.unno.com/en-ch/mith/pro",
     "rahmen": {
       "material": "Carbon Vollmonocoque (twill weave Finish, 2x ISO-Norm getestet)",
@@ -1396,7 +1402,6 @@
         "datum": "2025-04"
       }
     ],
-    "passend_fuer_martina_score": 8,
     "passend_fuer_martina_begruendung": "Award-Winner 2026, Lifetime Frame Warranty, eines der schnellsten Bikes auf Abfahrten. ABER: Magazintest sagt klar 'Demands active riding style, 2-5 Fahrten Eingewöhnung' — nicht ideal für 3. Saison. Climbing nur mid-level. Race-DNA, nicht Tour-Bike. CHF 10'295 UVP. Score 8 wegen Preis-Leistungs-Mismatch und fehlender Einsteigerfreundlichkeit.",
     "warnungen": [
       "Magazintest: 'Demands active riding style — 2 bis 5 Fahrten Eingewöhnung'",
@@ -1422,7 +1427,10 @@
       "uvp_chf": 10295,
       "sale_chf": null,
       "sale_haendler": null,
-      "sale_url": null
+      "sale_url": null,
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 7,
@@ -1464,7 +1472,8 @@
         "Lieferzeiten teils erst ab Mai 2026 — nicht sofort verfügbar"
       ],
       "fazit": "Boutique-Premium-Bike aus Barcelona, Award-Winner 2026 und mit einer Lifetime-Garantie auf den Rahmen, die in der Liste einzigartig ist. Auf Abfahrten 'eines der schnellsten Bikes im gesamten Testfeld' (emtb-mtb.com 2025). ABER: Der Magazintest sagt klar — 'Demands active riding style, 2–5 Fahrten Eingewöhnung'. Climbing nur mid-level. Das ist kein Tour-Bike, sondern ein Race-Enduro für ambitionierte Rider. Bei UVP CHF 10'295 zahlst du Top-Geld für ein hochspezialisiertes Bike. Wenn Bikepark und Race im Fokus liegen und die Zeit zur Eingewöhnung vorhanden ist: ein Traum. Wenn du primär Touren fährst und schnell Fortschritte machen willst, gibt es einsteigerfreundlichere Alternativen mit besserem Preis-Leistungs-Verhältnis."
-    }
+    },
+    "score": 8
   },
   {
     "id": "radon-render-9-0-800-2026",
@@ -1475,8 +1484,6 @@
     "kategorie": "All-Mountain | Trail",
     "hersteller_url": "https://www.radon-bikes.de",
     "produktseite_url": "https://www.radon-bikes.de/e-bike/mountainbike/render/render-90-800-2026/",
-    "preis_chf": 5999,
-    "preis_eur": 5999,
     "preis_quelle_url": "https://www.radon-bikes.de/e-bike/mountainbike/render/render-90-800-2026/",
     "rahmen": {
       "material": "Carbon-Hauptrahmen (Carbon-Frontrahmen + Aluminium-Hinterbau)",
@@ -1571,7 +1578,6 @@
         "datum": "2025-06"
       }
     ],
-    "passend_fuer_martina_score": 8,
     "passend_fuer_martina_begruendung": "Solide All-Mountain-Plattform mit 2026-Update auf Bosch Gen5, 800 Wh und neuen Premium-Komponenten (SRAM Maven + GX AXS). Preis-Leistungs-Sieger Mountainbike Magazin 2025. ABER: DTC ohne CH-Händlernetz — Service via Versand nach DE. Schweizer MwSt + ggf. Zoll kommen oben drauf. Score 8 konsistent mit Canyon Neuron AL (ähnliches Profil: gutes Preis-Leistungs-Verhältnis, aber Service-Einschränkungen).",
     "warnungen": [
       "DTC-Modell: kein CH-Händlernetz — Service und Garantiefälle via Versand zurück nach Deutschland",
@@ -1595,7 +1601,10 @@
       "uvp_chf": 5999,
       "sale_chf": null,
       "sale_haendler": null,
-      "sale_url": null
+      "sale_url": null,
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 8,
@@ -1635,7 +1644,8 @@
         "Gewicht 2026er Modell nicht offiziell publiziert"
       ],
       "fazit": "Solide All-Mountain-Plattform mit echtem 2026-Upgrade: Bosch Gen5, 800 Wh und vor allem neue Premium-Komponenten (SRAM Maven 4-Kolben, GX AXS elektronisch). Der Vorgänger war bereits Preis-Leistungs-Sieger. ABER: DTC aus Deutschland heisst kein CH-Händlernetz — Service und Garantie via Versand nach DE, Schweizer MwSt kommt oben drauf. Für DTC-erfahrene Käufer mit etwas Werkstatt-Know-how: Top Preis-Leistungs-Verhältnis. Wer lokales Service-Netz will: Cube ONE44 SLX 800 bietet ähnlichen Score (9 vs 8), Vollcarbon und CH-Händlernetz zu etwas höherem Preis."
-    }
+    },
+    "score": 8
   },
   {
     "id": "haibike-hybe-cf-9-2026",
@@ -1646,8 +1656,6 @@
     "kategorie": "Enduro | Race",
     "hersteller_url": "https://www.haibike.com",
     "produktseite_url": "https://www.haibike.com/ch-de/p/hybe-cf-9-hmst1/",
-    "preis_chf": 7499,
-    "preis_eur": 7499,
     "preis_quelle_url": "https://www.haibike.com/ch-de/p/hybe-cf-9-hmst1/",
     "rahmen": {
       "material": "Vollcarbon (innovative Motor-Rahmen-Integration, Motor von oben eingesetzt)",
@@ -1740,7 +1748,6 @@
         "datum": "2025-01"
       }
     ],
-    "passend_fuer_martina_score": 7,
     "passend_fuer_martina_begruendung": "Echtes Race-Enduro-Bike mit Vollcarbon, Race-Pedigree (Weltrekord!) und guten Specs. ABER: Aktuell alle Grössen auf haibike.com/ch-de ausverkauft. Und Magazintest-Kommentar September 2025 dokumentiert Service-Probleme. Score 7 konsistent mit Santa Cruz Vala (auch 7 wegen Verfügbarkeits- und Risikofaktoren) — Bike-Qualität wäre höher, aber Verfügbarkeits- und Service-Realität drücken den Score.",
     "warnungen": [
       "AKTUELL AUSVERKAUFT: Alle Grössen auf haibike.com/ch-de (Stand 2026-04-25) als 'sold out' gelistet",
@@ -1764,7 +1771,10 @@
       "uvp_chf": 7499,
       "sale_chf": null,
       "sale_haendler": null,
-      "sale_url": null
+      "sale_url": null,
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 8,
@@ -1803,7 +1813,8 @@
         "Kein Carbon-Lenker (erst beim CF 11 dabei)"
       ],
       "fazit": "Echtes Race-Enduro-Bike mit Vollcarbon-Frame, 170/160 mm Federweg und glaubwürdigem Race-Pedigree — Tom Öhler hat mit dem HYBE CF einen Weltrekord aufgestellt, Anna Spielmann gewann die UCI Worlds. Bosch Gen5, 800 Wh und AXS-Schaltung sind stark. ABER: Aktuell sind alle Grössen auf haibike.com/ch-de ausverkauft — und Magazin-Kommentare September 2025 dokumentieren Service-Beschwerden bei Haibike. Wenn du Glück hast und ein CH-Händler hat Lager: Top Enduro-Bike. Sonst gibt es Alternativen mit besserer Verfügbarkeit und Service: Cube ONE44 SLX 800 (Score 9, günstiger, riesiges CH-Händlernetz) oder Canyon Spectral:ON CF 8 (Score 9, Vollcarbon, im Sale). Score 7 reflektiert die Verfügbarkeits- und Service-Realität, nicht die Bike-Qualität."
-    }
+    },
+    "score": 7
   },
   {
     "id": "rose-root-miller-plus-3-2026",
@@ -1814,8 +1825,6 @@
     "kategorie": "All-Mountain",
     "hersteller_url": "https://www.rosebikes.ch/",
     "produktseite_url": "https://www.rosebikes.ch/p/rose-root-miller-plus-3-2695384",
-    "preis_chf": 3149,
-    "preis_eur": null,
     "preis_quelle_url": "https://www.rosebikes.ch/p/rose-root-miller-plus-3-2695384",
     "rahmen": {
       "material": "Carbon",
@@ -1896,7 +1905,6 @@
         "datum": "2026-04"
       }
     ],
-    "passend_fuer_martina_score": 6,
     "passend_fuer_martina_begruendung": "Im Sale für CHF 3'149 (normal CHF 4'724) ein herausragendes Preis-Leistungs-Verhältnis — Carbon, MX-Mullet, 150/150 mm, Bosch CX. Aber: Bosch CX Gen 4 statt Gen 5 (85 Nm statt 100 Nm) und vor allem: Grösse L komplett ausverkauft. Martinas Grösse ist aktuell nicht lieferbar.",
     "warnungen": [
       "Grösse L (Martinas Grösse) komplett ausverkauft — beide Farben. Stand 25.04.2026.",
@@ -1909,6 +1917,16 @@
       "hinweis": "Grösse L (Martina) komplett ausverkauft in beiden Farben. M nur in matt silvergrey verfügbar (Lieferzeit 7-14 Tage). S ausverkauft.",
       "geprueft_am": "2026-04-25",
       "geprueft_quelle": "https://www.rosebikes.ch/p/rose-root-miller-plus-3-2695384"
+    },
+    "score": 6,
+    "preise": {
+      "uvp_chf": null,
+      "uvp_eur": 5999,
+      "sale_chf": 3149,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": "UVP CHF unbestimmt; Sale-Preis aus bisherigem preis_chf",
+      "sale_url": null
     }
   },
   {
@@ -1920,8 +1938,6 @@
     "kategorie": "Enduro | E-Enduro",
     "hersteller_url": "https://www.orbea.com",
     "produktseite_url": "https://www.orbea.com/ch-de/ebikes/mtb/wild/cat/wild-h10",
-    "preis_chf": 4990,
-    "preis_eur": 5499,
     "preis_quelle_url": "https://www.bikeperfection.ch/produkt/orbea-wild-h10-2/",
     "rahmen": {
       "material": "Aluminium (Orbea Wild Hydro High-Polish, gefertigt in Mallabia, Spanien)",
@@ -2015,7 +2031,6 @@
         "datum": "2026-04"
       }
     ],
-    "passend_fuer_martina_score": 9,
     "passend_fuer_martina_begruendung": "Spanischer Geheimtipp mit Top Preis-Leistung: CHF 4'990 bei CH-Händler bikeperfection.ch — Fox 38, 170/170 mm, XT-Schaltwerk, DT Swiss Laufräder UND lebenslange bedingte Rahmen-Garantie. EWS-E Race-Pedigree (Orbea Team Gesamtsieg). Einziger Schwachpunkt: Deore-Bremsen (nachträglich upgradebar ~CHF 400). Score 9 wegen aussergewöhnlichem Preis-Leistungs-Verhältnis und établiertem CH-Händlernetz.",
     "warnungen": [
       "Bremsen Shimano M6120 (Deore-Niveau) sind für intensiven Bikepark-Einsatz ein realistisches erstes Upgrade (~CHF 350-500)",
@@ -2039,7 +2054,10 @@
       "uvp_chf": 4990,
       "sale_chf": null,
       "sale_haendler": "bikeperfection.ch (Toggenburg SG)",
-      "sale_url": "https://www.bikeperfection.ch/produkt/orbea-wild-h10-2/"
+      "sale_url": "https://www.bikeperfection.ch/produkt/orbea-wild-h10-2/",
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 8,
@@ -2079,7 +2097,8 @@
         "170/170 mm Enduro-Setup ist eher nicht ideal für reine Tour-Ausritte — Bike ist auf Bergab-Performance ausgelegt"
       ],
       "fazit": "Spanischer Geheimtipp mit aussergewöhnlichem Preis-Leistungs-Verhältnis. Bei CHF 4'990 (verifiziert bei bikeperfection.ch im Toggenburg) bekommst du Fox 38 — die steifste Gabel ihrer Klasse —, 170/170 mm Enduro-Federweg, Shimano XT-Schaltwerk, DT Swiss Laufräder UND eine lebenslange bedingte Rahmen-Garantie. Plus echter EWS-E Race-Pedigree (Orbea Team gewann die Gesamtwertung). Der einzige echte Schwachpunkt: Deore-Bremsen — realistisch ein Upgrade nach 1-2 Saisons für ~CHF 400. Wenn du Aluminium akzeptierst und mit den Bremsen leben kannst: einer der besten Enduro-Werte in der ganzen Liste. Mehr Federweg und stärkere Gabel als Cube ONE44 SLX 800 zum gleichen Preis. Für Tour-Fahrer: Cube ONE44 SLX (Score 9, Carbon, leichter, weniger aggressiv) ist die bessere Wahl. Für Enduro/Bikepark: Wild H10 ist der unterschätzte Knaller."
-    }
+    },
+    "score": 9
   },
   {
     "id": "yt-decoy-sn-mx-core-3-2025",
@@ -2090,8 +2109,6 @@
     "kategorie": "Light E-MTB | Enduro",
     "hersteller_url": "https://www.yt-industries.com",
     "produktseite_url": "https://www.yt-industries.com/",
-    "preis_chf": 5799,
-    "preis_eur": 5799,
     "preis_quelle_url": "https://www.yt-industries.com/",
     "rahmen": {
       "material": "Carbon Vollrahmen (V4L Horst Link Hinterbau)",
@@ -2200,7 +2217,6 @@
         "datum": "2025-10"
       }
     ],
-    "passend_fuer_martina_score": 5,
     "passend_fuer_martina_begruendung": "Technisch solides Light-eMTB mit Premium-RockShox-Ultimate-Suspension. ABER vier kumulative strukturelle Risiken: (1) YT Industries 2025 in Insolvenz — Neustart läuft, Marken-Risiko real. (2) FAZUA Ride 60 entspricht nicht der Motor-Präferenz für dieses Profil. (3) Permanent integrierter 430 Wh Akku limitiert für CH-Bergtouren. (4) Komplett DTC ohne CH-Service, aktuell durch Sanierungs-Neustart erschwert. Score 5 reflektiert die kumulativen Risiken.",
     "warnungen": [
       "🚨 YT Industries war 2025 in INSOLVENZ (Sanierungsverfahren Amtsgericht Bamberg, Juli-Oktober 2025) — Garantie-Durchsetzung im Schadensfall unsicher",
@@ -2225,7 +2241,10 @@
       "uvp_chf": 5799,
       "sale_chf": null,
       "sale_haendler": null,
-      "sale_url": null
+      "sale_url": null,
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 7,
@@ -2266,7 +2285,8 @@
         "Ladegeschwindigkeit 2.2 Wh/min am unteren Ende des Light-eMTB-Felds"
       ],
       "fazit": "Technisch ein gutes Light-eMTB mit Premium-RockShox-Ultimate-Suspension, AXS-Schaltung und Carbon-Vollrahmen für faire EUR 5'799. ABER: Vier kumulative strukturelle Risiken machen es zu einer schwachen Wahl. (1) YT Industries war 2025 INSOLVENT — Neustart läuft, aber Garantie-Durchsetzung unsicher. (2) FAZUA Ride 60 entspricht nicht der Motorpräferenz und hat dokumentierte Reliability-Reputation. (3) Permanent integrierter 430 Wh Akku limitiert CH-Bergtouren. (4) DTC ohne CH-Service, aktuell durch Sanierungs-Neustart erschwert. Wenn du ein Light-eMTB willst: AMFLOW PL Carbon (Score 9) bietet DJI Avinox, 800 Wh und bessere Marken-Stabilität. Wenn du YT willst: warten auf die neue DECOY 2026 (mit Bosch CX Gen5 + 800 Wh). Score 5 reflektiert die kumulativen Risiken — nicht die Bike-Qualität allein."
-    }
+    },
+    "score": 5
   },
   {
     "id": "merida-eone-sixty-875-2026",
@@ -2277,8 +2297,6 @@
     "kategorie": "E-Enduro | All-Mountain",
     "hersteller_url": "https://www.merida-bikes.com",
     "produktseite_url": "https://www.merida-bikes.com/de-ch/bike/4622/eone-sixty-875",
-    "preis_chf": 7490,
-    "preis_eur": 6599,
     "preis_quelle_url": "https://www.velolegi.ch/produkt/merida-eone-sixty-875/",
     "rahmen": {
       "material": "Aluminium eOne-Sixty LITE IV (4. Gen. Hydroforming 6061)",
@@ -2375,7 +2393,6 @@
         "datum": "2025-09"
       }
     ],
-    "passend_fuer_martina_score": 8,
     "passend_fuer_martina_begruendung": "Robustes Alu-Enduro vom weltweit zweitgrössten Velo-Hersteller: EP801 Motor, 750 Wh, RockShox ZEB 38 mm, XT 220/203 mm Bremsen, lebenslange Garantie, bestes CH-Service-Netz (Belimport SA). Aktuelle Sale-Aktion '-CHF 2000' macht es zu einer starken Option. Einziger Schwachpunkt: 26,1 kg schwerstes Bike in der Liste. Service CH und Risiko erhalten die HÖCHSTEN Werte aller Bikes (9/9).",
     "warnungen": [
       "26,1 kg — schwerstes Bike in der Liste (deutlich schwerer als Cube ONE44 SLX 24,3 kg oder Canyon Spectral CF 23 kg)",
@@ -2399,7 +2416,10 @@
       "uvp_chf": 7490,
       "sale_chf": 5490,
       "sale_haendler": "Merida Schweiz Aktion 'Enduro Special Price'",
-      "sale_url": "https://www.merida-bikes.com/de-ch/p/merida-suisse-angebote/enduro-special-price-800.html"
+      "sale_url": "https://www.merida-bikes.com/de-ch/p/merida-suisse-angebote/enduro-special-price-800.html",
+      "uvp_eur": null,
+      "sale_eur": null,
+      "hinweis": null
     },
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 8,
@@ -2443,7 +2463,8 @@
         "Mit Range Extender (+2,9 kg) ca. 29 kg — dann wirklich schwer"
       ],
       "fazit": "Robustes Alu-Enduro vom weltweit zweitgrössten Velo-Hersteller mit ehrlichem Trade-off: Top-Fahrwerk (RockShox ZEB 38 mm + Super Deluxe), Top-Bremsen (XT 220/203 mm — Magazin: 'Wurfanker'), Top-Motor (EP801), lebenslange Rahmen-Garantie und bestes CH-Service-Netz aller Bikes in der Liste (Belimport SA). ABER: Mit 26,1 kg das schwerste Bike in der ganzen Liste. Bei UVP CHF 7'490 nur Score 8, aber mit der aktuellen Sale-Aktion 'Enduro Special Price' (-CHF 2'000 = CHF ~5'490) wird es zu einer sehr starken Option mit mehr Federweg als Cube ONE44 SLX oder Orbea Wild H10. Service CH und Markenstabilität bekommen die HÖCHSTEN Werte aller Bikes (9/9) — Merida ist die stabilste Marke in der Liste. Wenn du Robust > Leicht priorisierst und lokalen CH-Service schätzt: Top-Wahl — besonders im Sale. Wenn du Gewicht und Agilität priorisierst: Cube ONE44 SLX 800 (Score 9, 24,3 kg) ist die bessere Wahl."
-    }
+    },
+    "score": 8
   },
   {
     "id": "scott-patron-st-920-2026",
@@ -2454,8 +2475,6 @@
     "kategorie": "All-Mountain/Enduro",
     "hersteller_url": "https://www.scott-sports.com/",
     "produktseite_url": "NOT_SPECIFIED",
-    "preis_chf": 6490,
-    "preis_eur": 5999,
     "preis_quelle_url": "NOT_SPECIFIED",
     "rahmen": {
       "material": "Aluminium",
@@ -2535,13 +2554,22 @@
         "datum": "2025-09"
       }
     ],
-    "passend_fuer_martina_score": 8,
     "passend_fuer_martina_begruendung": "Scott Patron mit Bosch CX Gen5 und 170 mm. Schweizer Marke mit gutem Händler-Netz. Für Martina interessant wegen Proximity zum Service.",
     "warnungen": [],
     "alternativ_zu": [
       "Cube Stereo Hybrid ONE77",
       "Focus SAM² 6.9"
-    ]
+    ],
+    "score": 8,
+    "preise": {
+      "uvp_chf": 6490,
+      "uvp_eur": 5999,
+      "sale_chf": 4799.2,
+      "sale_eur": null,
+      "sale_haendler": "ochsnersport.ch (Stand 2026-04-27)",
+      "hinweis": null,
+      "sale_url": null
+    }
   },
   {
     "id": "trek-rail-plus-9-7-gen-5-2026",
@@ -2549,10 +2577,7 @@
     "modell": "Rail+ 9.7 Gen 5",
     "modelljahr": 2026,
     "kategorie": "Trail/All-Mountain",
-    "preis_chf": 7990,
-    "preis_eur": null,
     "bild_pfad": "/images/bikes/trek-rail-plus-9-7-gen-5-2026.jpg",
-    "passend_fuer_martina_score": 7,
     "referenzbike": false,
     "badge": null,
     "rahmen": {
@@ -2664,7 +2689,17 @@
       "url": "https://www.trekbikes.com/ch/de_CH/bikes/mountain-bikes/e-mountain-bikes/rail/rail-9-7-gen-5/p/47400-2026/"
     },
     "warnungen": [],
-    "alternativ_zu": []
+    "alternativ_zu": [],
+    "score": 7,
+    "preise": {
+      "uvp_chf": 7990,
+      "uvp_eur": null,
+      "sale_chf": 4646,
+      "sale_eur": null,
+      "sale_haendler": "bike-room.com (Stand 2026-04-27)",
+      "hinweis": null,
+      "sale_url": null
+    }
   },
   {
     "id": "cannondale-moterra-sl-2-2026",
@@ -2676,8 +2711,6 @@
     "kategorie": "Trail/All-Mountain",
     "hersteller_url": "https://www.cannondale.com",
     "produktseite_url": "https://www.cannondale.com/de-ch/bikes/electric/e-mountain/moterra-sl/moterra-sl-2",
-    "preis_chf": 7999,
-    "preis_eur": 7499,
     "preis_hinweis": "UVP CHF 7'999 verifiziert via TCS Velocorner. CH-Sale-Spanne aktuell: CHF 5'199 (-35% bei VD-Haendler), CHF 6'999 (-12.5% bei AG-Haendler), CHF 7'199 (-10% bei VS-Haendler). Selbst mit -35% Sale (CHF 5'199) noch CHF 1'700 teurer als AMFLOW PL Carbon (CHF 3'490 Sale). Bei UVP CHF 7'999 ist das Bike preislich nicht konkurrenzfaehig im Light-eMTB-Segment.",
     "preis_sale_chf": 5199,
     "preis_sale_haendler": "Velocorner-Haendler (VD, Waadt)",
@@ -2754,7 +2787,6 @@
         "https://www.z-bike.ch"
       ]
     },
-    "passend_fuer_martina_score": 6,
     "passend_fuer_martina_begruendung": "Technisch innovatives Light-eMTB, aber 601 Wh permanent integrierter Akku limitiert CH-Bergtouren. Bei UVP CHF 7'999 objectiv schlechtere Preis-Leistung als AMFLOW PL Carbon (Score 9, CHF 3'490 Sale) oder Orbea Wild H10 (Score 9, CHF 4'990).",
     "bewertung_kategorien": {
       "bikepark_reserve": 7,
@@ -2823,7 +2855,17 @@
       "AMFLOW PL Carbon Pro (Score 9, CHF 3'490 Sale - objectiv bessere Light-eMTB-Option)",
       "Orbea Rise M-Team",
       "Specialized Turbo Levo SL"
-    ]
+    ],
+    "score": 6,
+    "preise": {
+      "uvp_chf": 7999,
+      "uvp_eur": 7499,
+      "sale_chf": null,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": null,
+      "sale_url": null
+    }
   },
   {
     "id": "transition-regulator-cx-xt-2026",
@@ -2835,8 +2877,6 @@
     "kategorie": "All-Mountain/Trail",
     "hersteller_url": "https://www.transitionbikes.com",
     "produktseite_url": "https://transitionbikes.ch/products/regulator",
-    "preis_chf": 9990,
-    "preis_eur": 9990,
     "preis_hinweis": "UVP CHF 9'990 GESCHAETZT basierend auf transitionbikes.ch SX XT-Preis (CHF 8'999 UVP) plus ueblichen CX-Aufschlag wegen groesserem Akku/staerkerem Motor. EUR-UVP ist verifiziert: 9'990 EUR. 5% Rabatt mit Code WELCOMETR5 moeglich. Bei UVP CHF 9'990 ist das Bike CHF 2'000 TEURER als Cannondale Moterra SL 2 (Score 6, CHF 7'999) bei vergleichbarem 600 Wh-Akku-Problem.",
     "preis_quelle_url": "https://transitionbikes.ch/products/regulator",
     "rahmen": {
@@ -2911,7 +2951,6 @@
       "lieferzeit_tage": null,
       "url": "https://transitionbikes.ch/products/regulator"
     },
-    "passend_fuer_martina_score": 6,
     "passend_fuer_martina_begruendung": "Magazin-Highlight mit Top-Komponenten-Spec, aber 600 Wh permanent integrierter Akku limitiert CH-Bergtouren (gleiche Schwaeche wie Cannondale Moterra SL 2). Bei UVP CHF 9'990 deutlich teurer als Cannondale (CHF 7'999, Score 6) und doppelt so teuer wie Cube ONE44 SLX (CHF 4'999, Score 9).",
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 8,
@@ -2991,7 +3030,17 @@
       "Cube ONE44 SLX 800 (Score 9, CHF 4'999 — halbem Preis, vergleichbares Spec-Niveau)",
       "Cannondale Moterra SL 2 (Score 6, CHF 7'999 — guenstiger mit aehnlichem Akku-Problem)",
       "AMFLOW PL Carbon Pro (Score 8, CHF 3'490 Sale — guenstigste Light-eMTB-Option)"
-    ]
+    ],
+    "score": 6,
+    "preise": {
+      "uvp_chf": 9990,
+      "uvp_eur": 9990,
+      "sale_chf": null,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": null,
+      "sale_url": null
+    }
   },
   {
     "id": "cube-stereo-hybrid-one77-hpc-slx-800-2026",
@@ -3003,8 +3052,6 @@
     "kategorie": "Enduro | Long-Travel",
     "hersteller_url": "https://www.cube.eu",
     "produktseite_url": "https://www.cube.eu/ch-de/e-bikes/mountainbike/fullsuspension/stereo-hybrid-one77",
-    "preis_chf": 4999,
-    "preis_eur": 4999,
     "preis_hinweis": "UVP CHF 4'999 verifiziert. AKTUELLER SALE: CHF 4'499 bei Cube Store Muenchenbuchsee (-10%). Gleicher UVP wie Cube ONE44 SLX 800 (Score 9) aber mit 10 mm mehr Federweg vorne (170 vs. 160) und 20 mm mehr Federweg hinten (170 vs. 150) plus staerkerer Fox 38 statt Fox 36.",
     "preis_sale_chf": 4499,
     "preis_sale_haendler": "Cube Store Muenchenbuchsee (Velovirus)",
@@ -3086,7 +3133,6 @@
       "lieferzeit_tage": null,
       "url": "https://www.cube.eu/ch-de/e-bikes/mountainbike/fullsuspension/stereo-hybrid-one77"
     },
-    "passend_fuer_martina_score": 9,
     "passend_fuer_martina_begruendung": "Drittes Cube-Bike mit Score 9. 170/170 mm Carbon-Hauptrahmen + Fox 38 + Shimano XT + 800 Wh entnehmbar + Bosch CX Gen5 fuer CHF 4'999. Gleicher Preis wie ONE44 SLX 800 (Score 9) aber mit mehr Federweg und staerkerer Gabel. Konsistent mit Orbea Wild H10 (Score 9, CHF 4'990, 170/170 mm).",
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 9,
@@ -3154,7 +3200,17 @@
       "Cube ONE44 SLX 800 (Score 9, CHF 4'999 — gleicher Preis, weniger Federweg 160/150 mm, besser fuer Trail/All-Mountain)",
       "Orbea Wild H10 (Score 9, CHF 4'990 — vergleichbare Federweg 170/170 mm, Aluminium-Rahmen)",
       "Cube ONE44 HPC AT 800 (Score 9, CHF 6'999 — mehr Budget, mehr Spec)"
-    ]
+    ],
+    "score": 9,
+    "preise": {
+      "uvp_chf": 4999,
+      "uvp_eur": 4999,
+      "sale_chf": null,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": null,
+      "sale_url": null
+    }
   },
   {
     "id": "giant-trance-x-e-plus-2-2026",
@@ -3166,8 +3222,6 @@
     "kategorie": "All-Mountain/Trail",
     "hersteller_url": "https://www.giant-bicycles.com",
     "produktseite_url": "https://www.giant-bicycles.com/ch/showcase/trance-x-e",
-    "preis_chf": 5649,
-    "preis_eur": 5499,
     "preis_hinweis": "UVP CHF 5'649 verifiziert auf mybikeplan.ch (offizieller Giant-Schweiz-Vertrieb). KEIN aktueller Sale. KRITISCH: CHF 5'649 ist CHF 650+ TEURER als Cube ONE44 SLX 800 (CHF 4'999, Score 9) und Orbea Wild H10 (CHF 4'990, Score 9), die beide objektiv besser positioniert sind (Bosch Gen5, 800 Wh, mehr Federweg, XT-Komponenten).",
     "preis_quelle_url": "https://www.mybikeplan.ch/produkt/giant-trance-x-e-2-brown",
     "rahmen": {
@@ -3246,7 +3300,6 @@
       "lieferzeit_tage": null,
       "url": "https://www.giant-bicycles.com/ch/showcase/trance-x-e"
     },
-    "passend_fuer_martina_score": 6,
     "passend_fuer_martina_begruendung": "Motor-Generation-Schwaeche (Yamaha-basiert statt Bosch Gen5) + CHF 650+ teurer als Cube/Orbea Score 9 mit besseren Specs + 750 Wh statt 800 Wh + SLX statt XT + 150/140 mm Trail-Niveau statt Enduro. Viertes Score-6 Bike der Liste.",
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 8,
@@ -3319,7 +3372,17 @@
       "Cube ONE44 SLX 800 (Score 9, CHF 4'999 — guenstiger, Bosch Gen5, 800 Wh, Carbon, XT)",
       "Orbea Wild H10 (Score 9, CHF 4'990 — guenstiger, Bosch Gen5, 800 Wh, 170/170 mm, XT)",
       "Giant Trance X Advanced E+ (Score hoeheres Modell, Carbon-Variante — besser aber teurer)"
-    ]
+    ],
+    "score": 6,
+    "preise": {
+      "uvp_chf": null,
+      "uvp_eur": 5499,
+      "sale_chf": 5649,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": "UVP CHF unbestimmt; CHF 5649 als Sale aus preis_chf, EUR 5499 könnte UVP oder ebenfalls Sale sein — bei #67 verifizieren",
+      "sale_url": null
+    }
   },
   {
     "id": "canyon-spectral-onfly-cf-8-2026",
@@ -3328,11 +3391,8 @@
     "modell_hinweis": "KATEGORIE-WICHTIG: Spectral:ONfly ist Canyons LIGHT-eMTB-Plattform der Spectral-Familie (NICHT Voll-Power!) — TQ HPR50 Motor mit 50 Nm + 360 Wh Akku statt Shimano EP801 mit 800 Wh beim Spectral:ON. CF 8 ist die Einstiegs-Spec der ONfly-Familie. Höhere Spec-Stufen verfügbar: CF 9 (CHF 5'699 UVP / aktuell CHF 4'069 Sale -29% mit Fox Performance + XT), CF CLLCTV (mid-tier Carbon mit GX AXS), CF LTD (Top-Spec Carbon mit Fox Factory + XX Transmission, 18,1 kg). NICHT mit Spectral:ON CF 8 (Score 9, Voll-Power) verwechseln!",
     "jahr": 2026,
     "modelljahr": 2026,
-    "passend_fuer_martina_score": 6,
     "kategorie": "Light-eMTB / All-Mountain",
-    "preis_chf": 5499,
     "preis_chf_geschaetzt": true,
-    "preis_eur": 5599,
     "preis_hinweis": "UVP CHF 5'499 GESCHÄTZT basierend auf EUR 5'599 (Standard-CH-Aufschlag von Canyon DTC). KEIN aktueller Sale für CF 8 gefunden. CF 9 ist aktuell CHF 4'069 Sale (-29% von CHF 5'699 UVP) — möglicher Indikator dass CF 8 ähnlich preissensitiv sein könnte. KRITISCHER VERGLEICH: CHF 5'499 ist CHF 500 TEURER als Cube ONE44 SLX 800 (Score 9, CHF 4'999, VOLL-POWER mit 800 Wh + Bosch Gen5 100 Nm + Carbon + XT) und CHF 2'000 TEURER als AMFLOW PL Carbon Sale (CHF 3'490, Score 9 Light-eMTB-Klassenprimus mit 800 Wh + DJI Avinox 105 Nm + 19,2 kg).",
     "rahmen": {
       "material": "Vollcarbon Spectral:ONfly CF (2,65 kg in Grösse M, Category 4E Enduro-zertifiziert)",
@@ -3492,6 +3552,16 @@
       "range_extender_optional": true,
       "range_extender_wh": 160,
       "hinweis": "360 Wh TQ HPR V01 PERMANENT integriert im Carbon-Unterrohr (NICHT entnehmbar zum Laden!). Nur 1'830 g Akku-Gewicht. Reichweite: ~1'000 Höhenmeter pro Ladung. Optional TQ 160 Wh Range Extender = bis 520 Wh kombiniert (+44%). KRITISCHE SCHWÄCHE: 360 Wh ist NUR 45% der Akku-Kapazität von Voll-Power-Konkurrenten und 45% von AMFLOW PL Carbon im gleichen Light-eMTB-Segment. Plus permanent integriert wie Cannondale/Transition (beide Score 6)."
+    },
+    "score": 6,
+    "preise": {
+      "uvp_chf": 5499,
+      "uvp_eur": 5599,
+      "sale_chf": null,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": null,
+      "sale_url": null
     }
   },
   {
@@ -3504,8 +3574,6 @@
     "kategorie": "All-Mountain/Trail",
     "hersteller_url": "https://www.specialized.com",
     "produktseite_url": "https://www.specialized.com/ch/de/turbo-levo-4-comp/p/4218709",
-    "preis_chf": 6999,
-    "preis_eur": 6500,
     "preis_hinweis": "UVP CHF 6'999 verifiziert auf driftbikeshop.ch (Specialized-CH-Haendler). KEIN aktueller Sale fuer 2026er Modell. KRITISCH: CHF 6'999 ist CHF 2'000+ TEURER als Cube ONE44 SLX 800 (Score 9, CHF 4'999) und Orbea Wild H10 (Score 9, CHF 4'990). Carbon-Variante Levo 4 Comp kostet CHF 7'999, S-Works Levo 4 kostet CHF 14'499.",
     "preis_quelle_url": "https://www.driftbikeshop.ch/produkt/specialized-turbo-levo-4-comp-alloy/",
     "rahmen": {
@@ -3586,7 +3654,6 @@
       "lieferzeit_tage": null,
       "url": "https://www.specialized.com/ch/de/turbo-levo-4-comp/p/4218709"
     },
-    "passend_fuer_martina_score": 7,
     "passend_fuer_martina_begruendung": "Testsieger E-MOUNTAINBIKE Magazine 2025/26 mit innovativer Levo 4 Plattform (101 Nm, 840 Wh modular, AXS drahtlos, adjustable chainstay, SWAT Storage). Aber CHF 6'999 ist CHF 2'000+ teurer als Cube/Orbea Score 9 bei Aluminium-Rahmen. Score 7 = Premium-Marke mit Premium-Preis-Schwaeche, konsistent mit Trek Rail+ 9.7 Pattern.",
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 9,
@@ -3665,7 +3732,17 @@
       "Cube ONE44 SLX 800 (Score 9, CHF 4'999 — CHF 2'000 guenstiger, Carbon, Bosch Gen5 bewährt)",
       "Orbea Wild H10 (Score 9, CHF 4'990 — CHF 2'000 guenstiger, 170/170 mm, Bosch Gen5)",
       "Cube ONE77 HPC SLX 800 (Score 9, CHF 4'999 — Carbon-Hauptrahmen fuer CHF 2'000 weniger)"
-    ]
+    ],
+    "score": 7,
+    "preise": {
+      "uvp_chf": 6999,
+      "uvp_eur": 6500,
+      "sale_chf": null,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": null,
+      "sale_url": null
+    }
   },
   {
     "id": "flyer-goroc-x-6-70-2026",
@@ -3674,13 +3751,10 @@
     "modell_hinweis": "REFERENZ-BIKE: Dies ist Martinas AKTUELLES Bike — KEIN Upgrade-Kandidat sondern Vergleichs-Referenz, gegen die alle anderen Bikes in der Liste positioniert werden. KATEGORIE-WICHTIG: Goroc X ist ein Cross/SUV-eMTB (Crossover), KEIN pures Trail-MTB! FLYER vermarktet es als 'Cross E-Bike mit hybrider Ausstattung — wie ein E-Mountainbike abgefedert, aber mit City-Komponenten'. ZWEI GENERATIONEN: G1 (2023, Panasonic GX Ultimate Pro + 750 Wh) und G2 (2025/2026, Bosch CX Gen5 + 800 Wh + Magura ABS). Diese Bewertung gilt für G2. Verfügbar als 25 km/h Pedelec (CHF 6'999) oder 45 km/h S-Pedelec HS-Variante (CHF 7'599 UVP, aktuell CHF 5'999 Sale).",
     "jahr": 2026,
     "modelljahr": 2026,
-    "passend_fuer_martina_score": 5,
     "kategorie": "Cross/SUV-eMTB",
     "referenzbike": true,
     "badge": "Mis Bike",
-    "preis_chf": 6999,
     "preis_chf_geschaetzt": false,
-    "preis_eur": 6499,
     "preis_hinweis": "UVP CHF 6'999 verifiziert auf radsportstutz.ch (Schweizer FLYER-Händler) für G2 Goroc X 6.70 in Grösse M. Die HS-Variante (45 km/h S-Pedelec) kostet CHF 7'599 UVP / aktuell CHF 5'999 Sale (-21%). G1-Vorjahresmodell war CHF 4'399 Sale (-38% von CHF 7'099 UVP). Im Vergleich zum Trail-MTB-Kontext: CHF 6'999 ist CHF 2'000 TEURER als Cube ONE44 SLX 800 (Score 9, CHF 4'999 mit echtem Trail-MTB Federweg + besseren Komponenten). Aber: Direkter Preis-Vergleich nicht fair, da Goroc X andere Kategorie ist.",
     "rahmen": {
       "material": "Aluminium (FLYER engineered, hydroformed tubing, 4-link suspension)",
@@ -3837,7 +3911,17 @@
         "quelle": "Stromvelo + TS-Velos (CH-FLYER-Händler-Bewertung)",
         "kurzfazit": "Vorjahresmodell-Sales: G1 Goroc X 6.70 CHF 4'399 (-38% von CHF 7'099 UVP). G1 HS-Variante CHF 5'999 (-21% von CHF 7'599). G2 aktuell CHF 6'999 UVP. Sehr gute CH-Verfügbarkeit, Probefahrten an mehreren Standorten."
       }
-    ]
+    ],
+    "score": 5,
+    "preise": {
+      "uvp_chf": 6999,
+      "uvp_eur": 6499,
+      "sale_chf": null,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": null,
+      "sale_url": null
+    }
   },
   {
     "id": "commencal-meta-power-sx-800-rockshox-2026",
@@ -3849,8 +3933,6 @@
     "kategorie": "Enduro",
     "hersteller_url": "https://www.commencal.com",
     "produktseite_url": "https://www.commencal.com/en/meta-power-sx-800-rockshox-pure-white-2026-enduro-ebike-europe/BT5MSXV5PW8EEU1.html",
-    "preis_chf": 8200,
-    "preis_eur": 8500,
     "preis_hinweis": "UVP CHF 8'200 GESCHAETZT basierend auf EUR 8'500 (1:1 EUR/CHF Konversion, Commencal hat keinen separaten CH-Pricing). Direct-to-Consumer via commencal.com. 10% Rabatt bei Abholung im COMMENCAL Village (Andorra). ACHTUNG: Andorra ist NICHT EU-Mitglied — bei Direkt-Versand in die Schweiz koennen zusaetzliche Importsteuer/Zollkosten anfallen.",
     "preis_quelle_url": "https://www.commencal.com/en/meta-power-sx-800-rockshox-pure-white-2026-enduro-ebike-europe/BT5MSXV5PW8EEU1.html",
     "rahmen": {
@@ -3926,7 +4008,6 @@
       "lieferzeit_tage": null,
       "url": "https://www.commencal.com/en/meta-power-sx-800-rockshox-pure-white-2026-enduro-ebike-europe/BT5MSXV5PW8EEU1.html"
     },
-    "passend_fuer_martina_score": 7,
     "passend_fuer_martina_begruendung": "Staerkster Bosch-Motor (100 Nm) + 180 mm Enduro-Federweg + Top-Komponenten, aber 800 Wh permanent integriert (gleiche Schwaeche wie Cannondale/Transition mit Score 6) und DTC ohne CH-Service-Niederlassung. Score 7 = besser als Score-6-Bikes wegen mehr Federweg + Motor, aber klar unter Score-8/9-Bikes wegen Akku-Problem + Preis.",
     "bewertung_kategorien": {
       "geometrie_rahmengroesse": 8,
@@ -4007,28 +4088,33 @@
       "Cube ONE44 SLX 800 (Score 9, CHF 4'999 — 60% des Preises, Voll-CH-Service)",
       "Orbea Wild H10 (Score 9, CHF 4'990 — 60% des Preises)",
       "Trek Rail+ 9.7 Gen 5 (Score 7, CHF 7'990 — aehnlicher Score, mit CH-Haendlernetz)"
-    ]
+    ],
+    "score": 7,
+    "preise": {
+      "uvp_chf": 8200,
+      "uvp_eur": 8500,
+      "sale_chf": null,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": null,
+      "sale_url": null
+    }
   },
   {
     "id": "commencal-meta-power-sx-essential-2026",
     "hersteller": "Commencal",
     "modell": "Meta Power SX Essential V4 (Bosch)",
     "modell_hinweis": "AUSLAUFMODELL-VARIANTE: Meta Power SX V4 mit Bosch CX + 625 Wh wird durch neue V5/V6-Plattform mit DJI Avinox + 800 Wh + 160 mm + VCS Linkage ersetzt (Spring 2026 Launch). Aktuell auf Lager-Räumung mit -10% bis -23% Sale auf alle V4 Spec-Stufen. ESSENTIAL ist die günstigste der 4 V4-Spec-Stufen (Essential / Ride / Race / Signature) — Pinkbike-Empfehlung als 'best value' wegen Fox 38 Performance + Float X Performance + Shimano SLX + DT Swiss H1900. NICHT zu verwechseln mit: (1) Meta Power SX 800 RockShox 2026 (Score 7, 180/180 mm Enduro, CHF 8'200) und (2) Meta Power SX 400 Essential 2026 (NEU 2026, andere Plattform mit BES3 Motor + 800 Wh).",
-    "jahr": 2026,
     "score": 6,
     "preise": {
       "uvp_chf": 7200,
-      "uvp_chf_geschaetzt": true,
       "sale_chf": null,
       "sale_haendler": null,
       "sale_url": "https://www.commencal.com/en/bikes/e-bikes/enduro/meta%20power%20sx/",
       "uvp_eur": 6666,
-      "preis_hinweis": "UVP EUR 6'666 verifiziert auf commencal.com (europäische Site). CHF-Preis CHF 7'200 GESCHÄTZT (EUR + ~5% CH-Aufschlag + 7,7% MwSt + Versand aus Andorra/Réunion-Lager). KEINE direkten CHF-Preise verfügbar — Commencal ist DTC ohne CH-Lager. AKTUELL Auslaufmodell-Sale: Signature V4 von $8'000 → $7'200 (-10%), Restposten Signature V4 in M sogar von $8'000 → $6'190 (-23%). Essential V4 hat noch keinen sichtbaren Sale-Preis aber wird vermutlich auch reduziert. KRITISCH: CHF 7'200 ist CHF 2'201 TEURER als Cube ONE44 SLX 800 (Score 9, CHF 4'999) und CHF 1'000 GÜNSTIGER als SX 800 RockShox (Score 7, CHF 8'200)."
+      "hinweis": "UVP EUR 6'666 verifiziert auf commencal.com (europäische Site). CHF-Preis CHF 7'200 GESCHÄTZT (EUR + ~5% CH-Aufschlag + 7,7% MwSt + Versand aus Andorra/Réunion-Lager). KEINE direkten CHF-Preise verfügbar — Commencal ist DTC ohne CH-Lager. AKTUELL Auslaufmodell-Sale: Signature V4 von $8'000 → $7'200 (-10%), Restposten Signature V4 in M sogar von $8'000 → $6'190 (-23%). Essential V4 hat noch keinen sichtbaren Sale-Preis aber wird vermutlich auch reduziert. KRITISCH: CHF 7'200 ist CHF 2'201 TEURER als Cube ONE44 SLX 800 (Score 9, CHF 4'999) und CHF 1'000 GÜNSTIGER als SX 800 RockShox (Score 7, CHF 8'200).",
+      "sale_eur": null
     },
-    "rahmen_material": "Aluminium 6066, triple butted T4/T6 Rohre, gegossener Sitzstreben- + Kettenstrebenschutz, Motor Protector",
-    "konzept": "All-Mountain / Trail-Enduro mit Bosch Voll-Power",
-    "federweg_vorne": 170,
-    "federweg_hinten": 165,
     "gewicht_kg": 24.5,
     "gewicht_hinweis": "~24,5 kg geschätzt für Essential-Spec (Commencal hat keine offizielle Gewichtsangabe für Grösse L). Aluminium-Rahmen + Bosch CX + 625 Wh = mid-tier Gewicht, vergleichbar mit Cannondale Moterra (~25 kg). Schwerer als Carbon-Konkurrenten (Cube ONE44 SLX 800 ~24 kg, AMFLOW PL Carbon 19,2 kg).",
     "motor": {
@@ -4172,7 +4258,16 @@
       }
     ],
     "warnungen": [],
-    "alternativ_zu": []
+    "alternativ_zu": [],
+    "rahmen": {
+      "material": "Aluminium 6066, triple butted T4/T6 Rohre, gegossener Sitzstreben- + Kettenstrebenschutz, Motor Protector"
+    },
+    "federweg": {
+      "vorne_mm": 170,
+      "hinten_mm": 165
+    },
+    "kategorie": "All-Mountain / Trail-Enduro mit Bosch Voll-Power",
+    "modelljahr": 2026
   },
   {
     "id": "santa-cruz-heckler-9-mx-2026",
@@ -4181,11 +4276,8 @@
     "modell_hinweis": "Heckler 9 ist die aktuelle Voll-Power Voll-Karbon eMTB-Plattform von Santa Cruz (NICHT Heckler SL mit Fazua-Antrieb!). Diese Bewertung gilt für die R-Kit Carbon C Variante als Einstiegs-Spec mit ~CHF 9'990. Höhere Spec-Stufen verfügbar: S-Kit (CHF ~10'500), GX-AXS (CHF ~9'990-10'500), X0 AXS RSV mit Carbon CC + RESERVE Laufräder (CHF ~11'599). Vorgängermodell Heckler 8 hatte 504 Wh Akku — Heckler 9 hat 720 Wh. Mullet-Setup (29\"/27.5\") ab Werk, 29\"-Variante separat verfügbar.",
     "jahr": 2026,
     "modelljahr": 2026,
-    "passend_fuer_martina_score": 6,
     "kategorie": "All-Mountain / Trail",
-    "preis_chf": 9990,
     "preis_chf_geschaetzt": true,
-    "preis_eur": 7999,
     "preis_hinweis": "UVP CHF 9'990 GESCHÄTZT für R-Kit Carbon C basierend auf dreamparts.ch und CH-Distributor santacruzbikes.ch (Trailworks AG). Top-Spec X0 AXS RSV Carbon CC kostet CHF ~11'599. KRITISCH: CHF 9'990 ist DOPPELT so teuer wie Cube ONE44 SLX 800 (Score 9, CHF 4'999, Carbon, Bosch Gen5, 800 Wh, XT) und Orbea Wild H10 (Score 9, CHF 4'990, 170/170mm, Bosch Gen5, XT) — beide objektiv besser positioniert in Preis-Leistung. CHF 9'990 ist auch CHF 2'000 TEURER als Trek Rail+ 9.7 Gen 5 (Score 7, ~CHF 7'990) und Specialized Turbo Levo 4 Comp Alloy (Score 7, CHF 6'999) bei vergleichbarem Trail-Niveau.",
     "rahmen": {
       "material": "Carbon C (Standard) oder Carbon CC (Top-Spec, ~300g leichter, gleiche Festigkeit)",
@@ -4340,6 +4432,16 @@
       "wechselbar": true,
       "range_extender_optional": false,
       "hinweis": "720 Wh Darfon Akku (Shimano-approved Drittanbieter) entnehmbar mit 4mm Imbus-Quick-Release. Vorgänger Heckler 8 hatte nur 504 Wh — wichtiger Upgrade. ABER: 720 Wh ist 80 Wh KLEINER als 800 Wh Standard bei Score-9 Konkurrenz. Plus laut eMTB-News-Test: 'kommt aber in Bezug auf die Reichweite keineswegs an einen Bosch Performance CX mit 750er-Akku heran'."
+    },
+    "score": 6,
+    "preise": {
+      "uvp_chf": 9990,
+      "uvp_eur": 7999,
+      "sale_chf": null,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": "EUR-UVP deutlich unter CHF — zur Plausibilität bei #67 prüfen",
+      "sale_url": null
     }
   },
   {
@@ -4349,11 +4451,8 @@
     "modell_hinweis": "PLATTFORM-WECHSEL: Trek Fuel+ ist die KOMPLETT NEUE 2. Generation des Trek Fuel EXe für 2026 — neuer Name (Fuel+ statt Fuel EXe) zur Vereinheitlichung mit Slash+/Rail+ Namensschema. Drei Konfigurationen aus EINER Plattform: Fuel+ EX (145/150 mm Trail, 29er — diese Bewertung), Fuel+ MX (150/160 mm All-Mountain, Mullet), Fuel+ LX (160/170 mm Enduro-Light, 29er). Wechsel via Project One Custom Build oder aftermarket Linkage Kits. ACHTUNG: Auf trekbikes.com/ch ist aktuell (April 2026) nur Fuel EXe Gen 1 gelistet — Fuel+ Gen 2 noch nicht offiziell im CH-Vertrieb. Spec-Stufen: EX 8 (Aluminium, SRAM Eagle 70, ~CHF 6'499), EX 9.7 (Carbon mid-tier, ~CHF 7'999), EX 9.8 (Carbon, Fox Factory + Shimano XT Di2, ~CHF 11'499).",
     "jahr": 2026,
     "modelljahr": 2026,
-    "passend_fuer_martina_score": 6,
     "kategorie": "Light-eMTB / Trail",
-    "preis_chf": 7999,
     "preis_chf_geschaetzt": true,
-    "preis_eur": 7499,
     "preis_hinweis": "UVP CHF 7'999 GESCHÄTZT für Trek Fuel+ EX 9.7 Carbon mid-tier (basierend auf Trek CH-Site Fuel EXe Gen 1 Preise: CHF 6'699 Aluminium bis CHF 11'499 Top-Carbon). Preis-Range gesamt ~CHF 6'499-11'499 je nach Spec-Stufe. KRITISCHER VERGLEICH: ~CHF 7'999 (Carbon mid-tier) ist CHF 3'000 TEURER als Cube ONE44 SLX 800 (Score 9 Voll-Power, CHF 4'999 mit Bosch Gen5 + 800 Wh + Carbon + XT) und CHF 4'509 TEURER als AMFLOW PL Carbon Sale (Score 9 Light-eMTB Klassenprimus, CHF 3'490 mit DJI Avinox 105 Nm + 800 Wh + 19,2 kg). Selbst das günstigste Aluminium EX 8 für ~CHF 6'499 ist CHF 1'500 teurer als das Cube ONE44 SLX 800 mit Voll-Power.",
     "rahmen": {
       "material": "OCLV Mountain Carbon (EX 9.7 / EX 9.8) oder Aluminium (EX 8) — Treks Top-Karbontechnologie",
@@ -4506,6 +4605,16 @@
         "quelle": "EMTB Forums (Gen 2 Trek Fuel+ Owner-Erfahrung)",
         "kurzfazit": "I've had a Fuel EXe and still have a Slash+. The increase in power with the HPR60 over the HPR50 is a nice gain but I feel the biggest feature/benefit with the new system is the improved efficiency. Recent on-trail comparison: friend (4kg lighter) used almost 40% more battery for same ride with Fuel EXe + two 360Wh batteries vs. my Fuel+ with one 580Wh battery."
       }
-    ]
+    ],
+    "score": 6,
+    "preise": {
+      "uvp_chf": 7999,
+      "uvp_eur": 7499,
+      "sale_chf": null,
+      "sale_eur": null,
+      "sale_haendler": null,
+      "hinweis": null,
+      "sale_url": null
+    }
   }
 ]
