@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 function Section({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <div className="space-y-3">
-      <p className="text-xs font-semibold tracking-widest text-terracotta-500 uppercase">{label}</p>
-      <div className="text-sm text-stone-600 leading-relaxed space-y-1">{children}</div>
+      <p className="font-mono text-xs tracking-[0.18em] text-vermillion uppercase">{label}</p>
+      <div className="text-sm text-asphalt leading-relaxed space-y-1">{children}</div>
     </div>
   )
 }
@@ -16,7 +16,7 @@ export default function Impressum() {
       {/* Breadcrumb */}
       <Link
         to="/"
-        className="inline-flex items-center gap-1.5 text-sm text-stone-400 hover:text-terracotta-600 transition-colors"
+        className="inline-flex items-center gap-1.5 text-sm text-concrete hover:text-vermillion transition-colors"
       >
         ← Zurück zur Startseite
       </Link>
@@ -24,8 +24,8 @@ export default function Impressum() {
       {/* Impressum */}
       <div className="space-y-8">
         <div>
-          <h1 className="text-3xl font-semibold tracking-tight text-stone-900 mb-1">Impressum</h1>
-          <p className="text-sm text-stone-400">Angaben gemäss Art. 3 UWG</p>
+          <h1 className="text-3xl text-ink mb-1">Impressum</h1>
+          <p className="text-sm text-concrete">Angaben gemäss Art. 3 UWG</p>
         </div>
 
         <Section label="Betreiber">
@@ -46,12 +46,12 @@ export default function Impressum() {
       </div>
 
       {/* Divider */}
-      <div className="border-t border-stone-100" />
+      <div className="border-t border-rule" />
 
       {/* Datenschutz */}
       <div className="space-y-8">
         <div>
-          <h2 className="text-3xl font-semibold tracking-tight text-stone-900 mb-1">Datenschutzerklärung</h2>
+          <h2 className="text-3xl text-ink mb-1">Datenschutzerklärung</h2>
         </div>
 
         <Section label="Hosting">
@@ -81,7 +81,7 @@ export default function Impressum() {
           <p>Über Social Media (Links folgen)</p>
         </Section>
 
-        <p className="text-xs text-stone-400">Stand: April 2026</p>
+        <p className="font-mono text-xs text-concrete">Stand: April 2026</p>
       </div>
 
     </div>
