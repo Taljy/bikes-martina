@@ -21,7 +21,7 @@ export type Preise = {
   uvp_chf_geschaetzt?: boolean
   sale_chf?: number | null
   sale_haendler?: string | null
-  sale_url?: string
+  sale_url?: string | null       // null in migrated bikes (#64)
   preis_hinweis?: string
 }
 
@@ -52,31 +52,30 @@ export interface Bike {
   /** Altes Schema: Flat-Feld; neues Schema nutzt `preise.uvp_eur` */
   preis_eur?: number | null
   preis_quelle_url?: string
-  /** Altes Schema: Nested-Objekt; neues Schema nutzt flache Felder `rahmen_material` etc. */
   rahmen?: {
-    material: string
-    groessen_verfuegbar: string[]
-    groesse_L_reach_mm: number | null
-    groesse_L_stack_mm: number | null
-    lenkwinkel_grad: number | null
-    sitzwinkel_effektiv_grad: number | null
-    radstand_mm: number | null
-    kettenstrebe_mm: number | null
+    material: string                          // required
+    groessen_verfuegbar?: string[]
+    groesse_L_reach_mm?: number | null
+    groesse_L_stack_mm?: number | null
+    lenkwinkel_grad?: number | null
+    sitzwinkel_effektiv_grad?: number | null
+    radstand_mm?: number | null
+    kettenstrebe_mm?: number | null
+    geometrie_url?: string | null
   }
-  /** Neues Schema: Flat-Feld; altes Schema nutzt `rahmen.material` */
+  /** Transitional: Flat-Feld bis Phase 6 Code-Cleanup (#68) */
   rahmen_material?: string
-  /** Altes Schema: Nested-Objekt; neues Schema nutzt flache Felder `federweg_vorne/hinten` */
   federweg?: {
-    vorne_mm: number
-    hinten_mm: number
-    gabel_modell: string
-    gabel_url: string
-    daempfer_modell: string
-    daempfer_url: string
+    vorne_mm: number                          // required
+    hinten_mm: number                         // required
+    gabel_modell?: string | null
+    gabel_url?: string | null
+    daempfer_modell?: string | null
+    daempfer_url?: string | null
   }
-  /** Neues Schema: Flat-Feld; altes Schema nutzt `federweg.vorne_mm` */
+  /** Transitional: Flat-Feld bis Phase 6 Code-Cleanup (#68) */
   federweg_vorne?: number
-  /** Neues Schema: Flat-Feld; altes Schema nutzt `federweg.hinten_mm` */
+  /** Transitional: Flat-Feld bis Phase 6 Code-Cleanup (#68) */
   federweg_hinten?: number
   motor: {
     hersteller: string
@@ -92,29 +91,31 @@ export interface Bike {
   }
   ausstattung: {
     schaltung: string
-    schaltung_url: string
+    schaltung_url: string | null
     bremsen: string
-    bremsen_url: string
+    bremsen_url: string | null
     laufraeder: string
-    laufraeder_url: string
+    laufraeder_url: string | null
     reifen_vorne: string
     reifen_hinten: string
-    reifen_url: string
+    reifen_url: string | null
     cockpit: string
   }
   gewicht_kg: number | null
   laufradgroesse: string
   verfuegbarkeit_ch: {
     haendler: string[]
-    probefahrt_moeglich: string
+    probefahrt_moeglich: string | boolean | null  // Mixed format from legacy data, harmonized in #67
     urls: string[]
   }
-  verfuegbarkeit_de_direkt: {
+  // Optional — fehlt bei 6 Later-Session-Bikes, harmonisiert in #69
+  verfuegbarkeit_de_direkt?: {
     shop: string
     lieferzeit_tage: number | null
     url: string
   }
-  test_ergebnisse: Array<{
+  // Optional — Later-Session-Bikes nutzen test_urteile, harmonisiert in #69
+  test_ergebnisse?: Array<{
     publikation: string
     bewertung_kurz: string
     stärken: string[]

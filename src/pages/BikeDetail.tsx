@@ -385,19 +385,20 @@ export default function BikeDetail() {
 
         <GroupLabel>Ausstattung</GroupLabel>
         <SpecRow label="Schaltung">
-          <ExtLink href={bike.ausstattung.schaltung_url}>{v(bike.ausstattung.schaltung)}</ExtLink>
+          <ExtLink href={bike.ausstattung.schaltung_url ?? ''}>{v(bike.ausstattung.schaltung)}</ExtLink>
         </SpecRow>
         <SpecRow label="Bremsen">
-          <ExtLink href={bike.ausstattung.bremsen_url}>{v(bike.ausstattung.bremsen)}</ExtLink>
+          <ExtLink href={bike.ausstattung.bremsen_url ?? ''}>{v(bike.ausstattung.bremsen)}</ExtLink>
         </SpecRow>
         <SpecRow label="Laufräder">
-          <ExtLink href={bike.ausstattung.laufraeder_url}>{v(bike.ausstattung.laufraeder)}</ExtLink>
+          <ExtLink href={bike.ausstattung.laufraeder_url ?? ''}>{v(bike.ausstattung.laufraeder)}</ExtLink>
         </SpecRow>
+        {/* TODO #70: beide Reifen-Zeilen nutzen reifen_url — separate reifen_vorne_url / reifen_hinten_url wären sinnvoll */}
         <SpecRow label="Reifen vorne">
-          <ExtLink href={bike.ausstattung.reifen_url}>{v(bike.ausstattung.reifen_vorne)}</ExtLink>
+          <ExtLink href={bike.ausstattung.reifen_url ?? ''}>{v(bike.ausstattung.reifen_vorne)}</ExtLink>
         </SpecRow>
         <SpecRow label="Reifen hinten">
-          <ExtLink href={bike.ausstattung.reifen_url}>{v(bike.ausstattung.reifen_hinten)}</ExtLink>
+          <ExtLink href={bike.ausstattung.reifen_url ?? ''}>{v(bike.ausstattung.reifen_hinten)}</ExtLink>
         </SpecRow>
         <SpecRow label="Cockpit">{v(bike.ausstattung.cockpit)}</SpecRow>
 

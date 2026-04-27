@@ -4260,11 +4260,27 @@
     "warnungen": [],
     "alternativ_zu": [],
     "rahmen": {
-      "material": "Aluminium 6066, triple butted T4/T6 Rohre, gegossener Sitzstreben- + Kettenstrebenschutz, Motor Protector"
+      "material": "Aluminium 6066, triple butted T4/T6 Rohre, gegossener Sitzstreben- + Kettenstrebenschutz, Motor Protector",
+      "groessen_verfuegbar": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "groesse_L_reach_mm": null,
+      "groesse_L_stack_mm": null,
+      "lenkwinkel_grad": 63.6,
+      "sitzwinkel_effektiv_grad": 77.6,
+      "radstand_mm": null,
+      "kettenstrebe_mm": 450
     },
     "federweg": {
       "vorne_mm": 170,
-      "hinten_mm": 165
+      "hinten_mm": 165,
+      "gabel_modell": "Fox 38 Performance, GRIP, 170mm",
+      "gabel_url": "NOT_SPECIFIED",
+      "daempfer_modell": "Fox Float X Performance",
+      "daempfer_url": "NOT_SPECIFIED"
     },
     "kategorie": "All-Mountain / Trail-Enduro mit Bosch Voll-Power",
     "modelljahr": 2026
