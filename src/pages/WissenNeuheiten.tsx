@@ -103,7 +103,7 @@ export default function WissenNeuheiten() {
                           </span>
                         )}
                         {unbestaetigt && (
-                          <span className="text-xs font-semibold bg-amber-100 text-amber-700 px-2 py-0.5 rounded-none whitespace-nowrap">
+                          <span className="font-mono text-xs tracking-[0.06em] uppercase bg-amber-100 text-amber-700 px-2 py-0.5 rounded-none whitespace-nowrap">
                             Unbestätigt
                           </span>
                         )}
