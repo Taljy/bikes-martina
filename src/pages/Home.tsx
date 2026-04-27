@@ -55,21 +55,21 @@ const tiles = [
   {
     icon: Mountain,
     nummer: '01',
-    titel: 'Trail oder Enduro?',
+    titel: 'Trail, All-Mountain oder Enduro?',
     beschreibung: 'Welche Kategorie passt zu dir? Mit Vergleichstabelle und Entscheidungsfrage.',
     route: '/wissen/trail-vs-enduro',
   },
   {
     icon: Zap,
     nummer: '02',
-    titel: 'Motoren',
+    titel: 'Welcher Motor passt?',
     beschreibung: 'Bosch, Shimano oder DJI? Alle Systeme direkt vergleichen.',
     route: '/wissen/motoren',
   },
   {
     icon: Sparkles,
     nummer: '03',
-    titel: 'Neuheiten 2026',
+    titel: 'Was ist neu 2026?',
     beschreibung: 'Die wichtigsten Launches und Neuheiten der aktuellen Saison auf einer Zeitachse.',
     route: '/wissen/neuheiten-2026',
   },
@@ -135,7 +135,7 @@ export default function Home() {
       {/* C) Section-Trenner */}
       <div className="pt-6">
         <p className="mt-12 mb-8 font-mono text-base tracking-[0.18em] text-vermillion uppercase text-center mx-auto">
-          Oder erst einlesen
+          Erst verstehen. Dann entscheiden.
         </p>
 
         {/* D) 3 nummerierte Lern-Tiles */}
@@ -171,8 +171,8 @@ export default function Home() {
       </div>
 
       {/* F) KI-Hinweis */}
-      <p className="mt-6 text-center font-mono text-xs text-vermillion max-w-md mx-auto">
-        ⚠ Hinweis: Mit KI gebaut, möglicherweise unvollständig.
+      <p className="mt-6 text-center font-mono text-xs text-vermillion max-w-2xl mx-auto">
+        ⚠ Dies ist ein Recherche-Tool und kein Verkaufsprospekt. Daten können je nach Herstellerstand abweichen — finale Prüfung vor dem Kauf nötig.
       </p>
 
     </div>
