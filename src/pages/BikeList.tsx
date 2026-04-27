@@ -156,11 +156,11 @@ export default function BikeList() {
 
         {/* Kopfzeile mit Suche + Sortierung */}
         <div className="flex items-center justify-between mb-3">
-          <h1 className="text-xl font-semibold text-stone-900 tracking-tight">Alle Bikes</h1>
+          <h1 className="text-2xl text-ink">Alle Bikes</h1>
           <select
             value={filters.sort}
             onChange={e => setFilters({ ...filters, sort: e.target.value })}
-            className="text-sm border border-stone-200 rounded-lg px-3 py-1.5 bg-white text-stone-700 focus:outline-none focus:border-terracotta-400 cursor-pointer"
+            className="font-mono text-xs border border-rule rounded-none px-3 py-1.5 bg-paper text-ink-soft focus:outline-none focus:border-vermillion cursor-pointer"
           >
             {SORT_OPTIONS.map(o => (
               <option key={o.value} value={o.value}>{o.label}</option>
@@ -175,7 +175,7 @@ export default function BikeList() {
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
             placeholder="Such nach Marke, Modell, Motor..."
-            className="w-full text-sm border border-stone-200 rounded-lg px-3 py-1.5 bg-white text-stone-700 placeholder:text-stone-400 focus:outline-none focus:border-terracotta-400"
+            className="w-full font-mono text-xs border border-rule rounded-none px-3 py-1.5 bg-paper text-ink placeholder:text-concrete focus:outline-none focus:border-vermillion"
           />
         </div>
 
@@ -190,23 +190,23 @@ export default function BikeList() {
           <div className="flex flex-col items-center justify-center py-20 text-center">
             {searchQuery.trim() ? (
               <>
-                <p className="text-stone-400 text-sm">
+                <p className="text-concrete text-sm">
                   Kei Bike gfunde für «{searchQuery}».<br />
                   Mol mit anderem Suechwort probiere oder Filter zruggsetze.
                 </p>
                 <button
                   onClick={() => setSearchQuery('')}
-                  className="mt-3 text-sm text-terracotta-600 hover:underline"
+                  className="mt-3 text-sm text-vermillion hover:underline"
                 >
                   Suche lösche
                 </button>
               </>
             ) : (
               <>
-                <p className="text-stone-400 text-sm">Keine Bikes entsprechen den Filtern.</p>
+                <p className="text-concrete text-sm">Keine Bikes entsprechen den Filtern.</p>
                 <button
                   onClick={() => setFilters(DEFAULTS)}
-                  className="mt-3 text-sm text-terracotta-600 hover:underline"
+                  className="mt-3 text-sm text-vermillion hover:underline"
                 >
                   Filter zurücksetzen
                 </button>
