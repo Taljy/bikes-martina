@@ -80,20 +80,20 @@ export default function Home() {
     <div className="space-y-10">
 
       {/* A) Hero */}
-      <div className="pt-4">
+      <div className="pt-4 text-center mx-auto max-w-3xl">
         <p className="font-mono text-xs tracking-[0.18em] text-vermillion uppercase mb-3">
           E-MTB-CHECK 2026
         </p>
         <h1 className="text-5xl text-ink mb-4">
           Finde dein perfektes Bike
         </h1>
-        <p className="text-lg text-asphalt max-w-xl leading-relaxed">
+        <p className="text-lg text-asphalt max-w-xl leading-relaxed mx-auto">
           {BIKE_COUNT} Bikes — Stärken & Schwächen — No Bullshit
         </p>
       </div>
 
       {/* B) Primary CTA Row */}
-      <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-center gap-4">
         <NavLink
           to="/bikes"
           className="inline-flex items-center gap-2 px-6 py-3 bg-vermillion text-paper font-display text-lg tracking-[0.04em] hover:bg-vermillion-deep transition-colors"
@@ -134,7 +134,7 @@ export default function Home() {
 
       {/* C) Section-Trenner */}
       <div className="pt-6">
-        <p className="mt-16 mb-8 font-mono text-base tracking-[0.18em] text-vermillion uppercase">
+        <p className="mt-16 mb-8 font-mono text-base tracking-[0.18em] text-vermillion uppercase text-center mx-auto">
           Oder erst einlesen
         </p>
 
@@ -171,7 +171,7 @@ export default function Home() {
       </div>
 
       {/* F) KI-Hinweis */}
-      <p className="mt-6 text-center font-mono text-xs text-concrete max-w-md mx-auto">
+      <p className="mt-6 text-center font-mono text-xs text-vermillion max-w-md mx-auto">
         ⚠ Hinweis: Mit KI gebaut, möglicherweise unvollständig.
       </p>
 
