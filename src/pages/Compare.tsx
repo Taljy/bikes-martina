@@ -502,7 +502,7 @@ export default function Compare() {
                   <tr>
                     <td
                       colSpan={1 + bikes.length}
-                      className="pt-8 pb-1.5 text-[10px] font-semibold tracking-widest text-stone-400 uppercase border-b border-stone-200"
+                      className="pt-8 pb-1.5 font-mono text-[10px] tracking-[0.18em] text-concrete uppercase border-b border-rule"
                     >
                       {gruppe}
                     </td>
@@ -512,23 +512,23 @@ export default function Compare() {
                     const highlighted = highlightedIndices(row, bikes)
                     return (
                       <tr key={row.label}>
-                        <td className="py-2.5 pr-4 text-stone-400 border-b border-stone-100 whitespace-nowrap">
+                        <td className="py-2.5 pr-4 font-mono text-xs text-concrete border-b border-rule whitespace-nowrap">
                           {row.label}
                         </td>
                         {bikes.map((bike, bi) => (
                           <td
                             key={bike.id}
-                            className={`py-2.5 px-3 border-b border-stone-100 font-medium transition-colors ${
+                            className={`py-2.5 px-3 border-b border-rule text-sm transition-colors ${
                               highlighted.has(bi)
-                                ? 'bg-emerald-50 text-stone-800'
-                                : 'text-stone-800'
+                                ? 'bg-vermillion/5 text-vermillion font-medium'
+                                : 'text-ink'
                             }`}
                           >
                             {row.get(bike)}
                           </td>
                         ))}
                         {Array.from({ length: MAX_BIKES - bikes.length }).map((_, i) => (
-                          <td key={`empty-${i}`} className="py-2.5 px-3 border-b border-stone-100 text-stone-200">—</td>
+                          <td key={`empty-${i}`} className="py-2.5 px-3 border-b border-rule text-rule">—</td>
                         ))}
                       </tr>
                     )
@@ -548,9 +548,9 @@ export default function Compare() {
         const winner = topBikes[0]
 
         return (
-          <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
-            <div className="px-6 py-3 border-b border-stone-100 bg-stone-50">
-              <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase">
+          <div className="bg-paper border border-rule rounded-none overflow-hidden">
+            <div className="px-6 py-3 border-b border-rule bg-paper-deep">
+              <p className="font-mono text-xs tracking-[0.18em] text-concrete uppercase">
                 Empfehlung für Martina
               </p>
             </div>
@@ -560,15 +560,15 @@ export default function Compare() {
                 <>
                   <div className="flex items-start gap-4 flex-wrap">
                     <div className="flex-1 min-w-0 space-y-2">
-                      <p className="text-xs text-stone-400 uppercase tracking-widest font-medium">Top-Treffer</p>
-                      <h3 className="text-xl font-bold text-stone-900 leading-snug">
+                      <p className="font-mono text-xs text-concrete tracking-[0.18em] uppercase">Top-Treffer</p>
+                      <h3 className="text-xl text-ink leading-snug">
                         {winner.hersteller} {winner.modell}
                       </h3>
                       <div className="flex items-center gap-3 flex-wrap">
-                        <span className="bg-terracotta-500 text-white text-sm font-semibold px-3 py-1 rounded-full">
+                        <span className="bg-vermillion text-paper font-mono text-sm px-3 py-1 rounded-none">
                           {winner.passend_fuer_martina_score ?? winner.score ?? '–'}/10
                         </span>
-                        <span className="text-stone-500 text-sm">
+                        <span className="font-mono text-sm text-asphalt">
                           {(() => {
                             const c = winner.preis_chf ?? winner.preise?.uvp_chf ?? null
                             const e = winner.preis_eur ?? winner.preise?.uvp_eur ?? null
@@ -578,12 +578,12 @@ export default function Compare() {
                       </div>
                     </div>
                   </div>
-                  <p className="text-sm text-stone-600 leading-relaxed">
+                  <p className="text-sm text-ink-soft leading-relaxed">
                     {winner.passend_fuer_martina_begruendung}
                   </p>
                   <Link
                     to={`/bikes/${winner.id}`}
-                    className="inline-flex items-center gap-1.5 text-sm px-4 py-2 rounded-lg bg-terracotta-500 text-white hover:bg-terracotta-600 transition-colors"
+                    className="inline-flex items-center gap-1.5 text-sm px-4 py-2 rounded-none bg-vermillion text-paper hover:bg-vermillion-deep transition-colors"
                   >
                     Zur Detail-Seite →
                   </Link>
@@ -591,8 +591,8 @@ export default function Compare() {
               ) : (
                 <>
                   <div className="space-y-1">
-                    <p className="text-xs text-stone-400 uppercase tracking-widest font-medium">Kopf-an-Kopf</p>
-                    <h3 className="text-lg font-bold text-stone-900">Mehrere Top-Treffer</h3>
+                    <p className="font-mono text-xs text-concrete tracking-[0.18em] uppercase">Kopf-an-Kopf</p>
+                    <h3 className="text-lg text-ink">Mehrere Top-Treffer</h3>
                   </div>
 
                   <div className="space-y-3">
@@ -602,15 +602,15 @@ export default function Compare() {
                           className="w-2.5 h-2.5 rounded-full shrink-0"
                           style={{ backgroundColor: BIKE_COLORS[bikes.indexOf(bike)] }}
                         />
-                        <span className="text-sm font-semibold text-stone-800">
+                        <span className="text-sm font-medium text-ink">
                           {bike.hersteller} {bike.modell}
                         </span>
-                        <span className="bg-terracotta-50 text-terracotta-700 text-xs font-semibold px-2 py-0.5 rounded-full">
+                        <span className="bg-vermillion/10 text-vermillion font-mono text-xs px-2 py-0.5 rounded-none">
                           {bike.passend_fuer_martina_score ?? bike.score ?? '–'}/10
                         </span>
                         <Link
                           to={`/bikes/${bike.id}`}
-                          className="text-sm text-terracotta-600 hover:underline ml-auto"
+                          className="text-sm text-vermillion hover:underline ml-auto"
                         >
                           Detail →
                         </Link>
@@ -618,10 +618,10 @@ export default function Compare() {
                     ))}
                   </div>
 
-                  <p className="text-sm text-stone-500 leading-relaxed border-t border-stone-100 pt-4">
+                  <p className="text-sm text-concrete leading-relaxed border-t border-rule pt-4">
                     Bei gleichem Score entscheiden Nuancen. Vergleiche die Werte oben und wähle nach deinem Einsatzprofil.{' '}
-                    <span className="text-stone-700">Bergauf-Fokus?</span> Dann wähle das Bike mit mehr Drehmoment.{' '}
-                    <span className="text-stone-700">Bikepark-Reserven?</span> Dann mehr Federweg.
+                    <span className="text-ink">Bergauf-Fokus?</span> Dann wähle das Bike mit mehr Drehmoment.{' '}
+                    <span className="text-ink">Bikepark-Reserven?</span> Dann mehr Federweg.
                   </p>
                 </>
               )}
