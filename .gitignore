@@ -7,3 +7,4 @@ Token-Github.txt
 *token*
 *.env
 .env
+.claude/
