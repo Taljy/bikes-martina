@@ -18,7 +18,7 @@ const ALL_BIKES = bikesData as BikeType[]
 
 // ── Radar-Score-Berechnung ────────────────────────────────
 
-const BIKE_COLORS = ['#B26A4A', '#5E8B82', '#7A8A5C']
+const BIKE_COLORS = ['#C5382C', '#5E8B82', '#7A8A5C']
 
 function radarScores(b: BikeType) {
   const nm = b.motor.drehmoment_nm
@@ -91,9 +91,9 @@ function BewertungVergleichRadar({ bikes }: { bikes: BikeType[] }) {
   const data = useMemo(() => buildBewertungRadarData(bikes), [bikes])
 
   return (
-    <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
-      <div className="px-6 py-3 border-b border-stone-100 bg-stone-50">
-        <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase">
+    <div className="bg-paper border border-rule rounded-none overflow-hidden">
+      <div className="px-6 py-3 border-b border-rule bg-paper-deep">
+        <p className="font-mono text-xs tracking-[0.18em] text-concrete uppercase">
           Bewertung im Überblick
         </p>
       </div>
@@ -133,7 +133,7 @@ function BewertungVergleichRadar({ bikes }: { bikes: BikeType[] }) {
                 className="w-3 h-3 rounded-full shrink-0"
                 style={{ backgroundColor: BIKE_COLORS[i] }}
               />
-              <span className="text-xs text-stone-600">
+              <span className="text-xs text-ink-soft">
                 {bike.hersteller} {bike.modell}
               </span>
             </div>
@@ -150,9 +150,9 @@ function BikeRadarChart({ bikes }: { bikes: BikeType[] }) {
   const data = useMemo(() => buildRadarData(bikes), [bikes])
 
   return (
-    <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
-      <div className="px-6 py-3 border-b border-stone-100 bg-stone-50">
-        <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase">
+    <div className="bg-paper border border-rule rounded-none overflow-hidden">
+      <div className="px-6 py-3 border-b border-rule bg-paper-deep">
+        <p className="font-mono text-xs tracking-[0.18em] text-concrete uppercase">
           Fähigkeiten im Überblick
         </p>
       </div>
@@ -193,7 +193,7 @@ function BikeRadarChart({ bikes }: { bikes: BikeType[] }) {
                 className="w-3 h-3 rounded-full shrink-0"
                 style={{ backgroundColor: BIKE_COLORS[i] }}
               />
-              <span className="text-xs text-stone-600">
+              <span className="text-xs text-ink-soft">
                 {bike.hersteller} {bike.modell}
               </span>
             </div>
@@ -326,8 +326,8 @@ function BikeHeaderCard({ bike, onRemove }: { bike: BikeType; onRemove: () => vo
   const bikeScore = bike.passend_fuer_martina_score ?? bike.score ?? 0
 
   return (
-    <div className="bg-white border border-stone-200 rounded-xl overflow-hidden flex flex-col">
-      <div className="relative aspect-[4/3] bg-white flex items-center justify-center overflow-hidden p-3">
+    <div className="bg-paper border border-rule rounded-none overflow-hidden flex flex-col">
+      <div className="relative aspect-[4/3] bg-paper-deep flex items-center justify-center overflow-hidden p-3">
         {bike.bild_pfad ? (
           <img
             src={bike.bild_pfad}
@@ -337,29 +337,29 @@ function BikeHeaderCard({ bike, onRemove }: { bike: BikeType; onRemove: () => vo
             onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
           />
         ) : (
-          <Bike size={32} className="text-terracotta-200" strokeWidth={1.25} />
+          <Bike size={32} className="text-rule" strokeWidth={1.25} />
         )}
-        <span className="absolute top-2 right-2 bg-terracotta-500 text-white text-[10px] font-semibold px-2 py-0.5 rounded-full">
+        <span className="absolute top-2 right-2 bg-vermillion text-paper text-[10px] font-mono px-2 py-0.5 rounded-none">
           {bikeScore}/10
         </span>
         <button
           onClick={onRemove}
-          className="absolute top-2 left-2 w-6 h-6 rounded-full bg-white/80 hover:bg-white flex items-center justify-center text-stone-500 hover:text-stone-800 transition-colors"
+          className="absolute top-2 left-2 w-6 h-6 rounded-sm bg-paper/80 hover:bg-paper flex items-center justify-center text-concrete hover:text-ink transition-colors"
           title="Entfernen"
         >
           <X size={12} />
         </button>
       </div>
       <div className="p-3 flex flex-col gap-1 flex-1">
-        <p className="text-[10px] text-stone-400">{bike.kategorie ?? bike.konzept}</p>
-        <p className="text-sm font-semibold text-stone-900 leading-snug">
+        <p className="font-mono text-[10px] text-concrete tracking-[0.06em] uppercase">{bike.kategorie ?? bike.konzept}</p>
+        <p className="font-display text-sm text-ink leading-snug">
           {bike.hersteller} {bike.modell}
         </p>
-        <p className="text-[10px] text-stone-400">{bike.modelljahr ?? bike.jahr}</p>
-        {preis && <p className="text-sm text-stone-600">{preis}</p>}
+        <p className="font-mono text-[10px] text-concrete">{bike.modelljahr ?? bike.jahr}</p>
+        {preis && <p className="font-mono text-sm text-ink">{preis}</p>}
         <Link
           to={`/bikes/${bike.id}`}
-          className="inline-flex items-center gap-1 text-[10px] text-terracotta-500 hover:underline mt-auto pt-1"
+          className="inline-flex items-center gap-1 text-[10px] text-vermillion hover:underline mt-auto pt-1"
         >
           Detailseite <ExternalLink size={9} />
         </Link>
@@ -376,13 +376,13 @@ function EmptySlotCard({ onAdd, usedIds }: {
 }) {
   const available = ALL_BIKES.filter(b => !usedIds.includes(b.id))
   return (
-    <div className="bg-stone-50 border border-dashed border-stone-300 rounded-xl flex flex-col items-center justify-center p-4 gap-3 min-h-[200px]">
-      <Plus size={20} className="text-stone-300" />
-      <p className="text-xs text-stone-400 text-center">Bike hinzufügen</p>
+    <div className="bg-paper-deep border border-dashed border-rule rounded-none flex flex-col items-center justify-center p-4 gap-3 min-h-[200px]">
+      <Plus size={20} className="text-concrete" />
+      <p className="text-xs text-concrete text-center">Bike hinzufügen</p>
       <select
         defaultValue=""
         onChange={e => { if (e.target.value) onAdd(e.target.value) }}
-        className="w-full text-xs border border-stone-200 rounded-lg px-2 py-1.5 bg-white text-stone-700 focus:outline-none focus:border-terracotta-400 cursor-pointer"
+        className="w-full font-mono text-xs border border-rule rounded-none px-2 py-1.5 bg-paper text-ink focus:outline-none focus:border-vermillion cursor-pointer"
       >
         <option value="" disabled>— auswählen —</option>
         {available.map(b => (
@@ -441,13 +441,13 @@ export default function Compare() {
       {/* Kopfzeile */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-semibold text-stone-900 tracking-tight">Vergleich</h1>
-          <p className="text-stone-400 text-sm mt-1">Bis zu 3 Bikes nebeneinander — URL ist teilbar.</p>
+          <h1 className="text-2xl text-ink">Vergleich</h1>
+          <p className="text-concrete text-sm mt-1">Bis zu 3 Bikes nebeneinander — URL ist teilbar.</p>
         </div>
         {bikes.length > 0 && (
           <button
             onClick={clearAll}
-            className="text-xs text-stone-400 hover:text-stone-700 transition-colors border border-stone-200 hover:border-stone-300 px-3 py-1.5 rounded-lg"
+            className="font-mono text-xs text-concrete hover:text-ink transition-colors border border-rule px-3 py-1.5 rounded-none"
           >
             Vergleich leeren
           </button>
@@ -473,7 +473,7 @@ export default function Compare() {
       {/* Leerzustand */}
       {bikes.length === 0 && (
         <div className="text-center py-12">
-          <p className="text-stone-400 text-sm">Wähle oben mindestens zwei Bikes aus, um sie zu vergleichen.</p>
+          <p className="text-concrete text-sm">Wähle oben mindestens zwei Bikes aus, um sie zu vergleichen.</p>
         </div>
       )}
 
