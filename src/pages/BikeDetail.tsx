@@ -128,7 +128,7 @@ export default function BikeDetail() {
       <div className="flex items-center justify-between gap-4">
         <Link
           to={backHref}
-          className="inline-flex items-center gap-1.5 text-sm text-stone-400 hover:text-terracotta-600 transition-colors"
+          className="inline-flex items-center gap-1.5 text-sm text-concrete hover:text-vermillion transition-colors"
         >
           <ArrowLeft size={14} />
           Zurück zur Liste
@@ -136,10 +136,10 @@ export default function BikeDetail() {
 
         <button
           onClick={() => toggle(bike.id)}
-          className={`inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-lg border transition-colors ${
+          className={`inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-none border transition-colors ${
             inCompare
-              ? 'border-terracotta-500 bg-terracotta-50 text-terracotta-700'
-              : 'border-stone-200 text-stone-500 hover:border-terracotta-400 hover:text-terracotta-600'
+              ? 'border-vermillion bg-paper-deep text-vermillion'
+              : 'border-rule text-asphalt hover:border-vermillion hover:text-vermillion'
           }`}
         >
           {inCompare ? <Check size={13} strokeWidth={2.5} /> : <Plus size={13} />}
@@ -148,9 +148,9 @@ export default function BikeDetail() {
       </div>
 
       {/* ── Sektion 1: Hero ── */}
-      <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
+      <div className="bg-paper border border-rule rounded-none overflow-hidden">
         <div className="flex flex-col sm:flex-row">
-          <div className="relative sm:w-72 shrink-0 aspect-[4/3] sm:aspect-auto bg-white flex items-center justify-center overflow-hidden p-4">
+          <div className="relative sm:w-72 shrink-0 aspect-[4/3] sm:aspect-auto bg-paper-deep flex items-center justify-center overflow-hidden p-4">
             {bike.bild_pfad ? (
               <img
                 src={bike.bild_pfad}
@@ -160,26 +160,26 @@ export default function BikeDetail() {
                 onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
               />
             ) : (
-              <Bike size={52} className="text-terracotta-200" strokeWidth={1.25} />
+              <Bike size={52} className="text-rule" strokeWidth={1.25} />
             )}
-            <span className="absolute top-3 right-3 bg-terracotta-500 text-white text-xs font-semibold px-2.5 py-1 rounded-full">
+            <span className="absolute top-3 right-3 bg-vermillion text-paper text-xs font-mono tracking-[0.06em] px-2.5 py-1 rounded-none">
               {bike.passend_fuer_martina_score}/10
             </span>
           </div>
           <div className="flex flex-col gap-4 p-6 justify-center">
             <div>
-              <p className="text-xs text-stone-400 mb-1">{bike.kategorie} · {bike.modelljahr}</p>
-              <h1 className="text-2xl font-bold text-stone-900 leading-snug">{bike.hersteller}</h1>
-              <h2 className="text-xl font-semibold text-stone-700 leading-snug">{bike.modell}</h2>
+              <p className="font-mono text-xs text-concrete uppercase tracking-[0.06em] mb-1">{bike.kategorie} · {bike.modelljahr}</p>
+              <h1 className="text-3xl text-ink leading-snug">{bike.hersteller}</h1>
+              <h2 className="text-2xl text-ink-soft leading-snug">{bike.modell}</h2>
             </div>
             <div>
               {preis ? (
-                <span className="text-2xl font-bold text-stone-900">{preis}</span>
+                <span className="font-mono text-2xl text-ink">{preis}</span>
               ) : (
-                <span className="text-stone-400 italic text-sm">Preis auf Anfrage</span>
+                <span className="font-mono text-xs text-concrete">Preis auf Anfrage</span>
               )}
               {preisNeben && (
-                <span className="ml-2 text-base text-stone-400">{preisNeben}</span>
+                <span className="ml-2 font-mono text-sm text-concrete">{preisNeben}</span>
               )}
             </div>
             <div className="flex flex-wrap gap-2">
@@ -188,7 +188,7 @@ export default function BikeDetail() {
                   href={bike.hersteller_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm px-3.5 py-1.5 rounded-lg bg-terracotta-500 text-white hover:bg-terracotta-600 transition-colors"
+                  className="inline-flex items-center gap-1.5 text-sm px-3.5 py-1.5 rounded-none bg-vermillion text-paper hover:bg-vermillion-deep transition-colors"
                 >
                   Zum Hersteller <ExternalLink size={13} />
                 </a>
@@ -198,7 +198,7 @@ export default function BikeDetail() {
                   href={bike.produktseite_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm px-3.5 py-1.5 rounded-lg border border-stone-200 text-stone-600 hover:border-terracotta-400 hover:text-terracotta-600 transition-colors"
+                  className="inline-flex items-center gap-1.5 text-sm px-3.5 py-1.5 rounded-none border border-rule text-ink-soft hover:border-vermillion hover:text-vermillion transition-colors"
                 >
                   Produktseite <ExternalLink size={13} />
                 </a>
