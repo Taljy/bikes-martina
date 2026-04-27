@@ -99,8 +99,8 @@ export default function BikeDetail() {
   if (!bike) {
     return (
       <div className="py-20 text-center">
-        <p className="text-stone-400">Bike nicht gefunden.</p>
-        <Link to="/bikes" className="mt-3 inline-block text-sm text-terracotta-600 hover:underline">
+        <p className="text-concrete">Bike nicht gefunden.</p>
+        <Link to="/bikes" className="mt-3 inline-block text-sm text-vermillion hover:underline">
           ← Zurück zur Liste
         </Link>
       </div>
@@ -376,7 +376,7 @@ export default function BikeDetail() {
           <div className="pt-2">
             <Link
               to={`/wissen/motoren#${motorId}`}
-              className="inline-flex items-center gap-1 text-sm text-terracotta-600 hover:underline"
+              className="inline-flex items-center gap-1 text-sm text-vermillion hover:underline"
             >
               Mehr über diesen Motor →
             </Link>
@@ -417,18 +417,18 @@ export default function BikeDetail() {
             {bike.test_ergebnisse!.map((test, i) => {
               const hatTestUrl = test.test_url && test.test_url !== 'NOT_SPECIFIED'
               return (
-                <div key={i} className="border border-stone-100 rounded-lg p-4 space-y-3">
+                <div key={i} className="border border-rule rounded-none p-4 space-y-3">
 
                   {/* Kopfzeile */}
                   <div className="flex items-baseline justify-between gap-2 flex-wrap">
-                    <span className="font-semibold text-stone-800 text-sm">{test.publikation}</span>
+                    <span className="font-mono text-xs text-ink tracking-[0.06em] uppercase">{test.publikation}</span>
                     {test.datum && (
-                      <span className="text-xs text-stone-400">{test.datum}</span>
+                      <span className="font-mono text-xs text-concrete">{test.datum}</span>
                     )}
                   </div>
 
                   {/* Bewertungs-Badge */}
-                  <span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-terracotta-50 text-terracotta-700">
+                  <span className="inline-block font-mono text-xs px-2.5 py-1 rounded-none bg-paper-deep text-vermillion">
                     {test.bewertung_kurz}
                   </span>
 
@@ -436,22 +436,22 @@ export default function BikeDetail() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
                     {(test.stärken?.length ?? 0) > 0 && (
                       <div className="space-y-1.5">
-                        <p className="text-[10px] font-semibold tracking-widest text-stone-400 uppercase mb-2">Stärken</p>
+                        <p className="font-mono text-[10px] tracking-[0.18em] text-concrete uppercase mb-2">Stärken</p>
                         {test.stärken.map((s, j) => (
                           <div key={j} className="flex items-start gap-2">
                             <CheckCircle2 size={13} className="text-emerald-500 shrink-0 mt-0.5" />
-                            <span className="text-sm text-stone-600 leading-snug">{s}</span>
+                            <span className="text-sm text-ink-soft leading-snug">{s}</span>
                           </div>
                         ))}
                       </div>
                     )}
                     {(test.schwaechen?.length ?? 0) > 0 && (
                       <div className="space-y-1.5">
-                        <p className="text-[10px] font-semibold tracking-widest text-stone-400 uppercase mb-2">Schwächen</p>
+                        <p className="font-mono text-[10px] tracking-[0.18em] text-concrete uppercase mb-2">Schwächen</p>
                         {test.schwaechen.map((s, j) => (
                           <div key={j} className="flex items-start gap-2">
                             <AlertCircle size={13} className="text-orange-400 shrink-0 mt-0.5" />
-                            <span className="text-sm text-stone-600 leading-snug">{s}</span>
+                            <span className="text-sm text-ink-soft leading-snug">{s}</span>
                           </div>
                         ))}
                       </div>
@@ -465,7 +465,7 @@ export default function BikeDetail() {
                         href={test.test_url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-sm text-terracotta-600 hover:underline"
+                        className="inline-flex items-center gap-1.5 text-sm text-vermillion hover:underline"
                       >
                         Test lesen <ExternalLink size={12} />
                       </a>
@@ -487,7 +487,7 @@ export default function BikeDetail() {
             <GroupLabel>Schweiz</GroupLabel>
             {bike.verfuegbarkeit_ch.haendler.length === 0 ||
             (bike.verfuegbarkeit_ch.haendler.length === 1 && bike.verfuegbarkeit_ch.haendler[0] === 'NOT_SPECIFIED') ? (
-              <p className="text-sm text-stone-400 italic">
+              <p className="text-sm text-concrete">
                 Keine CH-Händler hinterlegt — frag beim lokalen Fachhandel nach.
               </p>
             ) : (
@@ -505,15 +505,15 @@ export default function BikeDetail() {
                           href={url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-sm text-terracotta-600 hover:underline"
+                          className="inline-flex items-center gap-1 text-sm text-vermillion hover:underline"
                         >
                           {haendlerName} <ExternalLink size={11} />
                         </a>
                       ) : (
-                        <span className="text-sm text-stone-700">{haendlerName}</span>
+                        <span className="text-sm text-ink-soft">{haendlerName}</span>
                       )}
                       {hatProbefahrt && (
-                        <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                        <span className="font-mono text-[10px] px-2 py-0.5 rounded-none bg-emerald-50 text-emerald-700 border border-emerald-200">
                           Probefahrt möglich
                         </span>
                       )}
@@ -528,14 +528,14 @@ export default function BikeDetail() {
           <div>
             <GroupLabel>Direktversand</GroupLabel>
             {!bike.verfuegbarkeit_de_direkt?.shop || bike.verfuegbarkeit_de_direkt.shop === 'NOT_SPECIFIED' ? (
-              <p className="text-sm text-stone-400 italic">Kein Direktversand bekannt.</p>
+              <p className="text-sm text-concrete">Kein Direktversand bekannt.</p>
             ) : (
               <div className="space-y-1.5">
-                <p className="text-sm font-semibold text-stone-800">
+                <p className="text-sm font-medium text-ink">
                   {bike.verfuegbarkeit_de_direkt.shop}
                 </p>
                 {bike.verfuegbarkeit_de_direkt.lieferzeit_tage && (
-                  <p className="text-xs text-stone-400">
+                  <p className="font-mono text-xs text-concrete">
                     Lieferzeit ca. {bike.verfuegbarkeit_de_direkt.lieferzeit_tage} Tage
                   </p>
                 )}
@@ -545,7 +545,7 @@ export default function BikeDetail() {
                     href={bike.verfuegbarkeit_de_direkt.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 mt-1 rounded-lg border border-terracotta-400 text-terracotta-600 hover:bg-terracotta-50 transition-colors"
+                    className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 mt-1 rounded-none border border-vermillion text-vermillion hover:bg-paper-deep transition-colors"
                   >
                     Zum Shop <ExternalLink size={12} />
                   </a>
@@ -581,9 +581,9 @@ export default function BikeDetail() {
                     key={altName}
                     to={`/bikes/${match.id}`}
                     state={{ fromSearch: location.search }}
-                    className="group flex flex-col bg-white border border-stone-200 rounded-xl overflow-hidden hover:border-terracotta-400 transition-colors"
+                    className="group flex flex-col bg-paper border border-rule rounded-none overflow-hidden hover:border-vermillion transition-colors"
                   >
-                    <div className="relative aspect-[4/3] bg-white flex items-center justify-center overflow-hidden p-2">
+                    <div className="relative aspect-[4/3] bg-paper-deep flex items-center justify-center overflow-hidden p-2">
                       {match.bild_pfad ? (
                         <img
                           src={match.bild_pfad}
@@ -593,18 +593,18 @@ export default function BikeDetail() {
                           onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
                         />
                       ) : (
-                        <Bike size={24} className="text-terracotta-200" strokeWidth={1.25} />
+                        <Bike size={24} className="text-rule" strokeWidth={1.25} />
                       )}
-                      <span className="absolute top-2 right-2 bg-terracotta-500 text-white text-[10px] font-semibold px-1.5 py-0.5 rounded-full">
-                        {match.passend_fuer_martina_score}/10
+                      <span className="absolute top-2 right-2 bg-vermillion text-paper text-[10px] font-mono px-1.5 py-0.5 rounded-none">
+                        {match.passend_fuer_martina_score ?? match.score}/10
                       </span>
                     </div>
                     <div className="p-3">
-                      <p className="text-xs font-semibold text-stone-800 leading-snug group-hover:text-terracotta-700 transition-colors">
+                      <p className="font-display text-sm text-ink leading-snug group-hover:text-vermillion transition-colors">
                         {match.hersteller} {match.modell}
                       </p>
                       {altPreis && (
-                        <p className="text-xs text-stone-400 mt-0.5">{altPreis}</p>
+                        <p className="font-mono text-xs text-concrete mt-0.5">{altPreis}</p>
                       )}
                     </div>
                   </Link>
@@ -619,12 +619,12 @@ export default function BikeDetail() {
                   href={googleUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col justify-between bg-stone-50 border border-stone-200 rounded-xl p-3 hover:border-stone-300 transition-colors"
+                  className="flex flex-col justify-between bg-paper-deep border border-rule rounded-none p-3 hover:border-rule-strong transition-colors"
                 >
-                  <p className="text-xs font-semibold text-stone-700 leading-snug">{altName}</p>
+                  <p className="text-xs text-ink-soft leading-snug">{altName}</p>
                   <div className="flex items-center gap-1 mt-2">
-                    <p className="text-[10px] text-stone-400">Nicht in unserer Auswahl</p>
-                    <ExternalLink size={10} className="text-stone-400 shrink-0" />
+                    <p className="font-mono text-[10px] text-concrete">Nicht in unserer Auswahl</p>
+                    <ExternalLink size={10} className="text-concrete shrink-0" />
                   </div>
                 </a>
               )
