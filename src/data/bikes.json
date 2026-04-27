@@ -37,16 +37,16 @@
       "vorne_mm": 150,
       "hinten_mm": 140,
       "gabel_modell": "Fox 36 Float Rhythm GRIP, E-Bike Optimized",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_url": "https://www.ridefox.com",
       "daempfer_modell": "Fox Float Performance",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "Bosch",
       "modell": "Performance Line CX BDU384Y",
       "drehmoment_nm": 100,
       "leistung_spitze_w": 750,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.bosch-ebike.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -55,14 +55,14 @@
     },
     "ausstattung": {
       "schaltung": "Shimano XT 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
+      "schaltung_url": "https://bike.shimano.com",
       "bremsen": "Shimano XT BR-M8220, 203/203 mm",
-      "bremsen_url": "NOT_SPECIFIED",
+      "bremsen_url": "https://bike.shimano.com",
       "laufraeder": "Newmen Performance 30",
-      "laufraeder_url": "NOT_SPECIFIED",
+      "laufraeder_url": "https://www.newmen-components.com",
       "reifen_vorne": "Continental Kryptotal Front 2.4, Enduro Soft",
       "reifen_hinten": "Continental Kryptotal Rear 2.4, Downhill Soft",
-      "reifen_url": "NOT_SPECIFIED",
+      "reifen_url": "https://www.continental-tires.com",
       "cockpit": "Bosch Kiox 400C Display"
     },
     "gewicht_kg": 24.3,
@@ -183,16 +183,16 @@
       "vorne_mm": 160,
       "hinten_mm": 150,
       "gabel_modell": "Fox 36 Performance, 160 mm",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_url": "https://www.ridefox.com",
       "daempfer_modell": "Fox Float Performance, 2-Position, 150 mm",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "DJI",
       "modell": "Avinox M1",
       "drehmoment_nm": 105,
       "leistung_spitze_w": 1000,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.avinox-ebike.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -201,14 +201,14 @@
     },
     "ausstattung": {
       "schaltung": "SRAM GX Eagle 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
+      "schaltung_url": "https://www.sram.com",
       "bremsen": "Magura MT5 eSTOP 4-Kolben",
-      "bremsen_url": "NOT_SPECIFIED",
+      "bremsen_url": "https://www.magura.com",
       "laufraeder": "AMFLOW HMA-30",
-      "laufraeder_url": "NOT_SPECIFIED",
+      "laufraeder_url": "https://www.amflowbikes.com",
       "reifen_vorne": "Maxxis Assegai",
       "reifen_hinten": "Maxxis Assegai",
-      "reifen_url": "NOT_SPECIFIED",
+      "reifen_url": "https://www.maxxis.com",
       "cockpit": "KS RAGEi Dropper + DJI Avinox 2\" OLED Display"
     },
     "gewicht_kg": 19.2,
@@ -340,16 +340,16 @@
       "vorne_mm": 160,
       "hinten_mm": 155,
       "gabel_modell": "Fox 38 Rhythm, 160 mm",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_url": "https://www.ridefox.com",
       "daempfer_modell": "Fox Float DPS Performance",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "Shimano",
       "modell": "EP801",
       "drehmoment_nm": 85,
       "leistung_spitze_w": 600,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://bike.shimano.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -358,14 +358,14 @@
     },
     "ausstattung": {
       "schaltung": "Shimano XT M8100 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
+      "schaltung_url": "https://bike.shimano.com",
       "bremsen": "Shimano SLX M7120 4-Kolben, 203 mm",
-      "bremsen_url": "NOT_SPECIFIED",
+      "bremsen_url": "https://bike.shimano.com",
       "laufraeder": "DT Swiss HX 1700",
-      "laufraeder_url": "NOT_SPECIFIED",
+      "laufraeder_url": "https://www.dtswiss.com",
       "reifen_vorne": "Maxxis Assegai EXO+",
       "reifen_hinten": "Maxxis Dissector EXO+",
-      "reifen_url": "NOT_SPECIFIED",
+      "reifen_url": "https://www.maxxis.com",
       "cockpit": "Canyon G5 Dropper"
     },
     "gewicht_kg": 23.0,
@@ -501,16 +501,16 @@
       "vorne_mm": 150,
       "hinten_mm": 145,
       "gabel_modell": "RockShox Lyrik Base, 150 mm",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_url": "https://www.sram.com/rockshox",
       "daempfer_modell": "RockShox Deluxe Select",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.sram.com/rockshox"
     },
     "motor": {
       "hersteller": "Bosch",
       "modell": "Performance Line CX Gen5",
       "drehmoment_nm": 85,
       "leistung_spitze_w": 600,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.bosch-ebike.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -519,14 +519,14 @@
     },
     "ausstattung": {
       "schaltung": "SRAM S1000 AXS Eagle Transmission 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
+      "schaltung_url": "https://www.sram.com",
       "bremsen": "SRAM DB8 Stealth 4-Kolben 200 mm",
-      "bremsen_url": "NOT_SPECIFIED",
+      "bremsen_url": "https://www.sram.com",
       "laufraeder": "DT Swiss H1900 LS",
-      "laufraeder_url": "NOT_SPECIFIED",
+      "laufraeder_url": "https://www.dtswiss.com",
       "reifen_vorne": "Schwalbe Magic Mary Addix Soft",
       "reifen_hinten": "Schwalbe Hans Dampf Addix Speed Grip",
-      "reifen_url": "NOT_SPECIFIED",
+      "reifen_url": "https://www.schwalbe.com",
       "cockpit": "Bosch Kiox 300 + Connect Modul 3100"
     },
     "gewicht_kg": 24.9,
@@ -668,16 +668,16 @@
       "vorne_mm": 160,
       "hinten_mm": 150,
       "gabel_modell": "Fox 36 Performance Elite GRIP X2, 160 mm",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_url": "https://www.ridefox.com",
       "daempfer_modell": "Fox Float X Performance",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "Bosch",
       "modell": "Performance Line CX Gen5",
       "drehmoment_nm": 85,
       "leistung_spitze_w": 600,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.bosch-ebike.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -686,14 +686,14 @@
     },
     "ausstattung": {
       "schaltung": "Shimano Deore XT 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
+      "schaltung_url": "https://bike.shimano.com",
       "bremsen": "TRP DH-R EVO Pro 4-Kolben 203/200 mm",
-      "bremsen_url": "NOT_SPECIFIED",
+      "bremsen_url": "https://www.trpbrakes.com",
       "laufraeder": "DT Swiss H1900",
-      "laufraeder_url": "NOT_SPECIFIED",
+      "laufraeder_url": "https://www.dtswiss.com",
       "reifen_vorne": "Maxxis Assegai EXO+",
       "reifen_hinten": "Maxxis Minion DHR II EXO+",
-      "reifen_url": "NOT_SPECIFIED",
+      "reifen_url": "https://www.maxxis.com",
       "cockpit": "Bosch Kiox Display"
     },
     "gewicht_kg": null,
@@ -846,16 +846,16 @@
       "vorne_mm": 150,
       "hinten_mm": 140,
       "gabel_modell": "Fox 36 Float Factory mit Kashima-Beschichtung, 150 mm",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_url": "https://www.ridefox.com",
       "daempfer_modell": "Fox Float X Factory",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "Bosch",
       "modell": "Performance Line CX Smart Gen5",
       "drehmoment_nm": 100,
       "leistung_spitze_w": 750,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.bosch-ebike.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -864,14 +864,14 @@
     },
     "ausstattung": {
       "schaltung": "Shimano XT Di2 12-fach (elektronisch)",
-      "schaltung_url": "NOT_SPECIFIED",
+      "schaltung_url": "https://bike.shimano.com",
       "bremsen": "Shimano XT BR-M8220 4-Kolben 203 mm + Bosch ABS Pro Vorderrad",
-      "bremsen_url": "NOT_SPECIFIED",
+      "bremsen_url": "https://bike.shimano.com",
       "laufraeder": "Newmen Beskar 30",
-      "laufraeder_url": "NOT_SPECIFIED",
+      "laufraeder_url": "https://www.newmen-components.com",
       "reifen_vorne": "Schwalbe Albert 2.5\"",
       "reifen_hinten": "Schwalbe Albert 2.5\"",
-      "reifen_url": "NOT_SPECIFIED",
+      "reifen_url": "https://www.schwalbe.com",
       "cockpit": "Bosch Kiox 400C Display"
     },
     "gewicht_kg": 24.3,
@@ -1352,7 +1352,8 @@
       "reifen_vorne": "Schwalbe Magic Mary Gravity PRO Casing",
       "reifen_hinten": "Schwalbe Magic Mary Gravity PRO Casing",
       "reifen_url": "https://www.schwalbe.com",
-      "cockpit": "OneUp V2 Carbon Lenker + OneUp EDC Stem + OneUp V3 Dropper 180 mm"
+      "cockpit": "OneUp V2 Carbon Lenker + OneUp EDC Stem + OneUp V3 Dropper 180 mm",
+      "laufraeder_url": "https://www.dtswiss.com"
     },
     "gewicht_kg": 21.5,
     "laufradgroesse": "MX (Mullet)",
@@ -1528,7 +1529,8 @@
       "reifen_vorne": "Continental Kryptotal Soft",
       "reifen_hinten": "Continental Kryptotal Soft",
       "reifen_url": "https://www.continental-tires.com",
-      "cockpit": "Bosch Kiox 400C Display + Bosch Mini Controller Wireless"
+      "cockpit": "Bosch Kiox 400C Display + Bosch Mini Controller Wireless",
+      "laufraeder_url": "https://www.newmen-components.com"
     },
     "gewicht_kg": null,
     "laufradgroesse": "29",
@@ -1844,16 +1846,16 @@
       "vorne_mm": 150,
       "hinten_mm": 150,
       "gabel_modell": "RockShox ZEB Select+ Charger 2.1 RC",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_url": "https://www.sram.com/rockshox",
       "daempfer_modell": "RockShox Super Deluxe Select+",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.sram.com/rockshox"
     },
     "motor": {
       "hersteller": "Bosch",
       "modell": "Performance Line CX Gen 4",
       "drehmoment_nm": 85,
       "leistung_spitze_w": 600,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://www.bosch-ebike.com"
     },
     "akku": {
       "kapazitaet_wh": 625,
@@ -1862,14 +1864,14 @@
     },
     "ausstattung": {
       "schaltung": "Shimano XT/SLX 12-fach",
-      "schaltung_url": "NOT_SPECIFIED",
+      "schaltung_url": "https://bike.shimano.com",
       "bremsen": "Shimano SLX 4-Kolben",
-      "bremsen_url": "NOT_SPECIFIED",
+      "bremsen_url": "https://bike.shimano.com",
       "laufraeder": "MX (Mullet)",
-      "laufraeder_url": "NOT_SPECIFIED",
+      "laufraeder_url": null,
       "reifen_vorne": "NOT_SPECIFIED",
       "reifen_hinten": "NOT_SPECIFIED",
-      "reifen_url": "NOT_SPECIFIED",
+      "reifen_url": null,
       "cockpit": "NOT_SPECIFIED"
     },
     "gewicht_kg": 23.0,
@@ -1983,7 +1985,8 @@
       "reifen_vorne": "Maxxis Minion 29×2.40\" 120 TPI 3CT/EXO",
       "reifen_hinten": "Maxxis Minion 29×2.40\" 120 TPI",
       "reifen_url": "https://www.maxxis.com",
-      "cockpit": "OC Mountain Control MC20 Lenker Alu 800 mm + OC MC20 Vorbau 0° + OC MC22 Dropper 31.6 mm"
+      "cockpit": "OC Mountain Control MC20 Lenker Alu 800 mm + OC MC20 Vorbau 0° + OC MC22 Dropper 31.6 mm",
+      "laufraeder_url": "https://www.dtswiss.com"
     },
     "gewicht_kg": null,
     "laufradgroesse": "29",
@@ -2495,16 +2498,16 @@
       "vorne_mm": 170,
       "hinten_mm": 160,
       "gabel_modell": "Fox 36 Float Performance",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_url": "https://www.ridefox.com",
       "daempfer_modell": "Fox Float X Performance",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.ridefox.com"
     },
     "motor": {
       "hersteller": "Bosch",
       "modell": "Performance Line CX Gen5",
       "drehmoment_nm": 100,
       "leistung_spitze_w": 750,
-      "hersteller_url": "NOT_SPECIFIED"
+      "hersteller_url": "https://bike.shimano.com"
     },
     "akku": {
       "kapazitaet_wh": 800,
@@ -2513,14 +2516,14 @@
     },
     "ausstattung": {
       "schaltung": "SRAM GX Eagle Transmission",
-      "schaltung_url": "NOT_SPECIFIED",
+      "schaltung_url": "https://www.sram.com",
       "bremsen": "SRAM Code R",
-      "bremsen_url": "NOT_SPECIFIED",
+      "bremsen_url": "https://www.sram.com",
       "laufraeder": "Syncros Revelstoke 2.0",
-      "laufraeder_url": "NOT_SPECIFIED",
+      "laufraeder_url": "https://www.syncros.com",
       "reifen_vorne": "Maxxis Assegai EXO+",
       "reifen_hinten": "Maxxis Dissector EXO+",
-      "reifen_url": "NOT_SPECIFIED",
+      "reifen_url": "https://www.maxxis.com",
       "cockpit": "NOT_SPECIFIED"
     },
     "gewicht_kg": 24.3,
@@ -3424,7 +3427,9 @@
       "vorbau": "Canyon-eigener Trail-Stem 35 mm",
       "lenker": "Canyon-eigener Lenker mit angepasster Geometrie",
       "display": "TQ HPR LED-System (am Oberrohr integriert, minimal-distractive Light-eMTB-Style)",
-      "extra": "K.I.S. (Keep It Stable) Steering Stabilizer im Oberrohr versteckt — Federmechanismus für mehr Lenk-Kontrolle, lebenslange Garantie auf K.I.S., komplett wartungsfrei. UNIQUE Canyon-Feature in der ganzen Liste!"
+      "extra": "K.I.S. (Keep It Stable) Steering Stabilizer im Oberrohr versteckt — Federmechanismus für mehr Lenk-Kontrolle, lebenslange Garantie auf K.I.S., komplett wartungsfrei. UNIQUE Canyon-Feature in der ganzen Liste!",
+      "schaltung_url": "https://bike.shimano.com",
+      "bremsen_url": "https://www.sram.com"
     },
     "geometrie_features": [
       "Vollcarbon Spectral:ONfly CF Rahmen (2,65 kg in Grösse M)",
@@ -4278,9 +4283,9 @@
       "vorne_mm": 170,
       "hinten_mm": 165,
       "gabel_modell": "Fox 38 Performance, GRIP, 170mm",
-      "gabel_url": "NOT_SPECIFIED",
+      "gabel_url": "https://www.ridefox.com",
       "daempfer_modell": "Fox Float X Performance",
-      "daempfer_url": "NOT_SPECIFIED"
+      "daempfer_url": "https://www.ridefox.com"
     },
     "kategorie": "All-Mountain / Trail-Enduro mit Bosch Voll-Power",
     "modelljahr": 2026
@@ -4326,7 +4331,9 @@
       "lenker": "Santa Cruz Mountain (Aluminium) bis Santa Cruz E35 Carbon (X0 AXS RSV)",
       "display": "Shimano EM800 Color Display (Schwarz-Weiss-Bildschirm in tieferen Specs, Color Display in Top-Specs)",
       "remote": "Shimano EN600L Remote für Mode-Wechsel, vorkonfigurierte Profile, LED Battery Indicator",
-      "extra": "Internal Cable Routing, Universal Derailleur Hanger, gummierter Unterrohr-Schutz, Schutzschild für Dämpfer, Platz für Trinkflasche im Hauptdreieck"
+      "extra": "Internal Cable Routing, Universal Derailleur Hanger, gummierter Unterrohr-Schutz, Schutzschild für Dämpfer, Platz für Trinkflasche im Hauptdreieck",
+      "schaltung_url": "https://www.sram.com",
+      "bremsen_url": "https://www.sram.com"
     },
     "geometrie_features": [
       "VPP™ (Virtual Pivot Point) Hinterbau — Santa Cruz Premium-Bauart mit kleineren Anti-Squat-Werten für eMTB-spezifische Abstimmung",
@@ -4499,7 +4506,7 @@
       "schaltung": "EX 8: SRAM Eagle 70 mechanisch / EX 9.7: Shimano XT mechanisch oder SRAM GX AXS / EX 9.8: Shimano XT Di2 (Top-Spec)",
       "schaltung_url": null,
       "bremsen": "Shimano XT 4-Kolben (EX 9.7/9.8) oder Shimano Deore (EX 8)",
-      "bremsen_url": null,
+      "bremsen_url": "https://bike.shimano.com",
       "laufraeder": "Bontrager Line Comp 30 (EX 8) bis Bontrager Line Pro 30 Carbon (EX 9.8)",
       "laufraeder_url": null,
       "reifen_vorne": "Maxxis Minion DHF EXO+ 3C MaxxTerra 2.5\"",
