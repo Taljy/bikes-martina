@@ -82,10 +82,10 @@ export default function Home() {
       {/* A) Hero */}
       <div className="pt-4 text-center mx-auto max-w-3xl">
         <p className="font-mono text-xs tracking-[0.18em] text-vermillion uppercase mb-3">
-          E-MTB-CHECK 2026
+          E-MTB-CHECK 2026 · FÜR MARTINA
         </p>
         <h1 className="text-5xl text-ink mb-4">
-          Finde dein perfektes Bike
+          Das richtige E-MTB
         </h1>
         <p className="text-lg text-asphalt max-w-xl leading-relaxed mx-auto">
           {BIKE_COUNT} Bikes — Stärken & Schwächen — No Bullshit
