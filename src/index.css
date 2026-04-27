@@ -7,18 +7,6 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  /* ── Terracotta (Legacy — wird schrittweise durch DREK-Tokens abgelöst) ── */
-  --color-terracotta-50: #F5E8E0;
-  --color-terracotta-100: #EDD4C4;
-  --color-terracotta-200: #DEBA9F;
-  --color-terracotta-300: #CE9F79;
-  --color-terracotta-400: #C0865A;
-  --color-terracotta-500: #B26A4A;
-  --color-terracotta-600: #9B5A3E;
-  --color-terracotta-700: #7D4732;
-  --color-terracotta-800: #5F3525;
-  --color-terracotta-900: #3E2218;
-
   /* ── DREK — Hell-Modus ── */
   --color-paper:          #F2EEE7;
   --color-paper-deep:     #E8E2D9;
