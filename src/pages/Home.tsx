@@ -79,56 +79,56 @@ export default function Home() {
 
       {/* Hero */}
       <div className="pt-4">
-        <p className="text-xs font-medium tracking-widest text-terracotta-500 uppercase mb-3">
+        <p className="font-mono text-xs tracking-[0.18em] text-vermillion uppercase mb-3">
           E-MTB-CHECK 2026
         </p>
-        <h1 className="text-4xl font-semibold tracking-tight text-stone-900 mb-4 leading-tight">
+        <h1 className="text-5xl text-ink mb-4">
           Welches E-MTB taugt wirklich?
         </h1>
-        <p className="text-lg text-stone-500 max-w-xl leading-relaxed">
+        <p className="text-lg text-asphalt max-w-xl leading-relaxed">
           {BIKE_COUNT} Bikes. Kein Marketing-Bullshit. Daten verifiziert. Schwächen klar benannt.
         </p>
       </div>
 
       {/* KI-Warnhinweis */}
-      <div className="rounded-lg border border-amber-200 bg-amber-50 p-3">
+      <div className="rounded-none border border-amber-300 bg-amber-50 p-3">
         <p className="text-sm text-amber-800">
           ⚠️ Achtung: Ich bin mit KI gebaut und habe sicher noch ein paar geistige Einschränkungen.
         </p>
       </div>
 
       {/* Profil-Card */}
-      <div className="border border-stone-200 rounded-xl bg-white overflow-hidden">
+      <div className="border border-rule rounded-none bg-paper overflow-hidden">
         <button
           onClick={() => setProfilOffen(v => !v)}
-          className="w-full flex items-center justify-between px-6 py-4 hover:bg-stone-50 transition-colors"
+          className="w-full flex items-center justify-between px-6 py-4 hover:bg-paper-deep transition-colors"
         >
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-terracotta-50 flex items-center justify-center">
-              <User size={15} className="text-terracotta-600" />
+            <div className="w-8 h-8 rounded-sm bg-paper-deep flex items-center justify-center">
+              <User size={15} className="text-vermillion" />
             </div>
             <div className="text-left">
-              <p className="text-sm font-medium text-stone-800">Martinas Profil</p>
-              <p className="text-xs text-stone-400">Kriterien & Begründungen</p>
+              <p className="text-sm font-medium text-ink">Martinas Profil</p>
+              <p className="text-xs text-concrete">Kriterien & Begründungen</p>
             </div>
           </div>
           <ChevronDown
             size={16}
-            className={`text-stone-400 transition-transform duration-200 ${profilOffen ? 'rotate-180' : ''}`}
+            className={`text-concrete transition-transform duration-200 ${profilOffen ? 'rotate-180' : ''}`}
           />
         </button>
 
         {profilOffen && (
-          <div className="border-t border-stone-100 divide-y divide-stone-100">
+          <div className="border-t border-rule divide-y divide-rule">
             {profil.map(({ icon: Icon, label, wert, detail }) => (
               <div key={label} className="px-6 py-4 flex gap-4">
-                <div className="mt-0.5 w-8 h-8 rounded-lg bg-terracotta-50 flex items-center justify-center shrink-0">
-                  <Icon size={15} className="text-terracotta-600" />
+                <div className="mt-0.5 w-8 h-8 rounded-sm bg-paper-deep flex items-center justify-center shrink-0">
+                  <Icon size={15} className="text-vermillion" />
                 </div>
                 <div>
-                  <p className="text-xs font-medium text-stone-400 uppercase tracking-wide mb-0.5">{label}</p>
-                  <p className="text-sm font-medium text-stone-800 mb-1">{wert}</p>
-                  <p className="text-sm text-stone-500 leading-relaxed">{detail}</p>
+                  <p className="font-mono text-xs text-concrete tracking-[0.18em] uppercase mb-0.5">{label}</p>
+                  <p className="text-sm font-medium text-ink mb-1">{wert}</p>
+                  <p className="text-sm text-asphalt leading-relaxed">{detail}</p>
                 </div>
               </div>
             ))}
@@ -142,15 +142,15 @@ export default function Home() {
           <Link
             key={route}
             to={route}
-            className="group flex flex-col bg-white border border-stone-200 rounded-xl p-6 hover:bg-terracotta-50 hover:border-terracotta-500 hover:shadow-sm transition-all duration-150"
+            className="group flex flex-col bg-paper border border-rule rounded-none p-6 hover:bg-paper-deep hover:shadow-sm transition-all duration-150"
           >
-            <div className="w-9 h-9 rounded-lg bg-stone-100 group-hover:bg-terracotta-100 flex items-center justify-center mb-4 transition-colors duration-150">
-              <Icon size={18} className="text-stone-500 group-hover:text-terracotta-600 transition-colors duration-150" strokeWidth={1.75} />
+            <div className="w-9 h-9 rounded-none bg-paper-deep group-hover:bg-rule flex items-center justify-center mb-4 transition-colors duration-150">
+              <Icon size={18} className="text-concrete group-hover:text-vermillion transition-colors duration-150" strokeWidth={1.75} />
             </div>
-            <p className="text-sm font-semibold text-stone-800 mb-1.5">{titel}</p>
-            <p className="text-sm text-stone-500 leading-relaxed flex-1">{beschreibung}</p>
+            <p className="font-display text-base text-ink mb-1.5">{titel}</p>
+            <p className="text-sm text-asphalt leading-relaxed flex-1">{beschreibung}</p>
             <div className="mt-4 flex justify-end">
-              <ArrowRight size={15} className="text-zinc-400 group-hover:text-terracotta-500 transition-colors duration-150" />
+              <ArrowRight size={15} className="text-concrete group-hover:text-vermillion transition-colors duration-150" />
             </div>
           </Link>
         ))}
