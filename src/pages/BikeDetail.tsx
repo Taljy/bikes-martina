@@ -212,11 +212,11 @@ export default function BikeDetail() {
       <SpecCard title={bike.bewertung_detail ? "Passt zu Martina? — Detail-Bewertig" : "Passt zu Martina?"}>
         <div className="space-y-5">
           <ScoreGauge score={bike.passend_fuer_martina_score ?? bike.score} />
-          <p className="text-sm text-stone-600 leading-relaxed">
+          <p className="text-sm text-ink-soft leading-relaxed">
             {bike.passend_fuer_martina_begruendung}
           </p>
           {(bike.warnungen?.length ?? 0) > 0 && (
-            <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 flex gap-3">
+            <div className="rounded-none border border-amber-300 bg-amber-50 p-4 flex gap-3">
               <AlertTriangle size={16} className="text-amber-500 shrink-0 mt-0.5" />
               <div className="space-y-1">
                 {bike.warnungen?.map((w, i) => (
@@ -229,9 +229,9 @@ export default function BikeDetail() {
           {/* Spinnendiagramm */}
           {bike.bewertung_kategorien && (
             <>
-              <hr className="border-stone-100" />
+              <hr className="border-rule" />
               <div>
-                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-1">
+                <p className="font-mono text-xs tracking-[0.18em] text-concrete uppercase mb-1">
                   Fähigkeits-Profil (0–10)
                 </p>
                 <BewertungRadar bewertung={bike.bewertung_kategorien} size="md" />
@@ -242,16 +242,16 @@ export default function BikeDetail() {
           {/* Pro-Liste */}
           {bike.bewertung_detail?.pro && bike.bewertung_detail.pro.length > 0 && (
             <>
-              <hr className="border-stone-100" />
+              <hr className="border-rule" />
               <div>
-                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-3">
+                <p className="font-mono text-xs tracking-[0.18em] text-concrete uppercase mb-3">
                   Was spricht dafür
                 </p>
                 <ul className="space-y-2">
                   {bike.bewertung_detail.pro.map((punkt, i) => (
                     <li key={i} className="flex items-start gap-2.5">
                       <CheckCircle2 size={15} className="text-green-500 shrink-0 mt-0.5" />
-                      <span className="text-sm text-stone-700 leading-snug">{punkt}</span>
+                      <span className="text-sm text-ink-soft leading-snug">{punkt}</span>
                     </li>
                   ))}
                 </ul>
@@ -262,16 +262,16 @@ export default function BikeDetail() {
           {/* Contra-Liste */}
           {bike.bewertung_detail?.contra && bike.bewertung_detail.contra.length > 0 && (
             <>
-              <hr className="border-stone-100" />
+              <hr className="border-rule" />
               <div>
-                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-3">
+                <p className="font-mono text-xs tracking-[0.18em] text-concrete uppercase mb-3">
                   Was spricht degege
                 </p>
                 <ul className="space-y-2">
                   {bike.bewertung_detail.contra.map((punkt, i) => (
                     <li key={i} className="flex items-start gap-2.5">
                       <XCircle size={15} className="text-red-400 shrink-0 mt-0.5" />
-                      <span className="text-sm text-stone-700 leading-snug">{punkt}</span>
+                      <span className="text-sm text-ink-soft leading-snug">{punkt}</span>
                     </li>
                   ))}
                 </ul>
@@ -282,12 +282,12 @@ export default function BikeDetail() {
           {/* Fazit */}
           {bike.bewertung_detail?.fazit && (
             <>
-              <hr className="border-stone-100" />
-              <div className="pl-4 border-l-2 border-terracotta-400">
-                <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase mb-2">
+              <hr className="border-rule" />
+              <div className="pl-4 border-l-2 border-vermillion">
+                <p className="font-mono text-xs tracking-[0.18em] text-concrete uppercase mb-2">
                   Mein Senf dazu
                 </p>
-                <p className="text-sm text-stone-600 leading-relaxed italic">
+                <p className="text-sm text-asphalt leading-relaxed italic">
                   {bike.bewertung_detail.fazit}
                 </p>
               </div>
@@ -317,19 +317,19 @@ export default function BikeDetail() {
         return (
           <SpecCard title="Verfüegbarkeit">
             <div className="space-y-3">
-              <div className={`flex items-center gap-2.5 rounded-lg border px-4 py-3 ${statusConfig.bg} ${statusConfig.border}`}>
+              <div className={`flex items-center gap-2.5 rounded-none border px-4 py-3 ${statusConfig.bg} ${statusConfig.border}`}>
                 <span className={`w-2 h-2 rounded-full shrink-0 ${statusConfig.dot}`} />
                 <span className={`text-sm font-semibold ${statusConfig.text}`}>{statusConfig.label}</span>
               </div>
               {vf.hinweis && (
-                <p className="text-sm text-stone-600 leading-relaxed">{vf.hinweis}</p>
+                <p className="text-sm text-ink-soft leading-relaxed">{vf.hinweis}</p>
               )}
               {(datumFormatiert || domain) && (
-                <p className="text-xs text-stone-400">
+                <p className="font-mono text-xs text-concrete">
                   Gprüeft am {datumFormatiert}
                   {domain && (
                     <> uf {vf.geprueft_quelle ? (
-                      <a href={vf.geprueft_quelle} target="_blank" rel="noopener noreferrer" className="underline hover:text-terracotta-500 transition-colors">{domain}</a>
+                      <a href={vf.geprueft_quelle} target="_blank" rel="noopener noreferrer" className="underline hover:text-vermillion transition-colors">{domain}</a>
                     ) : domain}</>
                   )}
                 </p>
