@@ -12,8 +12,8 @@ const WISSEN_ITEMS = [
 
 const TOP_LINKS = [
   { to: '/', label: 'Start', end: true },
-  { to: '/bikes', label: 'Alli Bikes' },
-  { to: '/vergleich', label: 'Vergliich' },
+  { to: '/bikes', label: 'Bikes' },
+  { to: '/vergleich', label: 'Vergleich' },
 ]
 
 export default function Layout() {

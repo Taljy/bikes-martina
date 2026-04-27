@@ -10,63 +10,63 @@ const profil = [
     icon: User,
     label: 'Fahrerin',
     wert: '1.80 m / 80 kg — Rahmegröössi L',
-    detail: '3. Saison ufem E-MTB, Technik ja — Bikepark-Profi no nöd',
+    detail: '3. Saison auf dem E-MTB, Technik ja — Bikepark-Profi noch nicht',
   },
   {
     icon: User,
     label: 'Beinlänge / Schrittlänge',
     wert: '86 cm',
-    detail: "Entscheided für d'Sattelhöchi und de Reach bi Gröössi L.",
+    detail: 'Entscheidend für die Sattelhöhe und den Reach bei Grösse L.',
   },
   {
     icon: MapPin,
     label: 'Einsatzgebiet',
     wert: 'Flachland & Alpe, Trails & Bikepark',
-    detail: "Vo de Hausrunde bis zur Alpetoure — s'Bike muss beides chöne.",
+    detail: 'Von der Hausrunde bis zur Alpentour — das Bike muss beides können.',
   },
   {
     icon: Gauge,
     label: 'Federweg',
     wert: '140–180 mm',
-    detail: 'All-Mountain bis Enduro. Abfahrt und Ufstig — beides zellt.',
+    detail: 'All-Mountain bis Enduro. Abfahrt und Aufstieg — beides zählt.',
   },
   {
     icon: Banknote,
     label: 'Budget',
     wert: "CHF 3'500 – 6'500",
-    detail: 'Usnahme zur Orientierig',
+    detail: 'Ausnahmen zur Orientierung',
   },
   {
     icon: Zap,
     label: 'Motor-Präferenz',
     wert: 'Bosch CX Gen5 · Shimano EP801 · DJI Avinox M1',
-    detail: "Bosch und Shimano sind bewährt, Service-Netz i de Schwiiz stimmt. DJI isch spannend — mir behalted's im Auge.",
+    detail: 'Bosch und Shimano sind bewährt, das Service-Netz in der Schweiz stimmt. DJI ist spannend — wir behalten es im Auge.',
   },
 ]
 
 const tiles = [
   {
     icon: Bike,
-    titel: 'Alli Bikes',
-    beschreibung: `${BIKE_COUNT} E-MTBs vergliche — filtere nach Budget, Motor und Federweg.`,
+    titel: 'Bikes',
+    beschreibung: `${BIKE_COUNT} E-MTBs vergleichen — filtern nach Budget, Motor und Federweg.`,
     route: '/bikes',
   },
   {
     icon: Mountain,
     titel: 'Trail oder Enduro?',
-    beschreibung: 'Welchi Kategorie passt zu dir? Mit Vergliichstabelle und Entscheidfrage.',
+    beschreibung: 'Welche Kategorie passt zu dir? Mit Vergleichstabelle und Entscheidungsfrage.',
     route: '/wissen/trail-vs-enduro',
   },
   {
     icon: Sparkles,
-    titel: "Was git's Neus 2026?",
-    beschreibung: "D'wichtigste Launches und Neuheite vo de aktuelle Saison uf ere Zitachse.",
+    titel: 'Neuheiten 2026',
+    beschreibung: 'Die wichtigsten Launches und Neuheiten der aktuellen Saison auf einer Zeitachse.',
     route: '/wissen/neuheiten-2026',
   },
   {
     icon: Zap,
-    titel: "D'Motore im Verglich",
-    beschreibung: 'Bosch, Shimano oder DJI? Alli Systeme direkt vergliche.',
+    titel: 'Motoren',
+    beschreibung: 'Bosch, Shimano oder DJI? Alle Systeme direkt vergleichen.',
     route: '/wissen/motoren',
   },
 ]
@@ -83,17 +83,17 @@ export default function Home() {
           E-MTB-CHECK 2026
         </p>
         <h1 className="text-4xl font-semibold tracking-tight text-stone-900 mb-4 leading-tight">
-          Welches E-MTB taugt würkli?
+          Welches E-MTB taugt wirklich?
         </h1>
         <p className="text-lg text-stone-500 max-w-xl leading-relaxed">
-          {BIKE_COUNT} Bikes. Kei Marketing-Bullshit. Daten verifiziert. Schwächä klar gnannt.
+          {BIKE_COUNT} Bikes. Kein Marketing-Bullshit. Daten verifiziert. Schwächen klar benannt.
         </p>
       </div>
 
       {/* KI-Warnhinweis */}
       <div className="rounded-lg border border-amber-200 bg-amber-50 p-3">
         <p className="text-sm text-amber-800">
-          ⚠️ Achtung: Ich bi mit KI baut worde und han sicher no chli geischtige Beschränkige.
+          ⚠️ Achtung: Ich bin mit KI gebaut und habe sicher noch ein paar geistige Einschränkungen.
         </p>
       </div>
 
