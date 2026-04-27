@@ -134,7 +134,7 @@ export default function Home() {
 
       {/* C) Section-Trenner */}
       <div className="pt-6">
-        <p className="font-mono text-xs tracking-[0.18em] text-concrete uppercase mb-6">
+        <p className="mt-16 mb-8 font-mono text-base tracking-[0.18em] text-vermillion uppercase">
           Oder erst einlesen
         </p>
 
