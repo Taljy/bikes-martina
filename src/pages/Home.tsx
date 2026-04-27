@@ -83,10 +83,10 @@ export default function Home() {
           E-MTB-CHECK 2026
         </p>
         <h1 className="text-5xl text-ink mb-4">
-          Welches E-MTB taugt wirklich?
+          Finde dein perfektes Bike
         </h1>
         <p className="text-lg text-asphalt max-w-xl leading-relaxed">
-          {BIKE_COUNT} Bikes. Kein Marketing-Bullshit. Daten verifiziert. Schwächen klar benannt.
+          {BIKE_COUNT} Bikes — Stärken & Schwächen — No Bullshit
         </p>
       </div>
 

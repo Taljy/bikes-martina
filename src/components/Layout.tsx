@@ -26,7 +26,7 @@ export default function Layout() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <NavLink to="/" className="flex items-center gap-2.5 text-vermillion hover:text-vermillion-deep">
             <MTBIcon className="h-8 w-8" />
-            <span className="font-display text-xl tracking-[0.04em] text-ink">E-MTB-Check</span>
+            <span className="font-display text-xl tracking-[0.04em] text-ink">E-MTB 2026 — Martina</span>
           </NavLink>
 
           <nav className="flex items-center gap-1">
