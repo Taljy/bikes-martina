@@ -31,16 +31,16 @@ const data = kategorienRaw as {
 }
 
 const KAT_FARBEN: Record<string, string> = {
-  Trail:         'border-stone-300 bg-white',
-  'All-Mountain': 'border-terracotta-300 bg-terracotta-50',
-  Enduro:        'border-stone-400 bg-stone-50',
+  Trail:         'border-rule bg-paper',
+  'All-Mountain': 'border-vermillion/30 bg-vermillion/5',
+  Enduro:        'border-rule-strong bg-paper-deep',
 }
 
 function FieldRow({ label, wert }: { label: string; wert: string }) {
   return (
-    <div className="py-2 border-b border-stone-100 last:border-0">
-      <p className="text-[10px] font-semibold tracking-widest text-stone-400 uppercase mb-0.5">{label}</p>
-      <p className="text-sm text-stone-700 leading-snug">{wert}</p>
+    <div className="py-2 border-b border-rule last:border-0">
+      <p className="font-mono text-[10px] tracking-[0.18em] text-concrete uppercase mb-0.5">{label}</p>
+      <p className="text-sm text-ink-soft leading-snug">{wert}</p>
     </div>
   )
 }
@@ -53,13 +53,13 @@ export default function TrailVsEnduro() {
 
       {/* ── Sektion 1: Hero ── */}
       <div className="pt-2">
-        <p className="text-xs font-semibold tracking-widest text-terracotta-500 uppercase mb-3">
+        <p className="font-mono text-xs tracking-[0.18em] text-vermillion uppercase mb-3">
           Wissen · Trail vs. Enduro
         </p>
-        <h1 className="text-4xl font-semibold tracking-tight text-stone-900 mb-4 leading-tight">
+        <h1 className="text-4xl text-ink mb-4 leading-tight">
           Welche Kategorie passt<br />zu welchem Einsatz?
         </h1>
-        <p className="text-lg text-stone-500 max-w-xl leading-relaxed">
+        <p className="text-lg text-asphalt max-w-xl leading-relaxed">
           Federweg ist nicht alles. Geometrie, Gewicht und Einsatzprofil entscheiden,
           welches Bike für dich funktioniert.
         </p>
@@ -70,13 +70,13 @@ export default function TrailVsEnduro() {
         {kategorien.map(kat => (
           <div
             key={kat.name}
-            className={`flex flex-col border rounded-xl overflow-hidden ${KAT_FARBEN[kat.name] ?? 'border-stone-200 bg-white'}`}
+            className={`flex flex-col border rounded-none overflow-hidden ${KAT_FARBEN[kat.name] ?? 'border-rule bg-paper'}`}
           >
             {/* Header */}
-            <div className="px-5 pt-5 pb-3 border-b border-stone-100">
-              <h2 className="text-xl font-bold text-stone-900 mb-1">{kat.name}</h2>
-              <p className="text-2xl font-semibold text-terracotta-600">{kat.federweg_range_mm}</p>
-              <p className="text-xs text-stone-400 mt-0.5">{kat.typisches_gewicht_kg}</p>
+            <div className="px-5 pt-5 pb-3 border-b border-rule">
+              <h2 className="text-xl text-ink mb-1">{kat.name}</h2>
+              <p className="font-mono text-2xl text-vermillion">{kat.federweg_range_mm}</p>
+              <p className="font-mono text-xs text-concrete mt-0.5">{kat.typisches_gewicht_kg}</p>
             </div>
 
             {/* Felder */}
@@ -89,45 +89,45 @@ export default function TrailVsEnduro() {
             </div>
 
             {/* Beispiel-Bikes */}
-            <div className="px-5 pb-4 pt-2 border-t border-stone-100">
-              <p className="text-[10px] font-semibold tracking-widest text-stone-400 uppercase mb-2">Beispiele</p>
+            <div className="px-5 pb-4 pt-2 border-t border-rule">
+              <p className="font-mono text-[10px] tracking-[0.18em] text-concrete uppercase mb-2">Beispiele</p>
               <div className="flex flex-wrap gap-1.5">
                 {kat.typische_beispielbikes.map(b => (
-                  <span key={b} className="text-xs bg-white border border-stone-200 text-stone-600 px-2 py-0.5 rounded-full">
+                  <span key={b} className="font-mono text-xs bg-paper border border-rule text-asphalt px-2 py-0.5 rounded-none">
                     {b}
                   </span>
                 ))}
               </div>
-              <p className="text-[10px] text-stone-400 mt-3 leading-snug">{kat.motor_typisch}</p>
+              <p className="font-mono text-[10px] text-concrete mt-3 leading-snug">{kat.motor_typisch}</p>
             </div>
           </div>
         ))}
       </div>
 
       {/* ── Sektion 3: Geometrie-Vergleichs-Tabelle ── */}
-      <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
-        <div className="px-6 py-3 border-b border-stone-100 bg-stone-50">
-          <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase">
+      <div className="bg-paper border border-rule rounded-none overflow-hidden">
+        <div className="px-6 py-3 border-b border-rule bg-paper-deep">
+          <p className="font-mono text-xs tracking-[0.18em] text-concrete uppercase">
             Geometrie im Vergleich
           </p>
         </div>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-stone-100">
-                <th className="text-left px-6 py-3 text-stone-400 font-normal w-36">Kriterium</th>
+              <tr className="border-b border-rule">
+                <th className="text-left px-6 py-3 font-mono text-xs text-concrete font-normal w-36">Kriterium</th>
                 {['Trail', 'All-Mountain', 'Enduro'].map(k => (
-                  <th key={k} className="text-left px-4 py-3 font-semibold text-stone-700">{k}</th>
+                  <th key={k} className="text-left px-4 py-3 font-medium text-ink">{k}</th>
                 ))}
               </tr>
             </thead>
             <tbody>
               {vergleichs_matrix.map((row, i) => (
-                <tr key={row.kriterium} className={i % 2 === 0 ? 'bg-white' : 'bg-stone-50/50'}>
-                  <td className="px-6 py-3 text-stone-400 whitespace-nowrap">{row.kriterium}</td>
-                  <td className="px-4 py-3 text-stone-700">{row['Trail']}</td>
-                  <td className="px-4 py-3 text-stone-700">{row['All-Mountain']}</td>
-                  <td className="px-4 py-3 text-stone-700">{row['Enduro']}</td>
+                <tr key={row.kriterium} className={i % 2 === 0 ? 'bg-paper' : 'bg-paper-deep/50'}>
+                  <td className="px-6 py-3 font-mono text-xs text-concrete whitespace-nowrap">{row.kriterium}</td>
+                  <td className="px-4 py-3 text-ink-soft">{row['Trail']}</td>
+                  <td className="px-4 py-3 text-ink-soft">{row['All-Mountain']}</td>
+                  <td className="px-4 py-3 text-ink-soft">{row['Enduro']}</td>
                 </tr>
               ))}
             </tbody>
@@ -138,54 +138,54 @@ export default function TrailVsEnduro() {
       {/* ── Sektion 4: Einsteiger-Hinweise ── */}
       <div className="space-y-4">
         {/* Warnung: Enduro für Einsteiger */}
-        <div className="rounded-xl border border-blue-200 bg-blue-50 p-5 flex gap-4">
+        <div className="rounded-none border border-blue-200 bg-blue-50 p-5 flex gap-4">
           <Info size={18} className="text-blue-400 shrink-0 mt-0.5" />
           <div>
-            <p className="text-xs font-semibold tracking-widest text-blue-500 uppercase mb-1.5">Achtung</p>
+            <p className="font-mono text-xs tracking-[0.18em] text-blue-500 uppercase mb-1.5">Achtung</p>
             <p className="text-sm text-blue-900 leading-relaxed">{einsteiger_hinweise.reines_enduro_180mm}</p>
           </div>
         </div>
 
         {/* Empfehlung: All-Mountain als Kompromiss */}
-        <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-5 flex gap-4">
+        <div className="rounded-none border border-emerald-200 bg-emerald-50 p-5 flex gap-4">
           <CheckCircle2 size={18} className="text-emerald-500 shrink-0 mt-0.5" />
           <div>
-            <p className="text-xs font-semibold tracking-widest text-emerald-600 uppercase mb-1.5">Empfehlung</p>
+            <p className="font-mono text-xs tracking-[0.18em] text-emerald-600 uppercase mb-1.5">Empfehlung</p>
             <p className="text-sm text-emerald-900 leading-relaxed">{einsteiger_hinweise.allmountain_160mm_als_kompromiss}</p>
           </div>
         </div>
       </div>
 
       {/* ── Sektion 5: Entscheidungs-Fragen ── */}
-      <div className="bg-white border border-stone-200 rounded-xl overflow-hidden">
-        <div className="px-6 py-3 border-b border-stone-100 bg-stone-50">
-          <p className="text-xs font-semibold tracking-widest text-stone-400 uppercase">
+      <div className="bg-paper border border-rule rounded-none overflow-hidden">
+        <div className="px-6 py-3 border-b border-rule bg-paper-deep">
+          <p className="font-mono text-xs tracking-[0.18em] text-concrete uppercase">
             Fragen, die du dir stellen solltest
           </p>
         </div>
-        <ul className="divide-y divide-stone-100">
+        <ul className="divide-y divide-rule">
           {entscheidungs_fragen.map((frage, i) => (
             <li key={i} className="flex items-start gap-3.5 px-6 py-4">
-              <HelpCircle size={15} className="text-terracotta-400 shrink-0 mt-0.5" />
-              <p className="text-sm text-stone-700 leading-relaxed">{frage}</p>
+              <HelpCircle size={15} className="text-vermillion shrink-0 mt-0.5" />
+              <p className="text-sm text-ink-soft leading-relaxed">{frage}</p>
             </li>
           ))}
         </ul>
       </div>
 
       {/* ── Sektion 6: CTA ── */}
-      <div className="border-t border-stone-100 pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <p className="text-stone-600 font-medium">Bereit, Bikes zu vergleichen?</p>
+      <div className="border-t border-rule pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <p className="text-ink-soft font-medium">Bereit, Bikes zu vergleichen?</p>
         <div className="flex gap-3">
           <Link
             to="/bikes"
-            className="inline-flex items-center gap-1.5 text-sm px-4 py-2 rounded-lg bg-terracotta-500 text-white hover:bg-terracotta-600 transition-colors"
+            className="inline-flex items-center gap-1.5 text-sm px-4 py-2 rounded-none bg-vermillion text-paper hover:bg-vermillion-deep transition-colors"
           >
             Alle Bikes ansehen
           </Link>
           <Link
             to="/wissen/motoren"
-            className="inline-flex items-center gap-1.5 text-sm px-4 py-2 rounded-lg border border-stone-200 text-stone-600 hover:border-terracotta-400 hover:text-terracotta-600 transition-colors"
+            className="inline-flex items-center gap-1.5 text-sm px-4 py-2 rounded-none border border-rule text-asphalt hover:border-vermillion hover:text-vermillion transition-colors"
           >
             Motoren verstehen
           </Link>
