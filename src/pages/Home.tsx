@@ -16,38 +16,38 @@ const profil = [
   {
     icon: User,
     label: 'Fahrerin',
-    wert: '1.80 m / 80 kg — Rahmegröössi L',
-    detail: '3. Saison auf dem E-MTB, Technik ja — Bikepark-Profi noch nicht',
+    wert: '1.80 m / 80 kg Fahrgewicht',
+    detail: '2. Saison auf dem E-MTB. Technisch solide, Bikepark-Erfahrung im Aufbau.',
   },
   {
     icon: User,
-    label: 'Beinlänge / Schrittlänge',
-    wert: '86 cm',
-    detail: 'Entscheidend für die Sattelhöhe und den Reach bei Grösse L.',
+    label: 'Schrittlänge',
+    wert: '86 cm — Rahmengrösse M–L',
+    detail: 'Grösse L ist der Startpunkt — die Geometrie entscheidet.',
   },
   {
     icon: MapPin,
     label: 'Einsatzgebiet',
-    wert: 'Flachland & Alpe, Trails & Bikepark',
-    detail: 'Von der Hausrunde bis zur Alpentour — das Bike muss beides können.',
+    wert: 'Flachland · Alpen · Trails · Bikepark',
+    detail: 'Ein Bike für alles: ruhig bergauf, sicher bergab, nicht zu träge auf der Hausrunde.',
   },
   {
     icon: Gauge,
     label: 'Federweg',
     wert: '140–180 mm',
-    detail: 'All-Mountain bis Enduro. Abfahrt und Aufstieg — beides zählt.',
+    detail: 'Sweet Spot: 150–170 mm. Genug Reserve für ruppige Abfahrten.',
   },
   {
     icon: Banknote,
     label: 'Budget',
-    wert: "CHF 3'500 – 6'500",
-    detail: 'Ausnahmen zur Orientierung',
+    wert: 'CHF 3’500–6’500',
+    detail: 'Realistische Suche im starken Mittel- bis Obersegment.',
   },
   {
     icon: Zap,
     label: 'Motor-Präferenz',
     wert: 'Bosch CX Gen5 · Shimano EP801 · DJI Avinox M1',
-    detail: 'Bosch und Shimano sind bewährt, das Service-Netz in der Schweiz stimmt. DJI ist spannend — wir behalten es im Auge.',
+    detail: 'Bosch und Shimano sind bewährte Optionen. DJI ist stark und spannend — aber Service?',
   },
 ]
 
@@ -108,10 +108,10 @@ export default function Home() {
           <DialogContent className="bg-paper border border-rule rounded-none max-w-2xl max-h-[90vh] overflow-y-auto">
             <DialogHeader>
               <DialogTitle className="font-display text-2xl text-ink tracking-[0.04em]">
-                Martinas Profil
+                Martinas Fahrprofil
               </DialogTitle>
               <DialogDescription className="font-mono text-xs text-concrete tracking-[0.06em] uppercase">
-                Kriterien & Begründungen
+                Worauf das Bike wirklich ausgelegt sein muss
               </DialogDescription>
             </DialogHeader>
             <div className="mt-6 divide-y divide-rule">
