@@ -79,88 +79,82 @@ export default function Home() {
   return (
     <div className="space-y-10">
 
-      {/* A) Hero */}
-      <div className="pt-4">
-        <div className="flex flex-col-reverse md:flex-row md:items-center md:gap-10">
+      {/* A) Hero — bricht aus Content-Padding, volle Breite */}
+      <div className="-mt-10 -mx-6 flex flex-col-reverse md:flex-row overflow-hidden min-h-[340px] md:min-h-[460px]">
 
-          {/* Text-Block */}
-          <div className="md:flex-1 text-center md:text-left mt-6 md:mt-0">
-            <p className="font-mono text-xs tracking-[0.18em] text-vermillion uppercase mb-3">
-              E-MTB-CHECK 2026 · FÜR MARTINA
-            </p>
-            <h1 className="text-4xl sm:text-5xl text-ink mb-4">
-              Das richtige E-MTB
-            </h1>
-            <p className="text-lg text-asphalt max-w-xl leading-relaxed mx-auto md:mx-0">
-              {BIKE_COUNT} Bikes — Stärken & Schwächen — No Bullshit
-            </p>
-          </div>
+        {/* Text-Block inkl. CTAs */}
+        <div className="flex flex-col justify-center px-8 md:px-12 py-10 md:py-16 md:w-[52%] shrink-0">
+          <p className="font-mono text-xs tracking-[0.18em] text-vermillion uppercase mb-3">
+            E-MTB-CHECK 2026 · FÜR MARTINA
+          </p>
+          <h1 className="text-4xl sm:text-5xl text-ink mb-4">
+            Das richtige E-MTB
+          </h1>
+          <p className="text-lg text-asphalt leading-relaxed max-w-sm mb-8">
+            {BIKE_COUNT} Bikes — Stärken & Schwächen — No Bullshit
+          </p>
 
-          {/* Bild */}
-          <div className="md:w-[45%] shrink-0 aspect-[4/3] overflow-hidden">
-            <img
-              src="/images/hero-bike-mountain.jpg"
-              alt="E-MTB auf Bergtrail"
-              className="w-full h-full object-cover"
-            />
-          </div>
+          {/* CTAs */}
+          <div className="flex flex-col gap-3 items-start">
+            <NavLink
+              to="/bikes"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-vermillion text-paper font-display text-lg tracking-[0.04em] hover:bg-vermillion-deep transition-colors"
+            >
+              → Zu den {BIKE_COUNT} Bikes
+            </NavLink>
 
-        </div>
-      </div>
-
-      {/* B) Primary CTA Row */}
-      <div className="flex flex-col items-center gap-3">
-        <NavLink
-          to="/bikes"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-vermillion text-paper font-display text-lg tracking-[0.04em] hover:bg-vermillion-deep transition-colors"
-        >
-          → Zu den {BIKE_COUNT} Bikes
-        </NavLink>
-
-        <Dialog>
-          <DialogTrigger className="text-vermillion font-mono text-sm tracking-[0.06em] uppercase hover:underline text-left sm:text-center">
-            Wer ist Martina?
-          </DialogTrigger>
-          <DialogContent className="bg-paper border border-rule rounded-none max-w-2xl sm:max-w-2xl max-h-[90vh] overflow-y-auto p-0">
-            {/* Einziger Grid-Child — flex-col stackt Bild + Inhalt */}
-            <div className="flex flex-col">
-              {/* Portrait-Banner — full-bleed */}
-              <div className="aspect-[16/9] overflow-hidden shrink-0">
-                <img
-                  src="/images/martina-portrait.jpg"
-                  alt="Martina auf dem Trail"
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
-
-              {/* Inhalt */}
-              <div className="px-6 pt-6 pb-6">
-                <DialogHeader>
-                  <DialogTitle className="font-display text-2xl text-ink tracking-[0.04em]">
-                    Martinas Fahrprofil
-                  </DialogTitle>
-                  <DialogDescription className="font-mono text-xs text-concrete tracking-[0.06em] uppercase">
-                    Worauf das Bike wirklich ausgelegt sein muss
-                  </DialogDescription>
-                </DialogHeader>
-                <div className="mt-6 divide-y divide-rule">
-                  {profil.map(({ icon: Icon, label, wert, detail }) => (
-                    <div key={label} className="py-4 flex gap-4">
-                      <div className="mt-0.5 w-8 h-8 rounded-sm bg-paper-deep flex items-center justify-center shrink-0">
-                        <Icon size={15} className="text-vermillion" />
-                      </div>
-                      <div>
-                        <p className="font-mono text-xs text-concrete tracking-[0.18em] uppercase mb-0.5">{label}</p>
-                        <p className="text-sm font-medium text-ink mb-1">{wert}</p>
-                        <p className="text-sm text-asphalt leading-relaxed">{detail}</p>
-                      </div>
+            <Dialog>
+              <DialogTrigger className="text-vermillion font-mono text-sm tracking-[0.06em] uppercase hover:underline">
+                Wer ist Martina?
+              </DialogTrigger>
+              <DialogContent className="bg-paper border border-rule rounded-none max-w-2xl sm:max-w-2xl max-h-[90vh] overflow-y-auto p-0">
+                <div className="flex flex-col">
+                  <div className="aspect-[16/9] overflow-hidden shrink-0">
+                    <img
+                      src="/images/martina-portrait.jpg"
+                      alt="Martina auf dem Trail"
+                      className="w-full h-full object-cover object-top"
+                    />
+                  </div>
+                  <div className="px-6 pt-6 pb-6">
+                    <DialogHeader>
+                      <DialogTitle className="font-display text-2xl text-ink tracking-[0.04em]">
+                        Martinas Fahrprofil
+                      </DialogTitle>
+                      <DialogDescription className="font-mono text-xs text-concrete tracking-[0.06em] uppercase">
+                        Worauf das Bike wirklich ausgelegt sein muss
+                      </DialogDescription>
+                    </DialogHeader>
+                    <div className="mt-6 divide-y divide-rule">
+                      {profil.map(({ icon: Icon, label, wert, detail }) => (
+                        <div key={label} className="py-4 flex gap-4">
+                          <div className="mt-0.5 w-8 h-8 rounded-sm bg-paper-deep flex items-center justify-center shrink-0">
+                            <Icon size={15} className="text-vermillion" />
+                          </div>
+                          <div>
+                            <p className="font-mono text-xs text-concrete tracking-[0.18em] uppercase mb-0.5">{label}</p>
+                            <p className="text-sm font-medium text-ink mb-1">{wert}</p>
+                            <p className="text-sm text-asphalt leading-relaxed">{detail}</p>
+                          </div>
+                        </div>
+                      ))}
                     </div>
-                  ))}
+                  </div>
                 </div>
-              </div>
-            </div>
-          </DialogContent>
-        </Dialog>
+              </DialogContent>
+            </Dialog>
+          </div>
+        </div>
+
+        {/* Bild — füllt rechte Seite, keine Aspect-Ratio-Beschränkung */}
+        <div className="h-52 md:h-auto md:flex-1 overflow-hidden">
+          <img
+            src="/images/hero-bike-mountain.jpg"
+            alt="E-MTB auf Bergtrail"
+            className="w-full h-full object-cover"
+          />
+        </div>
+
       </div>
 
       {/* C) Section-Trenner */}
