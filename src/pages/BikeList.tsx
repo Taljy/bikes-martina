@@ -114,6 +114,7 @@ export default function BikeList() {
   const [searchParams, setSearchParams] = useSearchParams()
 
   const [searchQuery, setSearchQuery] = useState('')
+  const [filterOpen, setFilterOpen] = useState(false)
 
   const filters = useMemo(() => parseFilters(searchParams), [searchParams])
 
@@ -138,10 +139,23 @@ export default function BikeList() {
   const sorted = useMemo(() => applySorting(searched, filters.sort), [searched, filters.sort])
 
   return (
-    <div className="flex gap-8 items-start">
+    <div className="flex flex-col md:flex-row md:gap-8 md:items-start">
+
+      {/* Mobile Filter-Toggle */}
+      <div className="flex items-center justify-between mb-3 md:hidden">
+        <p className="font-mono text-xs text-concrete">
+          {filtered.length} von {ALL_BIKES.length} Bikes
+        </p>
+        <button
+          onClick={() => setFilterOpen(v => !v)}
+          className="font-mono text-xs text-vermillion tracking-[0.06em] uppercase border border-rule px-4 py-2.5"
+        >
+          {filterOpen ? 'Schliessen' : 'Filter'}
+        </button>
+      </div>
 
       {/* Filter-Sidebar */}
-      <aside className="w-[280px] shrink-0 sticky top-20 max-h-[calc(100vh-5rem)] overflow-y-auto pb-10 pr-1">
+      <aside className={`w-full md:w-[280px] md:shrink-0 md:sticky md:top-20 md:max-h-[calc(100vh-5rem)] overflow-y-auto pb-10 pr-1 ${filterOpen ? 'block' : 'hidden'} md:block`}>
         <FilterSidebar
           filters={filters}
           onChange={setFilters}

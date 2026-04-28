@@ -26,7 +26,7 @@ export default function Layout() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <NavLink to="/" className="flex items-center gap-2.5 text-asphalt">
             <MTBIcon className="h-8 w-8" />
-            <span className="font-display text-xl tracking-[0.04em] text-asphalt">Martinas Bike-Kompass</span>
+            <span className="hidden sm:inline font-display text-xl tracking-[0.04em] text-asphalt">Martinas Bike-Kompass</span>
           </NavLink>
 
           <nav className="flex items-center gap-1">
@@ -36,7 +36,7 @@ export default function Layout() {
                 to={to}
                 end={end}
                 className={({ isActive }) =>
-                  `px-3.5 py-1.5 rounded-sm text-sm font-medium transition-colors ${
+                  `px-2.5 py-1.5 rounded-sm text-sm font-medium transition-colors sm:px-3.5 ${
                     isActive
                       ? 'bg-paper-deep text-vermillion'
                       : 'text-asphalt hover:text-ink hover:bg-paper-deep'
@@ -51,7 +51,7 @@ export default function Layout() {
             <div className="relative group">
               <NavLink
                 to="/wissen"
-                className={`inline-flex items-center gap-1 px-3.5 py-1.5 rounded-sm text-sm font-medium transition-colors ${
+                className={`inline-flex items-center gap-1 px-2.5 py-1.5 rounded-sm text-sm font-medium transition-colors sm:px-3.5 ${
                   wissenActive
                     ? 'bg-paper-deep text-vermillion'
                     : 'text-asphalt hover:text-ink hover:bg-paper-deep'

@@ -69,9 +69,9 @@ function SpecRow({
   children: React.ReactNode
 }) {
   return (
-    <div className="flex gap-4 py-2.5 border-b border-rule last:border-0">
-      <span className="w-44 shrink-0 font-mono text-xs text-concrete tracking-[0.06em]">{label}</span>
-      <span className="text-sm text-ink flex-1">{children}</span>
+    <div className="flex flex-col gap-0.5 py-2.5 border-b border-rule last:border-0 sm:flex-row sm:gap-4">
+      <span className="font-mono text-[10px] text-concrete tracking-[0.18em] uppercase sm:w-44 sm:shrink-0 sm:text-xs sm:tracking-[0.06em] sm:normal-case">{label}</span>
+      <span className="text-sm text-ink sm:flex-1">{children}</span>
     </div>
   )
 }
