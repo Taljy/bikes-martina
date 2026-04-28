@@ -5,6 +5,60 @@ Neuste Session oben. Format: max 60 Zeilen pro Eintrag.
 
 ---
 
+## 2026-04-28 · Bild-Integration und Hero-Refactor (Phase 8)
+
+**Letzter Commit:** `0d3a552` refactor: hero layout full-bleed split, CTAs in text column
+
+**Erledigt:**
+- `2527180` Drei Bilder integriert aus public/images/:
+  - Hero: hero-bike-mountain.jpg — rechts auf md+, oben auf Mobile
+  - Profil-Modal: martina-portrait.jpg — full-bleed Banner im Dialog
+  - Compare-Hero: bunker-bikevergleich.jpg — Hintergrund mit bg-ink/60 Overlay
+- `0d3a552` Hero-Layout-Refactor: Full-Bleed-Split (-mt-10 -mx-6),
+  CTAs in Text-Block integriert, separate CTA-Row entfernt
+- `9a30fa4` Mobile Quick-Wins Phase 7: Sidebar Toggle, SpecRow Stack,
+  Header Wordmark hidden sm:inline
+- `117e506` Martinas Fahrprofil: Texte überarbeitet (Mundart raus,
+  Saisonkorrektur, Swiss Typografie)
+
+**Wichtige Erkenntnisse:**
+- shadcn/base-ui DialogContent hat internes p-4 Grid-Layout —
+  full-bleed Bilder brauchen p-0 + einzigen flex-col Wrapper-Child
+  statt negative Margins (überschiessen das Grid)
+- `-mt-10 -mx-6` hebt Layout-Padding auf ohne Layout.tsx anzufassen —
+  Standard-Pattern für Full-Bleed-Sections in padded Containern
+- Bilder mit "eingebrannten" Effekten (Sepia, Compass-Overlay)
+  sparen CSS-Layer-Komplexität
+
+**User-Präferenzen aus dieser Session:**
+- Hero-Bild rechts, eckiger Kasten reicht — keine diagonale Kante nötig
+- CTAs im Text-Block, nicht zentriert separat darunter
+- Full-Bleed Modal-Banner, nicht eingerückt
+
+**Offen / Nächste Session:**
+
+🟢 Sichtbar / Wert für Martina:
+  - Mobile-Hero: eigene Komposition, anderer Bild-Crop, Hamburger-Menü
+  - Compare-Page Mobile-Audit (Card-Layout, Hintergrund-Check)
+  - Bewertungs-Kategorien für Spinnendiagramm pflegen
+  - Score-Kalibrierung über alle 28 Bikes
+
+🔵 Mobile-Quick-Wins (Pendenz aus Phase 7):
+  - Touch-Targets: FilterSidebar-Toggle 36×20px → min 44pt
+  - FloatingCompareBar: bottom-Position vs iOS Safari Bottom-Bar
+  - Footer Layout auf engen Screens
+
+🔵 Code-Hygiene:
+  - SKILL.md erweitern: "Stolperstein 'In einem Zug durchpushen' als
+    Plan-First-Bypass-Trigger" dokumentieren
+  - logo-bike-kompass.svg nach docs/brand-assets/ verschieben
+  - git config --global user.name/user.email setzen
+  - #70 reifen_url doppelt genutzt in BikeDetail
+  - #71 Komponenten-URLs (OEM, Rose Miller etc.)
+  - Schema-Dokumentation, Type-Schärfung, Bilder-Aufräum-Routine
+
+---
+
 ## 2026-04-28 · Logo-Integration, Header-Wordmark, Skill-Setup
 
 **Letzter Commit:** `3baed36` docs: add SKILL.md for Claude Code consistency
