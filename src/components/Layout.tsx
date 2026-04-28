@@ -24,9 +24,9 @@ export default function Layout() {
     <div className="min-h-screen flex flex-col">
       <header className="bg-paper border-b border-rule sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-          <NavLink to="/" className="flex items-center gap-2.5 text-vermillion hover:text-vermillion-deep">
+          <NavLink to="/" className="flex items-center gap-2.5 text-asphalt">
             <MTBIcon className="h-8 w-8" />
-            <span className="font-display text-xl tracking-[0.04em] text-vermillion">Martinas Bike-Kompass</span>
+            <span className="font-display text-xl tracking-[0.04em] text-asphalt">Martinas Bike-Kompass</span>
           </NavLink>
 
           <nav className="flex items-center gap-1">
