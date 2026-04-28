@@ -80,16 +80,32 @@ export default function Home() {
     <div className="space-y-10">
 
       {/* A) Hero */}
-      <div className="pt-4 text-center mx-auto max-w-3xl">
-        <p className="font-mono text-xs tracking-[0.18em] text-vermillion uppercase mb-3">
-          E-MTB-CHECK 2026 · FÜR MARTINA
-        </p>
-        <h1 className="text-5xl text-ink mb-4">
-          Das richtige E-MTB
-        </h1>
-        <p className="text-lg text-asphalt max-w-xl leading-relaxed mx-auto">
-          {BIKE_COUNT} Bikes — Stärken & Schwächen — No Bullshit
-        </p>
+      <div className="pt-4">
+        <div className="flex flex-col-reverse md:flex-row md:items-center md:gap-10">
+
+          {/* Text-Block */}
+          <div className="md:flex-1 text-center md:text-left mt-6 md:mt-0">
+            <p className="font-mono text-xs tracking-[0.18em] text-vermillion uppercase mb-3">
+              E-MTB-CHECK 2026 · FÜR MARTINA
+            </p>
+            <h1 className="text-4xl sm:text-5xl text-ink mb-4">
+              Das richtige E-MTB
+            </h1>
+            <p className="text-lg text-asphalt max-w-xl leading-relaxed mx-auto md:mx-0">
+              {BIKE_COUNT} Bikes — Stärken & Schwächen — No Bullshit
+            </p>
+          </div>
+
+          {/* Bild */}
+          <div className="md:w-[45%] shrink-0 aspect-[4/3] overflow-hidden">
+            <img
+              src="/images/hero-bike-mountain.jpg"
+              alt="E-MTB auf Bergtrail"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+        </div>
       </div>
 
       {/* B) Primary CTA Row */}
@@ -105,28 +121,43 @@ export default function Home() {
           <DialogTrigger className="text-vermillion font-mono text-sm tracking-[0.06em] uppercase hover:underline text-left sm:text-center">
             Wer ist Martina?
           </DialogTrigger>
-          <DialogContent className="bg-paper border border-rule rounded-none max-w-2xl max-h-[90vh] overflow-y-auto">
-            <DialogHeader>
-              <DialogTitle className="font-display text-2xl text-ink tracking-[0.04em]">
-                Martinas Fahrprofil
-              </DialogTitle>
-              <DialogDescription className="font-mono text-xs text-concrete tracking-[0.06em] uppercase">
-                Worauf das Bike wirklich ausgelegt sein muss
-              </DialogDescription>
-            </DialogHeader>
-            <div className="mt-6 divide-y divide-rule">
-              {profil.map(({ icon: Icon, label, wert, detail }) => (
-                <div key={label} className="py-4 flex gap-4">
-                  <div className="mt-0.5 w-8 h-8 rounded-sm bg-paper-deep flex items-center justify-center shrink-0">
-                    <Icon size={15} className="text-vermillion" />
-                  </div>
-                  <div>
-                    <p className="font-mono text-xs text-concrete tracking-[0.18em] uppercase mb-0.5">{label}</p>
-                    <p className="text-sm font-medium text-ink mb-1">{wert}</p>
-                    <p className="text-sm text-asphalt leading-relaxed">{detail}</p>
-                  </div>
+          <DialogContent className="bg-paper border border-rule rounded-none max-w-2xl sm:max-w-2xl max-h-[90vh] overflow-y-auto p-0">
+            {/* Einziger Grid-Child — flex-col stackt Bild + Inhalt */}
+            <div className="flex flex-col">
+              {/* Portrait-Banner — full-bleed */}
+              <div className="aspect-[16/9] overflow-hidden shrink-0">
+                <img
+                  src="/images/martina-portrait.jpg"
+                  alt="Martina auf dem Trail"
+                  className="w-full h-full object-cover object-top"
+                />
+              </div>
+
+              {/* Inhalt */}
+              <div className="px-6 pt-6 pb-6">
+                <DialogHeader>
+                  <DialogTitle className="font-display text-2xl text-ink tracking-[0.04em]">
+                    Martinas Fahrprofil
+                  </DialogTitle>
+                  <DialogDescription className="font-mono text-xs text-concrete tracking-[0.06em] uppercase">
+                    Worauf das Bike wirklich ausgelegt sein muss
+                  </DialogDescription>
+                </DialogHeader>
+                <div className="mt-6 divide-y divide-rule">
+                  {profil.map(({ icon: Icon, label, wert, detail }) => (
+                    <div key={label} className="py-4 flex gap-4">
+                      <div className="mt-0.5 w-8 h-8 rounded-sm bg-paper-deep flex items-center justify-center shrink-0">
+                        <Icon size={15} className="text-vermillion" />
+                      </div>
+                      <div>
+                        <p className="font-mono text-xs text-concrete tracking-[0.18em] uppercase mb-0.5">{label}</p>
+                        <p className="text-sm font-medium text-ink mb-1">{wert}</p>
+                        <p className="text-sm text-asphalt leading-relaxed">{detail}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              ))}
+              </div>
             </div>
           </DialogContent>
         </Dialog>

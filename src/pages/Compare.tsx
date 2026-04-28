@@ -438,20 +438,33 @@ export default function Compare() {
   return (
     <div className="space-y-8">
 
-      {/* Kopfzeile */}
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl text-ink">Vergleich</h1>
-          <p className="text-concrete text-sm mt-1">Bis zu 3 Bikes nebeneinander — URL ist teilbar.</p>
+      {/* Kopfzeile mit Hintergrundbild */}
+      <div className="relative overflow-hidden -mx-6 px-6 py-10">
+        {/* Hintergrundbild */}
+        <img
+          src="/images/bunker-bikevergleich.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        {/* Overlay für Lesbarkeit */}
+        <div className="absolute inset-0 bg-ink/60" />
+
+        {/* Inhalt — relativ damit über Bild */}
+        <div className="relative flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl text-paper">Vergleich</h1>
+            <p className="text-paper/70 text-sm mt-1">Bis zu 3 Bikes nebeneinander — URL ist teilbar.</p>
+          </div>
+          {bikes.length > 0 && (
+            <button
+              onClick={clearAll}
+              className="font-mono text-xs text-paper/70 hover:text-paper transition-colors border border-paper/30 px-3 py-1.5 rounded-none"
+            >
+              Vergleich leeren
+            </button>
+          )}
         </div>
-        {bikes.length > 0 && (
-          <button
-            onClick={clearAll}
-            className="font-mono text-xs text-concrete hover:text-ink transition-colors border border-rule px-3 py-1.5 rounded-none"
-          >
-            Vergleich leeren
-          </button>
-        )}
       </div>
 
       {/* Bike-Selector-Grid */}
